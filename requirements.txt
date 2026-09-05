@@ -1,0 +1,13 @@
+streamlit>=1.32
+
+requests>=2.31
+
+pandas>=2.0
+
+python-dotenv>=1.0
+
+openpyxl
+
+plotly>=5.18
+
+psycopg2-binary==2.9.12
