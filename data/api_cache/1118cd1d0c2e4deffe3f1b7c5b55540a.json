@@ -246,13 +246,6 @@
               }
             ]
           }
-        },
-        {
-          "ad": {
-            "name": "native_matches",
-            "layout": "native_large",
-            "position": 4
-          }
         }
       ]
     },
@@ -313,6 +306,13 @@
                 }
               }
             ]
+          }
+        },
+        {
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 5
           }
         },
         {
@@ -671,9 +671,9 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 145,
+                      "runs": 149,
                       "wickets": 5,
-                      "overs": 17.6
+                      "overs": 18.3
                     }
                   }
                 }
@@ -761,7 +761,7 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788720420",
+  "responseLastUpdated": "1788720439",
   "contentFilters": [
     {
       "filterId": "liveStream",
