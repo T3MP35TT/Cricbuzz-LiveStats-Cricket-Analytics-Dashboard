@@ -1,0 +1,68 @@
+{
+  "matchInfo": {
+    "matchId": 163047,
+    "seriesId": 12376,
+    "seriesName": "Duleep Trophy 2026",
+    "matchDesc": "2nd Semi-Final",
+    "matchFormat": "TEST",
+    "startDate": "1788062400000",
+    "endDate": "1788346800000",
+    "state": "Complete",
+    "status": "South Zone won by 7 wkts",
+    "team1": {
+      "teamId": 233,
+      "teamName": "North Zone",
+      "teamSName": "NZONE",
+      "imageId": 172286
+    },
+    "team2": {
+      "teamId": 236,
+      "teamName": "South Zone",
+      "teamSName": "SZONE",
+      "imageId": 172289
+    },
+    "venueInfo": {
+      "id": 1438102,
+      "ground": "BCCI Centre of Excellence Ground 2",
+      "city": "Bengaluru",
+      "timezone": "+05:30",
+      "latitude": "13.174092",
+      "longitude": "77.706999"
+    },
+    "currBatTeamId": 236,
+    "seriesStartDt": "1787443200000",
+    "seriesEndDt": "1789171200000",
+    "isTimeAnnounced": true,
+    "stateTitle": "SZONE Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 195,
+        "wickets": 10,
+        "overs": 59.1
+      },
+      "inngs2": {
+        "inningsId": 3,
+        "runs": 297,
+        "wickets": 10,
+        "overs": 72.4
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 312,
+        "wickets": 10,
+        "overs": 100.3
+      },
+      "inngs2": {
+        "inningsId": 4,
+        "runs": 182,
+        "wickets": 3,
+        "overs": 43.1
+      }
+    }
+  }
+}
