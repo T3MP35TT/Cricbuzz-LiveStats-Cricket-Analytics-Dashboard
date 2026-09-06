@@ -79,62 +79,6 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 169347,
-                  "seriesId": 12870,
-                  "seriesName": "European T20 Premier League 2026",
-                  "matchDesc": "17th Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788700500000",
-                  "endDate": "1788713100000",
-                  "state": "Complete",
-                  "status": "Amsterdam Flames won by 8 wkts",
-                  "team1": {
-                    "teamId": 573,
-                    "teamName": "Rotterdam Dockers",
-                    "teamSName": "RDD",
-                    "imageId": 1044574
-                  },
-                  "team2": {
-                    "teamId": 572,
-                    "teamName": "Amsterdam Flames",
-                    "teamSName": "ADF",
-                    "imageId": 1044576
-                  },
-                  "venueInfo": {
-                    "id": 1437791,
-                    "ground": "Sportpark Duivesteijn",
-                    "city": "Voorburg",
-                    "timezone": "+02:00",
-                    "latitude": "52.0848131",
-                    "longitude": "4.3662509"
-                  },
-                  "currBatTeamId": 572,
-                  "seriesStartDt": "1787702400000",
-                  "seriesEndDt": "1790035200000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 176,
-                      "wickets": 6,
-                      "overs": 19.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 178,
-                      "wickets": 2,
-                      "overs": 17.4
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 169343,
                   "seriesId": 12870,
                   "seriesName": "European T20 Premier League 2026",
@@ -188,6 +132,62 @@
                     }
                   }
                 }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 169347,
+                  "seriesId": 12870,
+                  "seriesName": "European T20 Premier League 2026",
+                  "matchDesc": "17th Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788700500000",
+                  "endDate": "1788713100000",
+                  "state": "Complete",
+                  "status": "Amsterdam Flames won by 8 wkts",
+                  "team1": {
+                    "teamId": 573,
+                    "teamName": "Rotterdam Dockers",
+                    "teamSName": "RDD",
+                    "imageId": 1044574
+                  },
+                  "team2": {
+                    "teamId": 572,
+                    "teamName": "Amsterdam Flames",
+                    "teamSName": "ADF",
+                    "imageId": 1044576
+                  },
+                  "venueInfo": {
+                    "id": 1437791,
+                    "ground": "Sportpark Duivesteijn",
+                    "city": "Voorburg",
+                    "timezone": "+02:00",
+                    "latitude": "52.0848131",
+                    "longitude": "4.3662509"
+                  },
+                  "currBatTeamId": 572,
+                  "seriesStartDt": "1787702400000",
+                  "seriesEndDt": "1790035200000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 176,
+                      "wickets": 6,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 178,
+                      "wickets": 2,
+                      "overs": 17.4
+                    }
+                  }
+                }
               }
             ]
           }
@@ -207,7 +207,7 @@
                   "startDate": "1788701400000",
                   "endDate": "1788714000000",
                   "state": "In Progress",
-                  "status": "Ludhiana Lions need 91 runs in 55 balls",
+                  "status": "Ludhiana Lions need 91 runs in 54 balls",
                   "team1": {
                     "teamId": 3561,
                     "teamName": "Fazilka Falcons",
@@ -248,7 +248,7 @@
                       "inningsId": 2,
                       "runs": 80,
                       "wickets": 5,
-                      "overs": 10.5
+                      "overs": 10.6
                     }
                   }
                 }
@@ -310,13 +310,6 @@
                 }
               }
             ]
-          }
-        },
-        {
-          "ad": {
-            "name": "native_matches",
-            "layout": "native_large",
-            "position": 3
           }
         }
       ]
@@ -381,66 +374,17 @@
           }
         },
         {
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 4
+          }
+        },
+        {
           "seriesAdWrapper": {
             "seriesId": 12993,
             "seriesName": "ACC Men's Premier Cup, 2026",
             "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 170307,
-                  "seriesId": 12993,
-                  "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "15th Match, Group A",
-                  "matchFormat": "ODI",
-                  "startDate": "1788658200000",
-                  "endDate": "1788687000000",
-                  "state": "Complete",
-                  "status": "Nepal won by 5 wkts",
-                  "team1": {
-                    "teamId": 571,
-                    "teamName": "Saudi Arabia",
-                    "teamSName": "SAU",
-                    "imageId": 172623
-                  },
-                  "team2": {
-                    "teamId": 72,
-                    "teamName": "Nepal",
-                    "teamSName": "NEP",
-                    "imageId": 776331
-                  },
-                  "venueInfo": {
-                    "id": 394,
-                    "ground": "Bayuemas Oval",
-                    "city": "Kuala Lumpur",
-                    "timezone": "+08:00",
-                    "latitude": "2.819586",
-                    "longitude": "101.5199"
-                  },
-                  "currBatTeamId": 72,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789344000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 190,
-                      "wickets": 10,
-                      "overs": 49.2
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 193,
-                      "wickets": 5,
-                      "overs": 40.6
-                    }
-                  }
-                }
-              },
               {
                 "matchInfo": {
                   "matchId": 170311,
@@ -493,6 +437,62 @@
                       "runs": 174,
                       "wickets": 3,
                       "overs": 24.3
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170307,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "15th Match, Group A",
+                  "matchFormat": "ODI",
+                  "startDate": "1788658200000",
+                  "endDate": "1788687000000",
+                  "state": "Complete",
+                  "status": "Nepal won by 5 wkts",
+                  "team1": {
+                    "teamId": 571,
+                    "teamName": "Saudi Arabia",
+                    "teamSName": "SAU",
+                    "imageId": 172623
+                  },
+                  "team2": {
+                    "teamId": 72,
+                    "teamName": "Nepal",
+                    "teamSName": "NEP",
+                    "imageId": 776331
+                  },
+                  "venueInfo": {
+                    "id": 394,
+                    "ground": "Bayuemas Oval",
+                    "city": "Kuala Lumpur",
+                    "timezone": "+08:00",
+                    "latitude": "2.819586",
+                    "longitude": "101.5199"
+                  },
+                  "currBatTeamId": 72,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 190,
+                      "wickets": 10,
+                      "overs": 49.2
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 193,
+                      "wickets": 5,
+                      "overs": 40.6
                     }
                   }
                 }
@@ -575,7 +575,7 @@
                   "startDate": "1788705000000",
                   "endDate": "1788717600000",
                   "state": "In Progress",
-                  "status": "Sri Lanka Women need 90 runs",
+                  "status": "Sri Lanka Women need 89 runs in 94 balls",
                   "team1": {
                     "teamId": 329,
                     "teamName": "Bangladesh Women",
@@ -614,9 +614,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 25,
+                      "runs": 26,
                       "wickets": 2,
-                      "overs": 3.6
+                      "overs": 4.2
                     }
                   }
                 }
@@ -759,62 +759,6 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 170873,
-                  "seriesId": 13060,
-                  "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
-                  "matchDesc": "Final",
-                  "matchFormat": "T20",
-                  "startDate": "1788694200000",
-                  "endDate": "1788706800000",
-                  "state": "Complete",
-                  "status": "Portugal Women won by 4 wkts",
-                  "team1": {
-                    "teamId": 1987,
-                    "teamName": "Czech Republic Women",
-                    "teamSName": "CZEW",
-                    "imageId": 501075
-                  },
-                  "team2": {
-                    "teamId": 2380,
-                    "teamName": "Portugal Women",
-                    "teamSName": "PORTW",
-                    "imageId": 625937
-                  },
-                  "venueInfo": {
-                    "id": 941,
-                    "ground": "Scott Page Field, Vinor",
-                    "city": "Prague",
-                    "timezone": "+02:00",
-                    "latitude": "50.0755",
-                    "longitude": "14.4378"
-                  },
-                  "currBatTeamId": 2380,
-                  "seriesStartDt": "1788480000000",
-                  "seriesEndDt": "1788825600000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 70,
-                      "wickets": 10,
-                      "overs": 14.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 71,
-                      "wickets": 6,
-                      "overs": 12.5
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 170871,
                   "seriesId": 13060,
                   "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
@@ -865,6 +809,62 @@
                       "runs": 108,
                       "wickets": 2,
                       "overs": 10.2
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170873,
+                  "seriesId": 13060,
+                  "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
+                  "matchDesc": "Final",
+                  "matchFormat": "T20",
+                  "startDate": "1788694200000",
+                  "endDate": "1788706800000",
+                  "state": "Complete",
+                  "status": "Portugal Women won by 4 wkts",
+                  "team1": {
+                    "teamId": 1987,
+                    "teamName": "Czech Republic Women",
+                    "teamSName": "CZEW",
+                    "imageId": 501075
+                  },
+                  "team2": {
+                    "teamId": 2380,
+                    "teamName": "Portugal Women",
+                    "teamSName": "PORTW",
+                    "imageId": 625937
+                  },
+                  "venueInfo": {
+                    "id": 941,
+                    "ground": "Scott Page Field, Vinor",
+                    "city": "Prague",
+                    "timezone": "+02:00",
+                    "latitude": "50.0755",
+                    "longitude": "14.4378"
+                  },
+                  "currBatTeamId": 2380,
+                  "seriesStartDt": "1788480000000",
+                  "seriesEndDt": "1788825600000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 70,
+                      "wickets": 10,
+                      "overs": 14.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 71,
+                      "wickets": 6,
+                      "overs": 12.5
                     }
                   }
                 }
@@ -951,5 +951,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788712145"
+  "responseLastUpdated": "1788712219"
 }
