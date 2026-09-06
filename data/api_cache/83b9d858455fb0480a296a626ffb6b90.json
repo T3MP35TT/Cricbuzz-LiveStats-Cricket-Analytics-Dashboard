@@ -1,0 +1,704 @@
+{
+  "inningsid": 0,
+  "comwrapper": [
+    {
+      "commentary": {
+        "commtxt": "Eathan Bosch to Innocent Kaia, no run",
+        "timestamp": 1788703395375,
+        "overnum": 2.4,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 16,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Eathan Bosch to Innocent Kaia, 2 runs, B0$ Innocent Kaia had miscued it towards long-on, and Jansen failed to judge it.",
+        "timestamp": 1788703349615,
+        "overnum": 2.3,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "dropped by Jansen!"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 15,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Eathan Bosch to Wesley Madhavere, 1 run, Eathan Bosch goes short on leg, Wesley Madhavere tucks it towards the on-side with soft hands",
+        "timestamp": 1788703302257,
+        "overnum": 2.2,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 14,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Eathan Bosch to Innocent Kaia, 1 run, on the shorter side on leg, the batter tries to whip it away, gets an inside edge on to the pads. Single taken",
+        "timestamp": 1788703271619,
+        "overnum": 2.1,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 13,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "B0$",
+        "timestamp": 1788703262532,
+        "overnum": 0.0,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "Wesley Madhavere, right handed bat, comes to the crease"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Duan Jansen to Brian Bennett, B0$ Caught by Connor Esterhuizen!! Pitched up by the bowler around off, Brian Bennett looks to play the scoop, but doesn't middle it. The ball lobs up in the air due to lack of timing, and the keeper completes the formalities behind the wickets. As easy as you like. B1$",
+        "timestamp": 1788703175631,
+        "overnum": 1.6,
+        "inningsid": 2,
+        "eventtype": "over-break,WICKET",
+        "oversep": {
+          "score": 14,
+          "wickets": 2,
+          "inningsid": 2,
+          "oversummary": "0 4 Wd 1 1 1 W ",
+          "runs": 8,
+          "batstrikerdetails": "7(6)",
+          "batnonstrikerdetails": "6(5)",
+          "bowldetails": "1-8 (1)",
+          "timestamp": 1788703175631,
+          "overnum": 1.6,
+          "ovrbatnames": [],
+          "ovrbowlnames": [],
+          "batstrikername": "Innocent Kaia",
+          "batnonstrikername": "Brian Bennett",
+          "bowlname": "Duan Jansen",
+          "battingteamname": "ZIM"
+        },
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "out"
+              },
+              {
+                "id": "B1$",
+                "value": "Brian Bennett c Connor Esterhuizen b Duan Jansen 6(5) [4s-1]"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 12,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false,
+        "ad": {
+          "name": "mpu_over_break",
+          "layout": "mpu",
+          "position": 1
+        }
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Duan Jansen to Brian Bennett, B0$ Caught!!",
+        "timestamp": 1788703174740,
+        "overnum": 0.0,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "THATS OUT!!"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Duan Jansen to Innocent Kaia, 1 run, on the shorter side as Innocent Kaia pulls it towards deep square leg",
+        "timestamp": 1788703134784,
+        "overnum": 1.5,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 11,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Duan Jansen to Brian Bennett, 1 run, full toss outside off, square driven for a single",
+        "timestamp": 1788703103187,
+        "overnum": 1.4,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 10,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Duan Jansen to Innocent Kaia, 1 run, skids along the deck from a good length, Innocent Kaia clips it towards the on-side",
+        "timestamp": 1788703060678,
+        "overnum": 1.3,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 9,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    }
+  ],
+  "miniscore": {
+    "batsmanstriker": {
+      "id": 12319,
+      "balls": 9,
+      "runs": 9,
+      "fours": 1,
+      "sixes": 0,
+      "strkrate": "100",
+      "name": "Innocent Kaia",
+      "nickname": "Innocent Kaia",
+      "iscaptain": false,
+      "iskeeper": false,
+      "outdec": "",
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "iscbplusfree": false,
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "batsmannonstriker": {
+      "id": 13451,
+      "balls": 1,
+      "runs": 1,
+      "fours": 0,
+      "sixes": 0,
+      "strkrate": "100",
+      "name": "Wesley Madhavere",
+      "nickname": "Wesley Madhavere",
+      "iscaptain": false,
+      "iskeeper": false,
+      "outdec": "",
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "iscbplusfree": false,
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "bowlerstriker": {
+      "id": 13098,
+      "overs": "1.4",
+      "maidens": 0,
+      "wickets": 1,
+      "runs": 9,
+      "economy": "5.4",
+      "name": "Eathan Bosch",
+      "nickname": "",
+      "iscaptain": false,
+      "iskeeper": false,
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "dots": 0,
+      "balls": 0,
+      "rpb": 0.0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "bowlernonstriker": {
+      "id": 18523,
+      "overs": "1",
+      "maidens": 0,
+      "wickets": 1,
+      "runs": 8,
+      "economy": "8",
+      "name": "Duan Jansen",
+      "nickname": "",
+      "iscaptain": false,
+      "iskeeper": false,
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "dots": 0,
+      "balls": 0,
+      "rpb": 0.0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "crr": 6.75,
+    "rrr": 10.85,
+    "inningsnbr": "1st inn",
+    "lastwkt": "Brian Bennett  c Connor Esterhuizen b Duan Jansen 6(5)  - 14/2 in 1.6 ov.",
+    "curovsstats": "1 1 2 0",
+    "inningsscores": {
+      "inningsscore": [
+        {
+          "inningsid": 2,
+          "batteamid": 12,
+          "batteamshortname": "ZIM",
+          "runs": 18,
+          "wickets": 2,
+          "overs": 2.4,
+          "isdeclared": false,
+          "isfollowon": false,
+          "target": 206,
+          "balls": 16
+        },
+        {
+          "inningsid": 1,
+          "batteamid": 11,
+          "batteamshortname": "RSA",
+          "runs": 205,
+          "wickets": 5,
+          "overs": 19.6,
+          "isdeclared": false,
+          "isfollowon": false,
+          "target": 206,
+          "balls": 120
+        }
+      ]
+    },
+    "inningsid": 2,
+    "performance": [],
+    "partnership": "4(4)",
+    "oversrem": "",
+    "pp": {
+      "powerplay": [
+        {
+          "id": 2,
+          "ovrfrom": 0.1,
+          "ovrto": 6.0,
+          "pptype": "Mandatory",
+          "run": 18,
+          "wickets": 0
+        }
+      ]
+    },
+    "target": 0,
+    "custstatus": "",
+    "ballsrem": 0,
+    "rpb": 0.0,
+    "rrpb": 0.0,
+    "responselastupdated": 0,
+    "event": "",
+    "timestamp": 1788703395375
+  },
+  "matchheaders": {
+    "state": "In Progress",
+    "status": "Zimbabwe need 188 runs",
+    "matchformat": "T20",
+    "matchstarttimestamp": 1788696000000,
+    "teamdetails": {
+      "batteamid": 12,
+      "batteamname": "ZIM",
+      "bowlteamid": 11,
+      "bowlteamname": "RSA"
+    },
+    "momplayers": {
+      "player": [],
+      "category": ""
+    },
+    "mosplayers": {
+      "player": [],
+      "category": ""
+    },
+    "winningteamid": 0,
+    "revisedtarget": 0,
+    "matchendtimestamp": 1788706800000,
+    "seriesid": 12933,
+    "matchdesc": "Final",
+    "seriesname": "Namibia T20I Tri-Series 2026",
+    "alerttype": "auto",
+    "tossresults": {
+      "tosswinnerid": 11,
+      "tosswinnername": "South Africa",
+      "decision": "Batting"
+    },
+    "livestreamenabled": false,
+    "team1": {
+      "teamid": 11,
+      "teamname": "South Africa",
+      "teamsname": "RSA",
+      "isfullmember": false,
+      "isassociated": false,
+      "isleagueteam": false,
+      "iswomenteam": false,
+      "isheader": false,
+      "isactive": false,
+      "teampriority": "",
+      "isvideopresent": false,
+      "imageid": 0,
+      "countryname": "",
+      "belongsto": "",
+      "teamcolor": "",
+      "isdefaultimage": false
+    },
+    "team2": {
+      "teamid": 12,
+      "teamname": "Zimbabwe",
+      "teamsname": "ZIM",
+      "isfullmember": false,
+      "isassociated": false,
+      "isleagueteam": false,
+      "iswomenteam": false,
+      "isheader": false,
+      "isactive": false,
+      "teampriority": "",
+      "isvideopresent": false,
+      "imageid": 0,
+      "countryname": "",
+      "belongsto": "",
+      "teamcolor": "",
+      "isdefaultimage": false
+    }
+  },
+  "appindex": {
+    "seotitle": "RSA vs ZIM Final,Namibia T20I Tri-Series 2026 | Cricbuzz.com",
+    "weburl": "http://www.cricbuzz.com/live-cricket-scores/170017/rsa-vs-zim-final-namibia-t20i-tri-series-2026"
+  },
+  "matchvideos": [],
+  "responselastupdated": 1788703394,
+  "buzz": {
+    "imageids": [
+      1064841,
+      1067223,
+      1066396
+    ],
+    "position": 2,
+    "applink": "cricbuzz://buzz",
+    "isbuzzenabled": true
+  }
+}
