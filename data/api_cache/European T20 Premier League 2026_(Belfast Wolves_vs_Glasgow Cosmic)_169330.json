@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 169330,
+    "seriesId": 12870,
+    "seriesName": "European T20 Premier League 2026",
+    "matchDesc": "13th Match",
+    "matchFormat": "T20",
+    "startDate": "1788527700000",
+    "endDate": "1788540300000",
+    "state": "Complete",
+    "status": "Belfast Wolves won by 26 runs",
+    "team1": {
+      "teamId": 577,
+      "teamName": "Belfast Wolves",
+      "teamSName": "BFW",
+      "imageId": 1044577
+    },
+    "team2": {
+      "teamId": 575,
+      "teamName": "Glasgow Cosmic",
+      "teamSName": "GGC",
+      "imageId": 1044580
+    },
+    "venueInfo": {
+      "id": 1437791,
+      "ground": "Sportpark Duivesteijn",
+      "city": "Voorburg",
+      "timezone": "+02:00",
+      "latitude": "52.0848131",
+      "longitude": "4.3662509"
+    },
+    "currBatTeamId": 577,
+    "seriesStartDt": "1787702400000",
+    "seriesEndDt": "1790035200000",
+    "isTimeAnnounced": true,
+    "stateTitle": "BFW Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 146,
+        "wickets": 3,
+        "overs": 11.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 120,
+        "wickets": 8,
+        "overs": 11.6
+      }
+    }
+  }
+}
