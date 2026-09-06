@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 170011,
+    "seriesId": 12933,
+    "seriesName": "Namibia T20I Tri-Series 2026",
+    "matchDesc": "6th Match",
+    "matchFormat": "T20",
+    "startDate": "1788523200000",
+    "endDate": "1788535800000",
+    "state": "Complete",
+    "status": "South Africa won by 11 runs",
+    "team1": {
+      "teamId": 11,
+      "teamName": "South Africa",
+      "teamSName": "RSA",
+      "imageId": 776287
+    },
+    "team2": {
+      "teamId": 161,
+      "teamName": "Namibia",
+      "teamSName": "NAM",
+      "imageId": 776326
+    },
+    "venueInfo": {
+      "id": 1438021,
+      "ground": "Namibia Cricket Ground",
+      "city": " Windhoek",
+      "timezone": "+02:00",
+      "latitude": "-22.5872377",
+      "longitude": "17.0677249"
+    },
+    "currBatTeamId": 11,
+    "seriesStartDt": "1787875200000",
+    "seriesEndDt": "1788825600000",
+    "isTimeAnnounced": true,
+    "stateTitle": "RSA Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 228,
+        "wickets": 4,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 217,
+        "wickets": 3,
+        "overs": 19.6
+      }
+    }
+  }
+}
