@@ -1,0 +1,69 @@
+{
+  "matchInfo": {
+    "matchId": 143152,
+    "seriesId": 11416,
+    "seriesName": "County Championship Division Two 2026",
+    "matchDesc": "41st Match",
+    "matchFormat": "TEST",
+    "startDate": "1788341400000",
+    "endDate": "1788625800000",
+    "state": "Complete",
+    "status": "Gloucestershire won by 213 runs",
+    "team1": {
+      "teamId": 151,
+      "teamName": "Gloucestershire",
+      "teamSName": "GLOUCS",
+      "imageId": 172218
+    },
+    "team2": {
+      "teamId": 144,
+      "teamName": "Derbyshire",
+      "teamSName": "DERBY",
+      "imageId": 172211
+    },
+    "venueInfo": {
+      "id": 63,
+      "ground": "County Ground",
+      "city": "Bristol",
+      "timezone": "+01:00",
+      "latitude": "51.477246",
+      "longitude": "-2.584212"
+    },
+    "currBatTeamId": 151,
+    "seriesStartDt": "1775174400000",
+    "seriesEndDt": "1790640000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "Complete"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 237,
+        "wickets": 10,
+        "overs": 81.2
+      },
+      "inngs2": {
+        "inningsId": 3,
+        "runs": 359,
+        "wickets": 5,
+        "overs": 99.6,
+        "isDeclared": true
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 278,
+        "wickets": 10,
+        "overs": 89.4
+      },
+      "inngs2": {
+        "inningsId": 4,
+        "runs": 105,
+        "wickets": 10,
+        "overs": 38.4
+      }
+    }
+  }
+}
