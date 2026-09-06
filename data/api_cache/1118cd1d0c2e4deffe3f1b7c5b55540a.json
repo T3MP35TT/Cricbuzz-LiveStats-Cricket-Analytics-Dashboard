@@ -17,8 +17,17 @@
                   "matchFormat": "T20",
                   "startDate": "1788721200000",
                   "endDate": "1788733800000",
+<<<<<<< HEAD
                   "state": "In Progress",
+<<<<<<< HEAD
                   "status": "Guyana Amazon Warriors need 110 runs",
+=======
+                  "status": "Guyana Amazon Warriors need 113 runs",
+=======
+                  "state": "Innings Break",
+                  "status": "Innings Break",
+>>>>>>> 4dd37ff (Update cricket rankings, API cache, and testing files)
+>>>>>>> 551a0a2 (Update project documentation)
                   "team1": {
                     "teamId": 302,
                     "teamName": "St Kitts and Nevis Patriots",
@@ -39,11 +48,19 @@
                     "latitude": "41.823872",
                     "longitude": "-71.411987"
                   },
+<<<<<<< HEAD
                   "currBatTeamId": 159,
                   "seriesStartDt": "1786060800000",
                   "seriesEndDt": "1790035200000",
                   "isTimeAnnounced": true,
                   "stateTitle": "In Progress"
+=======
+                  "currBatTeamId": 302,
+                  "seriesStartDt": "1786060800000",
+                  "seriesEndDt": "1790035200000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Ings Break"
+>>>>>>> 4dd37ff (Update cricket rankings, API cache, and testing files)
                 },
                 "matchScore": {
                   "team1Score": {
@@ -53,6 +70,7 @@
                       "wickets": 10,
                       "overs": 19.2
                     }
+<<<<<<< HEAD
                   },
                   "team2Score": {
                     "inngs1": {
@@ -60,6 +78,8 @@
                       "runs": 19,
                       "overs": 2.2
                     }
+=======
+>>>>>>> 4dd37ff (Update cricket rankings, API cache, and testing files)
                   }
                 }
               }
@@ -332,6 +352,19 @@
           }
         },
         {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 5
+          }
+        },
+        {
+=======
+>>>>>>> 4dd37ff (Update cricket rankings, API cache, and testing files)
+>>>>>>> 551a0a2 (Update project documentation)
           "seriesAdWrapper": {
             "seriesId": 12595,
             "seriesName": "Womens Caribbean Premier League 2026",
@@ -538,5 +571,14 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
+<<<<<<< HEAD
   "responseLastUpdated": "1788729040"
+=======
+<<<<<<< HEAD
+  "responseLastUpdated": "1788728751"
+=======
+  "responseLastUpdated": "1788728178",
+  "_cache_saved_at": 1788728177.4583905
+>>>>>>> 4dd37ff (Update cricket rankings, API cache, and testing files)
+>>>>>>> 551a0a2 (Update project documentation)
 }

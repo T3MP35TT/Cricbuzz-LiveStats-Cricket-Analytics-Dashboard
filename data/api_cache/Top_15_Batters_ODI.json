@@ -1,0 +1,144 @@
+{
+  "title": "Top_15_Batters_ODI",
+  "role": "batter",
+  "match_type": "odi",
+  "top_n": 15,
+  "player_count": 15,
+  "players": [
+    {
+      "rank": 1,
+      "player_id": "25",
+      "player": "Tendulkar",
+      "matches": "463",
+      "innings": "452",
+      "runs": "18426",
+      "strike_rate": "86.24"
+    },
+    {
+      "rank": 2,
+      "player_id": "1413",
+      "player": "Virat Kohli",
+      "matches": "314",
+      "innings": "302",
+      "runs": "14941",
+      "strike_rate": "93.95"
+    },
+    {
+      "rank": 3,
+      "player_id": "104",
+      "player": "Sangakkara",
+      "matches": "404",
+      "innings": "380",
+      "runs": "14234",
+      "strike_rate": "78.86"
+    },
+    {
+      "rank": 4,
+      "player_id": "38",
+      "player": "Ricky Ponting",
+      "matches": "375",
+      "innings": "365",
+      "runs": "13704",
+      "strike_rate": "80.39"
+    },
+    {
+      "rank": 5,
+      "player_id": "102",
+      "player": "S Jayasuriya",
+      "matches": "445",
+      "innings": "433",
+      "runs": "13430",
+      "strike_rate": "91.22"
+    },
+    {
+      "rank": 6,
+      "player_id": "101",
+      "player": "Mahela",
+      "matches": "448",
+      "innings": "418",
+      "runs": "12650",
+      "strike_rate": "78.97"
+    },
+    {
+      "rank": 7,
+      "player_id": "576",
+      "player": "Rohit Sharma",
+      "matches": "288",
+      "innings": "280",
+      "runs": "11895",
+      "strike_rate": "93.05"
+    },
+    {
+      "rank": 8,
+      "player_id": "35",
+      "player": "Inzamam-ul-Haq",
+      "matches": "378",
+      "innings": "350",
+      "runs": "11739",
+      "strike_rate": "74.24"
+    },
+    {
+      "rank": 9,
+      "player_id": "213",
+      "player": "Kallis",
+      "matches": "328",
+      "innings": "314",
+      "runs": "11579",
+      "strike_rate": "72.89"
+    },
+    {
+      "rank": 10,
+      "player_id": "29",
+      "player": "S Ganguly",
+      "matches": "311",
+      "innings": "300",
+      "runs": "11363",
+      "strike_rate": "73.71"
+    },
+    {
+      "rank": 11,
+      "player_id": "27",
+      "player": "Dravid",
+      "matches": "344",
+      "innings": "318",
+      "runs": "10889",
+      "strike_rate": "71.24"
+    },
+    {
+      "rank": 12,
+      "player_id": "265",
+      "player": "MS Dhoni",
+      "matches": "350",
+      "innings": "297",
+      "runs": "10773",
+      "strike_rate": "87.56"
+    },
+    {
+      "rank": 13,
+      "player_id": "247",
+      "player": "Gayle",
+      "matches": "301",
+      "innings": "294",
+      "runs": "10480",
+      "strike_rate": "87.20"
+    },
+    {
+      "rank": 14,
+      "player_id": "240",
+      "player": "B Lara",
+      "matches": "299",
+      "innings": "289",
+      "runs": "10405",
+      "strike_rate": "79.51"
+    },
+    {
+      "rank": 15,
+      "player_id": "105",
+      "player": "Dilshan",
+      "matches": "330",
+      "innings": "303",
+      "runs": "10290",
+      "strike_rate": "86.23"
+    }
+  ]
+}

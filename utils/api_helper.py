@@ -1954,6 +1954,219 @@ def get_records(
     )
 
 
+def get_top_player_stats(match_type: str = "odi"):
+    """
+    Get the requested Cricbuzz player-record leaderboards.
+
+    Each individual record request uses the existing cache-first policy:
+    fresh cache -> API -> 30-day stale cache fallback.
+
+    SQLite fallback is handled by the page when a record response cannot
+    provide usable rows.
+    """
+    format_code = str(match_type).lower().strip()
+
+    if format_code == "t20i":
+        format_code = "t20"
+
+    if format_code not in {"odi", "test", "t20"}:
+        return {
+            "error": "Unsupported match type. Use ODI, Test, or T20.",
+            "stats": {},
+            "_data_source": "none",
+        }
+
+    # Keep the known Cricbuzz stat codes as the stable fallback. The
+    # record-filter endpoint is still consulted so deployments exposing
+    # different labels/codes can override them.
+    required_stats = {
+        "most_runs": "mostRuns",
+        "highest_score": "highestScore",
+        "batting_average": "highestAvg",
+        "strike_rate": "highestSr",
+        "most_wickets": "mostWickets",
+        "best_bowling": "bestBowlingInnings",
+        "economy": "lowestEcon",
+        "bowling_strike_rate": "lowestSr",
+        "bowling_average": "lowestAvg",
+    }
+
+    resolved_codes = dict(required_stats)
+    match_type_id = None
+
+    try:
+        filter_data = get_record_filters()
+
+        if isinstance(filter_data, dict) and "error" not in filter_data:
+            def walk(value):
+                if isinstance(value, dict):
+                    yield value
+                    for child in value.values():
+                        yield from walk(child)
+                elif isinstance(value, list):
+                    for child in value:
+                        yield from walk(child)
+
+            def text_value(record, keys):
+                for key in keys:
+                    value = record.get(key)
+
+                    if isinstance(value, dict):
+                        value = (
+                            value.get("name")
+                            or value.get("label")
+                            or value.get("displayName")
+                            or value.get("value")
+                        )
+
+                    if value not in (None, ""):
+                        return str(value).strip()
+
+                return ""
+
+            stat_codes = {}
+
+            for record in walk(filter_data):
+                if not isinstance(record, dict):
+                    continue
+
+                value = record.get("value")
+
+                if value not in (None, ""):
+                    label = text_value(
+                        record,
+                        [
+                            "label",
+                            "name",
+                            "title",
+                            "displayName",
+                            "description",
+                            "text",
+                        ],
+                    ).lower()
+
+                    if label:
+                        stat_codes[label] = str(value)
+
+                mt_id = (
+                    record.get("matchTypeId")
+                    or record.get("matchTypeID")
+                )
+
+                if mt_id not in (None, ""):
+                    label = text_value(
+                        record,
+                        [
+                            "matchTypeName",
+                            "matchType",
+                            "name",
+                            "label",
+                            "title",
+                            "displayName",
+                            "description",
+                        ],
+                    ).lower()
+
+                    if (
+                        format_code == "test"
+                        and "test" in label
+                    ) or (
+                        format_code == "odi"
+                        and "odi" in label
+                    ) or (
+                        format_code == "t20"
+                        and (
+                            "t20" in label
+                            or "twenty20" in label
+                        )
+                    ):
+                        match_type_id = str(mt_id)
+
+            aliases = {
+                "most_runs": {"most runs"},
+                "highest_score": {"highest score", "highest scores"},
+                "batting_average": {
+                    "highest average",
+                    "best batting average",
+                    "best average",
+                },
+                "strike_rate": {
+                    "highest strike rate",
+                    "best batting strike rate",
+                    "best strike rate",
+                },
+                "most_wickets": {"most wickets"},
+                "best_bowling": {
+                    "best bowling",
+                    "best bowling innings",
+                    "best bowling inning",
+                },
+                "economy": {
+                    "best economy",
+                    "lowest economy",
+                    "lowest econ",
+                },
+                "bowling_strike_rate": {
+                    "best bowling strike rate",
+                    "lowest bowling strike rate",
+                    "lowest strike rate",
+                    "lowest sr",
+                },
+                "bowling_average": {
+                    "best bowling average",
+                    "lowest average",
+                    "lowest avg",
+                    "best average",
+                },
+            }
+
+            for key, fallback_code in required_stats.items():
+                for label, value in stat_codes.items():
+                    normalized = (
+                        label.replace("-", " ")
+                        .replace("_", " ")
+                    )
+
+                    if normalized in aliases.get(key, set()):
+                        resolved_codes[key] = value
+                        break
+
+    except Exception:
+        # Known stat codes remain usable when filter metadata is unavailable.
+        pass
+
+    if match_type_id is None:
+        match_type_id = format_code
+
+    results = {}
+
+    for key, stats_type in resolved_codes.items():
+        results[key] = get_records(
+            stats_type=stats_type,
+            match_type=match_type_id,
+        )
+
+    sources = {
+        value.get("_data_source")
+        for value in results.values()
+        if isinstance(value, dict)
+    }
+
+    return {
+        "format": format_code,
+        "match_type_id": match_type_id,
+        "stats": results,
+        "_data_source": (
+            "api"
+            if "api" in sources
+            else "cache"
+            if "cache" in sources
+            else "none"
+        ),
+        "_cache_is_fallback": "fallback" in sources,
+    }
+
+
 def get_series_list(
     year: int = 2024,
 ):

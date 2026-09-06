@@ -17,6 +17,7 @@ from utils.api_helper import (
     get_top_player_leaderboard,
     get_live_matches,
     get_icc_team_rankings,
+    get_top_player_stats,
 )
 from utils.gamification import (
     init_game_state,
@@ -397,28 +398,130 @@ if section["key"] == "teams":
                     st.caption(f"{rating}")
 
 elif section["key"] == "players":
+    # Keep the player sidebar synchronized with the Top Players leaderboard.
     sidebar_format = st.session_state.get("player_ranking_format", "odi")
     if sidebar_format not in {"odi", "test", "t20"}:
         sidebar_format = "odi"
 
-    sidebar_batsmen = _sidebar_player_preview(sidebar_format, "batting")
-    sidebar_bowlers = _sidebar_player_preview(sidebar_format, "bowling")
+    sidebar_format_label = {
+        "odi": "ODI",
+        "test": "Test",
+        "t20": "T20",
+    }[sidebar_format]
+
+    sidebar_cache_dir = PROJECT_ROOT / "data" / "api_cache"
+
+    sidebar_batting_path = (
+        sidebar_cache_dir
+        / f"Top_15_Batters_{sidebar_format_label}.json"
+    )
+    sidebar_bowling_path = (
+        sidebar_cache_dir
+        / f"Top_15_Bowlers_{sidebar_format_label}.json"
+    )
+
+    def _load_sidebar_top_5(path, role):
+        """Load the current Top 5 from the combined ranking JSON."""
+        if not path.is_file():
+            return []
+
+        def _sidebar_number(value, default=0.0):
+            try:
+                return float(value)
+            except (TypeError, ValueError):
+                return default
+
+        try:
+            payload = json.loads(
+                path.read_text(encoding="utf-8")
+            )
+        except (OSError, json.JSONDecodeError):
+            return []
+
+        players = payload.get("players", [])
+
+        if not isinstance(players, list):
+            return []
+
+        result = []
+
+        for player in players[:5]:
+            if not isinstance(player, dict):
+                continue
+
+            name = str(
+                player.get("player", "")
+            ).strip()
+
+            if not name:
+                continue
+
+            rank = _safe_int_sidebar(
+                player.get("rank"),
+                len(result) + 1,
+            )
+
+            if role == "batting":
+                result.append(
+                    {
+                        "rank": rank,
+                        "name": name,
+                        "primary": _safe_int_sidebar(
+                            player.get("runs"),
+                            0,
+                        ),
+                        "secondary": _sidebar_number(
+                            player.get("strike_rate"),
+                            0,
+                        ),
+                        "secondary_label": "SR",
+                    }
+                )
+            else:
+                result.append(
+                    {
+                        "rank": rank,
+                        "name": name,
+                        "primary": _safe_int_sidebar(
+                            player.get("wickets"),
+                            0,
+                        ),
+                        "secondary": _sidebar_number(
+                            player.get("economy"),
+                            0,
+                        ),
+                        "secondary_label": "ECO",
+                    }
+                )
+
+        return result
+
+    sidebar_batsmen = _load_sidebar_top_5(
+        sidebar_batting_path,
+        "batting",
+    )
+    sidebar_bowlers = _load_sidebar_top_5(
+        sidebar_bowling_path,
+        "bowling",
+    )
 
     with st.sidebar.container(border=True):
-        st.markdown("⭐ **TOP ICC PLAYERS**")
-        st.caption(f"Current ICC {sidebar_format.upper()} ranking")
+        st.markdown("⭐ **TOP PLAYER STATS**")
+        st.caption(
+            f"Current Top 15 leaderboard • {sidebar_format_label}"
+        )
 
-        # Separate nested card for the top five batsmen.
+        # Top five batters from the same JSON used by the main leaderboard.
         with st.container(border=True):
-            st.markdown("🏏 **TOP 5 BATSMEN**")
-            if sidebar_batsmen.empty:
-                st.caption("Batting rankings are temporarily unavailable.")
+            st.markdown("🏏 **TOP 5 BATTERS**")
+
+            if not sidebar_batsmen:
+                st.caption(
+                    "Batting rankings are temporarily unavailable."
+                )
             else:
-                for _, player in sidebar_batsmen.iterrows():
-                    rank = _safe_int_sidebar(player.get("Rank"), 0)
-                    player_name = str(player.get("Player", "Unknown"))
-                    team_name = str(player.get("Team", ""))
-                    rating = _safe_int_sidebar(player.get("Rating"), 0)
+                for player in sidebar_batsmen:
+                    rank = player["rank"]
 
                     if rank == 1:
                         icon = "👑"
@@ -429,27 +532,39 @@ elif section["key"] == "players":
                     else:
                         icon = "🏏"
 
-                    player_cols = st.columns([0.34, 1.75, 0.62])
-                    with player_cols[0]:
-                        st.markdown(f"**{icon}**")
-                    with player_cols[1]:
-                        st.markdown(f"**{player_name}**")
-                        if team_name and team_name.lower() != "nan":
-                            st.caption(team_name)
-                    with player_cols[2]:
-                        st.caption(f"{rating}")
+                    player_cols = st.columns(
+                        [0.36, 1.70, 0.70]
+                    )
 
-        # Separate nested card for the top five bowlers.
+                    with player_cols[0]:
+                        st.markdown(
+                            f"**{icon} #{rank}**"
+                        )
+
+                    with player_cols[1]:
+                        st.markdown(
+                            f"**{player['name']}**"
+                        )
+
+                    with player_cols[2]:
+                        st.markdown(
+                            f"**{player['primary']:,}**"
+                        )
+                        st.caption(
+                            f"{player['secondary']:.2f} SR"
+                        )
+
+        # Top five bowlers from the same JSON used by the main leaderboard.
         with st.container(border=True):
             st.markdown("🎯 **TOP 5 BOWLERS**")
-            if sidebar_bowlers.empty:
-                st.caption("Bowling rankings are temporarily unavailable.")
+
+            if not sidebar_bowlers:
+                st.caption(
+                    "Bowling rankings are temporarily unavailable."
+                )
             else:
-                for _, player in sidebar_bowlers.iterrows():
-                    rank = _safe_int_sidebar(player.get("Rank"), 0)
-                    player_name = str(player.get("Player", "Unknown"))
-                    team_name = str(player.get("Team", ""))
-                    rating = _safe_int_sidebar(player.get("Rating"), 0)
+                for player in sidebar_bowlers:
+                    rank = player["rank"]
 
                     if rank == 1:
                         icon = "👑"
@@ -460,15 +575,28 @@ elif section["key"] == "players":
                     else:
                         icon = "🎯"
 
-                    player_cols = st.columns([0.34, 1.75, 0.62])
+                    player_cols = st.columns(
+                        [0.36, 1.70, 0.70]
+                    )
+
                     with player_cols[0]:
-                        st.markdown(f"**{icon}**")
+                        st.markdown(
+                            f"**{icon} #{rank}**"
+                        )
+
                     with player_cols[1]:
-                        st.markdown(f"**{player_name}**")
-                        if team_name and team_name.lower() != "nan":
-                            st.caption(team_name)
+                        st.markdown(
+                            f"**{player['name']}**"
+                        )
+
                     with player_cols[2]:
-                        st.caption(f"{rating}")
+                        st.markdown(
+                            f"**{player['primary']:,}**"
+                        )
+                        st.caption(
+                            f"{player['secondary']:.2f} ECO"
+                        )
+
 
 
 # Application state
@@ -1668,94 +1796,1236 @@ if section["key"] == "teams":
 
 
 
+# Top Player Stats helpers
+
+TOP_PLAYER_STAT_CONFIG = {
+    "most_runs": {
+        "title": "Runs (R)",
+        "api_key": "most_runs",
+        "value_label": "RUNS",
+    },
+    "batting_average": {
+        "title": "Batting Average (Ave)",
+        "api_key": "batting_average",
+        "value_label": "AVE",
+    },
+    "strike_rate": {
+        "title": "Strike Rate (SR)",
+        "api_key": "strike_rate",
+        "value_label": "SR",
+    },
+    "hundreds": {
+        "title": "Centuries (100s)",
+        "api_key": None,
+        "value_label": "100s",
+    },
+    "fifties": {
+        "title": "Half-Centuries (50s)",
+        "api_key": None,
+        "value_label": "50s",
+    },
+    "most_wickets": {
+        "title": "Wickets",
+        "api_key": "most_wickets",
+        "value_label": "WKTS",
+    },
+    "bowling_average": {
+        "title": "Bowling Average (Ave)",
+        "api_key": "bowling_average",
+        "value_label": "AVE",
+    },
+    "economy": {
+        "title": "Economy Rate (Econ)",
+        "api_key": "economy",
+        "value_label": "ECON",
+    },
+    "bowling_strike_rate": {
+        "title": "Strike Rate (SR)",
+        "api_key": "bowling_strike_rate",
+        "value_label": "SR",
+    },
+    "best_bowling": {
+        "title": "Best Bowling Figures (BB)",
+        "api_key": "best_bowling",
+        "value_label": "BB",
+    },
+    "five_wickets": {
+        "title": "Five-Wicket Hauls (5w)",
+        "api_key": None,
+        "value_label": "5w",
+    },
+}
+
+
+def _stat_record_rows(value):
+    """Find player record dictionaries inside a Cricbuzz record response."""
+    if isinstance(value, list):
+        if value and all(isinstance(item, dict) for item in value):
+            keys = set().union(*(item.keys() for item in value))
+            if keys & {
+                "player",
+                "playerName",
+                "name",
+                "fullName",
+                "playerDetails",
+                "playerNameText",
+            }:
+                return value
+
+        for item in value:
+            found = _stat_record_rows(item)
+            if found:
+                return found
+
+    elif isinstance(value, dict):
+        for key in [
+            "records",
+            "record",
+            "stats",
+            "statsList",
+            "values",
+            "data",
+            "content",
+            "list",
+            "items",
+            "recordList",
+        ]:
+            if key in value:
+                found = _stat_record_rows(value[key])
+                if found:
+                    return found
+
+        for child in value.values():
+            found = _stat_record_rows(child)
+            if found:
+                return found
+
+    return []
+
+
+def _nested_record_value(record, keys):
+    """Read a scalar value from a Cricbuzz record dictionary."""
+    for key in keys:
+        value = record.get(key)
+
+        if isinstance(value, dict):
+            value = (
+                value.get("name")
+                or value.get("label")
+                or value.get("displayName")
+                or value.get("value")
+                or value.get("text")
+            )
+
+        if value not in (None, ""):
+            return value
+
+    return None
+
+
+def _stat_player_name(record):
+    """Return the player name from common Cricbuzz record fields."""
+    value = _nested_record_value(
+        record,
+        [
+            "player",
+            "playerName",
+            "fullName",
+            "name",
+            "playerNameText",
+            "batsman",
+            "bowler",
+        ],
+    )
+
+    if isinstance(value, dict):
+        value = (
+            value.get("name")
+            or value.get("fullName")
+            or value.get("playerName")
+            or value.get("shortName")
+        )
+
+    return str(value).strip() if value not in (None, "") else ""
+
+
+def _stat_team_name(record):
+    """Return the team/country from common Cricbuzz record fields."""
+    value = _nested_record_value(
+        record,
+        [
+            "team",
+            "teamName",
+            "country",
+            "teamFullName",
+            "countryName",
+        ],
+    )
+
+    if isinstance(value, dict):
+        value = (
+            value.get("teamName")
+            or value.get("name")
+            or value.get("shortName")
+        )
+
+    return str(value).strip() if value not in (None, "") else ""
+
+
+def _is_missing_stat_value(value):
+    """Reject empty and non-numeric placeholder values such as NaN."""
+    if value in (None, ""):
+        return True
+
+    text = str(value).strip().lower()
+    return text in {"nan", "none", "null", "n/a", "na", "-", "--"}
+
+
+def _stat_value(record, stat_key):
+    """Return the display value for one API record category."""
+    key_map = {
+        "most_runs": [
+            "runs",
+            "totalRuns",
+            "run",
+            "r",
+            "value",
+            "statValue",
+        ],
+        "highest_score": [
+            "runs",
+            "score",
+            "highestScore",
+            "highScore",
+            "value",
+            "statValue",
+        ],
+        "batting_average": [
+            "avg",
+            "average",
+            "battingAverage",
+            "batting_average",
+            "value",
+            "statValue",
+        ],
+        "strike_rate": [
+            "sr",
+            "strikeRate",
+            "strike_rate",
+            "battingStrikeRate",
+            "value",
+            "statValue",
+        ],
+        "most_wickets": [
+            "wickets",
+            "totalWickets",
+            "w",
+            "value",
+            "statValue",
+        ],
+        "bowling_average": [
+            "avg",
+            "average",
+            "bowlingAverage",
+            "bowling_average",
+            "value",
+            "statValue",
+        ],
+        "economy": [
+            "econ",
+            "economy",
+            "economyRate",
+            "economy_rate",
+            "value",
+            "statValue",
+        ],
+        "bowling_strike_rate": [
+            "sr",
+            "strikeRate",
+            "strike_rate",
+            "bowlingStrikeRate",
+            "bowling_strike_rate",
+            "value",
+            "statValue",
+        ],
+        "best_bowling": [
+            "bestBowling",
+            "bestBowlingInnings",
+            "bestBowlingMatch",
+            "bowling",
+            "figures",
+            "value",
+            "statValue",
+        ],
+    }
+
+    value = _nested_record_value(record, key_map.get(stat_key, []))
+
+    if isinstance(value, (dict, list)):
+        return None
+
+    if _is_missing_stat_value(value):
+        return None
+
+    return value
+
+
+def _format_stat_value(value, stat_key):
+    """Format a record value for compact table display."""
+    if _is_missing_stat_value(value):
+        return ""
+
+    text = str(value).strip()
+
+    if stat_key in {
+        "most_runs",
+        "highest_score",
+        "most_wickets",
+        "hundreds",
+        "fifties",
+        "five_wickets",
+    }:
+        try:
+            number = float(text)
+            return (
+                f"{int(number):,}"
+                if number.is_integer()
+                else f"{number:,.1f}"
+            )
+        except (TypeError, ValueError):
+            return text
+
+    if stat_key in {
+        "batting_average",
+        "strike_rate",
+        "bowling_average",
+        "economy",
+        "bowling_strike_rate",
+    }:
+        try:
+            return f"{float(text):,.2f}"
+        except (TypeError, ValueError):
+            return text
+
+    return text
+
+
+def _normalize_api_stat_rows(records_data, stat_key):
+    """Normalize one Cricbuzz record response into player/value rows."""
+    rows = _stat_record_rows(records_data)
+    normalized = []
+
+    for index, record in enumerate(rows, start=1):
+        if not isinstance(record, dict):
+            continue
+
+        player = _stat_player_name(record)
+        value = _stat_value(record, stat_key)
+
+        if not player or value in (None, ""):
+            continue
+
+        rank = _nested_record_value(
+            record,
+            ["rank", "position", "ranking", "pos", "rankNo"],
+        )
+        team = _stat_team_name(record)
+
+        normalized.append(
+            {
+                "Rank": _safe_int(rank, index),
+                "Player": player,
+                "Team": team or "",
+                "Value": _format_stat_value(value, stat_key),
+            }
+        )
+
+    if not normalized:
+        return pd.DataFrame(columns=["Rank", "Player", "Team", "Value"])
+
+    return (
+        pd.DataFrame(normalized)
+        .drop_duplicates(subset=["Player"], keep="first")
+        .sort_values(["Rank", "Player"])
+        .head(20)
+        .reset_index(drop=True)
+    )
+
+
+def _player_key(name):
+    """Create a stable case-insensitive player key for API/SQLite merging."""
+    return " ".join(str(name or "").strip().lower().split())
+
+
+def _sqlite_batting_stats(fmt):
+    """Return the complete batting columns needed by the unified table."""
+    db_format = "t20i" if fmt == "t20" else fmt
+
+    query = """
+        SELECT
+            ROW_NUMBER() OVER (
+                ORDER BY
+                    COALESCE(pcs.runs_scored, 0) DESC,
+                    COALESCE(p.real_name, p.player_name)
+            ) AS Rank,
+            COALESCE(
+                NULLIF(TRIM(p.real_name), ''),
+                NULLIF(TRIM(p.player_name), '')
+            ) AS Player,
+            COALESCE(NULLIF(TRIM(p.country), ''), 'Unknown') AS Team,
+            COALESCE(pcs.runs_scored, 0) AS Runs,
+            ROUND(pcs.batting_average, 2) AS Average,
+            ROUND(pcs.strike_rate, 2) AS Strike_Rate,
+            COALESCE(pcs.hundreds, 0) AS Hundreds,
+            COALESCE(pcs.fifties, 0) AS Fifties
+        FROM player_career_stats pcs
+        JOIN players p
+          ON p.player_id = pcs.player_id
+        WHERE LOWER(TRIM(COALESCE(pcs.format, ''))) = ?
+          AND COALESCE(p.admin_active, 1) = 1
+          AND COALESCE(pcs.runs_scored, 0) > 0
+        ORDER BY Runs DESC, Player
+        LIMIT 20
+    """
+
+    try:
+        return run_query(query, (db_format,))
+    except Exception:
+        return pd.DataFrame()
+
+
+def _sqlite_bowling_stats(fmt):
+    """Return the complete bowling columns needed by the unified table."""
+    db_format = "t20i" if fmt == "t20" else fmt
+
+    query = """
+        SELECT
+            ROW_NUMBER() OVER (
+                ORDER BY
+                    COALESCE(pbs.wickets_taken, 0) DESC,
+                    COALESCE(p.real_name, p.player_name)
+            ) AS Rank,
+            COALESCE(
+                NULLIF(TRIM(p.real_name), ''),
+                NULLIF(TRIM(p.player_name), '')
+            ) AS Player,
+            COALESCE(NULLIF(TRIM(p.country), ''), 'Unknown') AS Team,
+            COALESCE(pbs.wickets_taken, 0) AS Wickets,
+            ROUND(pbs.bowling_average, 2) AS Average,
+            ROUND(pbs.economy_rate, 2) AS Economy,
+            ROUND(pbs.bowling_strike_rate, 2) AS Strike_Rate,
+            COALESCE(
+                NULLIF(TRIM(pbs.best_bowling_innings), ''),
+                'N/A'
+            ) AS Best_Bowling,
+            COALESCE(pbs.five_wickets, 0) AS Five_Wickets
+        FROM player_bowling_stats pbs
+        JOIN players p
+          ON p.player_id = pbs.cricbuzz_player_id
+        WHERE LOWER(TRIM(COALESCE(pbs.format, ''))) = ?
+          AND COALESCE(p.admin_active, 1) = 1
+          AND COALESCE(pbs.wickets_taken, 0) > 0
+        ORDER BY Wickets DESC, Player
+        LIMIT 20
+    """
+
+    try:
+        return run_query(query, (db_format,))
+    except Exception:
+        return pd.DataFrame()
+
+
+def _api_stat_lookup(top_player_data, stat_key):
+    """Return normalized API/cache rows keyed by player."""
+    if not isinstance(top_player_data, dict):
+        return {}
+
+    stats = top_player_data.get("stats")
+    if not isinstance(stats, dict):
+        return {}
+
+    api_key = TOP_PLAYER_STAT_CONFIG.get(stat_key, {}).get("api_key")
+    if not api_key:
+        return {}
+
+    rows = _normalize_api_stat_rows(
+        stats.get(api_key, {}),
+        api_key,
+    )
+
+    lookup = {}
+    for _, row in rows.iterrows():
+        key = _player_key(row.get("Player"))
+        if key:
+            lookup[key] = row.to_dict()
+
+    return lookup
+
+
+def _sqlite_batting_lookup(df):
+    """Index SQLite batting rows by player."""
+    if df is None or df.empty:
+        return {}
+
+    lookup = {}
+    for _, row in df.iterrows():
+        key = _player_key(row.get("Player"))
+        if key:
+            lookup[key] = row.to_dict()
+    return lookup
+
+
+def _sqlite_bowling_lookup(df):
+    """Index SQLite bowling rows by player."""
+    if df is None or df.empty:
+        return {}
+
+    lookup = {}
+    for _, row in df.iterrows():
+        key = _player_key(row.get("Player"))
+        if key:
+            lookup[key] = row.to_dict()
+    return lookup
+
+
+def _build_batting_table(fmt, top_player_data):
+    """
+    Build one unified batting leaderboard.
+
+    API/cache records are preferred for the record categories. SQLite fills
+    columns that the records endpoint does not expose, such as 100s and 50s.
+    If the API/cache has no usable base records, SQLite becomes the base table.
+    """
+    sqlite_df = _sqlite_batting_stats(fmt)
+    sqlite_lookup = _sqlite_batting_lookup(sqlite_df)
+    api_base = _api_stat_lookup(top_player_data, "most_runs")
+
+    if api_base:
+        base_players = list(api_base.keys())[:20]
+    else:
+        base_players = list(sqlite_lookup.keys())[:20]
+
+    if not base_players:
+        return pd.DataFrame()
+
+    api_lookups = {
+        key: _api_stat_lookup(top_player_data, key)
+        for key in [
+            "most_runs",
+            "batting_average",
+            "strike_rate",
+        ]
+    }
+
+    rows = []
+    for rank, player_key in enumerate(base_players, start=1):
+        sqlite_row = sqlite_lookup.get(player_key, {})
+        api_base_row = api_base.get(player_key, {})
+
+        player_name = (
+            api_base_row.get("Player")
+            or sqlite_row.get("Player")
+            or "Unknown"
+        )
+        team = (
+            api_base_row.get("Team")
+            or sqlite_row.get("Team")
+            or "Unknown"
+        )
+
+        def value_for(stat_key, sqlite_column):
+            api_row = api_lookups.get(stat_key, {}).get(player_key, {})
+            value = api_row.get("Value")
+            if not _is_missing_stat_value(value):
+                return value
+            return sqlite_row.get(sqlite_column)
+
+        rows.append(
+            {
+                "Rank": rank,
+                "Player": player_name,
+                "Team": team,
+                "Runs (R)": value_for("most_runs", "Runs"),
+                "Batting Average (Ave)": value_for(
+                    "batting_average",
+                    "Average",
+                ),
+                "Strike Rate (SR)": value_for(
+                    "strike_rate",
+                    "Strike_Rate",
+                ),
+                "100s": sqlite_row.get("Hundreds"),
+                "50s": sqlite_row.get("Fifties"),
+            }
+        )
+
+    return pd.DataFrame(rows)
+
+
+def _build_bowling_table(fmt, top_player_data):
+    """
+    Build one unified bowling leaderboard.
+
+    API/cache records are preferred for wickets, averages, economy, strike
+    rate and best bowling. SQLite fills unavailable fields and provides the
+    five-wicket haul count.
+    """
+    sqlite_df = _sqlite_bowling_stats(fmt)
+    sqlite_lookup = _sqlite_bowling_lookup(sqlite_df)
+    api_base = _api_stat_lookup(top_player_data, "most_wickets")
+
+    if api_base:
+        base_players = list(api_base.keys())[:20]
+    else:
+        base_players = list(sqlite_lookup.keys())[:20]
+
+    if not base_players:
+        return pd.DataFrame()
+
+    api_lookups = {
+        key: _api_stat_lookup(top_player_data, key)
+        for key in [
+            "most_wickets",
+            "bowling_average",
+            "economy",
+            "bowling_strike_rate",
+            "best_bowling",
+        ]
+    }
+
+    rows = []
+    for rank, player_key in enumerate(base_players, start=1):
+        sqlite_row = sqlite_lookup.get(player_key, {})
+        api_base_row = api_base.get(player_key, {})
+
+        player_name = (
+            api_base_row.get("Player")
+            or sqlite_row.get("Player")
+            or "Unknown"
+        )
+        team = (
+            api_base_row.get("Team")
+            or sqlite_row.get("Team")
+            or "Unknown"
+        )
+
+        def value_for(stat_key, sqlite_column):
+            api_row = api_lookups.get(stat_key, {}).get(player_key, {})
+            value = api_row.get("Value")
+            if not _is_missing_stat_value(value):
+                return value
+            return sqlite_row.get(sqlite_column)
+
+        rows.append(
+            {
+                "Rank": rank,
+                "Player": player_name,
+                "Team": team,
+                "Wickets": value_for("most_wickets", "Wickets"),
+                "Bowling Average (Ave)": value_for(
+                    "bowling_average",
+                    "Average",
+                ),
+                "Economy Rate (Econ)": value_for(
+                    "economy",
+                    "Economy",
+                ),
+                "Strike Rate (SR)": value_for(
+                    "bowling_strike_rate",
+                    "Strike_Rate",
+                ),
+                "Best Bowling Figures (BB)": value_for(
+                    "best_bowling",
+                    "Best_Bowling",
+                ),
+                "5w": sqlite_row.get("Five_Wickets"),
+            }
+        )
+
+    return pd.DataFrame(rows)
+
+
+def _render_unified_player_table(df, columns, numeric_columns=None):
+    """Render one compact leaderboard table using native Streamlit columns."""
+    if df is None or df.empty:
+        st.caption("No records available for this format.")
+        return
+
+    numeric_columns = numeric_columns or set()
+
+    st.markdown(
+        """
+        <style>
+        .top-stats-table-header {
+            padding: 0 10px 6px 10px;
+        }
+
+        .top-stats-table-row {
+            padding: 8px 10px 7px 10px;
+            margin-bottom: 6px;
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 9px;
+            background: rgba(255,255,255,0.018);
+        }
+
+        .top-stats-table-row:hover {
+            border-color: rgba(255,255,255,0.22);
+            background: rgba(255,255,255,0.035);
+        }
+
+        .top-stats-table-row [data-testid="stMarkdownContainer"] p {
+            margin: 0 !important;
+            line-height: 1.2 !important;
+        }
+
+        .top-stats-table-row [data-testid="stCaptionContainer"] {
+            margin: 0 !important;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    # First column is rank, second is player, third is team, remaining
+    # columns contain the requested cricket statistics.
+    weights = [0.62, 2.0, 1.35]
+    weights.extend([1.0] * (len(columns) - 3))
+
+    header_cols = st.columns(weights)
+    for column, header in zip(header_cols, columns):
+        column.caption(header.upper())
+
+    for _, row in df.iterrows():
+        row_cols = st.columns(weights)
+
+        rank = _safe_int(row.get("Rank"), 0)
+        if rank == 1:
+            rank_display = "👑 #1"
+        elif rank == 2:
+            rank_display = "🥈 #2"
+        elif rank == 3:
+            rank_display = "🥉 #3"
+        elif rank <= 5:
+            rank_display = f"🔥 #{rank}"
+        elif rank <= 10:
+            rank_display = f"⚡ #{rank}"
+        else:
+            rank_display = f"🏅 #{rank}"
+
+        for index, column in enumerate(columns):
+            value = row.get(column, "")
+
+            if pd.isna(value):
+                value = ""
+
+            if column == "Rank":
+                display_value = rank_display
+            elif column == "Player":
+                display_value = f"**{str(value)}**"
+            elif column == "Team":
+                display_value = (
+                    f"🌍 {str(value)}"
+                    if str(value).strip()
+                    else "—"
+                )
+            elif column in numeric_columns:
+                try:
+                    number = float(value)
+                    if number.is_integer():
+                        display_value = f"**{int(number):,}**"
+                    else:
+                        display_value = f"**{number:,.2f}**"
+                except (TypeError, ValueError):
+                    display_value = f"**{str(value)}**"
+            else:
+                display_value = f"**{str(value)}**"
+
+            with row_cols[index]:
+                st.markdown(display_value)
+
+    st.caption(f"Top {len(df)} players • {fmt.upper()} • Combined API/cache + SQLite fallback")
+
+
 # Top Players section
 
 if section["key"] == "players":
-        st.markdown("### ⭐ Top Players")
+    st.markdown("### ⭐ Top Player Stats")
+    st.caption(
+        "Top 15 batting and bowling leaders from the local ranking JSON cache."
+    )
 
-        st.caption(
-            "Top ICC-ranked batsmen and bowlers by format."
+    fmt = st.selectbox(
+        "Player stats format",
+        ["odi", "test", "t20"],
+        format_func=lambda x: x.upper(),
+        key="player_ranking_format",
+    )
+
+    st.session_state["top_stats_formats_seen"].add(fmt)
+
+    if (
+        len(st.session_state["top_stats_formats_seen"]) >= 3
+        and not st.session_state["top_stats_formats_bonus_awarded"]
+    ):
+        st.session_state["top_stats_formats_bonus_awarded"] = True
+
+        leveled_up = add_xp(15, coins=5)
+
+        st.toast(
+            "🌍 Format Explorer: checked ODI, Test & T20! +15 XP, +5 coins",
+            icon="🗺️",
         )
 
-        fmt = st.selectbox(
-            "Player ranking format",
-            ["odi", "test", "t20"],
-            format_func=lambda x: x.upper(),
-            key="player_ranking_format",
+        if leveled_up:
+            st.balloons()
+
+    # Use the already-combined Top 15 ranking files.
+    format_label = {
+        "odi": "ODI",
+        "test": "Test",
+        "t20": "T20",
+    }[fmt]
+
+    cache_dir = PROJECT_ROOT / "data" / "api_cache"
+
+    batting_path = cache_dir / f"Top_15_Batters_{format_label}.json"
+    bowling_path = cache_dir / f"Top_15_Bowlers_{format_label}.json"
+
+    def _load_combined_top_15(path, role):
+        """Load one combined Top 15 ranking JSON file."""
+        if not path.is_file():
+            return pd.DataFrame()
+
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            return pd.DataFrame()
+
+        if not isinstance(payload, dict):
+            return pd.DataFrame()
+
+        players = payload.get("players")
+
+        if not isinstance(players, list):
+            return pd.DataFrame()
+
+        rows = []
+
+        for player in players:
+            if not isinstance(player, dict):
+                continue
+
+            player_name = str(player.get("player", "")).strip()
+
+            if not player_name:
+                continue
+
+            if role == "batting":
+                rows.append(
+                    {
+                        "Rank": _safe_int(
+                            player.get("rank"),
+                            len(rows) + 1,
+                        ),
+                        "Player": player_name,
+                        "Matches (M)": _safe_int(
+                            player.get("matches")
+                        ),
+                        "Innings (I)": _safe_int(
+                            player.get("innings")
+                        ),
+                        "Runs (R)": _safe_int(
+                            player.get("runs")
+                        ),
+                        "Strike Rate (SR)": _safe_number(
+                            player.get("strike_rate")
+                        ),
+                    }
+                )
+            else:
+                rows.append(
+                    {
+                        "Rank": _safe_int(
+                            player.get("rank"),
+                            len(rows) + 1,
+                        ),
+                        "Player": player_name,
+                        "Matches (M)": _safe_int(
+                            player.get("matches")
+                        ),
+                        "Overs (O)": player.get("overs", ""),
+                        "Wickets (W)": _safe_int(
+                            player.get("wickets")
+                        ),
+                        "Economy (Eco)": _safe_number(
+                            player.get("economy")
+                        ),
+                    }
+                )
+
+        if not rows:
+            return pd.DataFrame()
+
+        return (
+            pd.DataFrame(rows)
+            .sort_values(
+                ["Rank", "Player"],
+                kind="stable",
+            )
+            .drop_duplicates(
+                subset=["Rank", "Player"],
+                keep="first",
+            )
+            .head(15)
+            .reset_index(drop=True)
         )
 
-        st.session_state[
-            "top_stats_formats_seen"
-        ].add(fmt)
+    batting_df = _load_combined_top_15(
+        batting_path,
+        "batting",
+    )
+    bowling_df = _load_combined_top_15(
+        bowling_path,
+        "bowling",
+    )
 
-        if (
-            len(
-                st.session_state[
-                    "top_stats_formats_seen"
-                ]
-            ) >= 3
-            and not st.session_state[
-                "top_stats_formats_bonus_awarded"
+    # Style the player leaderboards to match the team leaderboard visual
+    # while preserving the original table column headers.
+    st.markdown(
+        """
+        <style>
+        .player-board-title {
+            margin-bottom: 0.10rem;
+        }
+
+        .player-board-subtitle {
+            color: rgba(255,255,255,0.55);
+            font-size: 0.76rem;
+            margin-bottom: 0.55rem;
+        }
+
+        .player-board-header {
+            color: rgba(255,255,255,0.55);
+            font-size: 0.67rem;
+            font-weight: 800;
+            letter-spacing: 0.035em;
+            white-space: nowrap;
+        }
+
+        .player-board-rank {
+            font-size: 0.88rem;
+            font-weight: 800;
+        }
+
+        .player-board-player {
+            font-size: 0.88rem;
+            font-weight: 800;
+            line-height: 1.1;
+        }
+
+        .player-board-meta {
+            color: rgba(255,255,255,0.48);
+            font-size: 0.67rem;
+            margin-top: 0.16rem;
+        }
+
+        .player-board-value {
+            font-size: 0.86rem;
+            font-weight: 800;
+            line-height: 1.1;
+        }
+
+        .player-board-row {
+            min-height: 64px;
+        }
+
+        .player-board-row [data-testid="stVerticalBlockBorderWrapper"] {
+            background:
+                linear-gradient(
+                    90deg,
+                    rgba(255,255,255,0.018),
+                    rgba(255,255,255,0.008)
+                ) !important;
+            border-color: rgba(255,255,255,0.12) !important;
+            transition:
+                border-color 0.18s ease,
+                background 0.18s ease,
+                transform 0.18s ease;
+        }
+
+        .player-board-row [data-testid="stVerticalBlockBorderWrapper"]:hover {
+            border-color: rgba(145,150,255,0.34) !important;
+            background:
+                linear-gradient(
+                    90deg,
+                    rgba(120,126,255,0.075),
+                    rgba(255,255,255,0.015)
+                ) !important;
+            transform: translateY(-1px);
+        }
+
+        .player-board-row [data-testid="stProgress"] {
+            margin-top: 0.18rem !important;
+            margin-bottom: 0 !important;
+        }
+
+        .player-board-row [data-testid="stProgress"] > div {
+            height: 0.25rem !important;
+        }
+
+        .player-board-empty {
+            min-height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    def _rank_display(rank):
+        if rank == 1:
+            return "👑 #1"
+        if rank == 2:
+            return "🥈 #2"
+        if rank == 3:
+            return "🥉 #3"
+        if rank <= 5:
+            return f"🔥 #{rank}"
+        if rank <= 10:
+            return f"⚡ #{rank}"
+        return f"🏅 #{rank}"
+
+    def _rank_badge(rank):
+        if rank == 1:
+            return "LEGEND"
+        if rank in {2, 3}:
+            return "ELITE"
+        if rank <= 5:
+            return "TOP 5"
+        if rank <= 10:
+            return "TOP 10"
+        return "TOP 15"
+
+    def _render_player_leaderboard(df, role):
+        """Render one attractive leaderboard using the original headers."""
+        if role == "batting":
+            title = "🏏 Cricket Batting Stats"
+            subtitle = "Top 15 players ranked by Runs (R)."
+            columns = [
+                "Rank",
+                "Player",
+                "Matches (M)",
+                "Innings (I)",
+                "Runs (R)",
+                "Strike Rate (SR)",
             ]
-        ):
-            st.session_state[
-                "top_stats_formats_bonus_awarded"
-            ] = True
+            primary_column = "Runs (R)"
+            secondary_column = "Strike Rate (SR)"
+            detail_column = "Innings (I)"
+        else:
+            title = "🎯 Key Bowling Statistics"
+            subtitle = "Top 15 players ranked by Wickets (W)."
+            columns = [
+                "Rank",
+                "Player",
+                "Matches (M)",
+                "Overs (O)",
+                "Wickets (W)",
+                "Economy (Eco)",
+            ]
+            primary_column = "Wickets (W)"
+            secondary_column = "Economy (Eco)"
+            detail_column = "Overs (O)"
 
-            leveled_up = add_xp(
-                15,
-                coins=5,
+        st.markdown(
+            f'<div class="player-board-title"><h3>{title}</h3></div>',
+            unsafe_allow_html=True,
+        )
+        st.markdown(
+            f'<div class="player-board-subtitle">'
+            f'{subtitle} • {format_label}'
+            f'</div>',
+            unsafe_allow_html=True,
+        )
+
+        # Keep the exact original column headers.
+        header_cols = st.columns(
+            [0.70, 1.90, 1.05, 1.05, 1.00, 1.15]
+        )
+
+        for column, header in zip(header_cols, columns):
+            column.markdown(
+                f'<div class="player-board-header">{header.upper()}</div>',
+                unsafe_allow_html=True,
             )
 
-            st.toast(
-                "🌍 Format Explorer: checked ODI, Test & T20! "
-                "+15 XP, +5 coins",
-                icon="🗺️",
+        if df.empty:
+            with st.container(
+                border=True,
+                key=f"empty_player_board_{role}_{fmt}",
+            ):
+                st.markdown(
+                    '<div class="player-board-empty">'
+                    'No ranking data is available.'
+                    '</div>',
+                    unsafe_allow_html=True,
+                )
+            return
+
+        visible_df = df.head(15).copy()
+
+        max_primary = max(
+            float(
+                pd.to_numeric(
+                    visible_df[primary_column],
+                    errors="coerce",
+                ).fillna(0).max()
+            ),
+            1.0,
+        )
+
+        for _, player in visible_df.iterrows():
+            rank = _safe_int(player.get("Rank"), 0)
+            player_name = str(
+                player.get("Player", "Unknown")
+            ).strip()
+
+            matches = _safe_int(
+                player.get("Matches (M)"),
+                0,
             )
 
-            if leveled_up:
-                st.balloons()
-
-        col1, col2 = st.columns(2)
-
-        with col1:
-            batsmen_df = get_icc_rankings(
-                fmt,
-                "batting",
+            primary_value = _safe_number(
+                player.get(primary_column),
+                0,
             )
 
-            render_icc_leaderboard(
-                batsmen_df,
-                "batsmen",
-                fmt,
+            secondary_value = _safe_number(
+                player.get(secondary_column),
+                0,
             )
 
-            if not batsmen_df.empty:
-                render_favorite_picker(
-                    "batsmen",
-                    fmt,
-                    batsmen_df["Player"].tolist(),
+            power = min(
+                max(primary_value / max_primary, 0.0),
+                1.0,
+            )
+
+            rank_display = _rank_display(rank)
+            badge = _rank_badge(rank)
+
+            with st.container(
+                border=True,
+                key=f"{role}_leaderboard_row_{fmt}_{rank}_{player_name}",
+            ):
+                st.markdown(
+                    '<div class="player-board-row"></div>',
+                    unsafe_allow_html=True,
                 )
 
-        with col2:
-            bowlers_df = get_icc_rankings(
-                fmt,
-                "bowling",
-            )
-
-            render_icc_leaderboard(
-                bowlers_df,
-                "bowlers",
-                fmt,
-            )
-
-            if not bowlers_df.empty:
-                render_favorite_picker(
-                    "bowlers",
-                    fmt,
-                    bowlers_df["Player"].tolist(),
+                row_cols = st.columns(
+                    [0.70, 1.90, 1.05, 1.05, 1.00, 1.15]
                 )
 
+                with row_cols[0]:
+                    st.markdown(
+                        f'<div class="player-board-rank">'
+                        f'{rank_display}'
+                        f'</div>',
+                        unsafe_allow_html=True,
+                    )
+                    st.caption(badge)
+
+                with row_cols[1]:
+                    st.markdown(
+                        f'<div class="player-board-player">'
+                        f'{player_name}'
+                        f'</div>',
+                        unsafe_allow_html=True,
+                    )
+                    st.markdown(
+                        f'<div class="player-board-meta">'
+                        f'{matches:,} matches'
+                        f'</div>',
+                        unsafe_allow_html=True,
+                    )
+
+                with row_cols[2]:
+                    st.markdown(
+                        f'<div class="player-board-value">'
+                        f'{matches:,}'
+                        f'</div>',
+                        unsafe_allow_html=True,
+                    )
+
+                with row_cols[3]:
+                    detail_value = player.get(
+                        detail_column,
+                        "",
+                    )
+
+                    if role == "batting":
+                        detail_display = _safe_int(
+                            detail_value,
+                            0,
+                        )
+                        detail_text = f"{detail_display:,}"
+                    else:
+                        detail_text = str(
+                            detail_value
+                        ).strip()
+
+                    st.markdown(
+                        f'<div class="player-board-value">'
+                        f'{detail_text}'
+                        f'</div>',
+                        unsafe_allow_html=True,
+                    )
+
+                with row_cols[4]:
+                    if primary_value.is_integer():
+                        primary_display = (
+                            f"{int(primary_value):,}"
+                        )
+                    else:
+                        primary_display = (
+                            f"{primary_value:,.2f}"
+                        )
+
+                    st.markdown(
+                        f'<div class="player-board-value">'
+                        f'{primary_display}'
+                        f'</div>',
+                        unsafe_allow_html=True,
+                    )
+                    st.progress(
+                        power,
+                        text=None,
+                    )
+
+                with row_cols[5]:
+                    st.markdown(
+                        f'<div class="player-board-value">'
+                        f'{secondary_value:,.2f}'
+                        f'</div>',
+                        unsafe_allow_html=True,
+                    )
+
+    # Keep the two complete leaderboards side by side.
+    board_cols = st.columns(2)
+
+    with board_cols[0]:
+        _render_player_leaderboard(
+            batting_df,
+            "batting",
+        )
+
+    with board_cols[1]:
+        _render_player_leaderboard(
+            bowling_df,
+            "bowling",
+        )
 
 
 # Fantasy Cricket section
@@ -2109,38 +3379,256 @@ if section["key"] == "fantasy":
 
                     # Dynamic fantasy scout panel in the Streamlit sidebar
                     with st.sidebar:
+                        st.markdown(
+                            """
+                            <style>
+                            .scout-card-title {
+                                font-weight: 800;
+                                font-size: 0.82rem;
+                                line-height: 1.15;
+                            }
+
+                            .scout-card-stat {
+                                font-size: 1.28rem;
+                                font-weight: 850;
+                                line-height: 1.05;
+                                margin-top: 0.28rem;
+                            }
+
+                            .scout-card-label {
+                                color: rgba(255,255,255,0.62);
+                                font-size: 0.69rem;
+                                margin-top: 0.10rem;
+                            }
+
+                            .scout-card-target {
+                                color: rgba(255,255,255,0.50);
+                                font-size: 0.68rem;
+                                line-height: 1.2;
+                                margin-top: 0.28rem;
+                            }
+
+                            .scout-card-good {
+                                color: #79d99a;
+                            }
+
+                            .scout-card-watch {
+                                color: #ffd166;
+                            }
+                            </style>
+                            """,
+                            unsafe_allow_html=True,
+                        )
+
                         st.markdown("### 🧠 Scout Checklist")
                         st.caption(
                             f"Live assessment for **{selected_player}**"
                         )
 
+                        # Run production
                         with st.container(border=True):
-                            if average_runs >= 40:
-                                st.success("✅ Run production")
-                            else:
-                                st.warning("⚠️ Run production")
-                            st.caption(f"Avg {average_runs:.1f} runs")
+                            run_good = average_runs >= 40
+                            status_icon = "✅" if run_good else "⚠️"
+                            status_class = (
+                                "scout-card-good"
+                                if run_good
+                                else "scout-card-watch"
+                            )
+                            status_text = (
+                                "Strong run production"
+                                if run_good
+                                else "Run production to watch"
+                            )
+                            run_progress = min(
+                                max(average_runs / 40, 0.0),
+                                1.0,
+                            )
 
-                        with st.container(border=True):
-                            if average_sr >= 100:
-                                st.success("✅ Strike-rate boost")
-                            else:
-                                st.warning("⚠️ Strike-rate boost")
-                            st.caption(f"Avg SR {average_sr:.1f}")
+                            st.markdown(
+                                f'<div class="scout-card-title {status_class}">'
+                                f'{status_icon} {status_text}'
+                                f'</div>',
+                                unsafe_allow_html=True,
+                            )
+                            st.markdown(
+                                f'<div class="scout-card-stat">'
+                                f'{average_runs:.1f}'
+                                f'</div>',
+                                unsafe_allow_html=True,
+                            )
+                            st.markdown(
+                                '<div class="scout-card-label">'
+                                'Average runs per innings'
+                                '</div>',
+                                unsafe_allow_html=True,
+                            )
+                            st.progress(run_progress, text=None)
+                            st.markdown(
+                                '<div class="scout-card-target">'
+                                'Target: 40+ runs'
+                                '</div>',
+                                unsafe_allow_html=True,
+                            )
 
+                        # Strike-rate boost
                         with st.container(border=True):
-                            if fifty_count >= 2:
-                                st.success("🔥 Boundary potential")
-                            else:
-                                st.info("🔎 Boundary potential")
-                            st.caption(f"{fifty_count} score(s) of 50+")
+                            sr_good = average_sr >= 100
+                            status_icon = "✅" if sr_good else "⚠️"
+                            status_class = (
+                                "scout-card-good"
+                                if sr_good
+                                else "scout-card-watch"
+                            )
+                            status_text = (
+                                "Strike-rate boost"
+                                if sr_good
+                                else "Strike rate to watch"
+                            )
+                            sr_progress = min(
+                                max(average_sr / 100, 0.0),
+                                1.0,
+                            )
 
+                            st.markdown(
+                                f'<div class="scout-card-title {status_class}">'
+                                f'{status_icon} {status_text}'
+                                f'</div>',
+                                unsafe_allow_html=True,
+                            )
+                            st.markdown(
+                                f'<div class="scout-card-stat">'
+                                f'{average_sr:.1f}'
+                                f'</div>',
+                                unsafe_allow_html=True,
+                            )
+                            st.markdown(
+                                '<div class="scout-card-label">'
+                                'Average strike rate'
+                                '</div>',
+                                unsafe_allow_html=True,
+                            )
+                            st.progress(sr_progress, text=None)
+                            st.markdown(
+                                '<div class="scout-card-target">'
+                                'Target: 100+ SR'
+                                '</div>',
+                                unsafe_allow_html=True,
+                            )
+
+                        # Boundary potential
                         with st.container(border=True):
-                            if recent_avg >= average_runs:
-                                st.success("📈 Recent momentum")
-                            else:
-                                st.info("➖ Stable momentum")
-                            st.caption(f"Last 3 avg {recent_avg:.1f} runs")
+                            boundary_good = fifty_count >= 2
+                            status_icon = "🔥" if boundary_good else "🔎"
+                            status_class = (
+                                "scout-card-good"
+                                if boundary_good
+                                else "scout-card-watch"
+                            )
+                            status_text = (
+                                "Boundary potential"
+                                if boundary_good
+                                else "Boundary upside"
+                            )
+                            boundary_progress = min(
+                                max(fifty_count / 2, 0.0),
+                                1.0,
+                            )
+
+                            st.markdown(
+                                f'<div class="scout-card-title {status_class}">'
+                                f'{status_icon} {status_text}'
+                                f'</div>',
+                                unsafe_allow_html=True,
+                            )
+                            st.markdown(
+                                f'<div class="scout-card-stat">'
+                                f'{fifty_count}'
+                                f'</div>',
+                                unsafe_allow_html=True,
+                            )
+                            st.markdown(
+                                '<div class="scout-card-label">'
+                                'Scores of 50+ in available form'
+                                '</div>',
+                                unsafe_allow_html=True,
+                            )
+                            st.progress(
+                                boundary_progress,
+                                text=None,
+                            )
+                            st.markdown(
+                                '<div class="scout-card-target">'
+                                'Target: 2+ scores of 50'
+                                '</div>',
+                                unsafe_allow_html=True,
+                            )
+
+                        # Recent momentum
+                        with st.container(border=True):
+                            momentum_good = recent_avg >= average_runs
+                            status_icon = "📈" if momentum_good else "➖"
+                            status_class = (
+                                "scout-card-good"
+                                if momentum_good
+                                else "scout-card-watch"
+                            )
+                            status_text = (
+                                "Recent momentum"
+                                if momentum_good
+                                else "Stable momentum"
+                            )
+
+                            momentum_ratio = (
+                                recent_avg / average_runs
+                                if average_runs > 0
+                                else 0.0
+                            )
+                            momentum_progress = min(
+                                max(momentum_ratio, 0.0),
+                                1.0,
+                            )
+
+                            delta_runs = recent_avg - average_runs
+                            delta_text = (
+                                f"+{delta_runs:.1f}"
+                                if delta_runs >= 0
+                                else f"{delta_runs:.1f}"
+                            )
+
+                            st.markdown(
+                                f'<div class="scout-card-title {status_class}">'
+                                f'{status_icon} {status_text}'
+                                f'</div>',
+                                unsafe_allow_html=True,
+                            )
+                            st.markdown(
+                                f'<div class="scout-card-stat">'
+                                f'{recent_avg:.1f}'
+                                f'</div>',
+                                unsafe_allow_html=True,
+                            )
+                            st.markdown(
+                                '<div class="scout-card-label">'
+                                'Average runs across last 3 innings'
+                                '</div>',
+                                unsafe_allow_html=True,
+                            )
+                            st.progress(
+                                momentum_progress,
+                                text=None,
+                            )
+                            st.markdown(
+                                f'<div class="scout-card-target">'
+                                f'vs overall average: {delta_text} runs'
+                                f'</div>',
+                                unsafe_allow_html=True,
+                            )
+
+                        st.caption(
+                            "💡 The indicators update automatically when you "
+                            "switch the selected player."
+                        )
+
 
         # Head-to-head
         with fantasy_tabs[1]:

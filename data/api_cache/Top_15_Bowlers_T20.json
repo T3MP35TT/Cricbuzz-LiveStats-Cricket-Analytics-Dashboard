@@ -1,0 +1,144 @@
+{
+  "title": "Top_15_Bowlers_T20",
+  "role": "bowler",
+  "match_type": "t20",
+  "top_n": 15,
+  "player_count": 15,
+  "players": [
+    {
+      "rank": 1,
+      "player_id": "10738",
+      "player": "Rashid Khan",
+      "matches": "115",
+      "overs": "438.2",
+      "wickets": "193",
+      "economy": "6.05"
+    },
+    {
+      "rank": 2,
+      "player_id": "1742",
+      "player": "Adil Rashid",
+      "matches": "150",
+      "overs": "521.4",
+      "wickets": "169",
+      "economy": "7.54"
+    },
+    {
+      "rank": 3,
+      "player_id": "8561",
+      "player": "Ish Sodhi",
+      "matches": "141",
+      "overs": "465.2",
+      "wickets": "165",
+      "economy": "8.16"
+    },
+    {
+      "rank": 4,
+      "player_id": "1057",
+      "player": "Southee",
+      "matches": "126",
+      "overs": "458.5",
+      "wickets": "164",
+      "economy": "8.00"
+    },
+    {
+      "rank": 5,
+      "player_id": "10926",
+      "player": "Wanindu Hasaranga",
+      "matches": "98",
+      "overs": "364.0",
+      "wickets": "161",
+      "economy": "7.03"
+    },
+    {
+      "rank": 6,
+      "player_id": "9863",
+      "player": "Mustafizur Rahman",
+      "matches": "128",
+      "overs": "462.0",
+      "wickets": "160",
+      "economy": "7.28"
+    },
+    {
+      "rank": 7,
+      "player_id": "8642",
+      "player": "Adam Zampa",
+      "matches": "118",
+      "overs": "423.1",
+      "wickets": "153",
+      "economy": "7.36"
+    },
+    {
+      "rank": 8,
+      "player_id": "11485",
+      "player": "Ehsan Khan",
+      "matches": "111",
+      "overs": "393.3",
+      "wickets": "152",
+      "economy": "6.18"
+    },
+    {
+      "rank": 9,
+      "player_id": "544",
+      "player": "Shakib Al Hasan",
+      "matches": "129",
+      "overs": "457.3",
+      "wickets": "149",
+      "economy": "6.81"
+    },
+    {
+      "rank": 10,
+      "player_id": "34534",
+      "player": "Rizwan Butt",
+      "matches": "95",
+      "overs": "339.5",
+      "wickets": "145",
+      "economy": "6.78"
+    },
+    {
+      "rank": 11,
+      "player_id": "11158",
+      "player": "Sandeep Lamichhane",
+      "matches": "78",
+      "overs": "294.4",
+      "wickets": "142",
+      "economy": "6.15"
+    },
+    {
+      "rank": 12,
+      "player_id": "10100",
+      "player": "Mitchell Santner",
+      "matches": "137",
+      "overs": "472.0",
+      "wickets": "142",
+      "economy": "7.18"
+    },
+    {
+      "rank": 13,
+      "player_id": "10449",
+      "player": "Mark Adair",
+      "matches": "100",
+      "overs": "359.3",
+      "wickets": "142",
+      "economy": "7.83"
+    },
+    {
+      "rank": 14,
+      "player_id": "12160",
+      "player": "Shaheen Afridi",
+      "matches": "103",
+      "overs": "370.3",
+      "wickets": "136",
+      "economy": "7.84"
+    },
+    {
+      "rank": 15,
+      "player_id": "13217",
+      "player": "Arshdeep Singh",
+      "matches": "91",
+      "overs": "317.1",
+      "wickets": "135",
+      "economy": "8.56"
+    }
+  ]
+}

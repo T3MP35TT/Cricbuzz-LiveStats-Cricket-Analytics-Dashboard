@@ -1,0 +1,144 @@
+{
+  "title": "Top_15_Bowlers_ODI",
+  "role": "bowler",
+  "match_type": "odi",
+  "top_n": 15,
+  "player_count": 15,
+  "players": [
+    {
+      "rank": 1,
+      "player_id": "110",
+      "player": "Muthiah Muralidaran",
+      "matches": "350",
+      "overs": "3135.1",
+      "wickets": "534",
+      "economy": "3.93"
+    },
+    {
+      "rank": 2,
+      "player_id": "3688",
+      "player": "W Akram",
+      "matches": "356",
+      "overs": "3031.0",
+      "wickets": "502",
+      "economy": "3.90"
+    },
+    {
+      "rank": 3,
+      "player_id": "3706",
+      "player": "W Younis",
+      "matches": "262",
+      "overs": "2116.2",
+      "wickets": "416",
+      "economy": "4.69"
+    },
+    {
+      "rank": 4,
+      "player_id": "108",
+      "player": "C Vaas",
+      "matches": "322",
+      "overs": "2629.1",
+      "wickets": "400",
+      "economy": "4.19"
+    },
+    {
+      "rank": 5,
+      "player_id": "142",
+      "player": "Afridi",
+      "matches": "398",
+      "overs": "2945.0",
+      "wickets": "395",
+      "economy": "4.63"
+    },
+    {
+      "rank": 6,
+      "player_id": "218",
+      "player": "S Pollock",
+      "matches": "303",
+      "overs": "2618.4",
+      "wickets": "393",
+      "economy": "3.68"
+    },
+    {
+      "rank": 7,
+      "player_id": "41",
+      "player": "Glenn McGrath",
+      "matches": "250",
+      "overs": "2161.4",
+      "wickets": "381",
+      "economy": "3.88"
+    },
+    {
+      "rank": 8,
+      "player_id": "42",
+      "player": "Brett Lee",
+      "matches": "221",
+      "overs": "1864.1",
+      "wickets": "380",
+      "economy": "4.76"
+    },
+    {
+      "rank": 9,
+      "player_id": "111",
+      "player": "Malinga",
+      "matches": "226",
+      "overs": "1822.4",
+      "wickets": "338",
+      "economy": "5.35"
+    },
+    {
+      "rank": 10,
+      "player_id": "98",
+      "player": "A Kumble",
+      "matches": "271",
+      "overs": "2416.0",
+      "wickets": "337",
+      "economy": "4.31"
+    },
+    {
+      "rank": 11,
+      "player_id": "102",
+      "player": "S Jayasuriya",
+      "matches": "445",
+      "overs": "2479.0",
+      "wickets": "323",
+      "economy": "4.79"
+    },
+    {
+      "rank": 12,
+      "player_id": "544",
+      "player": "Shakib Al Hasan",
+      "matches": "247",
+      "overs": "2095.5",
+      "wickets": "317",
+      "economy": "4.47"
+    },
+    {
+      "rank": 13,
+      "player_id": "3894",
+      "player": "J Srinath",
+      "matches": "229",
+      "overs": "1989.1",
+      "wickets": "315",
+      "economy": "4.45"
+    },
+    {
+      "rank": 14,
+      "player_id": "205",
+      "player": "Vettori",
+      "matches": "295",
+      "overs": "2343.2",
+      "wickets": "305",
+      "economy": "4.13"
+    },
+    {
+      "rank": 15,
+      "player_id": "135",
+      "player": "S Warne",
+      "matches": "194",
+      "overs": "1773.4",
+      "wickets": "293",
+      "economy": "4.25"
+    }
+  ]
+}

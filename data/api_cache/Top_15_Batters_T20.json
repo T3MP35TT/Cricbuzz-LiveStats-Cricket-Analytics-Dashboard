@@ -1,0 +1,144 @@
+{
+  "title": "Top_15_Batters_T20",
+  "role": "batter",
+  "match_type": "t20",
+  "top_n": 15,
+  "player_count": 15,
+  "players": [
+    {
+      "rank": 1,
+      "player_id": "8359",
+      "player": "Babar Azam",
+      "matches": "144",
+      "innings": "136",
+      "runs": "4596",
+      "strike_rate": "128.02"
+    },
+    {
+      "rank": 2,
+      "player_id": "576",
+      "player": "Rohit Sharma",
+      "matches": "159",
+      "innings": "151",
+      "runs": "4231",
+      "strike_rate": "140.89"
+    },
+    {
+      "rank": 3,
+      "player_id": "2258",
+      "player": "Jos Buttler",
+      "matches": "160",
+      "innings": "147",
+      "runs": "4212",
+      "strike_rate": "148.94"
+    },
+    {
+      "rank": 4,
+      "player_id": "1413",
+      "player": "Virat Kohli",
+      "matches": "125",
+      "innings": "117",
+      "runs": "4188",
+      "strike_rate": "137.04"
+    },
+    {
+      "rank": 5,
+      "player_id": "1114",
+      "player": "Paul Stirling",
+      "matches": "163",
+      "innings": "160",
+      "runs": "3895",
+      "strike_rate": "134.36"
+    },
+    {
+      "rank": 6,
+      "player_id": "1457",
+      "player": "Martin Guptill",
+      "matches": "122",
+      "innings": "118",
+      "runs": "3531",
+      "strike_rate": "135.70"
+    },
+    {
+      "rank": 7,
+      "player_id": "9468",
+      "player": "Mohammad Rizwan",
+      "matches": "106",
+      "innings": "93",
+      "runs": "3414",
+      "strike_rate": "125.38"
+    },
+    {
+      "rank": 8,
+      "player_id": "18987",
+      "player": "Muhammad Waseem",
+      "matches": "99",
+      "innings": "99",
+      "runs": "3371",
+      "strike_rate": "150.96"
+    },
+    {
+      "rank": 9,
+      "player_id": "12163",
+      "player": "Virandeep Singh",
+      "matches": "122",
+      "innings": "113",
+      "runs": "3370",
+      "strike_rate": "127.70"
+    },
+    {
+      "rank": 10,
+      "player_id": "1739",
+      "player": "David Warner",
+      "matches": "110",
+      "innings": "110",
+      "runs": "3277",
+      "strike_rate": "142.48"
+    },
+    {
+      "rank": 11,
+      "player_id": "7915",
+      "player": "Suryakumar Yadav",
+      "matches": "113",
+      "innings": "107",
+      "runs": "3272",
+      "strike_rate": "162.95"
+    },
+    {
+      "rank": 12,
+      "player_id": "9354",
+      "player": "Sikandar Raza",
+      "matches": "144",
+      "innings": "139",
+      "runs": "3244",
+      "strike_rate": "135.68"
+    },
+    {
+      "rank": 13,
+      "player_id": "1643",
+      "player": "Aaron Finch",
+      "matches": "103",
+      "innings": "103",
+      "runs": "3120",
+      "strike_rate": "142.53"
+    },
+    {
+      "rank": 14,
+      "player_id": "8520",
+      "player": "Quinton de Kock",
+      "matches": "110",
+      "innings": "109",
+      "runs": "3095",
+      "strike_rate": "142.23"
+    },
+    {
+      "rank": 15,
+      "player_id": "12108",
+      "player": "Syed Aziz",
+      "matches": "128",
+      "innings": "119",
+      "runs": "3027",
+      "strike_rate": "139.94"
+    }
+  ]
+}
