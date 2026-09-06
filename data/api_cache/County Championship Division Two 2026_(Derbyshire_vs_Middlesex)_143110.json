@@ -1,0 +1,59 @@
+{
+  "matchInfo": {
+    "matchId": 143110,
+    "seriesId": 11416,
+    "seriesName": "County Championship Division Two 2026",
+    "matchDesc": "37th Match",
+    "matchFormat": "TEST",
+    "startDate": "1787824800000",
+    "endDate": "1788109200000",
+    "state": "Complete",
+    "status": "Match drawn",
+    "team1": {
+      "teamId": 144,
+      "teamName": "Derbyshire",
+      "teamSName": "DERBY",
+      "imageId": 172211
+    },
+    "team2": {
+      "teamId": 74,
+      "teamName": "Middlesex",
+      "teamSName": "MDX",
+      "imageId": 172170
+    },
+    "venueInfo": {
+      "id": 226,
+      "ground": "County Ground",
+      "city": "Derby",
+      "timezone": "+01:00",
+      "latitude": "52.927517",
+      "longitude": "-1.461188"
+    },
+    "seriesStartDt": "1775174400000",
+    "seriesEndDt": "1790640000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "Complete"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 131,
+        "wickets": 10,
+        "overs": 49.1
+      },
+      "inngs2": {
+        "inningsId": 3,
+        "runs": 111,
+        "wickets": 3,
+        "overs": 36.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "isDeclared": true
+      }
+    }
+  }
+}
