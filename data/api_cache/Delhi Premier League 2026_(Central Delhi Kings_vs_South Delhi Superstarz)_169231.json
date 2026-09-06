@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 169231,
+    "seriesId": 12851,
+    "seriesName": "Delhi Premier League 2026",
+    "matchDesc": "Final",
+    "matchFormat": "T20",
+    "startDate": "1788100200000",
+    "endDate": "1788112800000",
+    "state": "Complete",
+    "status": "South Delhi Superstarz won by 7 wkts",
+    "team1": {
+      "teamId": 2620,
+      "teamName": "Central Delhi Kings",
+      "teamSName": "CDK",
+      "imageId": 731747
+    },
+    "team2": {
+      "teamId": 2590,
+      "teamName": "South Delhi Superstarz",
+      "teamSName": "SDS",
+      "imageId": 731744
+    },
+    "venueInfo": {
+      "id": 51,
+      "ground": "Arun Jaitley Stadium",
+      "city": "Delhi",
+      "timezone": "+05:30",
+      "latitude": "28.637891",
+      "longitude": "77.243073"
+    },
+    "currBatTeamId": 2590,
+    "seriesStartDt": "1785456000000",
+    "seriesEndDt": "1788220800000",
+    "isTimeAnnounced": true,
+    "stateTitle": "SDS Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 182,
+        "wickets": 8,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 186,
+        "wickets": 3,
+        "overs": 18.2
+      }
+    }
+  }
+}
