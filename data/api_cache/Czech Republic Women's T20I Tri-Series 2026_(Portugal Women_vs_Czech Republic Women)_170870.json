@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 170870,
+    "seriesId": 13060,
+    "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
+    "matchDesc": "6th Match",
+    "matchFormat": "T20",
+    "startDate": "1788618600000",
+    "endDate": "1788631200000",
+    "state": "Complete",
+    "status": "Czech Republic Women won by 6 wkts",
+    "team1": {
+      "teamId": 2380,
+      "teamName": "Portugal Women",
+      "teamSName": "PORTW",
+      "imageId": 625937
+    },
+    "team2": {
+      "teamId": 1987,
+      "teamName": "Czech Republic Women",
+      "teamSName": "CZEW",
+      "imageId": 501075
+    },
+    "venueInfo": {
+      "id": 941,
+      "ground": "Scott Page Field, Vinor",
+      "city": "Prague",
+      "timezone": "+02:00",
+      "latitude": "50.0755",
+      "longitude": "14.4378"
+    },
+    "currBatTeamId": 1987,
+    "seriesStartDt": "1788480000000",
+    "seriesEndDt": "1788825600000",
+    "isTimeAnnounced": true,
+    "stateTitle": "Complete"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 126,
+        "wickets": 10,
+        "overs": 19.2
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 127,
+        "wickets": 4,
+        "overs": 19.6
+      }
+    }
+  }
+}
