@@ -87,6 +87,62 @@
             "matches": [
               {
                 "matchInfo": {
+                  "matchId": 170011,
+                  "seriesId": 12933,
+                  "seriesName": "Namibia T20I Tri-Series 2026",
+                  "matchDesc": "6th Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788523200000",
+                  "endDate": "1788535800000",
+                  "state": "Complete",
+                  "status": "South Africa won by 11 runs",
+                  "team1": {
+                    "teamId": 11,
+                    "teamName": "South Africa",
+                    "teamSName": "RSA",
+                    "imageId": 776287
+                  },
+                  "team2": {
+                    "teamId": 161,
+                    "teamName": "Namibia",
+                    "teamSName": "NAM",
+                    "imageId": 776326
+                  },
+                  "venueInfo": {
+                    "id": 1438021,
+                    "ground": "Namibia Cricket Ground",
+                    "city": " Windhoek",
+                    "timezone": "+02:00",
+                    "latitude": "-22.5872377",
+                    "longitude": "17.0677249"
+                  },
+                  "currBatTeamId": 11,
+                  "seriesStartDt": "1787875200000",
+                  "seriesEndDt": "1788825600000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "RSA Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 228,
+                      "wickets": 4,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 217,
+                      "wickets": 3,
+                      "overs": 19.6
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
                   "matchId": 170000,
                   "seriesId": 12933,
                   "seriesName": "Namibia T20I Tri-Series 2026",
@@ -143,20 +199,20 @@
               },
               {
                 "matchInfo": {
-                  "matchId": 170011,
+                  "matchId": 169991,
                   "seriesId": 12933,
                   "seriesName": "Namibia T20I Tri-Series 2026",
-                  "matchDesc": "6th Match",
+                  "matchDesc": "3rd Match",
                   "matchFormat": "T20",
-                  "startDate": "1788523200000",
-                  "endDate": "1788535800000",
+                  "startDate": "1788177600000",
+                  "endDate": "1788190200000",
                   "state": "Complete",
-                  "status": "South Africa won by 11 runs",
+                  "status": "Zimbabwe won by 5 runs",
                   "team1": {
-                    "teamId": 11,
-                    "teamName": "South Africa",
-                    "teamSName": "RSA",
-                    "imageId": 776287
+                    "teamId": 12,
+                    "teamName": "Zimbabwe",
+                    "teamSName": "ZIM",
+                    "imageId": 776198
                   },
                   "team2": {
                     "teamId": 161,
@@ -172,26 +228,26 @@
                     "latitude": "-22.5872377",
                     "longitude": "17.0677249"
                   },
-                  "currBatTeamId": 11,
+                  "currBatTeamId": 12,
                   "seriesStartDt": "1787875200000",
                   "seriesEndDt": "1788825600000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "RSA Won"
+                  "stateTitle": "ZIM Won"
                 },
                 "matchScore": {
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 228,
-                      "wickets": 4,
+                      "runs": 195,
+                      "wickets": 6,
                       "overs": 19.6
                     }
                   },
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 217,
-                      "wickets": 3,
+                      "runs": 190,
+                      "wickets": 10,
                       "overs": 19.6
                     }
                   }
@@ -252,62 +308,6 @@
                     }
                   }
                 }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 169991,
-                  "seriesId": 12933,
-                  "seriesName": "Namibia T20I Tri-Series 2026",
-                  "matchDesc": "3rd Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788177600000",
-                  "endDate": "1788190200000",
-                  "state": "Complete",
-                  "status": "Zimbabwe won by 5 runs",
-                  "team1": {
-                    "teamId": 12,
-                    "teamName": "Zimbabwe",
-                    "teamSName": "ZIM",
-                    "imageId": 776198
-                  },
-                  "team2": {
-                    "teamId": 161,
-                    "teamName": "Namibia",
-                    "teamSName": "NAM",
-                    "imageId": 776326
-                  },
-                  "venueInfo": {
-                    "id": 1438021,
-                    "ground": "Namibia Cricket Ground",
-                    "city": " Windhoek",
-                    "timezone": "+02:00",
-                    "latitude": "-22.5872377",
-                    "longitude": "17.0677249"
-                  },
-                  "currBatTeamId": 12,
-                  "seriesStartDt": "1787875200000",
-                  "seriesEndDt": "1788825600000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "ZIM Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 195,
-                      "wickets": 6,
-                      "overs": 19.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 190,
-                      "wickets": 10,
-                      "overs": 19.6
-                    }
-                  }
-                }
               }
             ]
           }
@@ -322,6 +322,62 @@
             "seriesId": 12123,
             "seriesName": "Caribbean Premier League 2026",
             "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 154584,
+                  "seriesId": 12123,
+                  "seriesName": "Caribbean Premier League 2026",
+                  "matchDesc": "27th Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788652800000",
+                  "endDate": "1788665400000",
+                  "state": "Complete",
+                  "status": "Trinbago Knight Riders won by 35 runs",
+                  "team1": {
+                    "teamId": 271,
+                    "teamName": "Trinbago Knight Riders",
+                    "teamSName": "TKR",
+                    "imageId": 825110
+                  },
+                  "team2": {
+                    "teamId": 262,
+                    "teamName": "Barbados Tridents",
+                    "teamSName": "BBT",
+                    "imageId": 1050666
+                  },
+                  "venueInfo": {
+                    "id": 55,
+                    "ground": "Kensington Oval",
+                    "city": "Bridgetown, Barbados",
+                    "timezone": "-04:00",
+                    "latitude": "13.105021",
+                    "longitude": "-59.62257"
+                  },
+                  "currBatTeamId": 271,
+                  "seriesStartDt": "1786060800000",
+                  "seriesEndDt": "1790035200000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "TKR Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 147,
+                      "wickets": 6,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 112,
+                      "wickets": 10,
+                      "overs": 18.3
+                    }
+                  }
+                }
+              },
               {
                 "matchInfo": {
                   "matchId": 154524,
@@ -473,56 +529,56 @@
               },
               {
                 "matchInfo": {
-                  "matchId": 154540,
+                  "matchId": 154535,
                   "seriesId": 12123,
                   "seriesName": "Caribbean Premier League 2026",
-                  "matchDesc": "23rd Match",
+                  "matchDesc": "22nd Match",
                   "matchFormat": "T20",
-                  "startDate": "1788303600000",
-                  "endDate": "1788316200000",
+                  "startDate": "1788210000000",
+                  "endDate": "1788222600000",
                   "state": "Complete",
-                  "status": "St Kitts and Nevis Patriots won by 6 wkts",
+                  "status": "Guyana Amazon Warriors won by 9 runs (DLS Method), TKR target 182",
                   "team1": {
-                    "teamId": 262,
-                    "teamName": "Barbados Tridents",
-                    "teamSName": "BBT",
-                    "imageId": 1050666
+                    "teamId": 159,
+                    "teamName": "Guyana Amazon Warriors",
+                    "teamSName": "GAW",
+                    "imageId": 825126
                   },
                   "team2": {
-                    "teamId": 302,
-                    "teamName": "St Kitts and Nevis Patriots",
-                    "teamSName": "SNP",
-                    "imageId": 825128
+                    "teamId": 271,
+                    "teamName": "Trinbago Knight Riders",
+                    "teamSName": "TKR",
+                    "imageId": 825110
                   },
                   "venueInfo": {
-                    "id": 96,
-                    "ground": "Warner Park",
-                    "city": "Basseterre, St Kitts",
+                    "id": 54,
+                    "ground": "Queen's Park Oval",
+                    "city": "Port of Spain, Trinidad",
                     "timezone": "-04:00",
-                    "latitude": "17.298562",
-                    "longitude": "-62.723093"
+                    "latitude": "10.667461",
+                    "longitude": "-61.523717"
                   },
-                  "currBatTeamId": 302,
+                  "currBatTeamId": 159,
                   "seriesStartDt": "1786060800000",
                   "seriesEndDt": "1790035200000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "SNP Won"
+                  "stateTitle": "GAW Won"
                 },
                 "matchScore": {
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 217,
-                      "wickets": 4,
-                      "overs": 19.6
+                      "runs": 185,
+                      "wickets": 5,
+                      "overs": 15.6
                     }
                   },
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 220,
-                      "wickets": 4,
-                      "overs": 19.1
+                      "runs": 172,
+                      "wickets": 7,
+                      "overs": 15.6
                     }
                   }
                 }
@@ -585,112 +641,56 @@
               },
               {
                 "matchInfo": {
-                  "matchId": 154535,
+                  "matchId": 154540,
                   "seriesId": 12123,
                   "seriesName": "Caribbean Premier League 2026",
-                  "matchDesc": "22nd Match",
+                  "matchDesc": "23rd Match",
                   "matchFormat": "T20",
-                  "startDate": "1788210000000",
-                  "endDate": "1788222600000",
+                  "startDate": "1788303600000",
+                  "endDate": "1788316200000",
                   "state": "Complete",
-                  "status": "Guyana Amazon Warriors won by 9 runs (DLS Method), TKR target 182",
+                  "status": "St Kitts and Nevis Patriots won by 6 wkts",
                   "team1": {
-                    "teamId": 159,
-                    "teamName": "Guyana Amazon Warriors",
-                    "teamSName": "GAW",
-                    "imageId": 825126
-                  },
-                  "team2": {
-                    "teamId": 271,
-                    "teamName": "Trinbago Knight Riders",
-                    "teamSName": "TKR",
-                    "imageId": 825110
-                  },
-                  "venueInfo": {
-                    "id": 54,
-                    "ground": "Queen's Park Oval",
-                    "city": "Port of Spain, Trinidad",
-                    "timezone": "-04:00",
-                    "latitude": "10.667461",
-                    "longitude": "-61.523717"
-                  },
-                  "currBatTeamId": 159,
-                  "seriesStartDt": "1786060800000",
-                  "seriesEndDt": "1790035200000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "GAW Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 185,
-                      "wickets": 5,
-                      "overs": 15.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 172,
-                      "wickets": 7,
-                      "overs": 15.6
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 154584,
-                  "seriesId": 12123,
-                  "seriesName": "Caribbean Premier League 2026",
-                  "matchDesc": "27th Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788652800000",
-                  "endDate": "1788665400000",
-                  "state": "Complete",
-                  "status": "Trinbago Knight Riders won by 35 runs",
-                  "team1": {
-                    "teamId": 271,
-                    "teamName": "Trinbago Knight Riders",
-                    "teamSName": "TKR",
-                    "imageId": 825110
-                  },
-                  "team2": {
                     "teamId": 262,
                     "teamName": "Barbados Tridents",
                     "teamSName": "BBT",
                     "imageId": 1050666
                   },
-                  "venueInfo": {
-                    "id": 55,
-                    "ground": "Kensington Oval",
-                    "city": "Bridgetown, Barbados",
-                    "timezone": "-04:00",
-                    "latitude": "13.105021",
-                    "longitude": "-59.62257"
+                  "team2": {
+                    "teamId": 302,
+                    "teamName": "St Kitts and Nevis Patriots",
+                    "teamSName": "SNP",
+                    "imageId": 825128
                   },
-                  "currBatTeamId": 271,
+                  "venueInfo": {
+                    "id": 96,
+                    "ground": "Warner Park",
+                    "city": "Basseterre, St Kitts",
+                    "timezone": "-04:00",
+                    "latitude": "17.298562",
+                    "longitude": "-62.723093"
+                  },
+                  "currBatTeamId": 302,
                   "seriesStartDt": "1786060800000",
                   "seriesEndDt": "1790035200000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "TKR Won"
+                  "stateTitle": "SNP Won"
                 },
                 "matchScore": {
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 147,
-                      "wickets": 6,
+                      "runs": 217,
+                      "wickets": 4,
                       "overs": 19.6
                     }
                   },
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 112,
-                      "wickets": 10,
-                      "overs": 18.3
+                      "runs": 220,
+                      "wickets": 4,
+                      "overs": 19.1
                     }
                   }
                 }
@@ -699,10 +699,185 @@
           }
         },
         {
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 3
+          }
+        },
+        {
           "seriesAdWrapper": {
             "seriesId": 12870,
             "seriesName": "European T20 Premier League 2026",
             "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 169340,
+                  "seriesId": 12870,
+                  "seriesName": "European T20 Premier League 2026",
+                  "matchDesc": "15th Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788614100000",
+                  "endDate": "1788626700000",
+                  "state": "Complete",
+                  "status": "Amsterdam Flames won by 9 runs",
+                  "team1": {
+                    "teamId": 572,
+                    "teamName": "Amsterdam Flames",
+                    "teamSName": "ADF",
+                    "imageId": 1044576
+                  },
+                  "team2": {
+                    "teamId": 576,
+                    "teamName": "Dublin Guardians",
+                    "teamSName": "DBG",
+                    "imageId": 1061703
+                  },
+                  "venueInfo": {
+                    "id": 1437791,
+                    "ground": "Sportpark Duivesteijn",
+                    "city": "Voorburg",
+                    "timezone": "+02:00",
+                    "latitude": "52.0848131",
+                    "longitude": "4.3662509"
+                  },
+                  "currBatTeamId": 572,
+                  "seriesStartDt": "1787702400000",
+                  "seriesEndDt": "1790035200000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "ADF Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 169,
+                      "wickets": 7,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 160,
+                      "wickets": 8,
+                      "overs": 19.6
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 169320,
+                  "seriesId": 12870,
+                  "seriesName": "European T20 Premier League 2026",
+                  "matchDesc": "12th Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788441300000",
+                  "endDate": "1788453900000",
+                  "state": "Complete",
+                  "status": "Amsterdam Flames won by 7 wkts",
+                  "team1": {
+                    "teamId": 575,
+                    "teamName": "Glasgow Cosmic",
+                    "teamSName": "GGC",
+                    "imageId": 1044580
+                  },
+                  "team2": {
+                    "teamId": 572,
+                    "teamName": "Amsterdam Flames",
+                    "teamSName": "ADF",
+                    "imageId": 1044576
+                  },
+                  "venueInfo": {
+                    "id": 1437791,
+                    "ground": "Sportpark Duivesteijn",
+                    "city": "Voorburg",
+                    "timezone": "+02:00",
+                    "latitude": "52.0848131",
+                    "longitude": "4.3662509"
+                  },
+                  "currBatTeamId": 572,
+                  "seriesStartDt": "1787702400000",
+                  "seriesEndDt": "1790035200000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "ADF Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 171,
+                      "wickets": 8,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 177,
+                      "wickets": 3,
+                      "overs": 16.5
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 169337,
+                  "seriesId": 12870,
+                  "seriesName": "European T20 Premier League 2026",
+                  "matchDesc": "14th Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788600600000",
+                  "endDate": "1788613200000",
+                  "state": "Complete",
+                  "status": "Edinburgh Castle Rockers won by 55 runs",
+                  "team1": {
+                    "teamId": 574,
+                    "teamName": "Edinburgh Castle Rockers",
+                    "teamSName": "ECR",
+                    "imageId": 1044579
+                  },
+                  "team2": {
+                    "teamId": 573,
+                    "teamName": "Rotterdam Dockers",
+                    "teamSName": "RDD",
+                    "imageId": 1044574
+                  },
+                  "venueInfo": {
+                    "id": 1437791,
+                    "ground": "Sportpark Duivesteijn",
+                    "city": "Voorburg",
+                    "timezone": "+02:00",
+                    "latitude": "52.0848131",
+                    "longitude": "4.3662509"
+                  },
+                  "currBatTeamId": 574,
+                  "seriesStartDt": "1787702400000",
+                  "seriesEndDt": "1790035200000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "ECR Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 148,
+                      "wickets": 10,
+                      "overs": 19.3
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 93,
+                      "wickets": 10,
+                      "overs": 17.6
+                    }
+                  }
+                }
+              },
               {
                 "matchInfo": {
                   "matchId": 169330,
@@ -761,26 +936,26 @@
               },
               {
                 "matchInfo": {
-                  "matchId": 169340,
+                  "matchId": 169293,
                   "seriesId": 12870,
                   "seriesName": "European T20 Premier League 2026",
-                  "matchDesc": "15th Match",
+                  "matchDesc": "8th Match",
                   "matchFormat": "T20",
-                  "startDate": "1788614100000",
-                  "endDate": "1788626700000",
+                  "startDate": "1788095700000",
+                  "endDate": "1788108300000",
                   "state": "Complete",
-                  "status": "Amsterdam Flames won by 9 runs",
+                  "status": "Edinburgh Castle Rockers won by 4 wkts",
                   "team1": {
-                    "teamId": 572,
-                    "teamName": "Amsterdam Flames",
-                    "teamSName": "ADF",
-                    "imageId": 1044576
-                  },
-                  "team2": {
                     "teamId": 576,
                     "teamName": "Dublin Guardians",
                     "teamSName": "DBG",
                     "imageId": 1061703
+                  },
+                  "team2": {
+                    "teamId": 574,
+                    "teamName": "Edinburgh Castle Rockers",
+                    "teamSName": "ECR",
+                    "imageId": 1044579
                   },
                   "venueInfo": {
                     "id": 1437791,
@@ -790,27 +965,27 @@
                     "latitude": "52.0848131",
                     "longitude": "4.3662509"
                   },
-                  "currBatTeamId": 572,
+                  "currBatTeamId": 574,
                   "seriesStartDt": "1787702400000",
                   "seriesEndDt": "1790035200000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "ADF Won"
+                  "stateTitle": "ECR Won"
                 },
                 "matchScore": {
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 169,
-                      "wickets": 7,
-                      "overs": 19.6
+                      "runs": 109,
+                      "wickets": 10,
+                      "overs": 17.6
                     }
                   },
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 160,
-                      "wickets": 8,
-                      "overs": 19.6
+                      "runs": 110,
+                      "wickets": 6,
+                      "overs": 13.4
                     }
                   }
                 }
@@ -929,118 +1104,6 @@
               },
               {
                 "matchInfo": {
-                  "matchId": 169300,
-                  "seriesId": 12870,
-                  "seriesName": "European T20 Premier League 2026",
-                  "matchDesc": "9th Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788268500000",
-                  "endDate": "1788281100000",
-                  "state": "Complete",
-                  "status": "Rotterdam Dockers won by 5 wkts",
-                  "team1": {
-                    "teamId": 575,
-                    "teamName": "Glasgow Cosmic",
-                    "teamSName": "GGC",
-                    "imageId": 1044580
-                  },
-                  "team2": {
-                    "teamId": 573,
-                    "teamName": "Rotterdam Dockers",
-                    "teamSName": "RDD",
-                    "imageId": 1044574
-                  },
-                  "venueInfo": {
-                    "id": 1437791,
-                    "ground": "Sportpark Duivesteijn",
-                    "city": "Voorburg",
-                    "timezone": "+02:00",
-                    "latitude": "52.0848131",
-                    "longitude": "4.3662509"
-                  },
-                  "currBatTeamId": 573,
-                  "seriesStartDt": "1787702400000",
-                  "seriesEndDt": "1790035200000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "RDD Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 140,
-                      "wickets": 9,
-                      "overs": 19.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 141,
-                      "wickets": 5,
-                      "overs": 19.5
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 169337,
-                  "seriesId": 12870,
-                  "seriesName": "European T20 Premier League 2026",
-                  "matchDesc": "14th Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788600600000",
-                  "endDate": "1788613200000",
-                  "state": "Complete",
-                  "status": "Edinburgh Castle Rockers won by 55 runs",
-                  "team1": {
-                    "teamId": 574,
-                    "teamName": "Edinburgh Castle Rockers",
-                    "teamSName": "ECR",
-                    "imageId": 1044579
-                  },
-                  "team2": {
-                    "teamId": 573,
-                    "teamName": "Rotterdam Dockers",
-                    "teamSName": "RDD",
-                    "imageId": 1044574
-                  },
-                  "venueInfo": {
-                    "id": 1437791,
-                    "ground": "Sportpark Duivesteijn",
-                    "city": "Voorburg",
-                    "timezone": "+02:00",
-                    "latitude": "52.0848131",
-                    "longitude": "4.3662509"
-                  },
-                  "currBatTeamId": 574,
-                  "seriesStartDt": "1787702400000",
-                  "seriesEndDt": "1790035200000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "ECR Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 148,
-                      "wickets": 10,
-                      "overs": 19.3
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 93,
-                      "wickets": 10,
-                      "overs": 17.6
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 169283,
                   "seriesId": 12870,
                   "seriesName": "European T20 Premier League 2026",
@@ -1097,15 +1160,15 @@
               },
               {
                 "matchInfo": {
-                  "matchId": 169320,
+                  "matchId": 169300,
                   "seriesId": 12870,
                   "seriesName": "European T20 Premier League 2026",
-                  "matchDesc": "12th Match",
+                  "matchDesc": "9th Match",
                   "matchFormat": "T20",
-                  "startDate": "1788441300000",
-                  "endDate": "1788453900000",
+                  "startDate": "1788268500000",
+                  "endDate": "1788281100000",
                   "state": "Complete",
-                  "status": "Amsterdam Flames won by 7 wkts",
+                  "status": "Rotterdam Dockers won by 5 wkts",
                   "team1": {
                     "teamId": 575,
                     "teamName": "Glasgow Cosmic",
@@ -1113,10 +1176,10 @@
                     "imageId": 1044580
                   },
                   "team2": {
-                    "teamId": 572,
-                    "teamName": "Amsterdam Flames",
-                    "teamSName": "ADF",
-                    "imageId": 1044576
+                    "teamId": 573,
+                    "teamName": "Rotterdam Dockers",
+                    "teamSName": "RDD",
+                    "imageId": 1044574
                   },
                   "venueInfo": {
                     "id": 1437791,
@@ -1126,83 +1189,27 @@
                     "latitude": "52.0848131",
                     "longitude": "4.3662509"
                   },
-                  "currBatTeamId": 572,
+                  "currBatTeamId": 573,
                   "seriesStartDt": "1787702400000",
                   "seriesEndDt": "1790035200000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "ADF Won"
+                  "stateTitle": "RDD Won"
                 },
                 "matchScore": {
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 171,
-                      "wickets": 8,
+                      "runs": 140,
+                      "wickets": 9,
                       "overs": 19.6
                     }
                   },
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 177,
-                      "wickets": 3,
-                      "overs": 16.5
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 169293,
-                  "seriesId": 12870,
-                  "seriesName": "European T20 Premier League 2026",
-                  "matchDesc": "8th Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788095700000",
-                  "endDate": "1788108300000",
-                  "state": "Complete",
-                  "status": "Edinburgh Castle Rockers won by 4 wkts",
-                  "team1": {
-                    "teamId": 576,
-                    "teamName": "Dublin Guardians",
-                    "teamSName": "DBG",
-                    "imageId": 1061703
-                  },
-                  "team2": {
-                    "teamId": 574,
-                    "teamName": "Edinburgh Castle Rockers",
-                    "teamSName": "ECR",
-                    "imageId": 1044579
-                  },
-                  "venueInfo": {
-                    "id": 1437791,
-                    "ground": "Sportpark Duivesteijn",
-                    "city": "Voorburg",
-                    "timezone": "+02:00",
-                    "latitude": "52.0848131",
-                    "longitude": "4.3662509"
-                  },
-                  "currBatTeamId": 574,
-                  "seriesStartDt": "1787702400000",
-                  "seriesEndDt": "1790035200000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "ECR Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 109,
-                      "wickets": 10,
-                      "overs": 17.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 110,
-                      "wickets": 6,
-                      "overs": 13.4
+                      "runs": 141,
+                      "wickets": 5,
+                      "overs": 19.5
                     }
                   }
                 }
@@ -1211,17 +1218,66 @@
           }
         },
         {
-          "ad": {
-            "name": "native_matches",
-            "layout": "native_large",
-            "position": 4
-          }
-        },
-        {
           "seriesAdWrapper": {
             "seriesId": 13073,
             "seriesName": "Sher-E-Punjab T20 League, 2026",
             "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 171157,
+                  "seriesId": 13073,
+                  "seriesName": "Sher-E-Punjab T20 League, 2026",
+                  "matchDesc": "13th Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788615000000",
+                  "endDate": "1788627600000",
+                  "state": "Complete",
+                  "status": "Mohali Kings won by 8 wkts (14 Overs game due to wet outfield)",
+                  "team1": {
+                    "teamId": 3581,
+                    "teamName": "Jalandhar Warriors",
+                    "teamSName": "JLW",
+                    "imageId": 1064853
+                  },
+                  "team2": {
+                    "teamId": 3601,
+                    "teamName": "Mohali Kings",
+                    "teamSName": "MHK",
+                    "imageId": 1064857
+                  },
+                  "venueInfo": {
+                    "id": 46,
+                    "ground": "Punjab Cricket Association IS Bindra Stadium",
+                    "city": "Mohali",
+                    "timezone": "+05:30",
+                    "latitude": "30.690905",
+                    "longitude": "76.737455"
+                  },
+                  "currBatTeamId": 3601,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789430400000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 177,
+                      "wickets": 7,
+                      "overs": 13.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 179,
+                      "wickets": 2,
+                      "overs": 12.6
+                    }
+                  }
+                }
+              },
               {
                 "matchInfo": {
                   "matchId": 171163,
@@ -1274,6 +1330,62 @@
                       "runs": 219,
                       "wickets": 9,
                       "overs": 19.6
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 171153,
+                  "seriesId": 13073,
+                  "seriesName": "Sher-E-Punjab T20 League, 2026",
+                  "matchDesc": "12th Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788593400000",
+                  "endDate": "1788606000000",
+                  "state": "Complete",
+                  "status": "Fazilka Falcons won by 17 runs  -  DLS Method",
+                  "team1": {
+                    "teamId": 3561,
+                    "teamName": "Fazilka Falcons",
+                    "teamSName": "FZF",
+                    "imageId": 1064854
+                  },
+                  "team2": {
+                    "teamId": 3571,
+                    "teamName": "Bathinda Royals",
+                    "teamSName": "BTR",
+                    "imageId": 1064855
+                  },
+                  "venueInfo": {
+                    "id": 46,
+                    "ground": "Punjab Cricket Association IS Bindra Stadium",
+                    "city": "Mohali",
+                    "timezone": "+05:30",
+                    "latitude": "30.690905",
+                    "longitude": "76.737455"
+                  },
+                  "currBatTeamId": 3561,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789430400000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "FZF Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 214,
+                      "wickets": 4,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 101,
+                      "wickets": 4,
+                      "overs": 10.6
                     }
                   }
                 }
@@ -1392,6 +1504,174 @@
               },
               {
                 "matchInfo": {
+                  "matchId": 171087,
+                  "seriesId": 13073,
+                  "seriesName": "Sher-E-Punjab T20 League, 2026",
+                  "matchDesc": "3rd Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788183000000",
+                  "endDate": "1788195600000",
+                  "state": "Complete",
+                  "status": "Bathinda Royals won by 7 wkts",
+                  "team1": {
+                    "teamId": 3601,
+                    "teamName": "Mohali Kings",
+                    "teamSName": "MHK",
+                    "imageId": 1064857
+                  },
+                  "team2": {
+                    "teamId": 3571,
+                    "teamName": "Bathinda Royals",
+                    "teamSName": "BTR",
+                    "imageId": 1064855
+                  },
+                  "venueInfo": {
+                    "id": 46,
+                    "ground": "Punjab Cricket Association IS Bindra Stadium",
+                    "city": "Mohali",
+                    "timezone": "+05:30",
+                    "latitude": "30.690905",
+                    "longitude": "76.737455"
+                  },
+                  "currBatTeamId": 3571,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789430400000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "BTR Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 176,
+                      "wickets": 9,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 180,
+                      "wickets": 3,
+                      "overs": 17.2
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 171080,
+                  "seriesId": 13073,
+                  "seriesName": "Sher-E-Punjab T20 League, 2026",
+                  "matchDesc": "1st Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788100200000",
+                  "endDate": "1788112800000",
+                  "state": "Complete",
+                  "status": "Mohali Kings won by 5 wkts",
+                  "team1": {
+                    "teamId": 3567,
+                    "teamName": "Amritsar Soormas",
+                    "teamSName": "AMS",
+                    "imageId": 1064825
+                  },
+                  "team2": {
+                    "teamId": 3601,
+                    "teamName": "Mohali Kings",
+                    "teamSName": "MHK",
+                    "imageId": 1064857
+                  },
+                  "venueInfo": {
+                    "id": 46,
+                    "ground": "Punjab Cricket Association IS Bindra Stadium",
+                    "city": "Mohali",
+                    "timezone": "+05:30",
+                    "latitude": "30.690905",
+                    "longitude": "76.737455"
+                  },
+                  "currBatTeamId": 3601,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789430400000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "MHK Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 258,
+                      "wickets": 10,
+                      "overs": 19.5
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 262,
+                      "wickets": 5,
+                      "overs": 19.3
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 171137,
+                  "seriesId": 13073,
+                  "seriesName": "Sher-E-Punjab T20 League, 2026",
+                  "matchDesc": "9th Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788442200000",
+                  "endDate": "1788454800000",
+                  "state": "Complete",
+                  "status": "Mohali Kings won by 40 runs",
+                  "team1": {
+                    "teamId": 3601,
+                    "teamName": "Mohali Kings",
+                    "teamSName": "MHK",
+                    "imageId": 1064857
+                  },
+                  "team2": {
+                    "teamId": 3561,
+                    "teamName": "Fazilka Falcons",
+                    "teamSName": "FZF",
+                    "imageId": 1064854
+                  },
+                  "venueInfo": {
+                    "id": 46,
+                    "ground": "Punjab Cricket Association IS Bindra Stadium",
+                    "city": "Mohali",
+                    "timezone": "+05:30",
+                    "latitude": "30.690905",
+                    "longitude": "76.737455"
+                  },
+                  "currBatTeamId": 3601,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789430400000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "MHK Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 230,
+                      "wickets": 3,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 190,
+                      "wickets": 9,
+                      "overs": 19.6
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
                   "matchId": 171083,
                   "seriesId": 13073,
                   "seriesName": "Sher-E-Punjab T20 League, 2026",
@@ -1448,15 +1728,71 @@
               },
               {
                 "matchInfo": {
-                  "matchId": 171157,
+                  "matchId": 171103,
                   "seriesId": 13073,
                   "seriesName": "Sher-E-Punjab T20 League, 2026",
-                  "matchDesc": "13th Match",
+                  "matchDesc": "5th Match",
                   "matchFormat": "T20",
-                  "startDate": "1788615000000",
-                  "endDate": "1788627600000",
+                  "startDate": "1788269400000",
+                  "endDate": "1788282000000",
                   "state": "Complete",
-                  "status": "Mohali Kings won by 8 wkts (14 Overs game due to wet outfield)",
+                  "status": "Jalandhar Warriors won by 8 wkts",
+                  "team1": {
+                    "teamId": 3567,
+                    "teamName": "Amritsar Soormas",
+                    "teamSName": "AMS",
+                    "imageId": 1064825
+                  },
+                  "team2": {
+                    "teamId": 3581,
+                    "teamName": "Jalandhar Warriors",
+                    "teamSName": "JLW",
+                    "imageId": 1064853
+                  },
+                  "venueInfo": {
+                    "id": 46,
+                    "ground": "Punjab Cricket Association IS Bindra Stadium",
+                    "city": "Mohali",
+                    "timezone": "+05:30",
+                    "latitude": "30.690905",
+                    "longitude": "76.737455"
+                  },
+                  "currBatTeamId": 3581,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789430400000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "JLW Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 264,
+                      "wickets": 5,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 265,
+                      "wickets": 2,
+                      "overs": 16.5
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 171127,
+                  "seriesId": 13073,
+                  "seriesName": "Sher-E-Punjab T20 League, 2026",
+                  "matchDesc": "8th Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788420600000",
+                  "endDate": "1788433200000",
+                  "state": "Complete",
+                  "status": "Jalandhar Warriors won by 3 runs",
                   "team1": {
                     "teamId": 3581,
                     "teamName": "Jalandhar Warriors",
@@ -1464,10 +1800,10 @@
                     "imageId": 1064853
                   },
                   "team2": {
-                    "teamId": 3601,
-                    "teamName": "Mohali Kings",
-                    "teamSName": "MHK",
-                    "imageId": 1064857
+                    "teamId": 3571,
+                    "teamName": "Bathinda Royals",
+                    "teamSName": "BTR",
+                    "imageId": 1064855
                   },
                   "venueInfo": {
                     "id": 46,
@@ -1477,82 +1813,26 @@
                     "latitude": "30.690905",
                     "longitude": "76.737455"
                   },
-                  "currBatTeamId": 3601,
+                  "currBatTeamId": 3581,
                   "seriesStartDt": "1788048000000",
                   "seriesEndDt": "1789430400000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
+                  "stateTitle": "JLW Won"
                 },
                 "matchScore": {
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 177,
+                      "runs": 205,
+                      "wickets": 10,
+                      "overs": 19.3
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 202,
                       "wickets": 7,
-                      "overs": 13.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 179,
-                      "wickets": 2,
-                      "overs": 12.6
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 171137,
-                  "seriesId": 13073,
-                  "seriesName": "Sher-E-Punjab T20 League, 2026",
-                  "matchDesc": "9th Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788442200000",
-                  "endDate": "1788454800000",
-                  "state": "Complete",
-                  "status": "Mohali Kings won by 40 runs",
-                  "team1": {
-                    "teamId": 3601,
-                    "teamName": "Mohali Kings",
-                    "teamSName": "MHK",
-                    "imageId": 1064857
-                  },
-                  "team2": {
-                    "teamId": 3561,
-                    "teamName": "Fazilka Falcons",
-                    "teamSName": "FZF",
-                    "imageId": 1064854
-                  },
-                  "venueInfo": {
-                    "id": 46,
-                    "ground": "Punjab Cricket Association IS Bindra Stadium",
-                    "city": "Mohali",
-                    "timezone": "+05:30",
-                    "latitude": "30.690905",
-                    "longitude": "76.737455"
-                  },
-                  "currBatTeamId": 3601,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789430400000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "MHK Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 230,
-                      "wickets": 3,
-                      "overs": 19.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 190,
-                      "wickets": 9,
                       "overs": 19.6
                     }
                   }
@@ -1725,286 +2005,6 @@
                     }
                   }
                 }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 171103,
-                  "seriesId": 13073,
-                  "seriesName": "Sher-E-Punjab T20 League, 2026",
-                  "matchDesc": "5th Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788269400000",
-                  "endDate": "1788282000000",
-                  "state": "Complete",
-                  "status": "Jalandhar Warriors won by 8 wkts",
-                  "team1": {
-                    "teamId": 3567,
-                    "teamName": "Amritsar Soormas",
-                    "teamSName": "AMS",
-                    "imageId": 1064825
-                  },
-                  "team2": {
-                    "teamId": 3581,
-                    "teamName": "Jalandhar Warriors",
-                    "teamSName": "JLW",
-                    "imageId": 1064853
-                  },
-                  "venueInfo": {
-                    "id": 46,
-                    "ground": "Punjab Cricket Association IS Bindra Stadium",
-                    "city": "Mohali",
-                    "timezone": "+05:30",
-                    "latitude": "30.690905",
-                    "longitude": "76.737455"
-                  },
-                  "currBatTeamId": 3581,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789430400000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "JLW Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 264,
-                      "wickets": 5,
-                      "overs": 19.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 265,
-                      "wickets": 2,
-                      "overs": 16.5
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 171153,
-                  "seriesId": 13073,
-                  "seriesName": "Sher-E-Punjab T20 League, 2026",
-                  "matchDesc": "12th Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788593400000",
-                  "endDate": "1788606000000",
-                  "state": "Complete",
-                  "status": "Fazilka Falcons won by 17 runs  -  DLS Method",
-                  "team1": {
-                    "teamId": 3561,
-                    "teamName": "Fazilka Falcons",
-                    "teamSName": "FZF",
-                    "imageId": 1064854
-                  },
-                  "team2": {
-                    "teamId": 3571,
-                    "teamName": "Bathinda Royals",
-                    "teamSName": "BTR",
-                    "imageId": 1064855
-                  },
-                  "venueInfo": {
-                    "id": 46,
-                    "ground": "Punjab Cricket Association IS Bindra Stadium",
-                    "city": "Mohali",
-                    "timezone": "+05:30",
-                    "latitude": "30.690905",
-                    "longitude": "76.737455"
-                  },
-                  "currBatTeamId": 3561,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789430400000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "FZF Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 214,
-                      "wickets": 4,
-                      "overs": 19.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 101,
-                      "wickets": 4,
-                      "overs": 10.6
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 171127,
-                  "seriesId": 13073,
-                  "seriesName": "Sher-E-Punjab T20 League, 2026",
-                  "matchDesc": "8th Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788420600000",
-                  "endDate": "1788433200000",
-                  "state": "Complete",
-                  "status": "Jalandhar Warriors won by 3 runs",
-                  "team1": {
-                    "teamId": 3581,
-                    "teamName": "Jalandhar Warriors",
-                    "teamSName": "JLW",
-                    "imageId": 1064853
-                  },
-                  "team2": {
-                    "teamId": 3571,
-                    "teamName": "Bathinda Royals",
-                    "teamSName": "BTR",
-                    "imageId": 1064855
-                  },
-                  "venueInfo": {
-                    "id": 46,
-                    "ground": "Punjab Cricket Association IS Bindra Stadium",
-                    "city": "Mohali",
-                    "timezone": "+05:30",
-                    "latitude": "30.690905",
-                    "longitude": "76.737455"
-                  },
-                  "currBatTeamId": 3581,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789430400000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "JLW Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 205,
-                      "wickets": 10,
-                      "overs": 19.3
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 202,
-                      "wickets": 7,
-                      "overs": 19.6
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 171087,
-                  "seriesId": 13073,
-                  "seriesName": "Sher-E-Punjab T20 League, 2026",
-                  "matchDesc": "3rd Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788183000000",
-                  "endDate": "1788195600000",
-                  "state": "Complete",
-                  "status": "Bathinda Royals won by 7 wkts",
-                  "team1": {
-                    "teamId": 3601,
-                    "teamName": "Mohali Kings",
-                    "teamSName": "MHK",
-                    "imageId": 1064857
-                  },
-                  "team2": {
-                    "teamId": 3571,
-                    "teamName": "Bathinda Royals",
-                    "teamSName": "BTR",
-                    "imageId": 1064855
-                  },
-                  "venueInfo": {
-                    "id": 46,
-                    "ground": "Punjab Cricket Association IS Bindra Stadium",
-                    "city": "Mohali",
-                    "timezone": "+05:30",
-                    "latitude": "30.690905",
-                    "longitude": "76.737455"
-                  },
-                  "currBatTeamId": 3571,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789430400000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "BTR Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 176,
-                      "wickets": 9,
-                      "overs": 19.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 180,
-                      "wickets": 3,
-                      "overs": 17.2
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 171080,
-                  "seriesId": 13073,
-                  "seriesName": "Sher-E-Punjab T20 League, 2026",
-                  "matchDesc": "1st Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788100200000",
-                  "endDate": "1788112800000",
-                  "state": "Complete",
-                  "status": "Mohali Kings won by 5 wkts",
-                  "team1": {
-                    "teamId": 3567,
-                    "teamName": "Amritsar Soormas",
-                    "teamSName": "AMS",
-                    "imageId": 1064825
-                  },
-                  "team2": {
-                    "teamId": 3601,
-                    "teamName": "Mohali Kings",
-                    "teamSName": "MHK",
-                    "imageId": 1064857
-                  },
-                  "venueInfo": {
-                    "id": 46,
-                    "ground": "Punjab Cricket Association IS Bindra Stadium",
-                    "city": "Mohali",
-                    "timezone": "+05:30",
-                    "latitude": "30.690905",
-                    "longitude": "76.737455"
-                  },
-                  "currBatTeamId": 3601,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789430400000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "MHK Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 258,
-                      "wickets": 10,
-                      "overs": 19.5
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 262,
-                      "wickets": 5,
-                      "overs": 19.3
-                    }
-                  }
-                }
               }
             ]
           }
@@ -2085,74 +2085,6 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 163043,
-                  "seriesId": 12376,
-                  "seriesName": "Duleep Trophy 2026",
-                  "matchDesc": "1st Semi-Final",
-                  "matchFormat": "TEST",
-                  "startDate": "1788062400000",
-                  "endDate": "1788346800000",
-                  "state": "Complete",
-                  "status": "East Zone won by 4 wkts",
-                  "team1": {
-                    "teamId": 237,
-                    "teamName": "Central Zone",
-                    "teamSName": "CZONE",
-                    "imageId": 172290
-                  },
-                  "team2": {
-                    "teamId": 235,
-                    "teamName": "East Zone",
-                    "teamSName": "EZONE",
-                    "imageId": 172288
-                  },
-                  "venueInfo": {
-                    "id": 1438087,
-                    "ground": "BCCI Centre of Excellence Ground 1",
-                    "city": "Bengaluru",
-                    "timezone": "+05:30",
-                    "latitude": "12.978853",
-                    "longitude": "77.599533"
-                  },
-                  "currBatTeamId": 235,
-                  "seriesStartDt": "1787443200000",
-                  "seriesEndDt": "1789171200000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "EZONE Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 266,
-                      "wickets": 10,
-                      "overs": 80.1
-                    },
-                    "inngs2": {
-                      "inningsId": 3,
-                      "runs": 158,
-                      "wickets": 10,
-                      "overs": 50.2
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 266,
-                      "wickets": 10,
-                      "overs": 56.6
-                    },
-                    "inngs2": {
-                      "inningsId": 4,
-                      "runs": 162,
-                      "wickets": 6,
-                      "overs": 39.3
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 163047,
                   "seriesId": 12376,
                   "seriesName": "Duleep Trophy 2026",
@@ -2218,6 +2150,74 @@
                     }
                   }
                 }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 163043,
+                  "seriesId": 12376,
+                  "seriesName": "Duleep Trophy 2026",
+                  "matchDesc": "1st Semi-Final",
+                  "matchFormat": "TEST",
+                  "startDate": "1788062400000",
+                  "endDate": "1788346800000",
+                  "state": "Complete",
+                  "status": "East Zone won by 4 wkts",
+                  "team1": {
+                    "teamId": 237,
+                    "teamName": "Central Zone",
+                    "teamSName": "CZONE",
+                    "imageId": 172290
+                  },
+                  "team2": {
+                    "teamId": 235,
+                    "teamName": "East Zone",
+                    "teamSName": "EZONE",
+                    "imageId": 172288
+                  },
+                  "venueInfo": {
+                    "id": 1438087,
+                    "ground": "BCCI Centre of Excellence Ground 1",
+                    "city": "Bengaluru",
+                    "timezone": "+05:30",
+                    "latitude": "12.978853",
+                    "longitude": "77.599533"
+                  },
+                  "currBatTeamId": 235,
+                  "seriesStartDt": "1787443200000",
+                  "seriesEndDt": "1789171200000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "EZONE Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 266,
+                      "wickets": 10,
+                      "overs": 80.1
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 158,
+                      "wickets": 10,
+                      "overs": 50.2
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 266,
+                      "wickets": 10,
+                      "overs": 56.6
+                    },
+                    "inngs2": {
+                      "inningsId": 4,
+                      "runs": 162,
+                      "wickets": 6,
+                      "overs": 39.3
+                    }
+                  }
+                }
               }
             ]
           }
@@ -2229,15 +2229,15 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 170277,
+                  "matchId": 170307,
                   "seriesId": 12993,
                   "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "12th Match, Group A",
+                  "matchDesc": "15th Match, Group A",
                   "matchFormat": "ODI",
-                  "startDate": "1788485400000",
-                  "endDate": "1788514200000",
+                  "startDate": "1788658200000",
+                  "endDate": "1788687000000",
                   "state": "Complete",
-                  "status": "Saudi Arabia won by 17 runs",
+                  "status": "Nepal won by 5 wkts",
                   "team1": {
                     "teamId": 571,
                     "teamName": "Saudi Arabia",
@@ -2245,40 +2245,40 @@
                     "imageId": 172623
                   },
                   "team2": {
-                    "teamId": 543,
-                    "teamName": "Bahrain",
-                    "teamSName": "BHR",
-                    "imageId": 172594
+                    "teamId": 72,
+                    "teamName": "Nepal",
+                    "teamSName": "NEP",
+                    "imageId": 776331
                   },
                   "venueInfo": {
-                    "id": 1853,
-                    "ground": "YSD-UKM Cricket Oval",
-                    "city": "Bangi",
+                    "id": 394,
+                    "ground": "Bayuemas Oval",
+                    "city": "Kuala Lumpur",
                     "timezone": "+08:00",
-                    "latitude": "2.9348189",
-                    "longitude": "101.7823779"
+                    "latitude": "2.819586",
+                    "longitude": "101.5199"
                   },
-                  "currBatTeamId": 571,
+                  "currBatTeamId": 72,
                   "seriesStartDt": "1788048000000",
                   "seriesEndDt": "1789344000000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "SAU Won"
+                  "stateTitle": "Complete"
                 },
                 "matchScore": {
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 221,
+                      "runs": 190,
                       "wickets": 10,
-                      "overs": 48.4
+                      "overs": 49.2
                     }
                   },
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 204,
-                      "wickets": 8,
-                      "overs": 49.6
+                      "runs": 193,
+                      "wickets": 5,
+                      "overs": 40.6
                     }
                   }
                 }
@@ -2341,62 +2341,6 @@
               },
               {
                 "matchInfo": {
-                  "matchId": 170197,
-                  "seriesId": 12993,
-                  "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "3rd Match, Group B",
-                  "matchFormat": "ODI",
-                  "startDate": "1788139800000",
-                  "endDate": "1788168600000",
-                  "state": "Complete",
-                  "status": "United Arab Emirates won by 92 runs",
-                  "team1": {
-                    "teamId": 7,
-                    "teamName": "United Arab Emirates",
-                    "teamSName": "UAE",
-                    "imageId": 776242
-                  },
-                  "team2": {
-                    "teamId": 525,
-                    "teamName": "Qatar",
-                    "teamSName": "QAT",
-                    "imageId": 172575
-                  },
-                  "venueInfo": {
-                    "id": 394,
-                    "ground": "Bayuemas Oval",
-                    "city": "Kuala Lumpur",
-                    "timezone": "+08:00",
-                    "latitude": "2.819586",
-                    "longitude": "101.5199"
-                  },
-                  "currBatTeamId": 7,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789344000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "UAE Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 263,
-                      "wickets": 9,
-                      "overs": 49.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 171,
-                      "wickets": 10,
-                      "overs": 37.3
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 170297,
                   "seriesId": 12993,
                   "seriesName": "ACC Men's Premier Cup, 2026",
@@ -2453,127 +2397,15 @@
               },
               {
                 "matchInfo": {
-                  "matchId": 170203,
+                  "matchId": 170277,
                   "seriesId": 12993,
                   "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "4th Match, Group A",
+                  "matchDesc": "12th Match, Group A",
                   "matchFormat": "ODI",
-                  "startDate": "1788139800000",
-                  "endDate": "1788168600000",
+                  "startDate": "1788485400000",
+                  "endDate": "1788514200000",
                   "state": "Complete",
-                  "status": "Nepal won by 7 wkts",
-                  "team1": {
-                    "teamId": 543,
-                    "teamName": "Bahrain",
-                    "teamSName": "BHR",
-                    "imageId": 172594
-                  },
-                  "team2": {
-                    "teamId": 72,
-                    "teamName": "Nepal",
-                    "teamSName": "NEP",
-                    "imageId": 776331
-                  },
-                  "venueInfo": {
-                    "id": 1853,
-                    "ground": "YSD-UKM Cricket Oval",
-                    "city": "Bangi",
-                    "timezone": "+08:00",
-                    "latitude": "2.9348189",
-                    "longitude": "101.7823779"
-                  },
-                  "currBatTeamId": 72,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789344000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "NEP Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 87,
-                      "wickets": 10,
-                      "overs": 36.2
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 88,
-                      "wickets": 3,
-                      "overs": 20.6
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 170241,
-                  "seriesId": 12993,
-                  "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "8th Match, Group B",
-                  "matchFormat": "ODI",
-                  "startDate": "1788312600000",
-                  "endDate": "1788341400000",
-                  "state": "Complete",
-                  "status": "Oman won by 5 wkts",
-                  "team1": {
-                    "teamId": 525,
-                    "teamName": "Qatar",
-                    "teamSName": "QAT",
-                    "imageId": 172575
-                  },
-                  "team2": {
-                    "teamId": 304,
-                    "teamName": "Oman",
-                    "teamSName": "OMAN",
-                    "imageId": 776328
-                  },
-                  "venueInfo": {
-                    "id": 1853,
-                    "ground": "YSD-UKM Cricket Oval",
-                    "city": "Bangi",
-                    "timezone": "+08:00",
-                    "latitude": "2.9348189",
-                    "longitude": "101.7823779"
-                  },
-                  "currBatTeamId": 304,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789344000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "OMAN Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 272,
-                      "wickets": 9,
-                      "overs": 49.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 276,
-                      "wickets": 5,
-                      "overs": 40.3
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 170307,
-                  "seriesId": 12993,
-                  "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "15th Match, Group A",
-                  "matchFormat": "ODI",
-                  "startDate": "1788658200000",
-                  "endDate": "1788687000000",
-                  "state": "Complete",
-                  "status": "Nepal won by 5 wkts",
+                  "status": "Saudi Arabia won by 17 runs",
                   "team1": {
                     "teamId": 571,
                     "teamName": "Saudi Arabia",
@@ -2581,122 +2413,10 @@
                     "imageId": 172623
                   },
                   "team2": {
-                    "teamId": 72,
-                    "teamName": "Nepal",
-                    "teamSName": "NEP",
-                    "imageId": 776331
-                  },
-                  "venueInfo": {
-                    "id": 394,
-                    "ground": "Bayuemas Oval",
-                    "city": "Kuala Lumpur",
-                    "timezone": "+08:00",
-                    "latitude": "2.819586",
-                    "longitude": "101.5199"
-                  },
-                  "currBatTeamId": 72,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789344000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 190,
-                      "wickets": 10,
-                      "overs": 49.2
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 193,
-                      "wickets": 5,
-                      "overs": 40.6
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 170231,
-                  "seriesId": 12993,
-                  "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "7th Match, Group A",
-                  "matchFormat": "ODI",
-                  "startDate": "1788312600000",
-                  "endDate": "1788341400000",
-                  "state": "Complete",
-                  "status": "Bahrain won by 32 runs",
-                  "team1": {
                     "teamId": 543,
                     "teamName": "Bahrain",
                     "teamSName": "BHR",
                     "imageId": 172594
-                  },
-                  "team2": {
-                    "teamId": 8,
-                    "teamName": "Hong Kong, China",
-                    "teamSName": "HKC",
-                    "imageId": 776271
-                  },
-                  "venueInfo": {
-                    "id": 394,
-                    "ground": "Bayuemas Oval",
-                    "city": "Kuala Lumpur",
-                    "timezone": "+08:00",
-                    "latitude": "2.819586",
-                    "longitude": "101.5199"
-                  },
-                  "currBatTeamId": 543,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789344000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "BHR Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 210,
-                      "wickets": 8,
-                      "overs": 49.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 178,
-                      "wickets": 10,
-                      "overs": 49.4
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 170223,
-                  "seriesId": 12993,
-                  "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "6th Match, Group B",
-                  "matchFormat": "ODI",
-                  "startDate": "1788226200000",
-                  "endDate": "1788255000000",
-                  "state": "Complete",
-                  "status": "Kuwait won by 153 runs",
-                  "team1": {
-                    "teamId": 298,
-                    "teamName": "Kuwait",
-                    "teamSName": "KUW",
-                    "imageId": 776312
-                  },
-                  "team2": {
-                    "teamId": 190,
-                    "teamName": "Singapore",
-                    "teamSName": "SIN",
-                    "imageId": 776275
                   },
                   "venueInfo": {
                     "id": 1853,
@@ -2706,27 +2426,27 @@
                     "latitude": "2.9348189",
                     "longitude": "101.7823779"
                   },
-                  "currBatTeamId": 298,
+                  "currBatTeamId": 571,
                   "seriesStartDt": "1788048000000",
                   "seriesEndDt": "1789344000000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "KUW Won"
+                  "stateTitle": "SAU Won"
                 },
                 "matchScore": {
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 249,
-                      "wickets": 4,
-                      "overs": 43.4
+                      "runs": 221,
+                      "wickets": 10,
+                      "overs": 48.4
                     }
                   },
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 96,
-                      "wickets": 10,
-                      "overs": 27.3
+                      "runs": 204,
+                      "wickets": 8,
+                      "overs": 49.6
                     }
                   }
                 }
@@ -2789,20 +2509,20 @@
               },
               {
                 "matchInfo": {
-                  "matchId": 170261,
+                  "matchId": 170203,
                   "seriesId": 12993,
                   "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "10th Match, Group A",
+                  "matchDesc": "4th Match, Group A",
                   "matchFormat": "ODI",
-                  "startDate": "1788399000000",
-                  "endDate": "1788427800000",
+                  "startDate": "1788139800000",
+                  "endDate": "1788168600000",
                   "state": "Complete",
-                  "status": "Nepal won by 6 wkts",
+                  "status": "Nepal won by 7 wkts",
                   "team1": {
-                    "teamId": 71,
-                    "teamName": "Malaysia",
-                    "teamSName": "MLY",
-                    "imageId": 776319
+                    "teamId": 543,
+                    "teamName": "Bahrain",
+                    "teamSName": "BHR",
+                    "imageId": 172594
                   },
                   "team2": {
                     "teamId": 72,
@@ -2828,17 +2548,17 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 103,
+                      "runs": 87,
                       "wickets": 10,
-                      "overs": 32.3
+                      "overs": 36.2
                     }
                   },
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 106,
-                      "wickets": 4,
-                      "overs": 21.4
+                      "runs": 88,
+                      "wickets": 3,
+                      "overs": 20.6
                     }
                   }
                 }
@@ -2901,6 +2621,118 @@
               },
               {
                 "matchInfo": {
+                  "matchId": 170241,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "8th Match, Group B",
+                  "matchFormat": "ODI",
+                  "startDate": "1788312600000",
+                  "endDate": "1788341400000",
+                  "state": "Complete",
+                  "status": "Oman won by 5 wkts",
+                  "team1": {
+                    "teamId": 525,
+                    "teamName": "Qatar",
+                    "teamSName": "QAT",
+                    "imageId": 172575
+                  },
+                  "team2": {
+                    "teamId": 304,
+                    "teamName": "Oman",
+                    "teamSName": "OMAN",
+                    "imageId": 776328
+                  },
+                  "venueInfo": {
+                    "id": 1853,
+                    "ground": "YSD-UKM Cricket Oval",
+                    "city": "Bangi",
+                    "timezone": "+08:00",
+                    "latitude": "2.9348189",
+                    "longitude": "101.7823779"
+                  },
+                  "currBatTeamId": 304,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "OMAN Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 272,
+                      "wickets": 9,
+                      "overs": 49.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 276,
+                      "wickets": 5,
+                      "overs": 40.3
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170261,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "10th Match, Group A",
+                  "matchFormat": "ODI",
+                  "startDate": "1788399000000",
+                  "endDate": "1788427800000",
+                  "state": "Complete",
+                  "status": "Nepal won by 6 wkts",
+                  "team1": {
+                    "teamId": 71,
+                    "teamName": "Malaysia",
+                    "teamSName": "MLY",
+                    "imageId": 776319
+                  },
+                  "team2": {
+                    "teamId": 72,
+                    "teamName": "Nepal",
+                    "teamSName": "NEP",
+                    "imageId": 776331
+                  },
+                  "venueInfo": {
+                    "id": 1853,
+                    "ground": "YSD-UKM Cricket Oval",
+                    "city": "Bangi",
+                    "timezone": "+08:00",
+                    "latitude": "2.9348189",
+                    "longitude": "101.7823779"
+                  },
+                  "currBatTeamId": 72,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "NEP Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 103,
+                      "wickets": 10,
+                      "overs": 32.3
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 106,
+                      "wickets": 4,
+                      "overs": 21.4
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
                   "matchId": 170251,
                   "seriesId": 12993,
                   "seriesName": "ACC Men's Premier Cup, 2026",
@@ -2951,6 +2783,174 @@
                       "runs": 110,
                       "wickets": 9,
                       "overs": 24.6
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170223,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "6th Match, Group B",
+                  "matchFormat": "ODI",
+                  "startDate": "1788226200000",
+                  "endDate": "1788255000000",
+                  "state": "Complete",
+                  "status": "Kuwait won by 153 runs",
+                  "team1": {
+                    "teamId": 298,
+                    "teamName": "Kuwait",
+                    "teamSName": "KUW",
+                    "imageId": 776312
+                  },
+                  "team2": {
+                    "teamId": 190,
+                    "teamName": "Singapore",
+                    "teamSName": "SIN",
+                    "imageId": 776275
+                  },
+                  "venueInfo": {
+                    "id": 1853,
+                    "ground": "YSD-UKM Cricket Oval",
+                    "city": "Bangi",
+                    "timezone": "+08:00",
+                    "latitude": "2.9348189",
+                    "longitude": "101.7823779"
+                  },
+                  "currBatTeamId": 298,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "KUW Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 249,
+                      "wickets": 4,
+                      "overs": 43.4
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 96,
+                      "wickets": 10,
+                      "overs": 27.3
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170231,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "7th Match, Group A",
+                  "matchFormat": "ODI",
+                  "startDate": "1788312600000",
+                  "endDate": "1788341400000",
+                  "state": "Complete",
+                  "status": "Bahrain won by 32 runs",
+                  "team1": {
+                    "teamId": 543,
+                    "teamName": "Bahrain",
+                    "teamSName": "BHR",
+                    "imageId": 172594
+                  },
+                  "team2": {
+                    "teamId": 8,
+                    "teamName": "Hong Kong, China",
+                    "teamSName": "HKC",
+                    "imageId": 776271
+                  },
+                  "venueInfo": {
+                    "id": 394,
+                    "ground": "Bayuemas Oval",
+                    "city": "Kuala Lumpur",
+                    "timezone": "+08:00",
+                    "latitude": "2.819586",
+                    "longitude": "101.5199"
+                  },
+                  "currBatTeamId": 543,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "BHR Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 210,
+                      "wickets": 8,
+                      "overs": 49.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 178,
+                      "wickets": 10,
+                      "overs": 49.4
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170197,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "3rd Match, Group B",
+                  "matchFormat": "ODI",
+                  "startDate": "1788139800000",
+                  "endDate": "1788168600000",
+                  "state": "Complete",
+                  "status": "United Arab Emirates won by 92 runs",
+                  "team1": {
+                    "teamId": 7,
+                    "teamName": "United Arab Emirates",
+                    "teamSName": "UAE",
+                    "imageId": 776242
+                  },
+                  "team2": {
+                    "teamId": 525,
+                    "teamName": "Qatar",
+                    "teamSName": "QAT",
+                    "imageId": 172575
+                  },
+                  "venueInfo": {
+                    "id": 394,
+                    "ground": "Bayuemas Oval",
+                    "city": "Kuala Lumpur",
+                    "timezone": "+08:00",
+                    "latitude": "2.819586",
+                    "longitude": "101.5199"
+                  },
+                  "currBatTeamId": 7,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "UAE Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 263,
+                      "wickets": 9,
+                      "overs": 49.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 171,
+                      "wickets": 10,
+                      "overs": 37.3
                     }
                   }
                 }
@@ -3096,6 +3096,74 @@
               },
               {
                 "matchInfo": {
+                  "matchId": 142539,
+                  "seriesId": 11408,
+                  "seriesName": "County Championship Division One 2026",
+                  "matchDesc": "51st Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788341400000",
+                  "endDate": "1788625800000",
+                  "state": "Complete",
+                  "status": "Sussex won by 47 runs",
+                  "team1": {
+                    "teamId": 41,
+                    "teamName": "Sussex",
+                    "teamSName": "SUS",
+                    "imageId": 172148
+                  },
+                  "team2": {
+                    "teamId": 152,
+                    "teamName": "Essex",
+                    "teamSName": "ESS",
+                    "imageId": 172219
+                  },
+                  "venueInfo": {
+                    "id": 1438338,
+                    "ground": "The Ambassador Cruise Line Ground",
+                    "city": "Chelmsford",
+                    "timezone": "+01:00",
+                    "latitude": "51.73158",
+                    "longitude": "0.46842"
+                  },
+                  "currBatTeamId": 41,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "SUS Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 275,
+                      "wickets": 10,
+                      "overs": 98.6
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 230,
+                      "wickets": 10,
+                      "overs": 50.1
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 177,
+                      "wickets": 10,
+                      "overs": 58.5
+                    },
+                    "inngs2": {
+                      "inningsId": 4,
+                      "runs": 281,
+                      "wickets": 10,
+                      "overs": 73.3
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
                   "matchId": 142583,
                   "seriesId": 11408,
                   "seriesName": "County Championship Division One 2026",
@@ -3153,6 +3221,68 @@
                       "wickets": 10,
                       "overs": 60.3,
                       "isFollowOn": true
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 142572,
+                  "seriesId": 11408,
+                  "seriesName": "County Championship Division One 2026",
+                  "matchDesc": "54th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788341400000",
+                  "endDate": "1788625800000",
+                  "state": "Complete",
+                  "status": "Somerset won by an innings and 64 runs",
+                  "team1": {
+                    "teamId": 149,
+                    "teamName": "Glamorgan",
+                    "teamSName": "GLAM",
+                    "imageId": 172216
+                  },
+                  "team2": {
+                    "teamId": 119,
+                    "teamName": "Somerset",
+                    "teamSName": "SOM",
+                    "imageId": 172199
+                  },
+                  "venueInfo": {
+                    "id": 223,
+                    "ground": "The Cooper Associates County Ground",
+                    "city": "Taunton",
+                    "timezone": "+01:00",
+                    "latitude": "51.018913",
+                    "longitude": "3.100894"
+                  },
+                  "currBatTeamId": 119,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "SOM Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 194,
+                      "wickets": 10,
+                      "overs": 59.2
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 183,
+                      "wickets": 10,
+                      "overs": 58.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 441,
+                      "wickets": 10,
+                      "overs": 109.1
                     }
                   }
                 }
@@ -3227,34 +3357,34 @@
               },
               {
                 "matchInfo": {
-                  "matchId": 142497,
+                  "matchId": 142506,
                   "seriesId": 11408,
                   "seriesName": "County Championship Division One 2026",
-                  "matchDesc": "47th Match",
+                  "matchDesc": "48th Match",
                   "matchFormat": "TEST",
                   "startDate": "1787824800000",
                   "endDate": "1788109200000",
                   "state": "Complete",
                   "status": "Match drawn",
                   "team1": {
-                    "teamId": 148,
-                    "teamName": "Surrey",
-                    "teamSName": "SUR",
-                    "imageId": 172215
+                    "teamId": 146,
+                    "teamName": "Yorkshire",
+                    "teamSName": "YORKS",
+                    "imageId": 172213
                   },
                   "team2": {
-                    "teamId": 152,
-                    "teamName": "Essex",
-                    "teamSName": "ESS",
-                    "imageId": 172219
+                    "teamId": 145,
+                    "teamName": "Leicestershire",
+                    "teamSName": "LEIC",
+                    "imageId": 172212
                   },
                   "venueInfo": {
-                    "id": 1438338,
-                    "ground": "The Ambassador Cruise Line Ground",
-                    "city": "Chelmsford",
+                    "id": 220,
+                    "ground": "North Marine Road Ground",
+                    "city": "Scarborough",
                     "timezone": "+01:00",
-                    "latitude": "51.73158",
-                    "longitude": "0.46842"
+                    "latitude": "54.288277",
+                    "longitude": "-0.40539"
                   },
                   "seriesStartDt": "1775174400000",
                   "seriesEndDt": "1790640000000",
@@ -3265,85 +3395,16 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 183,
+                      "runs": 263,
                       "wickets": 10,
-                      "overs": 53.2
-                    },
-                    "inngs2": {
-                      "inningsId": 3,
-                      "runs": 298,
-                      "wickets": 8,
-                      "overs": 98.6
+                      "overs": 76.4
                     }
                   },
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 279,
-                      "wickets": 10,
-                      "overs": 84.6
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 142572,
-                  "seriesId": 11408,
-                  "seriesName": "County Championship Division One 2026",
-                  "matchDesc": "54th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788341400000",
-                  "endDate": "1788625800000",
-                  "state": "Complete",
-                  "status": "Somerset won by an innings and 64 runs",
-                  "team1": {
-                    "teamId": 149,
-                    "teamName": "Glamorgan",
-                    "teamSName": "GLAM",
-                    "imageId": 172216
-                  },
-                  "team2": {
-                    "teamId": 119,
-                    "teamName": "Somerset",
-                    "teamSName": "SOM",
-                    "imageId": 172199
-                  },
-                  "venueInfo": {
-                    "id": 223,
-                    "ground": "The Cooper Associates County Ground",
-                    "city": "Taunton",
-                    "timezone": "+01:00",
-                    "latitude": "51.018913",
-                    "longitude": "3.100894"
-                  },
-                  "currBatTeamId": 119,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "SOM Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 194,
-                      "wickets": 10,
-                      "overs": 59.2
-                    },
-                    "inngs2": {
-                      "inningsId": 3,
-                      "runs": 183,
-                      "wickets": 10,
-                      "overs": 58.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 441,
-                      "wickets": 10,
-                      "overs": 109.1
+                      "runs": 84,
+                      "overs": 35.3
                     }
                   }
                 }
@@ -3406,34 +3467,34 @@
               },
               {
                 "matchInfo": {
-                  "matchId": 142506,
+                  "matchId": 142528,
                   "seriesId": 11408,
                   "seriesName": "County Championship Division One 2026",
-                  "matchDesc": "48th Match",
+                  "matchDesc": "50th Match",
                   "matchFormat": "TEST",
                   "startDate": "1787824800000",
                   "endDate": "1788109200000",
                   "state": "Complete",
                   "status": "Match drawn",
                   "team1": {
-                    "teamId": 146,
-                    "teamName": "Yorkshire",
-                    "teamSName": "YORKS",
-                    "imageId": 172213
+                    "teamId": 119,
+                    "teamName": "Somerset",
+                    "teamSName": "SOM",
+                    "imageId": 172199
                   },
                   "team2": {
-                    "teamId": 145,
-                    "teamName": "Leicestershire",
-                    "teamSName": "LEIC",
-                    "imageId": 172212
+                    "teamId": 41,
+                    "teamName": "Sussex",
+                    "teamSName": "SUS",
+                    "imageId": 172148
                   },
                   "venueInfo": {
-                    "id": 220,
-                    "ground": "North Marine Road Ground",
-                    "city": "Scarborough",
+                    "id": 292,
+                    "ground": "County Ground",
+                    "city": "Hove",
                     "timezone": "+01:00",
-                    "latitude": "54.288277",
-                    "longitude": "-0.40539"
+                    "latitude": "50.830995",
+                    "longitude": "-0.163522"
                   },
                   "seriesStartDt": "1775174400000",
                   "seriesEndDt": "1790640000000",
@@ -3444,84 +3505,30 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 263,
+                      "runs": 202,
                       "wickets": 10,
-                      "overs": 76.4
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 84,
-                      "overs": 35.3
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 142539,
-                  "seriesId": 11408,
-                  "seriesName": "County Championship Division One 2026",
-                  "matchDesc": "51st Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788341400000",
-                  "endDate": "1788625800000",
-                  "state": "Complete",
-                  "status": "Sussex won by 47 runs",
-                  "team1": {
-                    "teamId": 41,
-                    "teamName": "Sussex",
-                    "teamSName": "SUS",
-                    "imageId": 172148
-                  },
-                  "team2": {
-                    "teamId": 152,
-                    "teamName": "Essex",
-                    "teamSName": "ESS",
-                    "imageId": 172219
-                  },
-                  "venueInfo": {
-                    "id": 1438338,
-                    "ground": "The Ambassador Cruise Line Ground",
-                    "city": "Chelmsford",
-                    "timezone": "+01:00",
-                    "latitude": "51.73158",
-                    "longitude": "0.46842"
-                  },
-                  "currBatTeamId": 41,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "SUS Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 275,
-                      "wickets": 10,
-                      "overs": 98.6
+                      "overs": 57.6
                     },
                     "inngs2": {
                       "inningsId": 3,
-                      "runs": 230,
-                      "wickets": 10,
-                      "overs": 50.1
+                      "runs": 350,
+                      "wickets": 9,
+                      "overs": 97.2,
+                      "isDeclared": true
                     }
                   },
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 177,
+                      "runs": 250,
                       "wickets": 10,
-                      "overs": 58.5
+                      "overs": 69.4
                     },
                     "inngs2": {
                       "inningsId": 4,
-                      "runs": 281,
-                      "wickets": 10,
-                      "overs": 73.3
+                      "runs": 62,
+                      "wickets": 1,
+                      "overs": 13.6
                     }
                   }
                 }
@@ -3596,34 +3603,34 @@
               },
               {
                 "matchInfo": {
-                  "matchId": 142528,
+                  "matchId": 142497,
                   "seriesId": 11408,
                   "seriesName": "County Championship Division One 2026",
-                  "matchDesc": "50th Match",
+                  "matchDesc": "47th Match",
                   "matchFormat": "TEST",
                   "startDate": "1787824800000",
                   "endDate": "1788109200000",
                   "state": "Complete",
                   "status": "Match drawn",
                   "team1": {
-                    "teamId": 119,
-                    "teamName": "Somerset",
-                    "teamSName": "SOM",
-                    "imageId": 172199
+                    "teamId": 148,
+                    "teamName": "Surrey",
+                    "teamSName": "SUR",
+                    "imageId": 172215
                   },
                   "team2": {
-                    "teamId": 41,
-                    "teamName": "Sussex",
-                    "teamSName": "SUS",
-                    "imageId": 172148
+                    "teamId": 152,
+                    "teamName": "Essex",
+                    "teamSName": "ESS",
+                    "imageId": 172219
                   },
                   "venueInfo": {
-                    "id": 292,
-                    "ground": "County Ground",
-                    "city": "Hove",
+                    "id": 1438338,
+                    "ground": "The Ambassador Cruise Line Ground",
+                    "city": "Chelmsford",
                     "timezone": "+01:00",
-                    "latitude": "50.830995",
-                    "longitude": "-0.163522"
+                    "latitude": "51.73158",
+                    "longitude": "0.46842"
                   },
                   "seriesStartDt": "1775174400000",
                   "seriesEndDt": "1790640000000",
@@ -3634,30 +3641,23 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 202,
+                      "runs": 183,
                       "wickets": 10,
-                      "overs": 57.6
+                      "overs": 53.2
                     },
                     "inngs2": {
                       "inningsId": 3,
-                      "runs": 350,
-                      "wickets": 9,
-                      "overs": 97.2,
-                      "isDeclared": true
+                      "runs": 298,
+                      "wickets": 8,
+                      "overs": 98.6
                     }
                   },
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 250,
+                      "runs": 279,
                       "wickets": 10,
-                      "overs": 69.4
-                    },
-                    "inngs2": {
-                      "inningsId": 4,
-                      "runs": 62,
-                      "wickets": 1,
-                      "overs": 13.6
+                      "overs": 84.6
                     }
                   }
                 }
@@ -3670,74 +3670,6 @@
             "seriesId": 11416,
             "seriesName": "County Championship Division Two 2026",
             "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 143174,
-                  "seriesId": 11416,
-                  "seriesName": "County Championship Division Two 2026",
-                  "matchDesc": "43rd Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788341400000",
-                  "endDate": "1788625800000",
-                  "state": "Complete",
-                  "status": "Durham won by 153 runs",
-                  "team1": {
-                    "teamId": 141,
-                    "teamName": "Durham",
-                    "teamSName": "DUR",
-                    "imageId": 172208
-                  },
-                  "team2": {
-                    "teamId": 142,
-                    "teamName": "Northamptonshire",
-                    "teamSName": "NHNTS",
-                    "imageId": 172209
-                  },
-                  "venueInfo": {
-                    "id": 119,
-                    "ground": "County Ground",
-                    "city": "Northampton",
-                    "timezone": "+01:00",
-                    "latitude": "52.248160",
-                    "longitude": "-0.871060"
-                  },
-                  "currBatTeamId": 141,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "DUR Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 205,
-                      "wickets": 10,
-                      "overs": 56.2
-                    },
-                    "inngs2": {
-                      "inningsId": 3,
-                      "runs": 261,
-                      "wickets": 10,
-                      "overs": 84.5
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 263,
-                      "wickets": 10,
-                      "overs": 87.6
-                    },
-                    "inngs2": {
-                      "inningsId": 4,
-                      "runs": 50,
-                      "wickets": 10,
-                      "overs": 22.2
-                    }
-                  }
-                }
-              },
               {
                 "matchInfo": {
                   "matchId": 143152,
@@ -3809,6 +3741,142 @@
               },
               {
                 "matchInfo": {
+                  "matchId": 143185,
+                  "seriesId": 11416,
+                  "seriesName": "County Championship Division Two 2026",
+                  "matchDesc": "44th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788341400000",
+                  "endDate": "1788625800000",
+                  "state": "Complete",
+                  "status": "Middlesex won by 160 runs",
+                  "team1": {
+                    "teamId": 74,
+                    "teamName": "Middlesex",
+                    "teamSName": "MDX",
+                    "imageId": 172170
+                  },
+                  "team2": {
+                    "teamId": 143,
+                    "teamName": "Lancashire",
+                    "teamSName": "LANCS",
+                    "imageId": 172210
+                  },
+                  "venueInfo": {
+                    "id": 385,
+                    "ground": "Merchant Taylors' School Ground",
+                    "city": "Northwood",
+                    "timezone": "+01:00",
+                    "latitude": "51.63656",
+                    "longitude": "-0.4275100"
+                  },
+                  "currBatTeamId": 74,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "MDX Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 247,
+                      "wickets": 10,
+                      "overs": 68.3
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 200,
+                      "wickets": 10,
+                      "overs": 43.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 151,
+                      "wickets": 10,
+                      "overs": 48.5
+                    },
+                    "inngs2": {
+                      "inningsId": 4,
+                      "runs": 136,
+                      "wickets": 10,
+                      "overs": 43.4
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 143174,
+                  "seriesId": 11416,
+                  "seriesName": "County Championship Division Two 2026",
+                  "matchDesc": "43rd Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788341400000",
+                  "endDate": "1788625800000",
+                  "state": "Complete",
+                  "status": "Durham won by 153 runs",
+                  "team1": {
+                    "teamId": 141,
+                    "teamName": "Durham",
+                    "teamSName": "DUR",
+                    "imageId": 172208
+                  },
+                  "team2": {
+                    "teamId": 142,
+                    "teamName": "Northamptonshire",
+                    "teamSName": "NHNTS",
+                    "imageId": 172209
+                  },
+                  "venueInfo": {
+                    "id": 119,
+                    "ground": "County Ground",
+                    "city": "Northampton",
+                    "timezone": "+01:00",
+                    "latitude": "52.248160",
+                    "longitude": "-0.871060"
+                  },
+                  "currBatTeamId": 141,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "DUR Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 205,
+                      "wickets": 10,
+                      "overs": 56.2
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 261,
+                      "wickets": 10,
+                      "overs": 84.5
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 263,
+                      "wickets": 10,
+                      "overs": 87.6
+                    },
+                    "inngs2": {
+                      "inningsId": 4,
+                      "runs": 50,
+                      "wickets": 10,
+                      "overs": 22.2
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
                   "matchId": 143163,
                   "seriesId": 11416,
                   "seriesName": "County Championship Division Two 2026",
@@ -3871,6 +3939,65 @@
                       "runs": 295,
                       "wickets": 10,
                       "overs": 84.2
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 143110,
+                  "seriesId": 11416,
+                  "seriesName": "County Championship Division Two 2026",
+                  "matchDesc": "37th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1787824800000",
+                  "endDate": "1788109200000",
+                  "state": "Complete",
+                  "status": "Match drawn",
+                  "team1": {
+                    "teamId": 144,
+                    "teamName": "Derbyshire",
+                    "teamSName": "DERBY",
+                    "imageId": 172211
+                  },
+                  "team2": {
+                    "teamId": 74,
+                    "teamName": "Middlesex",
+                    "teamSName": "MDX",
+                    "imageId": 172170
+                  },
+                  "venueInfo": {
+                    "id": 226,
+                    "ground": "County Ground",
+                    "city": "Derby",
+                    "timezone": "+01:00",
+                    "latitude": "52.927517",
+                    "longitude": "-1.461188"
+                  },
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 131,
+                      "wickets": 10,
+                      "overs": 49.1
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 111,
+                      "wickets": 3,
+                      "overs": 36.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "isDeclared": true
                     }
                   }
                 }
@@ -4057,133 +4184,6 @@
                     }
                   }
                 }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 143185,
-                  "seriesId": 11416,
-                  "seriesName": "County Championship Division Two 2026",
-                  "matchDesc": "44th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788341400000",
-                  "endDate": "1788625800000",
-                  "state": "Complete",
-                  "status": "Middlesex won by 160 runs",
-                  "team1": {
-                    "teamId": 74,
-                    "teamName": "Middlesex",
-                    "teamSName": "MDX",
-                    "imageId": 172170
-                  },
-                  "team2": {
-                    "teamId": 143,
-                    "teamName": "Lancashire",
-                    "teamSName": "LANCS",
-                    "imageId": 172210
-                  },
-                  "venueInfo": {
-                    "id": 385,
-                    "ground": "Merchant Taylors' School Ground",
-                    "city": "Northwood",
-                    "timezone": "+01:00",
-                    "latitude": "51.63656",
-                    "longitude": "-0.4275100"
-                  },
-                  "currBatTeamId": 74,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "MDX Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 247,
-                      "wickets": 10,
-                      "overs": 68.3
-                    },
-                    "inngs2": {
-                      "inningsId": 3,
-                      "runs": 200,
-                      "wickets": 10,
-                      "overs": 43.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 151,
-                      "wickets": 10,
-                      "overs": 48.5
-                    },
-                    "inngs2": {
-                      "inningsId": 4,
-                      "runs": 136,
-                      "wickets": 10,
-                      "overs": 43.4
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 143110,
-                  "seriesId": 11416,
-                  "seriesName": "County Championship Division Two 2026",
-                  "matchDesc": "37th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1787824800000",
-                  "endDate": "1788109200000",
-                  "state": "Complete",
-                  "status": "Match drawn",
-                  "team1": {
-                    "teamId": 144,
-                    "teamName": "Derbyshire",
-                    "teamSName": "DERBY",
-                    "imageId": 172211
-                  },
-                  "team2": {
-                    "teamId": 74,
-                    "teamName": "Middlesex",
-                    "teamSName": "MDX",
-                    "imageId": 172170
-                  },
-                  "venueInfo": {
-                    "id": 226,
-                    "ground": "County Ground",
-                    "city": "Derby",
-                    "timezone": "+01:00",
-                    "latitude": "52.927517",
-                    "longitude": "-1.461188"
-                  },
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 131,
-                      "wickets": 10,
-                      "overs": 49.1
-                    },
-                    "inngs2": {
-                      "inningsId": 3,
-                      "runs": 111,
-                      "wickets": 3,
-                      "overs": 36.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "isDeclared": true
-                    }
-                  }
-                }
               }
             ]
           }
@@ -4257,62 +4257,6 @@
               },
               {
                 "matchInfo": {
-                  "matchId": 169813,
-                  "seriesId": 12927,
-                  "seriesName": "Women's Asia Cup 2026",
-                  "matchDesc": "Match 4, Group B",
-                  "matchFormat": "T20",
-                  "startDate": "1788186600000",
-                  "endDate": "1788199200000",
-                  "state": "Complete",
-                  "status": "Bangladesh Women won by 71 runs",
-                  "team1": {
-                    "teamId": 329,
-                    "teamName": "Bangladesh Women",
-                    "teamSName": "BANW",
-                    "imageId": 776213
-                  },
-                  "team2": {
-                    "teamId": 484,
-                    "teamName": "Indonesia Women",
-                    "teamSName": "IDNW",
-                    "imageId": 172532
-                  },
-                  "venueInfo": {
-                    "id": 153,
-                    "ground": "Dubai International Cricket Stadium",
-                    "city": "Dubai",
-                    "timezone": "+04:00",
-                    "latitude": "25.046842",
-                    "longitude": "55.218969"
-                  },
-                  "currBatTeamId": 329,
-                  "seriesStartDt": "1787875200000",
-                  "seriesEndDt": "1789430400000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "BANW Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 129,
-                      "wickets": 8,
-                      "overs": 19.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 58,
-                      "wickets": 10,
-                      "overs": 17.3
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 169847,
                   "seriesId": 12927,
                   "seriesName": "Women's Asia Cup 2026",
@@ -4369,62 +4313,6 @@
               },
               {
                 "matchInfo": {
-                  "matchId": 169811,
-                  "seriesId": 12927,
-                  "seriesName": "Women's Asia Cup 2026",
-                  "matchDesc": "Match 3, Group A",
-                  "matchFormat": "T20",
-                  "startDate": "1788100200000",
-                  "endDate": "1788112800000",
-                  "state": "Complete",
-                  "status": "India Women won by 94 runs",
-                  "team1": {
-                    "teamId": 97,
-                    "teamName": "India Women",
-                    "teamSName": "INDW",
-                    "imageId": 776182
-                  },
-                  "team2": {
-                    "teamId": 382,
-                    "teamName": "Thailand Women",
-                    "teamSName": "THAIW",
-                    "imageId": 172435
-                  },
-                  "venueInfo": {
-                    "id": 153,
-                    "ground": "Dubai International Cricket Stadium",
-                    "city": "Dubai",
-                    "timezone": "+04:00",
-                    "latitude": "25.046842",
-                    "longitude": "55.218969"
-                  },
-                  "currBatTeamId": 97,
-                  "seriesStartDt": "1787875200000",
-                  "seriesEndDt": "1789430400000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "INDW Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 159,
-                      "wickets": 9,
-                      "overs": 19.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 65,
-                      "wickets": 10,
-                      "overs": 16.1
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 169821,
                   "seriesId": 12927,
                   "seriesName": "Women's Asia Cup 2026",
@@ -4475,6 +4363,62 @@
                       "runs": 84,
                       "wickets": 8,
                       "overs": 19.6
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 169811,
+                  "seriesId": 12927,
+                  "seriesName": "Women's Asia Cup 2026",
+                  "matchDesc": "Match 3, Group A",
+                  "matchFormat": "T20",
+                  "startDate": "1788100200000",
+                  "endDate": "1788112800000",
+                  "state": "Complete",
+                  "status": "India Women won by 94 runs",
+                  "team1": {
+                    "teamId": 97,
+                    "teamName": "India Women",
+                    "teamSName": "INDW",
+                    "imageId": 776182
+                  },
+                  "team2": {
+                    "teamId": 382,
+                    "teamName": "Thailand Women",
+                    "teamSName": "THAIW",
+                    "imageId": 172435
+                  },
+                  "venueInfo": {
+                    "id": 153,
+                    "ground": "Dubai International Cricket Stadium",
+                    "city": "Dubai",
+                    "timezone": "+04:00",
+                    "latitude": "25.046842",
+                    "longitude": "55.218969"
+                  },
+                  "currBatTeamId": 97,
+                  "seriesStartDt": "1787875200000",
+                  "seriesEndDt": "1789430400000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "INDW Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 159,
+                      "wickets": 9,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 65,
+                      "wickets": 10,
+                      "overs": 16.1
                     }
                   }
                 }
@@ -4590,6 +4534,62 @@
                     }
                   }
                 }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 169813,
+                  "seriesId": 12927,
+                  "seriesName": "Women's Asia Cup 2026",
+                  "matchDesc": "Match 4, Group B",
+                  "matchFormat": "T20",
+                  "startDate": "1788186600000",
+                  "endDate": "1788199200000",
+                  "state": "Complete",
+                  "status": "Bangladesh Women won by 71 runs",
+                  "team1": {
+                    "teamId": 329,
+                    "teamName": "Bangladesh Women",
+                    "teamSName": "BANW",
+                    "imageId": 776213
+                  },
+                  "team2": {
+                    "teamId": 484,
+                    "teamName": "Indonesia Women",
+                    "teamSName": "IDNW",
+                    "imageId": 172532
+                  },
+                  "venueInfo": {
+                    "id": 153,
+                    "ground": "Dubai International Cricket Stadium",
+                    "city": "Dubai",
+                    "timezone": "+04:00",
+                    "latitude": "25.046842",
+                    "longitude": "55.218969"
+                  },
+                  "currBatTeamId": 329,
+                  "seriesStartDt": "1787875200000",
+                  "seriesEndDt": "1789430400000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "BANW Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 129,
+                      "wickets": 8,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 58,
+                      "wickets": 10,
+                      "overs": 17.3
+                    }
+                  }
+                }
               }
             ]
           }
@@ -4599,62 +4599,6 @@
             "seriesId": 10548,
             "seriesName": "Ireland Women tour of England 2026",
             "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 129530,
-                  "seriesId": 10548,
-                  "seriesName": "Ireland Women tour of England 2026",
-                  "matchDesc": "1st ODI",
-                  "matchFormat": "ODI",
-                  "startDate": "1788264000000",
-                  "endDate": "1788292800000",
-                  "state": "Complete",
-                  "status": "England Women won by 6 wkts",
-                  "team1": {
-                    "teamId": 189,
-                    "teamName": "Ireland Women",
-                    "teamSName": "IREW",
-                    "imageId": 839468
-                  },
-                  "team2": {
-                    "teamId": 99,
-                    "teamName": "England Women",
-                    "teamSName": "ENGW",
-                    "imageId": 776241
-                  },
-                  "venueInfo": {
-                    "id": 222,
-                    "ground": "Grace Road",
-                    "city": "Leicester",
-                    "timezone": "+01:00",
-                    "latitude": "52.607861",
-                    "longitude": "-1.142709"
-                  },
-                  "currBatTeamId": 99,
-                  "seriesStartDt": "1788220800000",
-                  "seriesEndDt": "1788825600000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "ENGW Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 281,
-                      "wickets": 5,
-                      "overs": 49.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 283,
-                      "wickets": 4,
-                      "overs": 38.1
-                    }
-                  }
-                }
-              },
               {
                 "matchInfo": {
                   "matchId": 129535,
@@ -4707,6 +4651,62 @@
                       "runs": 166,
                       "wickets": 4,
                       "overs": 22.6
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 129530,
+                  "seriesId": 10548,
+                  "seriesName": "Ireland Women tour of England 2026",
+                  "matchDesc": "1st ODI",
+                  "matchFormat": "ODI",
+                  "startDate": "1788264000000",
+                  "endDate": "1788292800000",
+                  "state": "Complete",
+                  "status": "England Women won by 6 wkts",
+                  "team1": {
+                    "teamId": 189,
+                    "teamName": "Ireland Women",
+                    "teamSName": "IREW",
+                    "imageId": 839468
+                  },
+                  "team2": {
+                    "teamId": 99,
+                    "teamName": "England Women",
+                    "teamSName": "ENGW",
+                    "imageId": 776241
+                  },
+                  "venueInfo": {
+                    "id": 222,
+                    "ground": "Grace Road",
+                    "city": "Leicester",
+                    "timezone": "+01:00",
+                    "latitude": "52.607861",
+                    "longitude": "-1.142709"
+                  },
+                  "currBatTeamId": 99,
+                  "seriesStartDt": "1788220800000",
+                  "seriesEndDt": "1788825600000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "ENGW Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 281,
+                      "wickets": 5,
+                      "overs": 49.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 283,
+                      "wickets": 4,
+                      "overs": 38.1
                     }
                   }
                 }
@@ -4785,62 +4785,6 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 170853,
-                  "seriesId": 13060,
-                  "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
-                  "matchDesc": "3rd Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788532200000",
-                  "endDate": "1788544800000",
-                  "state": "Complete",
-                  "status": "Czech Republic Women won by 48 runs",
-                  "team1": {
-                    "teamId": 1987,
-                    "teamName": "Czech Republic Women",
-                    "teamSName": "CZEW",
-                    "imageId": 501075
-                  },
-                  "team2": {
-                    "teamId": 496,
-                    "teamName": "Belgium Women",
-                    "teamSName": "BELW",
-                    "imageId": 776217
-                  },
-                  "venueInfo": {
-                    "id": 941,
-                    "ground": "Scott Page Field, Vinor",
-                    "city": "Prague",
-                    "timezone": "+02:00",
-                    "latitude": "50.0755",
-                    "longitude": "14.4378"
-                  },
-                  "currBatTeamId": 1987,
-                  "seriesStartDt": "1788480000000",
-                  "seriesEndDt": "1788825600000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "CZEW Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 140,
-                      "wickets": 7,
-                      "overs": 19.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 92,
-                      "wickets": 9,
-                      "overs": 19.6
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 170870,
                   "seriesId": 13060,
                   "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
@@ -4891,6 +4835,61 @@
                       "runs": 127,
                       "wickets": 4,
                       "overs": 19.6
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170863,
+                  "seriesId": 13060,
+                  "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
+                  "matchDesc": "5th Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788607800000",
+                  "endDate": "1788620400000",
+                  "state": "Complete",
+                  "status": "Czech Republic Women won by 10 wkts",
+                  "team1": {
+                    "teamId": 496,
+                    "teamName": "Belgium Women",
+                    "teamSName": "BELW",
+                    "imageId": 776217
+                  },
+                  "team2": {
+                    "teamId": 1987,
+                    "teamName": "Czech Republic Women",
+                    "teamSName": "CZEW",
+                    "imageId": 501075
+                  },
+                  "venueInfo": {
+                    "id": 941,
+                    "ground": "Scott Page Field, Vinor",
+                    "city": "Prague",
+                    "timezone": "+02:00",
+                    "latitude": "50.0755",
+                    "longitude": "14.4378"
+                  },
+                  "currBatTeamId": 1987,
+                  "seriesStartDt": "1788480000000",
+                  "seriesEndDt": "1788825600000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "CZEW Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 52,
+                      "wickets": 10,
+                      "overs": 13.2
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 56,
+                      "overs": 5.3
                     }
                   }
                 }
@@ -4953,62 +4952,6 @@
               },
               {
                 "matchInfo": {
-                  "matchId": 170843,
-                  "seriesId": 13060,
-                  "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
-                  "matchDesc": "2nd Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788521400000",
-                  "endDate": "1788534000000",
-                  "state": "Complete",
-                  "status": "Czech Republic Women won by 7 wkts",
-                  "team1": {
-                    "teamId": 2380,
-                    "teamName": "Portugal Women",
-                    "teamSName": "PORTW",
-                    "imageId": 625937
-                  },
-                  "team2": {
-                    "teamId": 1987,
-                    "teamName": "Czech Republic Women",
-                    "teamSName": "CZEW",
-                    "imageId": 501075
-                  },
-                  "venueInfo": {
-                    "id": 941,
-                    "ground": "Scott Page Field, Vinor",
-                    "city": "Prague",
-                    "timezone": "+02:00",
-                    "latitude": "50.0755",
-                    "longitude": "14.4378"
-                  },
-                  "currBatTeamId": 1987,
-                  "seriesStartDt": "1788480000000",
-                  "seriesEndDt": "1788825600000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "CZEW Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 86,
-                      "wickets": 10,
-                      "overs": 13.2
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 87,
-                      "wickets": 3,
-                      "overs": 12.5
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 170861,
                   "seriesId": 13060,
                   "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
@@ -5065,20 +5008,20 @@
               },
               {
                 "matchInfo": {
-                  "matchId": 170863,
+                  "matchId": 170843,
                   "seriesId": 13060,
                   "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
-                  "matchDesc": "5th Match",
+                  "matchDesc": "2nd Match",
                   "matchFormat": "T20",
-                  "startDate": "1788607800000",
-                  "endDate": "1788620400000",
+                  "startDate": "1788521400000",
+                  "endDate": "1788534000000",
                   "state": "Complete",
-                  "status": "Czech Republic Women won by 10 wkts",
+                  "status": "Czech Republic Women won by 7 wkts",
                   "team1": {
-                    "teamId": 496,
-                    "teamName": "Belgium Women",
-                    "teamSName": "BELW",
-                    "imageId": 776217
+                    "teamId": 2380,
+                    "teamName": "Portugal Women",
+                    "teamSName": "PORTW",
+                    "imageId": 625937
                   },
                   "team2": {
                     "teamId": 1987,
@@ -5104,7 +5047,7 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 52,
+                      "runs": 86,
                       "wickets": 10,
                       "overs": 13.2
                     }
@@ -5112,8 +5055,65 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 56,
-                      "overs": 5.3
+                      "runs": 87,
+                      "wickets": 3,
+                      "overs": 12.5
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170853,
+                  "seriesId": 13060,
+                  "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
+                  "matchDesc": "3rd Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788532200000",
+                  "endDate": "1788544800000",
+                  "state": "Complete",
+                  "status": "Czech Republic Women won by 48 runs",
+                  "team1": {
+                    "teamId": 1987,
+                    "teamName": "Czech Republic Women",
+                    "teamSName": "CZEW",
+                    "imageId": 501075
+                  },
+                  "team2": {
+                    "teamId": 496,
+                    "teamName": "Belgium Women",
+                    "teamSName": "BELW",
+                    "imageId": 776217
+                  },
+                  "venueInfo": {
+                    "id": 941,
+                    "ground": "Scott Page Field, Vinor",
+                    "city": "Prague",
+                    "timezone": "+02:00",
+                    "latitude": "50.0755",
+                    "longitude": "14.4378"
+                  },
+                  "currBatTeamId": 1987,
+                  "seriesStartDt": "1788480000000",
+                  "seriesEndDt": "1788825600000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "CZEW Won"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 140,
+                      "wickets": 7,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 92,
+                      "wickets": 9,
+                      "overs": 19.6
                     }
                   }
                 }
@@ -5690,5 +5690,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788697200"
+  "responseLastUpdated": "1788697436"
 }
