@@ -87,7 +87,7 @@
                   "startDate": "1788700500000",
                   "endDate": "1788713100000",
                   "state": "In Progress",
-                  "status": "Amsterdam Flames need 46 runs in 30 balls",
+                  "status": "Amsterdam Flames need 42 runs in 29 balls",
                   "team1": {
                     "teamId": 573,
                     "teamName": "Rotterdam Dockers",
@@ -126,9 +126,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 131,
+                      "runs": 135,
                       "wickets": 2,
-                      "overs": 14.6
+                      "overs": 15.1
                     }
                   }
                 }
@@ -207,7 +207,7 @@
                   "startDate": "1788701400000",
                   "endDate": "1788714000000",
                   "state": "In Progress",
-                  "status": "Ludhiana Lions need 106 runs in 69 balls",
+                  "status": "Ludhiana Lions need 105 runs in 67 balls",
                   "team1": {
                     "teamId": 3561,
                     "teamName": "Fazilka Falcons",
@@ -246,9 +246,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 65,
+                      "runs": 66,
                       "wickets": 3,
-                      "overs": 8.3
+                      "overs": 8.5
                     }
                   }
                 }
@@ -374,13 +374,6 @@
           }
         },
         {
-          "ad": {
-            "name": "native_matches",
-            "layout": "native_large",
-            "position": 4
-          }
-        },
-        {
           "seriesAdWrapper": {
             "seriesId": 12993,
             "seriesName": "ACC Men's Premier Cup, 2026",
@@ -501,6 +494,13 @@
           }
         },
         {
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 5
+          }
+        },
+        {
           "seriesAdWrapper": {
             "seriesId": 13033,
             "seriesName": "Bangladesh A tour of South Africa, 2026",
@@ -575,7 +575,7 @@
                   "startDate": "1788705000000",
                   "endDate": "1788717600000",
                   "state": "In Progress",
-                  "status": "Sri Lanka Women need 108 runs",
+                  "status": "Sri Lanka Women need 107 runs",
                   "team1": {
                     "teamId": 329,
                     "teamName": "Bangladesh Women",
@@ -614,9 +614,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 7,
+                      "runs": 8,
                       "wickets": 1,
-                      "overs": 0.6
+                      "overs": 1.2
                     }
                   }
                 }
@@ -703,7 +703,7 @@
                   "startDate": "1788703200000",
                   "endDate": "1788715800000",
                   "state": "In Progress",
-                  "status": "Jamaica Empress Women need 85 runs in 82 balls",
+                  "status": "Jamaica Empress Women need 84 runs in 80 balls",
                   "team1": {
                     "teamId": 1144,
                     "teamName": "Guyana Amazon Warriors Women",
@@ -742,9 +742,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 54,
+                      "runs": 55,
                       "wickets": 1,
-                      "overs": 6.2
+                      "overs": 6.4
                     }
                   }
                 }
@@ -951,5 +951,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788711273"
+  "responseLastUpdated": "1788711327"
 }
