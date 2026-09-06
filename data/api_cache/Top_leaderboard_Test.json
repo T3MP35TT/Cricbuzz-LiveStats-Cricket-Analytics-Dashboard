@@ -1,0 +1,201 @@
+{
+  "batsmen": {
+    "rank": [
+      {
+        "id": "12201",
+        "rank": "1",
+        "name": "Harry Brook",
+        "country": "England",
+        "rating": "856",
+        "points": "856",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Flat",
+        "faceImageId": "848570",
+        "countryId": "9"
+      },
+      {
+        "id": "2250",
+        "rank": "2",
+        "name": "Steven Smith",
+        "country": "Australia",
+        "rating": "840",
+        "difference": 1,
+        "points": "840",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Up",
+        "faceImageId": "619873",
+        "countryId": "4"
+      },
+      {
+        "id": "8019",
+        "rank": "3",
+        "name": "Joe Root",
+        "country": "England",
+        "rating": "820",
+        "difference": -1,
+        "points": "820",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Down",
+        "faceImageId": "717792",
+        "countryId": "9"
+      },
+      {
+        "id": "8497",
+        "rank": "4",
+        "name": "Travis Head",
+        "country": "Australia",
+        "rating": "811",
+        "points": "811",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Flat",
+        "faceImageId": "845768",
+        "countryId": "4"
+      },
+      {
+        "id": "8583",
+        "rank": "5",
+        "name": "Temba Bavuma",
+        "country": "South Africa",
+        "rating": "775",
+        "points": "775",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Flat",
+        "faceImageId": "619857",
+        "countryId": "11"
+      },
+      {
+        "id": "11177",
+        "rank": "6",
+        "name": "Rachin Ravindra",
+        "country": "New Zealand",
+        "rating": "740",
+        "points": "740",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Flat",
+        "faceImageId": "845519",
+        "countryId": "13"
+      },
+      {
+        "id": "10744",
+        "rank": "7",
+        "name": "Rishabh Pant",
+        "country": "India",
+        "rating": "713",
+        "points": "713",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Flat",
+        "faceImageId": "616524",
+        "countryId": "2"
+      },
+      {
+        "id": "10713",
+        "rank": "8",
+        "name": "Daryl Mitchell",
+        "country": "New Zealand",
+        "rating": "710",
+        "difference": 1,
+        "points": "710",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Up",
+        "faceImageId": "845511",
+        "countryId": "13"
+      },
+      {
+        "id": "11808",
+        "rank": "9",
+        "name": "Shubman Gill",
+        "country": "India",
+        "rating": "709",
+        "difference": -2,
+        "points": "709",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Down",
+        "faceImageId": "616515",
+        "countryId": "2"
+      },
+      {
+        "id": "10940",
+        "rank": "10",
+        "name": "Kamindu Mendis",
+        "country": "Sri Lanka",
+        "rating": "706",
+        "difference": 2,
+        "points": "706",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Up",
+        "faceImageId": "847173",
+        "countryId": "5"
+      },
+      {
+        "id": "13940",
+        "rank": "11",
+        "name": "Yashasvi Jaiswal",
+        "country": "India",
+        "rating": "697",
+        "points": "697",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Flat",
+        "faceImageId": "591942",
+        "countryId": "2"
+      },
+      {
+        "id": "6245",
+        "rank": "12",
+        "name": "Dinesh Chandimal",
+        "country": "Sri Lanka",
+        "rating": "689",
+        "difference": 1,
+        "points": "689",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Up",
+        "faceImageId": "582334",
+        "countryId": "5"
+      },
+      {
+        "id": "9582",
+        "rank": "13",
+        "name": "Aiden Markram",
+        "country": "South Africa",
+        "rating": "681",
+        "difference": 2,
+        "points": "681",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Up",
+        "faceImageId": "846099",
+        "countryId": "11"
+      },
+      {
+        "id": "9838",
+        "rank": "13",
+        "name": "Devon Conway",
+        "country": "New Zealand",
+        "rating": "681",
+        "difference": 2,
+        "points": "681",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Up",
+        "faceImageId": "845526",
+        "countryId": "13"
+      },
+      {
+        "id": "8359",
+        "rank": "15",
+        "name": "Babar Azam",
+        "country": "Pakistan",
+        "rating": "679",
+        "difference": -5,
+        "points": "679",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Down",
+        "faceImageId": "846059",
+        "countryId": "3"
+      }
+    ],
+    "appIndex": {
+      "seoTitle": "ICC Cricket Rankings - Top 100 Batter | Cricbuzz.com",
+      "webURL": "www.cricbuzz.com/cricket-stats/icc-rankings"
+    }
+  },
+  "_format": "test",
+  "_updated_at": 1788712044
+}
