@@ -17,8 +17,8 @@
                   "matchFormat": "T20",
                   "startDate": "1788696000000",
                   "endDate": "1788708600000",
-                  "state": "In Progress",
-                  "status": "Zimbabwe need 149 runs in 70 balls",
+                  "state": "Complete",
+                  "status": "South Africa won by 48 runs",
                   "team1": {
                     "teamId": 11,
                     "teamName": "South Africa",
@@ -39,11 +39,11 @@
                     "latitude": "-22.5872377",
                     "longitude": "17.0677249"
                   },
-                  "currBatTeamId": 12,
+                  "currBatTeamId": 11,
                   "seriesStartDt": "1787875200000",
                   "seriesEndDt": "1788825600000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "In Progress"
+                  "stateTitle": "Complete"
                 },
                 "matchScore": {
                   "team1Score": {
@@ -57,9 +57,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 57,
-                      "wickets": 5,
-                      "overs": 8.2
+                      "runs": 157,
+                      "wickets": 10,
+                      "overs": 17.6
                     }
                   }
                 }
@@ -87,7 +87,7 @@
                   "startDate": "1788700500000",
                   "endDate": "1788713100000",
                   "state": "In Progress",
-                  "status": "Amsterdam Flames opt to bowl",
+                  "status": "Amsterdam Flames need 90 runs in 63 balls",
                   "team1": {
                     "teamId": 573,
                     "teamName": "Rotterdam Dockers",
@@ -108,7 +108,7 @@
                     "latitude": "52.0848131",
                     "longitude": "4.3662509"
                   },
-                  "currBatTeamId": 573,
+                  "currBatTeamId": 572,
                   "seriesStartDt": "1787702400000",
                   "seriesEndDt": "1790035200000",
                   "isTimeAnnounced": true,
@@ -118,9 +118,17 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 121,
-                      "wickets": 5,
-                      "overs": 16.1
+                      "runs": 176,
+                      "wickets": 6,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 87,
+                      "wickets": 2,
+                      "overs": 9.3
                     }
                   }
                 }
@@ -199,7 +207,7 @@
                   "startDate": "1788701400000",
                   "endDate": "1788714000000",
                   "state": "In Progress",
-                  "status": "Ludhiana Lions opt to bowl",
+                  "status": "Ludhiana Lions need 133 runs in 95 balls",
                   "team1": {
                     "teamId": 3561,
                     "teamName": "Fazilka Falcons",
@@ -220,7 +228,7 @@
                     "latitude": "30.690905",
                     "longitude": "76.737455"
                   },
-                  "currBatTeamId": 3561,
+                  "currBatTeamId": 3591,
                   "seriesStartDt": "1788048000000",
                   "seriesEndDt": "1789430400000",
                   "isTimeAnnounced": true,
@@ -230,9 +238,17 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 99,
-                      "wickets": 6,
-                      "overs": 11.6
+                      "runs": 170,
+                      "wickets": 9,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 38,
+                      "wickets": 1,
+                      "overs": 4.1
                     }
                   }
                 }
@@ -272,7 +288,7 @@
                   "seriesStartDt": "1788048000000",
                   "seriesEndDt": "1789430400000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
+                  "stateTitle": "BTR Won"
                 },
                 "matchScore": {
                   "team1Score": {
@@ -558,7 +574,7 @@
                   "matchFormat": "T20",
                   "startDate": "1788705000000",
                   "endDate": "1788717600000",
-                  "state": "Toss",
+                  "state": "In Progress",
                   "status": "Sri Lanka Women opt to bowl",
                   "team1": {
                     "teamId": 329,
@@ -580,10 +596,21 @@
                     "latitude": "25.046842",
                     "longitude": "55.218969"
                   },
+                  "currBatTeamId": 329,
                   "seriesStartDt": "1787875200000",
                   "seriesEndDt": "1789430400000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "Toss"
+                  "stateTitle": "In Progress"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 113,
+                      "wickets": 7,
+                      "overs": 19.5
+                    }
+                  }
                 }
               }
             ]
@@ -604,7 +631,7 @@
                   "startDate": "1788687000000",
                   "endDate": "1788715800000",
                   "state": "In Progress",
-                  "status": "Ireland Women need 212 runs",
+                  "status": "Ireland Women need 121 runs in 46 balls",
                   "team1": {
                     "teamId": 99,
                     "teamName": "England Women",
@@ -643,9 +670,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 80,
-                      "wickets": 1,
-                      "overs": 19.3
+                      "runs": 171,
+                      "wickets": 8,
+                      "overs": 42.2
                     }
                   }
                 }
@@ -668,7 +695,7 @@
                   "startDate": "1788703200000",
                   "endDate": "1788715800000",
                   "state": "In Progress",
-                  "status": "Jamaica Empress Women opt to bowl",
+                  "status": "Jamaica Empress Women need 118 runs",
                   "team1": {
                     "teamId": 1144,
                     "teamName": "Guyana Amazon Warriors Women",
@@ -689,7 +716,7 @@
                     "latitude": "13.105021",
                     "longitude": "-59.62257"
                   },
-                  "currBatTeamId": 1144,
+                  "currBatTeamId": 3428,
                   "seriesStartDt": "1788566400000",
                   "seriesEndDt": "1789776000000",
                   "isTimeAnnounced": true,
@@ -699,9 +726,16 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 28,
-                      "wickets": 2,
-                      "overs": 6.6
+                      "runs": 138,
+                      "wickets": 7,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 21,
+                      "overs": 1.6
                     }
                   }
                 }
@@ -714,62 +748,6 @@
             "seriesId": 13060,
             "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
             "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 170871,
-                  "seriesId": 13060,
-                  "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
-                  "matchDesc": "3rd place play-off",
-                  "matchFormat": "T20",
-                  "startDate": "1788679800000",
-                  "endDate": "1788692400000",
-                  "state": "Complete",
-                  "status": "Portugal Women won by 8 wkts",
-                  "team1": {
-                    "teamId": 496,
-                    "teamName": "Belgium Women",
-                    "teamSName": "BELW",
-                    "imageId": 776217
-                  },
-                  "team2": {
-                    "teamId": 2380,
-                    "teamName": "Portugal Women",
-                    "teamSName": "PORTW",
-                    "imageId": 625937
-                  },
-                  "venueInfo": {
-                    "id": 941,
-                    "ground": "Scott Page Field, Vinor",
-                    "city": "Prague",
-                    "timezone": "+02:00",
-                    "latitude": "50.0755",
-                    "longitude": "14.4378"
-                  },
-                  "currBatTeamId": 2380,
-                  "seriesStartDt": "1788480000000",
-                  "seriesEndDt": "1788825600000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 106,
-                      "wickets": 10,
-                      "overs": 19.5
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 108,
-                      "wickets": 2,
-                      "overs": 10.2
-                    }
-                  }
-                }
-              },
               {
                 "matchInfo": {
                   "matchId": 170873,
@@ -822,6 +800,62 @@
                       "runs": 71,
                       "wickets": 6,
                       "overs": 12.5
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170871,
+                  "seriesId": 13060,
+                  "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
+                  "matchDesc": "3rd place play-off",
+                  "matchFormat": "T20",
+                  "startDate": "1788679800000",
+                  "endDate": "1788692400000",
+                  "state": "Complete",
+                  "status": "Portugal Women won by 8 wkts",
+                  "team1": {
+                    "teamId": 496,
+                    "teamName": "Belgium Women",
+                    "teamSName": "BELW",
+                    "imageId": 776217
+                  },
+                  "team2": {
+                    "teamId": 2380,
+                    "teamName": "Portugal Women",
+                    "teamSName": "PORTW",
+                    "imageId": 625937
+                  },
+                  "venueInfo": {
+                    "id": 941,
+                    "ground": "Scott Page Field, Vinor",
+                    "city": "Prague",
+                    "timezone": "+02:00",
+                    "latitude": "50.0755",
+                    "longitude": "14.4378"
+                  },
+                  "currBatTeamId": 2380,
+                  "seriesStartDt": "1788480000000",
+                  "seriesEndDt": "1788825600000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 106,
+                      "wickets": 10,
+                      "overs": 19.5
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 108,
+                      "wickets": 2,
+                      "overs": 10.2
                     }
                   }
                 }
@@ -908,5 +942,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788705099"
+  "responseLastUpdated": "1788710009"
 }
