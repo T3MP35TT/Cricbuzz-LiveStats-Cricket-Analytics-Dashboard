@@ -1,0 +1,68 @@
+{
+  "matchInfo": {
+    "matchId": 143174,
+    "seriesId": 11416,
+    "seriesName": "County Championship Division Two 2026",
+    "matchDesc": "43rd Match",
+    "matchFormat": "TEST",
+    "startDate": "1788341400000",
+    "endDate": "1788625800000",
+    "state": "Complete",
+    "status": "Durham won by 153 runs",
+    "team1": {
+      "teamId": 141,
+      "teamName": "Durham",
+      "teamSName": "DUR",
+      "imageId": 172208
+    },
+    "team2": {
+      "teamId": 142,
+      "teamName": "Northamptonshire",
+      "teamSName": "NHNTS",
+      "imageId": 172209
+    },
+    "venueInfo": {
+      "id": 119,
+      "ground": "County Ground",
+      "city": "Northampton",
+      "timezone": "+01:00",
+      "latitude": "52.248160",
+      "longitude": "-0.871060"
+    },
+    "currBatTeamId": 141,
+    "seriesStartDt": "1775174400000",
+    "seriesEndDt": "1790640000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "DUR Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 205,
+        "wickets": 10,
+        "overs": 56.2
+      },
+      "inngs2": {
+        "inningsId": 3,
+        "runs": 261,
+        "wickets": 10,
+        "overs": 84.5
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 263,
+        "wickets": 10,
+        "overs": 87.6
+      },
+      "inngs2": {
+        "inningsId": 4,
+        "runs": 50,
+        "wickets": 10,
+        "overs": 22.2
+      }
+    }
+  }
+}
