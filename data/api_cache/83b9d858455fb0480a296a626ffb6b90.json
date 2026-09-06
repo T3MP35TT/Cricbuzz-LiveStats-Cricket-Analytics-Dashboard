@@ -1,0 +1,721 @@
+{
+  "inningsid": 0,
+  "comwrapper": [
+    {
+      "commentary": {
+        "commtxt": "Duan Jansen to Blessing Muzarabani, B0$, to long-on",
+        "timestamp": 1788707451702,
+        "overnum": 17.1,
+        "inningsid": 2,
+        "eventtype": "SIX",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "SIX"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 103,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "B0$",
+        "timestamp": 1788707431578,
+        "overnum": 0.0,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "Duan Jansen [2.0-0-15-2] is back into the attack"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Kwena Maphaka to Brad Evans, no run, another yorker, a perfect one and Brad Evans jams it back to Kwena Maphaka who is quick on the ball and makes sure they don't steal a single",
+        "timestamp": 1788707378492,
+        "overnum": 16.6,
+        "inningsid": 2,
+        "eventtype": "over-break",
+        "oversep": {
+          "score": 134,
+          "wickets": 9,
+          "inningsid": 2,
+          "oversummary": "W 0 1 0 0 0 ",
+          "runs": 1,
+          "batstrikerdetails": "1(2)",
+          "batnonstrikerdetails": "45(28)",
+          "bowldetails": "1-9 (2)",
+          "timestamp": 1788707378492,
+          "overnum": 16.6,
+          "ovrbatnames": [],
+          "ovrbowlnames": [],
+          "batstrikername": "Blessing Muzarabani",
+          "batnonstrikername": "Brad Evans",
+          "bowlname": "Kwena Maphaka",
+          "battingteamname": "ZIM"
+        },
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 102,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false,
+        "ad": {
+          "name": "mpu_over_break",
+          "layout": "mpu",
+          "position": 1
+        }
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Kwena Maphaka to Brad Evans, no run, goes for the yorker as Brad Evans under-edges the flick onto the boot",
+        "timestamp": 1788707343257,
+        "overnum": 16.5,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 101,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Kwena Maphaka to Brad Evans, no run, into the pitch as the ball angles in. Evans attempts the hook but misses, and he’s not happy as the umpire doesn’t call it a wide down the leg",
+        "timestamp": 1788707318319,
+        "overnum": 16.4,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 100,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Kwena Maphaka to Blessing Muzarabani, 1 run, slower one into the length, Blessing Muzarabani plays it to the off side with soft hands and brings Evans back on strike",
+        "timestamp": 1788707280842,
+        "overnum": 16.3,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 99,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Kwena Maphaka to Blessing Muzarabani, no run, greets Blessing Muzarabani with a yorker but the tall man does well to bring his bat down and dig it out",
+        "timestamp": 1788707243379,
+        "overnum": 16.2,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 98,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "B0$",
+        "timestamp": 1788707185593,
+        "overnum": 0.0,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "Blessing Muzarabani, right handed bat, comes to the crease"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Kwena Maphaka to Kundai Matigimu, B0$ Caught by Connor Esterhuizen!! The entertaining partnership has been broken! Matigimu comes down the track and moves to the leg side, looking to whip this through deep mid-wicket, but gets a top edge that flies high behind the stumps. The keeper backpedals and takes it comfortably. Seems like it was a cutter from Kwena Maphaka. B1$",
+        "timestamp": 1788707147737,
+        "overnum": 16.1,
+        "inningsid": 2,
+        "eventtype": "WICKET",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "out"
+              },
+              {
+                "id": "B1$",
+                "value": "Kundai Matigimu c Connor Esterhuizen b Kwena Maphaka 19(11) [6s-2]"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 97,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Kwena Maphaka to Kundai Matigimu, B0$ Caught!!",
+        "timestamp": 1788707145926,
+        "overnum": 0.0,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "THATS OUT!!"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    }
+  ],
+  "miniscore": {
+    "batsmanstriker": {
+      "id": 13316,
+      "balls": 3,
+      "runs": 7,
+      "fours": 0,
+      "sixes": 1,
+      "strkrate": "233.33",
+      "name": "Blessing Muzarabani",
+      "nickname": "Blessing Muzarabani",
+      "iscaptain": false,
+      "iskeeper": false,
+      "outdec": "",
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "iscbplusfree": false,
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "batsmannonstriker": {
+      "id": 19592,
+      "balls": 28,
+      "runs": 45,
+      "fours": 3,
+      "sixes": 3,
+      "strkrate": "160.71",
+      "name": "Brad Evans",
+      "nickname": "Brad Evans",
+      "iscaptain": false,
+      "iskeeper": false,
+      "outdec": "",
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "iscbplusfree": false,
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "bowlerstriker": {
+      "id": 18523,
+      "overs": "2.1",
+      "maidens": 0,
+      "wickets": 2,
+      "runs": 21,
+      "economy": "9.7",
+      "name": "Duan Jansen",
+      "nickname": "",
+      "iscaptain": false,
+      "iskeeper": false,
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "dots": 0,
+      "balls": 0,
+      "rpb": 0.0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "bowlernonstriker": {
+      "id": 23346,
+      "overs": "2",
+      "maidens": 0,
+      "wickets": 1,
+      "runs": 9,
+      "economy": "4.5",
+      "name": "Kwena Maphaka",
+      "nickname": "",
+      "iscaptain": false,
+      "iskeeper": false,
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "dots": 0,
+      "balls": 0,
+      "rpb": 0.0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "crr": 8.16,
+    "rrr": 23.29,
+    "inningsnbr": "1st inn",
+    "lastwkt": "Kundai Matigimu  c Connor Esterhuizen b Kwena Maphaka 19(11)  - 133/9 in 16.1 ov.",
+    "curovsstats": "6",
+    "inningsscores": {
+      "inningsscore": [
+        {
+          "inningsid": 2,
+          "batteamid": 12,
+          "batteamshortname": "ZIM",
+          "runs": 140,
+          "wickets": 9,
+          "overs": 17.1,
+          "isdeclared": false,
+          "isfollowon": false,
+          "target": 206,
+          "balls": 103
+        },
+        {
+          "inningsid": 1,
+          "batteamid": 11,
+          "batteamshortname": "RSA",
+          "runs": 205,
+          "wickets": 5,
+          "overs": 19.6,
+          "isdeclared": false,
+          "isfollowon": false,
+          "target": 206,
+          "balls": 120
+        }
+      ]
+    },
+    "inningsid": 2,
+    "performance": [
+      {
+        "runs": 53,
+        "wickets": 1,
+        "label": "Last 5 overs"
+      },
+      {
+        "runs": 34,
+        "wickets": 1,
+        "label": "Last 3 overs"
+      }
+    ],
+    "partnership": "7(6)",
+    "oversrem": "",
+    "pp": {
+      "powerplay": [
+        {
+          "id": 2,
+          "ovrfrom": 0.1,
+          "ovrto": 6.0,
+          "pptype": "Mandatory",
+          "run": 46,
+          "wickets": 0
+        }
+      ]
+    },
+    "target": 0,
+    "custstatus": "",
+    "ballsrem": 0,
+    "rpb": 0.0,
+    "rrpb": 0.0,
+    "responselastupdated": 0,
+    "event": "",
+    "timestamp": 1788707451702
+  },
+  "matchheaders": {
+    "state": "In Progress",
+    "status": "Zimbabwe need 66 runs in 17 balls",
+    "matchformat": "T20",
+    "matchstarttimestamp": 1788696000000,
+    "teamdetails": {
+      "batteamid": 12,
+      "batteamname": "ZIM",
+      "bowlteamid": 11,
+      "bowlteamname": "RSA"
+    },
+    "momplayers": {
+      "player": [],
+      "category": ""
+    },
+    "mosplayers": {
+      "player": [],
+      "category": ""
+    },
+    "winningteamid": 0,
+    "revisedtarget": 0,
+    "matchendtimestamp": 1788706800000,
+    "seriesid": 12933,
+    "matchdesc": "Final",
+    "seriesname": "Namibia T20I Tri-Series 2026",
+    "alerttype": "auto",
+    "tossresults": {
+      "tosswinnerid": 11,
+      "tosswinnername": "South Africa",
+      "decision": "Batting"
+    },
+    "livestreamenabled": false,
+    "team1": {
+      "teamid": 11,
+      "teamname": "South Africa",
+      "teamsname": "RSA",
+      "isfullmember": false,
+      "isassociated": false,
+      "isleagueteam": false,
+      "iswomenteam": false,
+      "isheader": false,
+      "isactive": false,
+      "teampriority": "",
+      "isvideopresent": false,
+      "imageid": 0,
+      "countryname": "",
+      "belongsto": "",
+      "teamcolor": "",
+      "isdefaultimage": false
+    },
+    "team2": {
+      "teamid": 12,
+      "teamname": "Zimbabwe",
+      "teamsname": "ZIM",
+      "isfullmember": false,
+      "isassociated": false,
+      "isleagueteam": false,
+      "iswomenteam": false,
+      "isheader": false,
+      "isactive": false,
+      "teampriority": "",
+      "isvideopresent": false,
+      "imageid": 0,
+      "countryname": "",
+      "belongsto": "",
+      "teamcolor": "",
+      "isdefaultimage": false
+    }
+  },
+  "appindex": {
+    "seotitle": "RSA vs ZIM Final,Namibia T20I Tri-Series 2026 | Cricbuzz.com",
+    "weburl": "http://www.cricbuzz.com/live-cricket-scores/170017/rsa-vs-zim-final-namibia-t20i-tri-series-2026"
+  },
+  "matchvideos": [],
+  "responselastupdated": 1788707454,
+  "buzz": {
+    "imageids": [
+      1064841,
+      1067223,
+      1066396
+    ],
+    "position": 2,
+    "applink": "cricbuzz://buzz",
+    "isbuzzenabled": true
+  },
+  "_cache_saved_at": 1788708635.8128872
+}

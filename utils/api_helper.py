@@ -156,6 +156,18 @@ TTL_SECONDS = {
     # Player information can be refreshed every 30 days.
     "player": 60 * 60 * 24 * 30,
 
+    # ICC team rankings can be refreshed every 30 days.
+    "team_rankings": 60 * 60 * 24 * 30,
+
+    # Competition standings can be refreshed daily.
+    "team_standings": 60 * 60 * 24,
+
+    # Cricbuzz team records can be refreshed every 30 days.
+    "records": 60 * 60 * 24 * 30,
+
+    # Live commentary is refreshed frequently while avoiding repeated API calls.
+    "commentary": 60 * 5,
+
     # Default refresh target.
     "default": 60 * 60 * 24,
 }
@@ -597,48 +609,124 @@ def _persist_cache_to_github(
 
 # API request
 
-def _request_api(
+def _request_api_detailed(
     endpoint: str,
     params: dict = None,
+    force_refresh: bool = False,
 ):
-    """
-    Make one live API request.
-
-    Returns:
-        dict: successful API response
-        None: API/network/HTTP/JSON failure
-    """
+    """Make one API request and retain the reason when it fails."""
 
     if not API_KEY:
-        return None
+        return None, {
+            "http_status": None,
+            "error_type": "missing_key",
+            "error_detail": "CRICBUZZ_API_KEY is not configured.",
+        }
 
-    params = params or {}
-
+    params = dict(params or {})
     url = f"{BASE_URL}{endpoint}"
+
+    # An explicit refresh must also bypass any HTTP/gateway cache in front of
+    # RapidAPI. The application cache key remains unchanged because this
+    # refresh marker is added only to the outbound API request.
+    request_headers = dict(HEADERS)
+    if force_refresh:
+        request_headers["Cache-Control"] = "no-cache, no-store, max-age=0"
+        request_headers["Pragma"] = "no-cache"
+        params["_refresh"] = str(int(time.time() * 1000))
 
     try:
         response = requests.get(
             url,
-            headers=HEADERS,
+            headers=request_headers,
             params=params,
             timeout=10,
         )
 
-        response.raise_for_status()
+        status = response.status_code
 
-        data = response.json()
+        if status < 200 or status >= 300:
+            detail = ""
+            try:
+                payload = response.json()
+                if isinstance(payload, dict):
+                    detail = str(
+                        payload.get("message")
+                        or payload.get("error")
+                        or payload.get("status")
+                        or ""
+                    ).strip()
+            except (ValueError, TypeError):
+                detail = response.text.strip()[:300]
+
+            if status == 401:
+                error_type = "authentication"
+            elif status == 403:
+                error_type = "access"
+            elif status == 404:
+                error_type = "endpoint"
+            elif status == 429:
+                error_type = "rate_limit"
+            elif 500 <= status <= 599:
+                error_type = "server"
+            else:
+                error_type = "http_error"
+
+            return None, {
+                "http_status": status,
+                "error_type": error_type,
+                "error_detail": detail,
+            }
+
+        try:
+            data = response.json()
+        except (ValueError, TypeError):
+            return None, {
+                "http_status": status,
+                "error_type": "invalid_json",
+                "error_detail": "The API returned a successful status but the response was not valid JSON.",
+            }
 
         if not isinstance(data, dict):
-            return None
+            return None, {
+                "http_status": status,
+                "error_type": "invalid_response",
+                "error_detail": "The API returned JSON, but not the expected object response.",
+            }
 
-        return data
+        return data, {
+            "http_status": status,
+            "error_type": None,
+            "error_detail": "",
+        }
 
-    except (
-        requests.RequestException,
-        ValueError,
-        TypeError,
-    ):
-        return None
+    except requests.Timeout:
+        return None, {
+            "http_status": None,
+            "error_type": "timeout",
+            "error_detail": "The API request timed out after 10 seconds.",
+        }
+    except requests.RequestException as exc:
+        return None, {
+            "http_status": None,
+            "error_type": "network",
+            "error_detail": str(exc)[:300],
+        }
+    except (ValueError, TypeError) as exc:
+        return None, {
+            "http_status": None,
+            "error_type": "request_error",
+            "error_detail": str(exc)[:300],
+        }
+
+
+def _request_api(
+    endpoint: str,
+    params: dict = None,
+):
+    """Make one API request and return only the successful payload."""
+    data, _ = _request_api_detailed(endpoint, params=params)
+    return data
 
 
 # Main API function
@@ -693,9 +781,10 @@ def fetch_or_cache(
         )
 
     # Cache is missing/stale, or the caller explicitly requested a refresh.
-    api_data = _request_api(
+    api_data, api_error = _request_api_detailed(
         endpoint,
         params=params,
+        force_refresh=force_refresh,
     )
 
     if api_data is not None:
@@ -716,34 +805,97 @@ def fetch_or_cache(
             cache_file=cache_file,
         )
 
-    # A stale cache is still valid emergency fallback for 30 days.
+    # A forced refresh is an explicit request for current data.
+    # If that API request fails, do not silently return an old cached
+    # response. This prevents Refresh buttons from appearing to work
+    # while displaying stale live data.
+    if force_refresh:
+        error_type = api_error.get("error_type")
+        http_status = api_error.get("http_status")
+        error_detail = api_error.get("error_detail", "")
+
+        if error_type == "missing_key":
+            message = "No CRICBUZZ_API_KEY is configured. The forced refresh could not be completed."
+        elif error_type == "authentication":
+            message = "Cricbuzz rejected the refresh request (HTTP 401). Check the CRICBUZZ_API_KEY."
+        elif error_type == "access":
+            message = "Cricbuzz/RapidAPI rejected the refresh request (HTTP 403). Check the API subscription or endpoint access."
+        elif error_type == "endpoint":
+            message = f"The requested Cricbuzz endpoint/resource was not found (HTTP 404).{(' ' + error_detail) if error_detail else ''}"
+        elif error_type == "rate_limit":
+            message = "The Cricbuzz API rate limit/quota was reached (HTTP 429). The old cached response was not displayed because a fresh refresh was requested."
+        elif error_type == "server":
+            message = f"The Cricbuzz API returned a server error (HTTP {http_status}). The old cached response was not displayed because a fresh refresh was requested."
+        elif error_type == "timeout":
+            message = "The Cricbuzz API refresh request timed out. The old cached response was not displayed because a fresh refresh was requested."
+        elif error_type == "network":
+            message = "The Cricbuzz API could not be reached because of a network/connection error. The old cached response was not displayed because a fresh refresh was requested."
+        elif error_type == "invalid_json":
+            message = "The Cricbuzz API returned a successful response, but it was not valid JSON. The old cached response was not displayed."
+        elif error_type == "invalid_response":
+            message = "The Cricbuzz API returned an unexpected response format. The old cached response was not displayed."
+        else:
+            message = "The forced Cricbuzz API refresh failed. The old cached response was not displayed."
+
+        return {
+            "error": message,
+            "_data_source": "none",
+            "_cache_is_fallback": False,
+            "_api_error_type": error_type,
+            "_api_http_status": http_status,
+            "_api_error_detail": error_detail,
+        }
+
+    # Normal cache-first behavior retains the existing 30-day emergency
+    # fallback when a non-forced API refresh fails.
     if (
         cached_data is not None
         and _is_valid_fallback(cache_file)
     ):
-        return _decorate_response(
+        result = _decorate_response(
             cached_data,
             source="fallback",
             cache_file=cache_file,
         )
+        result["_api_error_type"] = api_error.get("error_type")
+        result["_api_http_status"] = api_error.get("http_status")
+        result["_api_error_detail"] = api_error.get("error_detail", "")
+        return result
 
-    if not API_KEY:
-        return {
-            "error": (
-                "No CRICBUZZ_API_KEY configured and no usable "
-                "cached response is available."
-            ),
-            "_data_source": "none",
-            "_cache_is_fallback": False,
-        }
+    error_type = api_error.get("error_type")
+    http_status = api_error.get("http_status")
+    error_detail = api_error.get("error_detail", "")
+
+    if error_type == "missing_key":
+        message = "No CRICBUZZ_API_KEY is configured and no usable cached response is available."
+    elif error_type == "authentication":
+        message = "Cricbuzz rejected the API request (HTTP 401). Check the CRICBUZZ_API_KEY."
+    elif error_type == "access":
+        message = "Cricbuzz/RapidAPI rejected access to this endpoint (HTTP 403). Check the API subscription or endpoint access."
+    elif error_type == "endpoint":
+        message = f"The requested Cricbuzz endpoint/resource was not found (HTTP 404).{(' ' + error_detail) if error_detail else ''}"
+    elif error_type == "rate_limit":
+        message = "The Cricbuzz API rate limit/quota was reached (HTTP 429). Wait and try again later or check the RapidAPI quota."
+    elif error_type == "server":
+        message = f"The Cricbuzz API returned a server error (HTTP {http_status}). Try again later."
+    elif error_type == "timeout":
+        message = "The Cricbuzz API request timed out. Check the connection and try again."
+    elif error_type == "network":
+        message = "The Cricbuzz API could not be reached because of a network/connection error."
+    elif error_type == "invalid_json":
+        message = "The Cricbuzz API returned a successful response, but it was not valid JSON."
+    elif error_type == "invalid_response":
+        message = "The Cricbuzz API returned an unexpected response format."
+    else:
+        message = "The Cricbuzz API request failed and no usable cached response is available."
 
     return {
-        "error": (
-            "Cricbuzz API is currently unavailable or the API quota "
-            "may be exhausted, and no usable cached response is available."
-        ),
+        "error": message,
         "_data_source": "none",
         "_cache_is_fallback": False,
+        "_api_error_type": error_type,
+        "_api_http_status": http_status,
+        "_api_error_detail": error_detail,
     }
 
 
@@ -1118,27 +1270,63 @@ def get_live_matches(force_refresh: bool = False):
 
 def get_match_scorecard(
     match_id: str,
+    force_refresh: bool = False,
 ):
     """
-    Get a match scorecard.
+    Get a match scorecard using the persistent cache-first policy.
 
-    Scorecards use the live refresh category.
-
-    A successful scorecard response is also retained as fallback
-    for up to 30 days.
+    Normal calls use the existing scorecard cache.
+    Explicit player-performance loads can set force_refresh=True to
+    bypass the cache for that request only.
     """
 
     if not match_id:
         return {
             "error": "A valid match_id is required.",
             "_data_source": "none",
+            "_cache_is_fallback": False,
         }
 
     return fetch_or_cache(
         f"/mcenter/v1/{match_id}/scard",
         category="live",
+        force_refresh=force_refresh,
     )
 
+
+
+def get_match_commentaries(
+    match_id: str,
+    innings_id: str = None,
+    timestamp: str = None,
+    force_refresh: bool = False,
+):
+    """
+    Get match commentary using the 5-minute persistent cache policy.
+
+    Each unique request is cached locally and persisted to GitHub.
+    """
+    if not match_id:
+        return {
+            "error": "A valid match_id is required.",
+            "_data_source": "none",
+            "_cache_is_fallback": False,
+        }
+
+    params = {}
+
+    if innings_id not in (None, ""):
+        params["iid"] = str(innings_id)
+
+    if timestamp not in (None, ""):
+        params["tms"] = str(timestamp)
+
+    return fetch_or_cache(
+        f"/mcenter/v1/{match_id}/comm",
+        params=params,
+        category="commentary",
+        force_refresh=force_refresh,
+    )
 
 def _leaderboard_cache_file(match_type: str) -> Path:
     """
@@ -1553,6 +1741,216 @@ def get_top_bowlers(
     return _get_top_player_ranking(
         match_type,
         "bowlers",
+    )
+
+
+# On-demand history API helpers
+
+def get_team_results(
+    team_id: str,
+    force_refresh: bool = False,
+):
+    """Get a team's historical results from Cricbuzz on demand."""
+    if team_id in (None, ""):
+        return {
+            "error": "A valid team_id is required.",
+            "_data_source": "none",
+            "_cache_is_fallback": False,
+        }
+
+    return fetch_or_cache(
+        f"/teams/v1/{team_id}/results",
+        category="recent",
+        force_refresh=force_refresh,
+    )
+
+
+def get_venue_matches(
+    venue_id: str,
+    force_refresh: bool = False,
+):
+    """Get historical and scheduled matches for a venue from Cricbuzz."""
+    if venue_id in (None, ""):
+        return {
+            "error": "A valid venue_id is required.",
+            "_data_source": "none",
+            "_cache_is_fallback": False,
+        }
+
+    return fetch_or_cache(
+        f"/venues/v1/{venue_id}/matches",
+        category="recent",
+        force_refresh=force_refresh,
+    )
+
+
+def get_venue_stats(
+    venue_id: str,
+    force_refresh: bool = False,
+):
+    """Get venue statistics from Cricbuzz on demand."""
+    if venue_id in (None, ""):
+        return {
+            "error": "A valid venue_id is required.",
+            "_data_source": "none",
+            "_cache_is_fallback": False,
+        }
+
+    return fetch_or_cache(
+        f"/stats/v1/venue/{venue_id}",
+        category="stats",
+        force_refresh=force_refresh,
+    )
+
+
+def get_series_venues(
+    series_id: str,
+    force_refresh: bool = False,
+):
+    """Get venues for a Cricbuzz series so a live-match venue can be resolved."""
+    if series_id in (None, ""):
+        return {
+            "error": "A valid series_id is required.",
+            "_data_source": "none",
+            "_cache_is_fallback": False,
+        }
+
+    return fetch_or_cache(
+        f"/series/v1/{series_id}/venues",
+        category="series",
+        force_refresh=force_refresh,
+    )
+
+
+# Team rankings, standings, and records
+
+def get_icc_team_rankings(
+    format_type: str = "odi",
+):
+    """
+    Get ICC team rankings from Cricbuzz.
+
+    Supported formats:
+        ODI
+        Test
+        T20
+
+    The response uses the persistent cache-first policy and is stored
+    under data/api_cache/ using the existing hashed cache mechanism.
+    """
+
+    format_type = str(
+        format_type
+    ).lower().strip()
+
+    if format_type == "t20i":
+        format_type = "t20"
+
+    if format_type not in {
+        "odi",
+        "test",
+        "t20",
+    }:
+        return {
+            "error": (
+                "Unsupported team ranking format. "
+                "Use ODI, Test, or T20."
+            ),
+            "_data_source": "none",
+            "_cache_is_fallback": False,
+        }
+
+    return fetch_or_cache(
+        "/stats/v1/rankings/teams",
+        params={
+            "formatType": format_type,
+        },
+        category="team_rankings",
+    )
+
+
+def get_icc_standings(
+    match_type: str = "1",
+    season_id: str = None,
+):
+    """
+    Get Cricbuzz ICC competition standings.
+
+    Known Cricbuzz match types:
+        1 = World Test Championship
+        2 = World Cup Super League
+
+    season_id is optional and is passed through when supplied.
+    """
+
+    match_type = str(
+        match_type
+    ).strip()
+
+    params = {}
+
+    if season_id not in (None, ""):
+        params["seasonId"] = str(
+            season_id
+        )
+
+    return fetch_or_cache(
+        f"/stats/v1/iccstanding/team/matchtype/{match_type}",
+        params=params,
+        category="team_standings",
+    )
+
+
+def get_record_filters():
+    """
+    Get Cricbuzz record-filter metadata.
+
+    Endpoint:
+        GET /stats/v1/topstats
+    """
+
+    return fetch_or_cache(
+        "/stats/v1/topstats",
+        category="records",
+    )
+
+
+def get_records(
+    stats_type,
+    year: str = None,
+    match_type: str = None,
+    team: str = None,
+    opponent: str = None,
+):
+    """
+    Get Cricbuzz cricket records.
+
+    Endpoint:
+        GET /stats/v1/topstats/0
+
+    Optional filters are only sent when supplied.
+    """
+
+    params = {
+        "statsType": str(stats_type),
+    }
+
+    if year not in (None, ""):
+        params["year"] = str(year)
+
+    if match_type not in (None, ""):
+        params["matchType"] = str(match_type)
+
+    if team not in (None, ""):
+        params["team"] = str(team)
+
+    if opponent not in (None, ""):
+        params["opponent"] = str(opponent)
+
+    return fetch_or_cache(
+        "/stats/v1/topstats/0",
+        params=params,
+        category="records",
     )
 
 

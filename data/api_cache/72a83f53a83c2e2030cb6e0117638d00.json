@@ -1,0 +1,356 @@
+{
+  "inningsid": 0,
+  "comwrapper": [
+    {
+      "commentary": {
+        "commtxt": "B0$",
+        "timestamp": 1788719395361,
+        "overnum": 0.0,
+        "inningsid": 0,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "St Kitts and Nevis Patriots have won the toss and have opted to bat"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Interestingly, four of Guyana’s five wins this season have come while chasing, so it will be worth watching whether they stick with that approach should they win the toss. With this being an afternoon game, the conditions could also have a say in that decision. We will find out very shortly. Toss and team details coming up - stay tuned!",
+        "timestamp": 1788717764280,
+        "overnum": 0.0,
+        "inningsid": 0,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "B0$ Whatever may happen from here, one thing looks almost certain in this edition of the CPL - the Guyana Amazon Warriors are heading for the playoffs. They are second on the points table, have already begun their home leg with a comprehensive win over the Jamaica Kingsmen, and have four more home games to come over the next week. Most importantly, they remain the only unbeaten side in the competition. Standing in their way today are the St Kitts and Nevis Patriots, who arrive on the back of two successive wins. A victory for Guyana would take them to the top of the table, while a win for the visitors would see them climb to third.",
+        "timestamp": 1788717665622,
+        "overnum": 0.0,
+        "inningsid": 0,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "14:00 local, 18:00 GMT, 23:30 IST:"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "B0$",
+        "timestamp": 1788652900077,
+        "overnum": 0.0,
+        "inningsid": 0,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "Squads:"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "B0$ Squad: Johnson Charles, Kyle Mayers, Dasun Shanaka, Jason Holder(c), Andre Fletcher(w), Wanindu Hasaranga, Alick Athanaze, Navin Bidaisee, Naseem Shah, Jeremiah Louis, Ashmead Nedd, Saurabh Netravalkar, Obed McCoy, Nikhil Chaudhary, Waqar Salamkheil, Mikyle Louis, Kevin Wickham, Micah McKenzie",
+        "timestamp": 1788652898552,
+        "overnum": 0.0,
+        "inningsid": 0,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "St Kitts and Nevis Patriots"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "B0$ Squad: Rahmanullah Gurbaz, Mavendra Dindyal, Shai Hope(w), Shimron Hetmyer, Quentin Sampson, Mohammad Nabi, Romario Shepherd, Dwaine Pretorius, Khary Pierre, Shamar Joseph, Imran Tahir(c), Veerasammy Permaul, Glenn Phillips, Ronaldo Alimohamed, Mohammad Haris, Matthew Nandu, Isai Thorne, Jonathan van Lange",
+        "timestamp": 1788652818241,
+        "overnum": 0.0,
+        "inningsid": 0,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "Guyana Amazon Warriors"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    }
+  ],
+  "matchheaders": {
+    "state": "Toss",
+    "status": "St Kitts and Nevis Patriots opt to bat",
+    "matchformat": "T20",
+    "matchstarttimestamp": 1788721200000,
+    "momplayers": {
+      "player": [],
+      "category": ""
+    },
+    "mosplayers": {
+      "player": [],
+      "category": ""
+    },
+    "winningteamid": 0,
+    "revisedtarget": 0,
+    "matchendtimestamp": 1788732000000,
+    "seriesid": 12123,
+    "matchdesc": "28th Match",
+    "seriesname": "Caribbean Premier League 2026",
+    "alerttype": "auto",
+    "tossresults": {
+      "tosswinnerid": 302,
+      "tosswinnername": "St Kitts and Nevis Patriots",
+      "decision": "Batting"
+    },
+    "livestreamenabled": false,
+    "team1": {
+      "teamid": 159,
+      "teamname": "Guyana Amazon Warriors",
+      "teamsname": "GAW",
+      "isfullmember": false,
+      "isassociated": false,
+      "isleagueteam": false,
+      "iswomenteam": false,
+      "isheader": false,
+      "isactive": false,
+      "teampriority": "",
+      "isvideopresent": false,
+      "imageid": 0,
+      "countryname": "",
+      "belongsto": "",
+      "teamcolor": "",
+      "isdefaultimage": false
+    },
+    "team2": {
+      "teamid": 302,
+      "teamname": "St Kitts and Nevis Patriots",
+      "teamsname": "SNP",
+      "isfullmember": false,
+      "isassociated": false,
+      "isleagueteam": false,
+      "iswomenteam": false,
+      "isheader": false,
+      "isactive": false,
+      "teampriority": "",
+      "isvideopresent": false,
+      "imageid": 0,
+      "countryname": "",
+      "belongsto": "",
+      "teamcolor": "",
+      "isdefaultimage": false
+    }
+  },
+  "appindex": {
+    "seotitle": "GAW vs SNP 28th Match,Caribbean Premier League 2026 | Cricbuzz.com",
+    "weburl": "http://www.cricbuzz.com/live-cricket-scores/154595/gaw-vs-snp-28th-match-caribbean-premier-league-2026"
+  },
+  "matchvideos": [],
+  "responselastupdated": 1788719477,
+  "buzz": {
+    "imageids": [
+      1064841,
+      1067223,
+      1066396
+    ],
+    "position": 2,
+    "applink": "cricbuzz://buzz",
+    "isbuzzenabled": true
+  },
+  "_cache_saved_at": 1788719479.1315165
+}

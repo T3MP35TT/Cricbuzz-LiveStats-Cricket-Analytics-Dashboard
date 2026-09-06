@@ -1,0 +1,762 @@
+{
+  "inningsid": 0,
+  "comwrapper": [
+    {
+      "commentary": {
+        "commtxt": "B0$ Innings Break: Rotterdam Dockers 176-6(20)",
+        "timestamp": 1788706218197,
+        "overnum": 0.0,
+        "inningsid": 1,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "16:50 Local Time, 14:50 GMT, 20:20 IST:"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Richard Gleeson to Wiese, B0$, to deep mid-wicket",
+        "timestamp": 1788706212401,
+        "overnum": 19.6,
+        "inningsid": 1,
+        "eventtype": "over-break,SIX",
+        "oversep": {
+          "score": 176,
+          "wickets": 6,
+          "inningsid": 1,
+          "oversummary": "1 1 4 6 6 6 ",
+          "runs": 24,
+          "batstrikerdetails": "3(5)",
+          "batnonstrikerdetails": "43(16)",
+          "bowldetails": "0-57 (4)",
+          "timestamp": 1788706212401,
+          "overnum": 19.6,
+          "ovrbatnames": [],
+          "ovrbowlnames": [],
+          "batstrikername": "Logan van Beek",
+          "batnonstrikername": "David Wiese",
+          "bowlname": "Richard Gleeson",
+          "battingteamname": "RDD"
+        },
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "SIX"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 120,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false,
+        "ad": {
+          "name": "mpu_over_break",
+          "layout": "mpu",
+          "position": 1
+        }
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Richard Gleeson to Wiese, B0$, to backward square leg",
+        "timestamp": 1788706163786,
+        "overnum": 19.5,
+        "inningsid": 1,
+        "eventtype": "SIX",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "SIX"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 119,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Richard Gleeson to Wiese, B0$, to deep mid-wicket",
+        "timestamp": 1788706114390,
+        "overnum": 19.4,
+        "inningsid": 1,
+        "eventtype": "SIX",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "SIX"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 118,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Richard Gleeson to Wiese, B0$, to deep extra cover",
+        "timestamp": 1788706099444,
+        "overnum": 19.3,
+        "inningsid": 1,
+        "eventtype": "FOUR",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "FOUR"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 117,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Richard Gleeson to Logan van Beek, 1 run, to long-off",
+        "timestamp": 1788706084409,
+        "overnum": 19.2,
+        "inningsid": 1,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 116,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Richard Gleeson to Wiese, 1 run, to mid-off",
+        "timestamp": 1788706004722,
+        "overnum": 19.1,
+        "inningsid": 1,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 115,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "B0$",
+        "timestamp": 1788705963010,
+        "overnum": 0.0,
+        "inningsid": 1,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "Richard Gleeson [3.0-0-33-0] is back into the attack"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Bas de Leede to Wiese, 1 run, straight down the ground",
+        "timestamp": 1788705935222,
+        "overnum": 18.6,
+        "inningsid": 1,
+        "eventtype": "over-break",
+        "oversep": {
+          "score": 152,
+          "wickets": 6,
+          "inningsid": 1,
+          "oversummary": "0 1 N1 0 6 4 1 ",
+          "runs": 14,
+          "batstrikerdetails": "2(4)",
+          "batnonstrikerdetails": "20(11)",
+          "bowldetails": "0-33 (4)",
+          "timestamp": 1788705935222,
+          "overnum": 18.6,
+          "ovrbatnames": [],
+          "ovrbowlnames": [],
+          "batstrikername": "Logan van Beek",
+          "batnonstrikername": "David Wiese",
+          "bowlname": "Bas de Leede",
+          "battingteamname": "RDD"
+        },
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 114,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Bas de Leede to Wiese, B0$, to fine leg",
+        "timestamp": 1788705889826,
+        "overnum": 18.5,
+        "inningsid": 1,
+        "eventtype": "FOUR",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "FOUR"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 113,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    }
+  ],
+  "miniscore": {
+    "batsmanstriker": {
+      "id": 9983,
+      "balls": 5,
+      "runs": 3,
+      "fours": 0,
+      "sixes": 0,
+      "strkrate": "60",
+      "name": "Logan van Beek",
+      "nickname": "Logan van Beek",
+      "iscaptain": false,
+      "iskeeper": false,
+      "outdec": "",
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "iscbplusfree": false,
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "batsmannonstriker": {
+      "id": 8589,
+      "balls": 16,
+      "runs": 43,
+      "fours": 3,
+      "sixes": 4,
+      "strkrate": "268.75",
+      "name": "David Wiese",
+      "nickname": "David Wiese",
+      "iscaptain": false,
+      "iskeeper": false,
+      "outdec": "",
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "iscbplusfree": false,
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "bowlerstriker": {
+      "id": 13273,
+      "overs": "4",
+      "maidens": 0,
+      "wickets": 0,
+      "runs": 33,
+      "economy": "8.25",
+      "name": "Bas de Leede",
+      "nickname": "",
+      "iscaptain": false,
+      "iskeeper": false,
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "dots": 0,
+      "balls": 0,
+      "rpb": 0.0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "bowlernonstriker": {
+      "id": 10477,
+      "overs": "4",
+      "maidens": 0,
+      "wickets": 0,
+      "runs": 57,
+      "economy": "14.25",
+      "name": "Richard Gleeson",
+      "nickname": "",
+      "iscaptain": false,
+      "iskeeper": false,
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "dots": 0,
+      "balls": 0,
+      "rpb": 0.0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "crr": 8.8,
+    "rrr": 0.0,
+    "inningsnbr": "1st inn",
+    "lastwkt": "Faf du Plessis  c Curtis Campher b Michael Bracewell 60(47)  - 135/6 in 17.2 ov.",
+    "curovsstats": "... | 0 1 N1 0 6 4 1  | 1 1 4 6 6 6",
+    "inningsscores": {
+      "inningsscore": [
+        {
+          "inningsid": 1,
+          "batteamid": 573,
+          "batteamshortname": "RDD",
+          "runs": 176,
+          "wickets": 6,
+          "overs": 19.6,
+          "isdeclared": false,
+          "isfollowon": false,
+          "target": 0,
+          "balls": 120
+        }
+      ]
+    },
+    "inningsid": 1,
+    "performance": [
+      {
+        "runs": 65,
+        "wickets": 2,
+        "label": "Last 5 overs"
+      },
+      {
+        "runs": 47,
+        "wickets": 1,
+        "label": "Last 3 overs"
+      }
+    ],
+    "partnership": "41(16)",
+    "oversrem": "",
+    "pp": {
+      "powerplay": [
+        {
+          "id": 1,
+          "ovrfrom": 0.1,
+          "ovrto": 6.0,
+          "pptype": "Mandatory",
+          "run": 55,
+          "wickets": 0
+        }
+      ]
+    },
+    "target": 0,
+    "custstatus": "",
+    "ballsrem": 0,
+    "rpb": 0.0,
+    "rrpb": 0.0,
+    "responselastupdated": 0,
+    "event": "",
+    "ad": {
+      "name": "mpu_live",
+      "layout": "mpu",
+      "position": 1
+    },
+    "timestamp": 1788706212401
+  },
+  "matchheaders": {
+    "state": "Innings Break",
+    "status": "Innings Break",
+    "matchformat": "T20",
+    "matchstarttimestamp": 1788700500000,
+    "teamdetails": {
+      "batteamid": 573,
+      "batteamname": "RDD",
+      "bowlteamid": 572,
+      "bowlteamname": "ADF"
+    },
+    "momplayers": {
+      "player": [],
+      "category": ""
+    },
+    "mosplayers": {
+      "player": [],
+      "category": ""
+    },
+    "winningteamid": 0,
+    "revisedtarget": 0,
+    "matchendtimestamp": 1788711300000,
+    "seriesid": 12870,
+    "matchdesc": "17th Match",
+    "seriesname": "European T20 Premier League 2026",
+    "alerttype": "auto",
+    "tossresults": {
+      "tosswinnerid": 572,
+      "tosswinnername": "Amsterdam Flames",
+      "decision": "Bowling"
+    },
+    "livestreamenabled": false,
+    "team1": {
+      "teamid": 572,
+      "teamname": "Amsterdam Flames",
+      "teamsname": "ADF",
+      "isfullmember": false,
+      "isassociated": false,
+      "isleagueteam": false,
+      "iswomenteam": false,
+      "isheader": false,
+      "isactive": false,
+      "teampriority": "",
+      "isvideopresent": false,
+      "imageid": 0,
+      "countryname": "",
+      "belongsto": "",
+      "teamcolor": "",
+      "isdefaultimage": false
+    },
+    "team2": {
+      "teamid": 573,
+      "teamname": "Rotterdam Dockers",
+      "teamsname": "RDD",
+      "isfullmember": false,
+      "isassociated": false,
+      "isleagueteam": false,
+      "iswomenteam": false,
+      "isheader": false,
+      "isactive": false,
+      "teampriority": "",
+      "isvideopresent": false,
+      "imageid": 0,
+      "countryname": "",
+      "belongsto": "",
+      "teamcolor": "",
+      "isdefaultimage": false
+    }
+  },
+  "appindex": {
+    "seotitle": "ADF vs RDD 17th Match,European T20 Premier League 2026 | Cricbuzz.com",
+    "weburl": "http://www.cricbuzz.com/live-cricket-scores/169347/adf-vs-rdd-17th-match-european-t20-premier-league-2026"
+  },
+  "matchvideos": [],
+  "responselastupdated": 1788706444,
+  "buzz": {
+    "imageids": [
+      1064841,
+      1067223,
+      1066396
+    ],
+    "position": 2,
+    "applink": "cricbuzz://buzz",
+    "isbuzzenabled": true
+  },
+  "winprobability": {
+    "matchid": 169347,
+    "drawtiepercent": 0,
+    "team1": {
+      "id": 572,
+      "percent": 46,
+      "name": "Amsterdam Flames",
+      "shortname": "ADF",
+      "color": "#F56114|#F56114"
+    },
+    "team2": {
+      "id": 573,
+      "percent": 54,
+      "name": "Rotterdam Dockers",
+      "shortname": "RDD",
+      "color": "#DC3838|#DC3838"
+    },
+    "odds": {
+      "team1point": 2.1,
+      "team2point": 1.8,
+      "drawpoint": 0.0
+    },
+    "lastupdatedover": 20.0
+  },
+  "_cache_saved_at": 1788706460.0388892
+}

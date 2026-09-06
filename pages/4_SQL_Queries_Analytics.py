@@ -1287,9 +1287,49 @@ if "sql_query_choice" not in st.session_state:
     st.session_state["sql_query_choice"] = None
 
 
+# SQL education lab
+st.markdown("### 🎓 SQL Education Lab")
+st.caption(
+    "Learn the SQL concept behind each cricket analytics challenge "
+    "and apply it to a real cricket dataset."
+)
+
+concept_map = {
+    "Q1": "Filtering + joins",
+    "Q2": "Date filtering + match analysis",
+    "Q3": "Aggregation + ranking",
+    "Q4": "Grouping + venue analysis",
+    "Q5": "Aggregation + team classification",
+    "Q6": "Role-based filtering",
+    "Q7": "Batting aggregation",
+    "Q8": "Series-level analysis",
+    "Q9": "Multi-condition player analysis",
+    "Q10": "Recent match analysis",
+    "Q11": "Multi-format aggregation",
+    "Q12": "Home vs away analysis",
+    "Q13": "Partnership analysis",
+    "Q14": "Bowling + venue analysis",
+    "Q15": "Close-match analysis",
+    "Q16": "Trend analysis",
+    "Q17": "Toss analysis",
+    "Q18": "Comparative bowling analysis",
+    "Q19": "Consistency analysis",
+    "Q20": "Multi-format player analysis",
+    "Q21": "Weighted performance analysis",
+    "Q22": "Head-to-head analysis",
+    "Q23": "Momentum analysis",
+    "Q24": "Partnership ranking",
+    "Q25": "Career trajectory analysis",
+}
+
 choice = st.selectbox(
-    "Choose a query",
+    "Choose a SQL challenge",
     list(QUERIES.keys())
+)
+
+query_number = choice.split(":", 1)[0].strip().upper()
+st.info(
+    f"Concept focus: {concept_map.get(query_number, 'SQL analytics')}"
 )
 
 sql = QUERIES[choice]
