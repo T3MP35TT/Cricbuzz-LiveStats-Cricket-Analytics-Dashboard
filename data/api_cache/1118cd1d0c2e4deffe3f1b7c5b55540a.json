@@ -86,7 +86,7 @@
                   "matchFormat": "T20",
                   "startDate": "1788721200000",
                   "endDate": "1788733800000",
-                  "state": "Toss",
+                  "state": "In Progress",
                   "status": "St Kitts and Nevis Patriots opt to bat",
                   "team1": {
                     "teamId": 302,
@@ -108,10 +108,21 @@
                     "latitude": "41.823872",
                     "longitude": "-71.411987"
                   },
+                  "currBatTeamId": 302,
                   "seriesStartDt": "1786060800000",
                   "seriesEndDt": "1790035200000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "Toss"
+                  "stateTitle": "In Progress"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 94,
+                      "wickets": 5,
+                      "overs": 14.3
+                    }
+                  }
                 }
               }
             ]
@@ -244,13 +255,6 @@
               }
             ]
           }
-        },
-        {
-          "ad": {
-            "name": "native_matches",
-            "layout": "native_large",
-            "position": 4
-          }
         }
       ]
     },
@@ -311,6 +315,13 @@
                 }
               }
             ]
+          }
+        },
+        {
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 5
           }
         }
       ]
@@ -448,126 +459,6 @@
         },
         {
           "seriesAdWrapper": {
-            "seriesId": 13060,
-            "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
-            "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 170873,
-                  "seriesId": 13060,
-                  "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
-                  "matchDesc": "Final",
-                  "matchFormat": "T20",
-                  "startDate": "1788694200000",
-                  "endDate": "1788706800000",
-                  "state": "Complete",
-                  "status": "Portugal Women won by 4 wkts",
-                  "team1": {
-                    "teamId": 1987,
-                    "teamName": "Czech Republic Women",
-                    "teamSName": "CZEW",
-                    "imageId": 501075
-                  },
-                  "team2": {
-                    "teamId": 2380,
-                    "teamName": "Portugal Women",
-                    "teamSName": "PORTW",
-                    "imageId": 625937
-                  },
-                  "venueInfo": {
-                    "id": 941,
-                    "ground": "Scott Page Field, Vinor",
-                    "city": "Prague",
-                    "timezone": "+02:00",
-                    "latitude": "50.0755",
-                    "longitude": "14.4378"
-                  },
-                  "currBatTeamId": 2380,
-                  "seriesStartDt": "1788480000000",
-                  "seriesEndDt": "1788825600000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 70,
-                      "wickets": 10,
-                      "overs": 14.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 71,
-                      "wickets": 6,
-                      "overs": 12.5
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 170871,
-                  "seriesId": 13060,
-                  "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
-                  "matchDesc": "3rd place play-off",
-                  "matchFormat": "T20",
-                  "startDate": "1788679800000",
-                  "endDate": "1788692400000",
-                  "state": "Complete",
-                  "status": "Portugal Women won by 8 wkts",
-                  "team1": {
-                    "teamId": 496,
-                    "teamName": "Belgium Women",
-                    "teamSName": "BELW",
-                    "imageId": 776217
-                  },
-                  "team2": {
-                    "teamId": 2380,
-                    "teamName": "Portugal Women",
-                    "teamSName": "PORTW",
-                    "imageId": 625937
-                  },
-                  "venueInfo": {
-                    "id": 941,
-                    "ground": "Scott Page Field, Vinor",
-                    "city": "Prague",
-                    "timezone": "+02:00",
-                    "latitude": "50.0755",
-                    "longitude": "14.4378"
-                  },
-                  "currBatTeamId": 2380,
-                  "seriesStartDt": "1788480000000",
-                  "seriesEndDt": "1788825600000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 106,
-                      "wickets": 10,
-                      "overs": 19.5
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 108,
-                      "wickets": 2,
-                      "overs": 10.2
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        },
-        {
-          "seriesAdWrapper": {
             "seriesId": 13070,
             "seriesName": "Serbia Women's T20I Tri-Series 2026",
             "matches": [
@@ -580,8 +471,8 @@
                   "matchFormat": "T20",
                   "startDate": "1788696000000",
                   "endDate": "1788708600000",
-                  "state": "In Progress",
-                  "status": "Serbia Women need 74 runs in 54 balls",
+                  "state": "Complete",
+                  "status": "Serbia Women won by 5 wkts",
                   "team1": {
                     "teamId": 2201,
                     "teamName": "Bulgaria Women",
@@ -606,7 +497,7 @@
                   "seriesStartDt": "1788480000000",
                   "seriesEndDt": "1788825600000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "In Progress"
+                  "stateTitle": "SRBW Won"
                 },
                 "matchScore": {
                   "team1Score": {
@@ -620,9 +511,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 81,
-                      "wickets": 2,
-                      "overs": 10.6
+                      "runs": 155,
+                      "wickets": 5,
+                      "overs": 19.6
                     }
                   }
                 }
@@ -709,5 +600,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788721147"
+  "responseLastUpdated": "1788725714"
 }
