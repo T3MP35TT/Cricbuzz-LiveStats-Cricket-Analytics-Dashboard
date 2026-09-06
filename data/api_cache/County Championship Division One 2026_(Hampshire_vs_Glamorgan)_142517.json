@@ -1,0 +1,68 @@
+{
+  "matchInfo": {
+    "matchId": 142517,
+    "seriesId": 11408,
+    "seriesName": "County Championship Division One 2026",
+    "matchDesc": "49th Match",
+    "matchFormat": "TEST",
+    "startDate": "1787824800000",
+    "endDate": "1788109200000",
+    "state": "Complete",
+    "status": "Match drawn",
+    "team1": {
+      "teamId": 153,
+      "teamName": "Hampshire",
+      "teamSName": "HAM",
+      "imageId": 172220
+    },
+    "team2": {
+      "teamId": 149,
+      "teamName": "Glamorgan",
+      "teamSName": "GLAM",
+      "imageId": 172216
+    },
+    "venueInfo": {
+      "id": 62,
+      "ground": "Sophia Gardens",
+      "city": "Cardiff",
+      "timezone": "+01:00",
+      "latitude": "51.484257",
+      "longitude": "-3.189187"
+    },
+    "seriesStartDt": "1775174400000",
+    "seriesEndDt": "1790640000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "Complete"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 162,
+        "wickets": 10,
+        "overs": 40.2
+      },
+      "inngs2": {
+        "inningsId": 3,
+        "runs": 300,
+        "wickets": 8,
+        "overs": 69.3,
+        "isDeclared": true
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 161,
+        "wickets": 10,
+        "overs": 59.6
+      },
+      "inngs2": {
+        "inningsId": 4,
+        "runs": 21,
+        "wickets": 3,
+        "overs": 13.5
+      }
+    }
+  }
+}
