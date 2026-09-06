@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 170251,
+    "seriesId": 12993,
+    "seriesName": "ACC Men's Premier Cup, 2026",
+    "matchDesc": "9th Match, Group B",
+    "matchFormat": "ODI",
+    "startDate": "1788399000000",
+    "endDate": "1788427800000",
+    "state": "Complete",
+    "status": "United Arab Emirates won by 66 runs (DLS Method)",
+    "team1": {
+      "teamId": 7,
+      "teamName": "United Arab Emirates",
+      "teamSName": "UAE",
+      "imageId": 776242
+    },
+    "team2": {
+      "teamId": 298,
+      "teamName": "Kuwait",
+      "teamSName": "KUW",
+      "imageId": 776312
+    },
+    "venueInfo": {
+      "id": 394,
+      "ground": "Bayuemas Oval",
+      "city": "Kuala Lumpur",
+      "timezone": "+08:00",
+      "latitude": "2.819586",
+      "longitude": "101.5199"
+    },
+    "currBatTeamId": 7,
+    "seriesStartDt": "1788048000000",
+    "seriesEndDt": "1789344000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "UAE Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 286,
+        "wickets": 8,
+        "overs": 49.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 110,
+        "wickets": 9,
+        "overs": 24.6
+      }
+    }
+  }
+}
