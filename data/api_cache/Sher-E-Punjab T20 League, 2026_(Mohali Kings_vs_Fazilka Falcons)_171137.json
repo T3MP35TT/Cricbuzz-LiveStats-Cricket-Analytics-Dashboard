@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 171137,
+    "seriesId": 13073,
+    "seriesName": "Sher-E-Punjab T20 League, 2026",
+    "matchDesc": "9th Match",
+    "matchFormat": "T20",
+    "startDate": "1788442200000",
+    "endDate": "1788454800000",
+    "state": "Complete",
+    "status": "Mohali Kings won by 40 runs",
+    "team1": {
+      "teamId": 3601,
+      "teamName": "Mohali Kings",
+      "teamSName": "MHK",
+      "imageId": 1064857
+    },
+    "team2": {
+      "teamId": 3561,
+      "teamName": "Fazilka Falcons",
+      "teamSName": "FZF",
+      "imageId": 1064854
+    },
+    "venueInfo": {
+      "id": 46,
+      "ground": "Punjab Cricket Association IS Bindra Stadium",
+      "city": "Mohali",
+      "timezone": "+05:30",
+      "latitude": "30.690905",
+      "longitude": "76.737455"
+    },
+    "currBatTeamId": 3601,
+    "seriesStartDt": "1788048000000",
+    "seriesEndDt": "1789430400000",
+    "isTimeAnnounced": true,
+    "stateTitle": "MHK Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 230,
+        "wickets": 3,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 190,
+        "wickets": 9,
+        "overs": 19.6
+      }
+    }
+  }
+}
