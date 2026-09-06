@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 169320,
+    "seriesId": 12870,
+    "seriesName": "European T20 Premier League 2026",
+    "matchDesc": "12th Match",
+    "matchFormat": "T20",
+    "startDate": "1788441300000",
+    "endDate": "1788453900000",
+    "state": "Complete",
+    "status": "Amsterdam Flames won by 7 wkts",
+    "team1": {
+      "teamId": 575,
+      "teamName": "Glasgow Cosmic",
+      "teamSName": "GGC",
+      "imageId": 1044580
+    },
+    "team2": {
+      "teamId": 572,
+      "teamName": "Amsterdam Flames",
+      "teamSName": "ADF",
+      "imageId": 1044576
+    },
+    "venueInfo": {
+      "id": 1437791,
+      "ground": "Sportpark Duivesteijn",
+      "city": "Voorburg",
+      "timezone": "+02:00",
+      "latitude": "52.0848131",
+      "longitude": "4.3662509"
+    },
+    "currBatTeamId": 572,
+    "seriesStartDt": "1787702400000",
+    "seriesEndDt": "1790035200000",
+    "isTimeAnnounced": true,
+    "stateTitle": "ADF Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 171,
+        "wickets": 8,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 177,
+        "wickets": 3,
+        "overs": 16.5
+      }
+    }
+  }
+}
