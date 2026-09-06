@@ -1,0 +1,37 @@
+{
+  "matchInfo": {
+    "matchId": 154524,
+    "seriesId": 12123,
+    "seriesName": "Caribbean Premier League 2026",
+    "matchDesc": "21st Match",
+    "matchFormat": "T20",
+    "startDate": "1788130800000",
+    "endDate": "1788143400000",
+    "state": "Complete",
+    "status": "Match abandoned due to rain (with toss)",
+    "team1": {
+      "teamId": 302,
+      "teamName": "St Kitts and Nevis Patriots",
+      "teamSName": "SNP",
+      "imageId": 825128
+    },
+    "team2": {
+      "teamId": 1978,
+      "teamName": "Antigua and Barbuda Falcons",
+      "teamSName": "ABF",
+      "imageId": 825120
+    },
+    "venueInfo": {
+      "id": 96,
+      "ground": "Warner Park",
+      "city": "Basseterre, St Kitts",
+      "timezone": "-04:00",
+      "latitude": "17.298562",
+      "longitude": "-62.723093"
+    },
+    "seriesStartDt": "1786060800000",
+    "seriesEndDt": "1790035200000",
+    "isTimeAnnounced": true,
+    "stateTitle": "Abandon"
+  }
+}
