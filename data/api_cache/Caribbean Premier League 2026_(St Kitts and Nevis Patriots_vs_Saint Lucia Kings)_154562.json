@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 154562,
+    "seriesId": 12123,
+    "seriesName": "Caribbean Premier League 2026",
+    "matchDesc": "25th Match",
+    "matchFormat": "T20",
+    "startDate": "1788476400000",
+    "endDate": "1788489000000",
+    "state": "Complete",
+    "status": "St Kitts and Nevis Patriots won by 137 runs",
+    "team1": {
+      "teamId": 302,
+      "teamName": "St Kitts and Nevis Patriots",
+      "teamSName": "SNP",
+      "imageId": 825128
+    },
+    "team2": {
+      "teamId": 263,
+      "teamName": "Saint Lucia Kings",
+      "teamSName": "SLK",
+      "imageId": 825106
+    },
+    "venueInfo": {
+      "id": 96,
+      "ground": "Warner Park",
+      "city": "Basseterre, St Kitts",
+      "timezone": "-04:00",
+      "latitude": "17.298562",
+      "longitude": "-62.723093"
+    },
+    "currBatTeamId": 302,
+    "seriesStartDt": "1786060800000",
+    "seriesEndDt": "1790035200000",
+    "isTimeAnnounced": true,
+    "stateTitle": "SNP Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 235,
+        "wickets": 4,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 98,
+        "wickets": 10,
+        "overs": 13.5
+      }
+    }
+  }
+}
