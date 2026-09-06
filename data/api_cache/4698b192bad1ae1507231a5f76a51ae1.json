@@ -1,0 +1,208 @@
+{
+  "rank": [
+    {
+      "id": "2",
+      "rank": "1",
+      "name": "India",
+      "rating": "116",
+      "matches": "33",
+      "points": "3841",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776162"
+    },
+    {
+      "id": "13",
+      "rank": "2",
+      "name": "New Zealand",
+      "rating": "109",
+      "matches": "35",
+      "points": "3809",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776333"
+    },
+    {
+      "id": "4",
+      "rank": "3",
+      "name": "Australia",
+      "rating": "102",
+      "matches": "29",
+      "points": "2965",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776202"
+    },
+    {
+      "id": "11",
+      "rank": "4",
+      "name": "South Africa",
+      "rating": "102",
+      "matches": "28",
+      "points": "2855",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776287"
+    },
+    {
+      "id": "3",
+      "rank": "5",
+      "name": "Pakistan",
+      "rating": "100",
+      "matches": "32",
+      "points": "3215",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776308"
+    },
+    {
+      "id": "5",
+      "rank": "6",
+      "name": "Sri Lanka",
+      "rating": "96",
+      "matches": "36",
+      "points": "3470",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776254"
+    },
+    {
+      "id": "9",
+      "rank": "7",
+      "name": "England",
+      "rating": "93",
+      "matches": "31",
+      "points": "2898",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776237"
+    },
+    {
+      "id": "96",
+      "rank": "8",
+      "name": "Afghanistan",
+      "rating": "92",
+      "matches": "28",
+      "points": "2565",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776177"
+    },
+    {
+      "id": "6",
+      "rank": "9",
+      "name": "Bangladesh",
+      "rating": "83",
+      "matches": "39",
+      "points": "3251",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776210"
+    },
+    {
+      "id": "10",
+      "rank": "10",
+      "name": "West Indies",
+      "rating": "77",
+      "matches": "34",
+      "points": "2624",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776191"
+    },
+    {
+      "id": "12",
+      "rank": "11",
+      "name": "Zimbabwe",
+      "rating": "63",
+      "matches": "15",
+      "points": "941",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776198"
+    },
+    {
+      "id": "27",
+      "rank": "12",
+      "name": "Ireland",
+      "rating": "51",
+      "matches": "16",
+      "points": "815",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "839366"
+    },
+    {
+      "id": "23",
+      "rank": "13",
+      "name": "Scotland",
+      "rating": "45",
+      "matches": "28",
+      "points": "1260",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776280"
+    },
+    {
+      "id": "24",
+      "rank": "14",
+      "name": "Netherlands",
+      "rating": "44",
+      "matches": "30",
+      "points": "1309",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776335"
+    },
+    {
+      "id": "15",
+      "rank": "15",
+      "name": "United States of America",
+      "rating": "40",
+      "matches": "26",
+      "points": "1035",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776186"
+    },
+    {
+      "id": "304",
+      "rank": "16",
+      "name": "Oman",
+      "rating": "33",
+      "matches": "22",
+      "points": "716",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776328"
+    },
+    {
+      "id": "161",
+      "rank": "17",
+      "name": "Namibia",
+      "rating": "31",
+      "matches": "20",
+      "points": "623",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776326"
+    },
+    {
+      "id": "72",
+      "rank": "18",
+      "name": "Nepal",
+      "rating": "25",
+      "matches": "31",
+      "points": "790",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776331"
+    },
+    {
+      "id": "7",
+      "rank": "19",
+      "name": "United Arab Emirates",
+      "rating": "17",
+      "matches": "25",
+      "points": "413",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776242"
+    },
+    {
+      "id": "26",
+      "rank": "20",
+      "name": "Canada",
+      "rating": "9",
+      "matches": "22",
+      "points": "194",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776227"
+    }
+  ],
+  "appIndex": {
+    "seoTitle": "ICC Cricket Rankings - Top 100 Batter | Cricbuzz.com",
+    "webURL": "www.cricbuzz.com/cricket-stats/icc-rankings"
+  }
+}
