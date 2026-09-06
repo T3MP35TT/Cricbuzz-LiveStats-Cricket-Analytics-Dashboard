@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 154535,
+    "seriesId": 12123,
+    "seriesName": "Caribbean Premier League 2026",
+    "matchDesc": "22nd Match",
+    "matchFormat": "T20",
+    "startDate": "1788210000000",
+    "endDate": "1788222600000",
+    "state": "Complete",
+    "status": "Guyana Amazon Warriors won by 9 runs (DLS Method), TKR target 182",
+    "team1": {
+      "teamId": 159,
+      "teamName": "Guyana Amazon Warriors",
+      "teamSName": "GAW",
+      "imageId": 825126
+    },
+    "team2": {
+      "teamId": 271,
+      "teamName": "Trinbago Knight Riders",
+      "teamSName": "TKR",
+      "imageId": 825110
+    },
+    "venueInfo": {
+      "id": 54,
+      "ground": "Queen's Park Oval",
+      "city": "Port of Spain, Trinidad",
+      "timezone": "-04:00",
+      "latitude": "10.667461",
+      "longitude": "-61.523717"
+    },
+    "currBatTeamId": 159,
+    "seriesStartDt": "1786060800000",
+    "seriesEndDt": "1790035200000",
+    "isTimeAnnounced": true,
+    "stateTitle": "GAW Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 185,
+        "wickets": 5,
+        "overs": 15.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 172,
+        "wickets": 7,
+        "overs": 15.6
+      }
+    }
+  }
+}
