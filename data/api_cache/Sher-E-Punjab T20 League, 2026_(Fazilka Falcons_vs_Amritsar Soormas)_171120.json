@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 171120,
+    "seriesId": 13073,
+    "seriesName": "Sher-E-Punjab T20 League, 2026",
+    "matchDesc": "7th Match",
+    "matchFormat": "T20",
+    "startDate": "1788355800000",
+    "endDate": "1788368400000",
+    "state": "Complete",
+    "status": "Amritsar Soormas won by 7 wkts",
+    "team1": {
+      "teamId": 3561,
+      "teamName": "Fazilka Falcons",
+      "teamSName": "FZF",
+      "imageId": 1064854
+    },
+    "team2": {
+      "teamId": 3567,
+      "teamName": "Amritsar Soormas",
+      "teamSName": "AMS",
+      "imageId": 1064825
+    },
+    "venueInfo": {
+      "id": 46,
+      "ground": "Punjab Cricket Association IS Bindra Stadium",
+      "city": "Mohali",
+      "timezone": "+05:30",
+      "latitude": "30.690905",
+      "longitude": "76.737455"
+    },
+    "currBatTeamId": 3567,
+    "seriesStartDt": "1788048000000",
+    "seriesEndDt": "1789430400000",
+    "isTimeAnnounced": true,
+    "stateTitle": "AMS Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 182,
+        "wickets": 9,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 186,
+        "wickets": 3,
+        "overs": 17.3
+      }
+    }
+  }
+}
