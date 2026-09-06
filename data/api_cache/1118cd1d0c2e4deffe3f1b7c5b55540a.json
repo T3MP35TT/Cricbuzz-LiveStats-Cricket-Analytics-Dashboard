@@ -18,7 +18,7 @@
                   "startDate": "1788721200000",
                   "endDate": "1788733800000",
                   "state": "In Progress",
-                  "status": "Guyana Amazon Warriors need 114 runs",
+                  "status": "Guyana Amazon Warriors need 113 runs",
                   "team1": {
                     "teamId": 302,
                     "teamName": "St Kitts and Nevis Patriots",
@@ -57,8 +57,8 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 15,
-                      "overs": 1.2
+                      "runs": 16,
+                      "overs": 1.3
                     }
                   }
                 }
@@ -193,13 +193,6 @@
               }
             ]
           }
-        },
-        {
-          "ad": {
-            "name": "native_matches",
-            "layout": "native_large",
-            "position": 3
-          }
         }
       ]
     },
@@ -260,6 +253,13 @@
                 }
               }
             ]
+          }
+        },
+        {
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 4
           }
         }
       ]
@@ -538,5 +538,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788728737"
+  "responseLastUpdated": "1788728746"
 }
