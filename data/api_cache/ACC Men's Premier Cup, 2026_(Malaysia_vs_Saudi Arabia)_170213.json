@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 170213,
+    "seriesId": 12993,
+    "seriesName": "ACC Men's Premier Cup, 2026",
+    "matchDesc": "5th Match, Group A",
+    "matchFormat": "ODI",
+    "startDate": "1788226200000",
+    "endDate": "1788255000000",
+    "state": "Complete",
+    "status": "Malaysia won by 93 runs",
+    "team1": {
+      "teamId": 71,
+      "teamName": "Malaysia",
+      "teamSName": "MLY",
+      "imageId": 776319
+    },
+    "team2": {
+      "teamId": 571,
+      "teamName": "Saudi Arabia",
+      "teamSName": "SAU",
+      "imageId": 172623
+    },
+    "venueInfo": {
+      "id": 394,
+      "ground": "Bayuemas Oval",
+      "city": "Kuala Lumpur",
+      "timezone": "+08:00",
+      "latitude": "2.819586",
+      "longitude": "101.5199"
+    },
+    "currBatTeamId": 71,
+    "seriesStartDt": "1788048000000",
+    "seriesEndDt": "1789344000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "MLY Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 270,
+        "wickets": 8,
+        "overs": 49.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 177,
+        "wickets": 10,
+        "overs": 33.6
+      }
+    }
+  }
+}
