@@ -207,7 +207,7 @@
                   "startDate": "1788701400000",
                   "endDate": "1788714000000",
                   "state": "In Progress",
-                  "status": "Ludhiana Lions need 121 runs in 85 balls",
+                  "status": "Ludhiana Lions need 121 runs in 84 balls",
                   "team1": {
                     "teamId": 3561,
                     "teamName": "Fazilka Falcons",
@@ -247,8 +247,8 @@
                     "inngs1": {
                       "inningsId": 2,
                       "runs": 50,
-                      "wickets": 2,
-                      "overs": 5.5
+                      "wickets": 3,
+                      "overs": 5.6
                     }
                   }
                 }
@@ -310,13 +310,6 @@
                 }
               }
             ]
-          }
-        },
-        {
-          "ad": {
-            "name": "native_matches",
-            "layout": "native_large",
-            "position": 3
           }
         }
       ]
@@ -387,62 +380,6 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 170307,
-                  "seriesId": 12993,
-                  "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "15th Match, Group A",
-                  "matchFormat": "ODI",
-                  "startDate": "1788658200000",
-                  "endDate": "1788687000000",
-                  "state": "Complete",
-                  "status": "Nepal won by 5 wkts",
-                  "team1": {
-                    "teamId": 571,
-                    "teamName": "Saudi Arabia",
-                    "teamSName": "SAU",
-                    "imageId": 172623
-                  },
-                  "team2": {
-                    "teamId": 72,
-                    "teamName": "Nepal",
-                    "teamSName": "NEP",
-                    "imageId": 776331
-                  },
-                  "venueInfo": {
-                    "id": 394,
-                    "ground": "Bayuemas Oval",
-                    "city": "Kuala Lumpur",
-                    "timezone": "+08:00",
-                    "latitude": "2.819586",
-                    "longitude": "101.5199"
-                  },
-                  "currBatTeamId": 72,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789344000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 190,
-                      "wickets": 10,
-                      "overs": 49.2
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 193,
-                      "wickets": 5,
-                      "overs": 40.6
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 170311,
                   "seriesId": 12993,
                   "seriesName": "ACC Men's Premier Cup, 2026",
@@ -496,8 +433,71 @@
                     }
                   }
                 }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170307,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "15th Match, Group A",
+                  "matchFormat": "ODI",
+                  "startDate": "1788658200000",
+                  "endDate": "1788687000000",
+                  "state": "Complete",
+                  "status": "Nepal won by 5 wkts",
+                  "team1": {
+                    "teamId": 571,
+                    "teamName": "Saudi Arabia",
+                    "teamSName": "SAU",
+                    "imageId": 172623
+                  },
+                  "team2": {
+                    "teamId": 72,
+                    "teamName": "Nepal",
+                    "teamSName": "NEP",
+                    "imageId": 776331
+                  },
+                  "venueInfo": {
+                    "id": 394,
+                    "ground": "Bayuemas Oval",
+                    "city": "Kuala Lumpur",
+                    "timezone": "+08:00",
+                    "latitude": "2.819586",
+                    "longitude": "101.5199"
+                  },
+                  "currBatTeamId": 72,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 190,
+                      "wickets": 10,
+                      "overs": 49.2
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 193,
+                      "wickets": 5,
+                      "overs": 40.6
+                    }
+                  }
+                }
               }
             ]
+          }
+        },
+        {
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 5
           }
         },
         {
@@ -942,5 +942,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788710707"
+  "responseLastUpdated": "1788710765"
 }
