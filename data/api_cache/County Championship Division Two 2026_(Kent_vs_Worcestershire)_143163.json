@@ -1,0 +1,68 @@
+{
+  "matchInfo": {
+    "matchId": 143163,
+    "seriesId": 11416,
+    "seriesName": "County Championship Division Two 2026",
+    "matchDesc": "42nd Match",
+    "matchFormat": "TEST",
+    "startDate": "1788341400000",
+    "endDate": "1788625800000",
+    "state": "Complete",
+    "status": "Kent won by 84 runs",
+    "team1": {
+      "teamId": 150,
+      "teamName": "Kent",
+      "teamSName": "KENT",
+      "imageId": 172217
+    },
+    "team2": {
+      "teamId": 147,
+      "teamName": "Worcestershire",
+      "teamSName": "WORCS",
+      "imageId": 172214
+    },
+    "venueInfo": {
+      "id": 67,
+      "ground": "St Lawrence Ground",
+      "city": "Canterbury",
+      "timezone": "+01:00",
+      "latitude": "51.267447",
+      "longitude": "1.091621"
+    },
+    "currBatTeamId": 150,
+    "seriesStartDt": "1775174400000",
+    "seriesEndDt": "1790640000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "KENT Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 238,
+        "wickets": 10,
+        "overs": 64.2
+      },
+      "inngs2": {
+        "inningsId": 3,
+        "runs": 358,
+        "wickets": 10,
+        "overs": 108.2
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 217,
+        "wickets": 10,
+        "overs": 58.6
+      },
+      "inngs2": {
+        "inningsId": 4,
+        "runs": 295,
+        "wickets": 10,
+        "overs": 84.2
+      }
+    }
+  }
+}
