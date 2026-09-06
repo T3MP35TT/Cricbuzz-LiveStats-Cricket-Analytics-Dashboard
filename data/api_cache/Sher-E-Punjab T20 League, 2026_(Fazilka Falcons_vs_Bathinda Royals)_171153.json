@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 171153,
+    "seriesId": 13073,
+    "seriesName": "Sher-E-Punjab T20 League, 2026",
+    "matchDesc": "12th Match",
+    "matchFormat": "T20",
+    "startDate": "1788593400000",
+    "endDate": "1788606000000",
+    "state": "Complete",
+    "status": "Fazilka Falcons won by 17 runs  -  DLS Method",
+    "team1": {
+      "teamId": 3561,
+      "teamName": "Fazilka Falcons",
+      "teamSName": "FZF",
+      "imageId": 1064854
+    },
+    "team2": {
+      "teamId": 3571,
+      "teamName": "Bathinda Royals",
+      "teamSName": "BTR",
+      "imageId": 1064855
+    },
+    "venueInfo": {
+      "id": 46,
+      "ground": "Punjab Cricket Association IS Bindra Stadium",
+      "city": "Mohali",
+      "timezone": "+05:30",
+      "latitude": "30.690905",
+      "longitude": "76.737455"
+    },
+    "currBatTeamId": 3561,
+    "seriesStartDt": "1788048000000",
+    "seriesEndDt": "1789430400000",
+    "isTimeAnnounced": true,
+    "stateTitle": "FZF Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 214,
+        "wickets": 4,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 101,
+        "wickets": 4,
+        "overs": 10.6
+      }
+    }
+  }
+}
