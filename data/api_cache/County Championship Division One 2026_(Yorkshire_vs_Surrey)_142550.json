@@ -1,0 +1,68 @@
+{
+  "matchInfo": {
+    "matchId": 142550,
+    "seriesId": 11408,
+    "seriesName": "County Championship Division One 2026",
+    "matchDesc": "52nd Match",
+    "matchFormat": "TEST",
+    "startDate": "1788341400000",
+    "endDate": "1788625800000",
+    "state": "Complete",
+    "status": "Surrey won by 1 wkt",
+    "team1": {
+      "teamId": 146,
+      "teamName": "Yorkshire",
+      "teamSName": "YORKS",
+      "imageId": 172213
+    },
+    "team2": {
+      "teamId": 148,
+      "teamName": "Surrey",
+      "teamSName": "SUR",
+      "imageId": 172215
+    },
+    "venueInfo": {
+      "id": 12,
+      "ground": "Kennington Oval",
+      "city": "London",
+      "timezone": "+01:00",
+      "latitude": "51.48368",
+      "longitude": "-0.114885"
+    },
+    "currBatTeamId": 148,
+    "seriesStartDt": "1775174400000",
+    "seriesEndDt": "1790640000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "SUR Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 185,
+        "wickets": 10,
+        "overs": 75.4
+      },
+      "inngs2": {
+        "inningsId": 3,
+        "runs": 82,
+        "wickets": 10,
+        "overs": 28.5
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 83,
+        "wickets": 10,
+        "overs": 29.6
+      },
+      "inngs2": {
+        "inningsId": 4,
+        "runs": 187,
+        "wickets": 9,
+        "overs": 73.2
+      }
+    }
+  }
+}
