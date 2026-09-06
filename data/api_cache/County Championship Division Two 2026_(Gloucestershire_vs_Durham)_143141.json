@@ -1,0 +1,67 @@
+{
+  "matchInfo": {
+    "matchId": 143141,
+    "seriesId": 11416,
+    "seriesName": "County Championship Division Two 2026",
+    "matchDesc": "40th Match",
+    "matchFormat": "TEST",
+    "startDate": "1787824800000",
+    "endDate": "1788109200000",
+    "state": "Complete",
+    "status": "Durham won by 10 wkts",
+    "team1": {
+      "teamId": 151,
+      "teamName": "Gloucestershire",
+      "teamSName": "GLOUCS",
+      "imageId": 172218
+    },
+    "team2": {
+      "teamId": 141,
+      "teamName": "Durham",
+      "teamSName": "DUR",
+      "imageId": 172208
+    },
+    "venueInfo": {
+      "id": 60,
+      "ground": "Riverside Ground",
+      "city": "Chester-le-Street",
+      "timezone": "+01:00",
+      "latitude": "54.849531",
+      "longitude": "-1.56103"
+    },
+    "currBatTeamId": 141,
+    "seriesStartDt": "1775174400000",
+    "seriesEndDt": "1790640000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "DUR Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 137,
+        "wickets": 10,
+        "overs": 41.6
+      },
+      "inngs2": {
+        "inningsId": 3,
+        "runs": 250,
+        "wickets": 10,
+        "overs": 73.3
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 384,
+        "wickets": 10,
+        "overs": 88.1
+      },
+      "inngs2": {
+        "inningsId": 4,
+        "runs": 4,
+        "overs": 0.6
+      }
+    }
+  }
+}
