@@ -1,0 +1,69 @@
+{
+  "matchInfo": {
+    "matchId": 129585,
+    "seriesId": 10565,
+    "seriesName": "Pakistan tour of England 2026",
+    "matchDesc": "2nd Test",
+    "matchFormat": "TEST",
+    "startDate": "1787824800000",
+    "endDate": "1788195600000",
+    "state": "Complete",
+    "status": "England won by 194 runs",
+    "team1": {
+      "teamId": 9,
+      "teamName": "England",
+      "teamSName": "ENG",
+      "imageId": 776237
+    },
+    "team2": {
+      "teamId": 3,
+      "teamName": "Pakistan",
+      "teamSName": "PAK",
+      "imageId": 776308
+    },
+    "venueInfo": {
+      "id": 19,
+      "ground": "Lord's",
+      "city": "London",
+      "timezone": "+01:00",
+      "latitude": "51.529488",
+      "longitude": "-0.172926"
+    },
+    "currBatTeamId": 9,
+    "seriesStartDt": "1786579200000",
+    "seriesEndDt": "1789430400000",
+    "isTimeAnnounced": true,
+    "stateTitle": "ENG Won",
+    "isFantasyEnabled": true
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 290,
+        "wickets": 10,
+        "overs": 66.4
+      },
+      "inngs2": {
+        "inningsId": 3,
+        "runs": 208,
+        "wickets": 10,
+        "overs": 54.2
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 110,
+        "wickets": 10,
+        "overs": 37.2
+      },
+      "inngs2": {
+        "inningsId": 4,
+        "runs": 194,
+        "wickets": 10,
+        "overs": 50.5
+      }
+    }
+  }
+}
