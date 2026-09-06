@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 169313,
+    "seriesId": 12870,
+    "seriesName": "European T20 Premier League 2026",
+    "matchDesc": "11th Match",
+    "matchFormat": "T20",
+    "startDate": "1788354900000",
+    "endDate": "1788367500000",
+    "state": "Complete",
+    "status": "Edinburgh Castle Rockers won by 59 runs",
+    "team1": {
+      "teamId": 574,
+      "teamName": "Edinburgh Castle Rockers",
+      "teamSName": "ECR",
+      "imageId": 1044579
+    },
+    "team2": {
+      "teamId": 577,
+      "teamName": "Belfast Wolves",
+      "teamSName": "BFW",
+      "imageId": 1044577
+    },
+    "venueInfo": {
+      "id": 1437791,
+      "ground": "Sportpark Duivesteijn",
+      "city": "Voorburg",
+      "timezone": "+02:00",
+      "latitude": "52.0848131",
+      "longitude": "4.3662509"
+    },
+    "currBatTeamId": 574,
+    "seriesStartDt": "1787702400000",
+    "seriesEndDt": "1790035200000",
+    "isTimeAnnounced": true,
+    "stateTitle": "ECR Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 189,
+        "wickets": 5,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 130,
+        "wickets": 10,
+        "overs": 17.1
+      }
+    }
+  }
+}
