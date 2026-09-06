@@ -9,7 +9,7 @@ Written for SQLite. Window functions (Q19, 21, 23, 25) need SQLite
 
 QUERIES = {
 
-    # ---------------- BEGINNER ----------------
+    # Beginner queries
     "Q1: Indian Players": """
         SELECT
             player_name,
@@ -100,7 +100,7 @@ QUERIES = {
         ORDER BY MIN(match_date),series_name;
     """,
 
-    # ---------------- INTERMEDIATE ----------------
+    # Intermediate queries
     "Q9: All-rounders (>1000 runs AND >50 wickets)": """
         SELECT a.player_name,SUM(s.runs_scored) total_runs,
             SUM(s.wickets_taken) total_wickets,'Test, ODI, T20I' format
@@ -227,7 +227,7 @@ QUERIES = {
     GROUP BY y.player_id,pl.player_name,y.year;
     """,
 
-    # ---------------- ADVANCED ----------------
+    # Advanced queries
     "Q17: Toss advantage on match outcome": """
         WITH clean AS (
             SELECT LOWER(TRIM(toss_decision)) toss_decision,toss_winner,winner

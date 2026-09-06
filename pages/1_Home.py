@@ -24,7 +24,7 @@ st.set_page_config(
 )
 
 
-# Sidebar navigation styling
+# Sidebar navigation
 
 st.markdown(
     """
@@ -185,7 +185,7 @@ st.markdown(
     }
 
 
-    /* Main page section cards */
+    /* Main page sections */
 
     [data-testid="stVerticalBlockBorderWrapper"] {
         border: 1px solid rgba(255,255,255,0.085) !important;
@@ -235,7 +235,7 @@ st.markdown(
 )
 
 
-# Shared Cricbuzz theme
+# Cricbuzz theme
 
 apply_theme(
     badge_text="🏠 HOME • CRICKET ANALYTICS ARENA",
@@ -250,7 +250,7 @@ apply_theme(
 )
 
 
-# Header text styling
+# Header styling
 
 st.markdown(
     """
@@ -274,7 +274,7 @@ st.markdown(
 )
 
 
-# Home sidebar information
+# Sidebar information
 
 with st.sidebar:
 
@@ -332,7 +332,7 @@ with st.sidebar:
     )
 
 
-# About the project
+# Project overview
 
 with st.container(border=True):
 

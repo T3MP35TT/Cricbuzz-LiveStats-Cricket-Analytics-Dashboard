@@ -1,0 +1,37 @@
+{
+  "matchInfo": {
+    "matchId": 170421,
+    "seriesId": 13003,
+    "seriesName": "Nordic Women's T20I Cup 2026",
+    "matchDesc": "5th Match",
+    "matchFormat": "T20",
+    "startDate": "1788073200000",
+    "endDate": "1788085800000",
+    "state": "Complete",
+    "status": "Match abandoned due to rain (no toss)",
+    "team1": {
+      "teamId": 508,
+      "teamName": "Denmark Women",
+      "teamSName": "DENW",
+      "imageId": 776234
+    },
+    "team2": {
+      "teamId": 1048,
+      "teamName": "Sweden Women",
+      "teamSName": "SWEW",
+      "imageId": 248453
+    },
+    "venueInfo": {
+      "id": 1437730,
+      "ground": "GelsenTrabPark",
+      "city": "Gelsenkirchen",
+      "timezone": "+02:00",
+      "latitude": "51.5048828",
+      "longitude": "7.053373"
+    },
+    "seriesStartDt": "1787875200000",
+    "seriesEndDt": "1788220800000",
+    "isTimeAnnounced": true,
+    "stateTitle": "Abandon"
+  }
+}

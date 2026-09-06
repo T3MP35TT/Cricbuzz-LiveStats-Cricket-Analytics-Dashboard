@@ -14,7 +14,7 @@ st.set_page_config(
 )
 
 
-# Theme
+# Cricbuzz theme
 
 apply_theme(
     title="🛠 CRUD Operations — Player Records",
@@ -23,7 +23,7 @@ apply_theme(
 )
 
 
-# Professional sidebar and CRUD styling
+# Sidebar and CRUD styling
 
 st.markdown(
     """
@@ -595,7 +595,7 @@ tab_create, tab_read, tab_update, tab_delete = st.tabs(
 )
 
 
-# CREATE
+# Create player
 
 with tab_create:
 
@@ -703,7 +703,7 @@ with tab_create:
                     )
 
 
-# READ
+# Read players
 
 with tab_read:
 
@@ -909,7 +909,7 @@ with tab_read:
         )
 
 
-# UPDATE
+# Update player
 
 with tab_update:
 
@@ -1071,7 +1071,7 @@ with tab_update:
                         )
 
 
-# DELETE
+# Delete player
 
 with tab_delete:
 

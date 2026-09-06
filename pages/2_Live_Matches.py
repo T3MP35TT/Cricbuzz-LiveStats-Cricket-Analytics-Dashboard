@@ -8,8 +8,6 @@ import streamlit as st
 
 
 # Project root
-# Resolve imports from the project directory instead of the current
-# working directory so the app works locally and on Streamlit Cloud.
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
@@ -199,8 +197,8 @@ st.markdown(
 )
 
 
-# Sidebar live-score area
-# This appears below Streamlit's page navigation in the left sidebar.
+# Sidebar live scores
+# Display below Streamlit page navigation
 sidebar_live_placeholder = st.sidebar.empty()
 
 
@@ -1350,16 +1348,16 @@ def award_scorecard_xp(match_id):
 
 # Page introduction
 
-# The profile/XP strip is intentionally hidden on this page.
-# Predictions and scorecard rewards still work inside the match cards.
+# Profile and XP strip hidden on this page
+# Predictions and scorecard rewards remain available in match cards
 
 # Match tabs
 #
-# IMPORTANT:
-# These tabs must be created before either
-# `with tab_live:` or `with tab_recent:`.
+# Tab setup
+# Create tabs before rendering either
+# Live or recent content
 
-# Load live data once for both the sidebar mini scorecards and the main tab.
+# Load live data from the cache/API policy
 live_data = get_live_matches()
 render_sidebar_live_scores(live_data)
 
@@ -1372,7 +1370,7 @@ tab_live, tab_recent = st.tabs(
 )
 
 
-# Live Matches
+# Live matches
 
 with tab_live:
 
@@ -1380,11 +1378,9 @@ with tab_live:
         "🔄 Refresh live scores",
         key="refresh_live_scores",
     ):
-
-        st.cache_data.clear()
-        st.rerun()
-
-    data = live_data
+        data = get_live_matches(force_refresh=True)
+    else:
+        data = live_data
 
     if "error" in data:
 
@@ -1455,7 +1451,7 @@ with tab_live:
                     live_matches
                 )
 
-                # Two-column compact card layout.
+                # Live match card layout
                 for card_start in range(0, len(live_matches), 2):
 
                     card_batch = live_matches[card_start:card_start + 2]
@@ -1561,7 +1557,7 @@ with tab_live:
                                 border=True
                             ):
 
-                                # Date / live marker
+                                # Date and live marker
                                 st.markdown(
                                     f"""
                                     <div class="live-card-date">
@@ -1572,7 +1568,7 @@ with tab_live:
                                     unsafe_allow_html=True,
                                 )
 
-                                # Clickable team names
+                                # Team links
                                 st.markdown(
                                     f"""
                                     <a class="live-card-team-link"
@@ -1634,7 +1630,7 @@ with tab_live:
                                         unsafe_allow_html=True,
                                     )
 
-                                # Live status strip
+                                # Live status
                                 if status:
 
                                     st.markdown(
@@ -1689,7 +1685,7 @@ with tab_live:
                                         unsafe_allow_html=True,
                                     )
 
-                                # Prediction and scorecard live inside the same card.
+                                # Prediction and scorecard
                                 if match_id is not None:
 
                                     pred_key = str(
@@ -1820,13 +1816,13 @@ with tab_live:
             )
 
 
-# Recent Matches
+# Recent matches
 
 with tab_recent:
 
     data = get_recent_matches()
 
-    # Use individual readable match files before showing an API error.
+    # Use individual cache files before showing an API error
     if "error" in data:
 
         cached_recent = named_recent_cache_response()
@@ -1854,7 +1850,7 @@ with tab_recent:
 
         else:
 
-            # Resolve pending predictions.
+            # Resolve predictions
 
             for match in recent_matches:
 
@@ -1943,7 +1939,7 @@ with tab_recent:
                     == selected_format
                 ]
 
-            # Two-column compact recent-match cards.
+            # Recent match card layout
             for card_start in range(0, len(filtered_matches), 2):
 
                 card_batch = filtered_matches[
@@ -1996,7 +1992,7 @@ with tab_recent:
                             border=True
                         ):
 
-                            # Date / completed marker.
+                            # Date and match marker
                             st.markdown(
                                 f"""
                                 <div class="recent-card-date">
@@ -2007,7 +2003,7 @@ with tab_recent:
                                 unsafe_allow_html=True,
                             )
 
-                            # Clickable team names.
+                            # Team links.
                             st.markdown(
                                 f"""
                                 <a class="recent-card-team-link"
@@ -2027,7 +2023,7 @@ with tab_recent:
                                 unsafe_allow_html=True,
                             )
 
-                            # Compact score boxes.
+                            # Score boxes
                             score_col1, score_col2 = st.columns(
                                 2,
                                 gap="small",
@@ -2071,7 +2067,7 @@ with tab_recent:
                                     unsafe_allow_html=True,
                                 )
 
-                            # Result / match state.
+                            # Match result
                             result_text = status or state_title
 
                             if result_text:
@@ -2132,7 +2128,7 @@ with tab_recent:
                                     unsafe_allow_html=True,
                                 )
 
-                            # Show the user's prediction result if one exists.
+                            # Prediction result
                             pred = st.session_state[
                                 "predictions"
                             ].get(
@@ -2177,7 +2173,7 @@ with tab_recent:
                                     unsafe_allow_html=True,
                                 )
 
-                            # Scorecard stays inside the same compact card.
+                            # Scorecard
                             if st.button(
                                 "🧾 View Scorecard",
                                 key=(
@@ -2215,8 +2211,9 @@ with tab_recent:
 
 
 st.caption(
-    "Live data is cached for a couple of minutes "
-    "and recent-match data for a few hours, to stay "
-    "well within a free-tier API quota. "
+    "Live data refreshes every 8 hours unless manually refreshed. "
+    "Recent-match data refreshes every 24 hours. "
+    "Player rankings refresh every 30 days. "
+    "A persistent fallback cache is retained for up to 30 days. "
     "Predictions and scorecard activity are tracked per browser session."
 )

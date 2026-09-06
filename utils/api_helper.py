@@ -19,12 +19,12 @@ Deployment note:
   fallback data after deployment.
 
 Cache behavior:
-- The API is ALWAYS tried first.
-- If the API succeeds, the fresh response is returned and cached.
-- If the API fails, the most recent cached response is returned.
+- A fresh local or GitHub cache is returned immediately.
+- The API is called only when the cache is missing or older than its TTL.
+- Successful API responses replace the local cache and are persisted to GitHub.
+- If the API fails, cached data remains usable for up to 30 days.
 - Cache files are never automatically deleted.
-- Refresh TTL controls when a fresh API request is attempted; it does
-  NOT prevent an older cached response from being used as a fallback.
+- Live matches support an explicit one-request force refresh.
 - Fallback cache retention is 30 days.
 - Live matches: refresh target every 8 hours
 - Recent matches: refresh target every 24 hours
@@ -249,12 +249,15 @@ def _write_cache(
     temporary_file = cache_file.with_suffix(".tmp")
 
     try:
+        cache_payload = dict(data)
+        cache_payload["_cache_saved_at"] = time.time()
+
         with temporary_file.open(
             "w",
             encoding="utf-8",
         ) as file:
             json.dump(
-                data,
+                cache_payload,
                 file,
                 ensure_ascii=False,
                 indent=2,
@@ -281,15 +284,34 @@ def _cache_age_seconds(
     """
     Return the age of a cache file in seconds.
 
-    Returns None if the file cannot be inspected.
+    The embedded timestamp is preferred so GitHub-restored cache files
+    retain their original age.
     """
+
+    try:
+        with cache_file.open("r", encoding="utf-8") as file:
+            data = json.load(file)
+
+        if isinstance(data, dict):
+            saved_at = data.get("_cache_saved_at")
+            if saved_at is not None:
+                return max(
+                    0,
+                    time.time() - float(saved_at),
+                )
+    except (
+        OSError,
+        json.JSONDecodeError,
+        TypeError,
+        ValueError,
+    ):
+        pass
 
     try:
         return max(
             0,
             time.time() - cache_file.stat().st_mtime,
         )
-
     except OSError:
         return None
 
@@ -366,7 +388,7 @@ def _decorate_response(
     if cache_age is not None:
         result["_cache_age_seconds"] = int(cache_age)
 
-    result["_cache_is_fallback"] = source == "cache"
+    result["_cache_is_fallback"] = source == "fallback"
 
     return result
 
@@ -625,27 +647,20 @@ def fetch_or_cache(
     endpoint: str,
     params: dict = None,
     category: str = "default",
+    force_refresh: bool = False,
 ) -> dict:
     """
-    Fetch API data with fallback caching.
+    Return persistent cached data first and refresh it when required.
 
-    IMPORTANT:
-        The API is always tried first.
+    Normal behavior:
+        1. Check the local cache.
+        2. Restore the GitHub cache if the local copy is missing.
+        3. Return the cache immediately when it is within the category TTL.
+        4. Call the API only when the cache is missing or stale.
+        5. Cache successful API data locally and in GitHub.
+        6. If the API fails, use cached data for up to 30 days.
 
-    Behavior:
-
-    1. Check whether a cache exists.
-    2. Attempt the live API.
-    3. If the API succeeds:
-           - return fresh API data
-           - replace the cache for this request
-    4. If the API fails:
-           - return cached data when it is <= 30 days old
-    5. If neither is available:
-           - return an error dictionary
-
-    The category TTL is a refresh target only. It does not make the
-    cached response unusable as a fallback.
+    force_refresh=True bypasses the normal TTL for this request only.
     """
 
     params = params or {}
@@ -659,17 +674,25 @@ def fetch_or_cache(
         cache_file
     )
 
-    # Streamlit Cloud can restart with an empty local filesystem.
-    # Restore the persistent GitHub cache when no local copy exists.
+    # Restore persistent cache after a Streamlit Cloud restart.
     if cached_data is None:
         cached_data = _github_read_cache(
             cache_file
         )
 
-    # API FIRST
-    #
-    # We deliberately attempt the API even when a cache exists.
-    # This guarantees that a working API always provides fresh data.
+    # Fresh cache is the normal first source.
+    if (
+        not force_refresh
+        and cached_data is not None
+        and _is_fresh(cache_file, category)
+    ):
+        return _decorate_response(
+            cached_data,
+            source="cache",
+            cache_file=cache_file,
+        )
+
+    # Cache is missing/stale, or the caller explicitly requested a refresh.
     api_data = _request_api(
         endpoint,
         params=params,
@@ -681,8 +704,7 @@ def fetch_or_cache(
             api_data,
         )
 
-        # Persist fresh API data so the cache survives Streamlit Cloud
-        # runtime restarts.
+        # Persist successful API data for the next runtime.
         _persist_cache_to_github(
             cache_file,
             api_data,
@@ -694,25 +716,22 @@ def fetch_or_cache(
             cache_file=cache_file,
         )
 
-    # API failed.
-    #
-    # Use the previous successful response as persistent fallback.
+    # A stale cache is still valid emergency fallback for 30 days.
     if (
         cached_data is not None
         and _is_valid_fallback(cache_file)
     ):
         return _decorate_response(
             cached_data,
-            source="cache",
+            source="fallback",
             cache_file=cache_file,
         )
 
-    # No API and no valid cache.
     if not API_KEY:
         return {
             "error": (
-                "No CRICBUZZ_API_KEY configured and "
-                "no valid cached API data is available."
+                "No CRICBUZZ_API_KEY configured and no usable "
+                "cached response is available."
             ),
             "_data_source": "none",
             "_cache_is_fallback": False,
@@ -720,95 +739,12 @@ def fetch_or_cache(
 
     return {
         "error": (
-            "Cricbuzz API is currently unavailable or the "
-            "API quota may be exhausted, and no valid cached "
-            "API data is available."
+            "Cricbuzz API is currently unavailable or the API quota "
+            "may be exhausted, and no usable cached response is available."
         ),
         "_data_source": "none",
         "_cache_is_fallback": False,
     }
-
-
-# Cache information
-
-def get_cache_directory():
-    """
-    Return the application API cache directory.
-    """
-
-    return CACHE_DIR
-
-
-def get_cache_age(
-    endpoint: str,
-    params: dict = None,
-):
-    """
-    Return the age of a specific request cache in seconds.
-
-    Returns None when no cache exists.
-    """
-
-    params = params or {}
-
-    cache_file = _cache_key(
-        endpoint,
-        params,
-    )
-
-    return _cache_age_seconds(
-        cache_file
-    )
-
-
-def is_cache_available(
-    endpoint: str,
-    params: dict = None,
-):
-    """
-    Return True when a valid fallback cache exists.
-    """
-
-    params = params or {}
-
-    cache_file = _cache_key(
-        endpoint,
-        params,
-    )
-
-    return _is_valid_fallback(
-        cache_file
-    )
-
-
-# Cricbuzz API endpoints
-
-def _safe_filename_part(value: str) -> str:
-    """
-    Convert a match/series/team name into a Windows-safe filename part.
-    """
-
-    value = str(value or "").strip()
-
-    replacements = {
-        "\\": "-",
-        "/": "-",
-        ":": "-",
-        "*": "-",
-        "?": "",
-        '"': "",
-        "<": "(",
-        ">": ")",
-        "|": "-",
-    }
-
-    for old, new in replacements.items():
-        value = value.replace(old, new)
-
-    # Keep filenames readable and avoid accidental trailing dots/spaces.
-    value = " ".join(value.split()).strip(" .")
-
-    return value or "Unknown"
 
 
 def _extract_recent_matches(data: dict):
@@ -1123,9 +1059,7 @@ def get_recent_match_by_id(match_id: str):
 
 def get_recent_matches():
     """
-    Get recent matches.
-
-    API is always tried first.
+    Get recent matches using the 24-hour cache freshness policy.
 
     On successful API retrieval:
         1. The normal aggregate recent-matches response is cached.
@@ -1162,11 +1096,11 @@ def get_recent_matches():
     return data
 
 
-def get_live_matches():
+def get_live_matches(force_refresh: bool = False):
     """
-    Get currently listed live matches.
+    Get live matches using the 8-hour cache freshness policy.
 
-    API is always tried first.
+    force_refresh=True bypasses the 8-hour cache for this request only.
 
     If the API fails, the last successful live-match response is
     used as fallback for up to 30 days.
@@ -1178,6 +1112,7 @@ def get_live_matches():
     return fetch_or_cache(
         "/matches/v1/live",
         category="live",
+        force_refresh=force_refresh,
     )
 
 
@@ -1380,14 +1315,29 @@ def _get_top_player_ranking(
         "formatType": api_format,
     }
 
-    # API FIRST
+    cache_file = _leaderboard_cache_file(api_format)
+    cached_file_data = _read_leaderboard_cache(api_format)
+
+    # Use the format cache immediately while it is within the stats TTL.
+    if (
+        isinstance(cached_file_data, dict)
+        and ranking_type in cached_file_data
+        and _is_fresh(cache_file, "stats")
+    ):
+        cached_component = cached_file_data[ranking_type]
+
+        if isinstance(cached_component, dict):
+            return _decorate_leaderboard_component(
+                cached_component,
+                source="cache",
+                match_type=api_format,
+            )
+
+    # Cache is missing/stale, so request the API.
     api_data = _request_api(
         endpoint,
         params=params,
     )
-
-    cache_file = _leaderboard_cache_file(api_format)
-    cached_file_data = _read_leaderboard_cache(api_format)
 
     if api_data is not None:
         # Preserve the other ranking type already stored in this file.

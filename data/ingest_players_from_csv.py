@@ -1,14 +1,11 @@
 """
-Loads a Kaggle player career-stats CSV (e.g. Ijaj Ahmed's
-"International Cricket Player Performance Stats" dataset) into
+Loads a Kaggle player career-stats CSV into
 players + player_career_stats.
 
 Usage:
     python data/ingest_players_from_csv.py path/to/player_stats.csv
 
-Expected-ish input columns (rename in the CSV or adjust COLUMN_MAP
-below to match whatever the dataset you downloaded actually calls
-them — Kaggle datasets vary in naming):
+Expected input columns:
     player_name, country, playing_role, batting_style, bowling_style,
     format, matches, runs, batting_average, strike_rate, hundreds,
     fifties, highest_score, wickets, bowling_average, economy, catches, stumpings
@@ -22,9 +19,9 @@ import pandas as pd
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 from utils.db_connection import init_schema, get_connection
 
-# Map your actual CSV column names -> our schema's expected names.
-# Edit the right-hand side to match the column headers in the file
-# you downloaded from Kaggle.
+
+# Column mapping
+
 COLUMN_MAP = {
     "player_name": "player_name",
     "country": "country",

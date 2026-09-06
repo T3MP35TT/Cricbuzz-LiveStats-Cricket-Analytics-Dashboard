@@ -14,17 +14,7 @@ from sql_queries.queries import QUERIES, Q22_VENUE_PERFORMANCE
 from utils.theme import apply_theme
 
 
-# Project-relative paths
-#
-# This file lives inside the pages/ directory, so:
-#   Path(__file__).resolve().parent       -> pages/
-#   Path(__file__).resolve().parent.parent -> project root/
-#
-# Using project-relative paths keeps the app portable across:
-#   - Windows local development
-#   - GitHub
-#   - Streamlit Community Cloud / Linux
-#   - Other deployment environments
+# Project root
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
@@ -72,7 +62,7 @@ def get_player_image_html(player_name):
             image_path = candidate
             break
 
-    # Handle filenames with different capitalization if needed.
+    # Handle case-insensitive image filenames
     if image_path is None and PLAYER_IMAGE_DIR.exists():
         target_name = player_name.casefold()
         for candidate in PLAYER_IMAGE_DIR.iterdir():
@@ -145,7 +135,7 @@ st.set_page_config(
 )
 
 
-# Sidebar navigation styling
+# Sidebar navigation
 
 st.markdown(
     """
@@ -350,13 +340,7 @@ st.markdown(
 )
 
 
-# SQL Analytics sidebar insights
-#
-# The sidebar is intentionally data-driven.
-# It shows facts calculated from the LAST QUERY THAT WAS ACTUALLY RUN.
-# Selecting a query does not change these insights until Run query is clicked.
-
-
+# Sidebar insights
 def _sidebar_find_column(df, candidates):
     """Find a dataframe column using case-insensitive candidate names."""
     if df is None or df.empty:
@@ -570,7 +554,7 @@ def _sidebar_build_insights(query_choice, result_df):
             (icon, label.upper(), value, detail)
         )
 
-    # Always make the first insight the actual number of returned records.
+    # Show returned row count first
     add(
         "📊",
         "Rows analyzed",
@@ -1210,8 +1194,7 @@ def _sidebar_build_insights(query_choice, result_df):
         if result:
             add("⚡", result[1], result[2])
 
-    # Generic fallback for Q11/Q18 and any result where a specialized
-    # metric was not available. These are still calculated from real data.
+    # Use generic insight fallback when needed
     if len(insights) < 4:
         numeric_candidates = []
 
@@ -1225,7 +1208,7 @@ def _sidebar_build_insights(query_choice, result_df):
                     (column, numeric_values)
                 )
 
-        # Prefer columns whose names indicate meaningful cricket metrics.
+        # Prioritize meaningful cricket metrics
         priority_words = [
             "runs",
             "score",
@@ -1275,7 +1258,7 @@ def _sidebar_build_insights(query_choice, result_df):
                 "Highest value in the returned result.",
             )
 
-    # Final fallback if the query only returned categorical data.
+    # Use categorical fallback when needed
     if len(insights) < 4:
         for column in df.columns:
             if len(insights) >= 4:
@@ -1296,7 +1279,7 @@ def _sidebar_build_insights(query_choice, result_df):
     return title, insights[:4]
 
 
-# Initialize query state before rendering the dynamic sidebar.
+# Initialize query state
 if "sql_query_result" not in st.session_state:
     st.session_state["sql_query_result"] = None
 
@@ -1324,13 +1307,13 @@ if run_clicked:
             Q22_VENUE_PERFORMANCE
         )
 
-    # The sidebar is updated only after the SQL has actually executed.
+    # Update sidebar after query execution
     st.session_state["sql_query_choice"] = choice
 
 
-# Render actual query insights in the sidebar.
+# Render query insights
 #
-# IMPORTANT:
+# Important
 # Do not render the insight cards as HTML strings. Streamlit can display
 # multiline HTML as a code block depending on the Markdown renderer/version.
 # The sidebar therefore uses native Streamlit components for the cards.
@@ -1863,16 +1846,14 @@ if (
                     if not clean_ids:
                         return scorecards
 
-                    # run_query() accepts only the SQL string.
+                    # run_query accepts the SQL string
                     #
-                    # Therefore we do not use:
+                    # Do not use parameter placeholders here
                     #
                     #     IN (?,?,?,?,...)
                     #
-                    # because that would require parameter bindings.
                     #
-                    # The IDs have already been normalized to integers,
-                    # so they can safely be placed directly into the query.
+                    # IDs are normalized to integers
                     match_id_list = ",".join(
                         str(match_id)
                         for match_id in clean_ids
@@ -2052,7 +2033,7 @@ if (
 
                     st.divider()
 
-                    # Normalize format values so filtering is consistent.
+                    # Normalize match formats
                     df["_format_normalized"] = (
                         df["match_type"]
                         .fillna("")
@@ -2093,7 +2074,7 @@ if (
                     display_df = df.copy()
 
 
-                # Select exactly the 10 most recent matches.
+                # Select the 10 most recent matches
                 recent_match_ids_df = run_query(
                     """
                     SELECT
@@ -2156,7 +2137,7 @@ if (
                 )
 
 
-                # Read the corrected scorecards directly from SQLite.
+                # Read scorecards from SQLite
                 database_scorecards = (
                     load_database_scorecards(
                         card_df["match_id"].tolist()
@@ -2596,13 +2577,13 @@ if (
                 st.divider()
 
 
-                # Full 30-day Match Schedule.
+                # 30-day match schedule
                 #
-                # IMPORTANT:
-                # The database remains the source of truth.
+                # Important
+                # Use the database as the source of truth
                 #
                 # We do not modify display_df with score strings.
-                # This prevents Pandas int64 dtype errors.
+                # Prevent Pandas dtype errors
 
 
                 st.markdown(
@@ -2652,8 +2633,7 @@ if (
                 ].copy()
 
 
-                # Rank the full schedule by Team 1 runs,
-                # highest score first.
+                # Rank by Team 1 runs
                 if "team1_runs" in table_df.columns:
 
                     table_df["_team1_runs_sort"] = pd.to_numeric(
@@ -2676,7 +2656,7 @@ if (
                         )
                     )
 
-                # Display scores as runs/wickets.
+                # Display scores as runs/wickets
                 if (
                     "team1_runs" in table_df.columns
                     and "team1_wickets" in table_df.columns
@@ -2725,7 +2705,7 @@ if (
 
 
 
-                # match_id is used only internally.
+                # match_id is used internally
                 if "match_id" in table_df.columns:
 
                     table_df = table_df.drop(
@@ -2788,7 +2768,7 @@ if (
 
                 df = df.copy()
 
-                # Normalize numeric columns from the database.
+                # Normalize database numeric values
                 for column in [
                     "runs_scored",
                     "batting_average",
@@ -2823,9 +2803,7 @@ if (
 
                 else:
 
-                    # ------------------------------------------------
                     # Hall of Fame summary
-                    # ------------------------------------------------
 
                     leader = df.iloc[0]
 
@@ -2949,9 +2927,7 @@ if (
                         """
                     )
 
-                    # ------------------------------------------------
                     # Quick stats
-                    # ------------------------------------------------
 
                     col1, col2, col3, col4 = st.columns(4)
 
@@ -2981,9 +2957,7 @@ if (
 
                     st.divider()
 
-                    # ------------------------------------------------
                     # Podium
-                    # ------------------------------------------------
 
                     st.markdown("### 🥇 The ODI Podium")
 
@@ -3117,9 +3091,7 @@ if (
 
                     st.divider()
 
-                    # ------------------------------------------------
-                    # XP-style leaderboard
-                    # ------------------------------------------------
+                    # XP leaderboard
 
                     st.markdown("### ⚔️ ODI Run Battle")
 
@@ -3307,9 +3279,7 @@ if (
 
                     st.divider()
 
-                    # ------------------------------------------------
-                    # Detailed leaderboard table
-                    # ------------------------------------------------
+                    # Detailed leaderboard
 
                     st.markdown("### 📋 Hall of Fame Stats")
 
@@ -3387,9 +3357,7 @@ if (
 
                 else:
 
-                    # ------------------------------------------------
                     # Hall of Fame summary
-                    # ------------------------------------------------
 
                     largest = df.iloc[0]
 
@@ -3411,9 +3379,7 @@ if (
 
                     venue_count = len(df)
 
-                    # ------------------------------------------------
                     # Champion stadium
-                    # ------------------------------------------------
 
                     st.html(
                         f"""
@@ -3505,9 +3471,7 @@ if (
                         """
                     )
 
-                    # ------------------------------------------------
                     # Quick stats
-                    # ------------------------------------------------
 
                     col1, col2, col3, col4 = st.columns(4)
 
@@ -3537,9 +3501,7 @@ if (
 
                     st.divider()
 
-                    # ------------------------------------------------
                     # Podium
-                    # ------------------------------------------------
 
                     st.markdown("### 🥇 Stadium Podium")
 
@@ -3672,9 +3634,7 @@ if (
 
                     st.divider()
 
-                    # ------------------------------------------------
                     # Capacity battle
-                    # ------------------------------------------------
 
                     st.markdown("### ⚔️ Capacity Battle")
 
@@ -3855,9 +3815,7 @@ if (
 
                     st.divider()
 
-                    # ------------------------------------------------
                     # Detailed venue table
-                    # ------------------------------------------------
 
                     st.markdown("### 📋 Stadium Hall of Fame")
 
@@ -3915,7 +3873,7 @@ if (
 
                 df = df.copy()
 
-                # Normalize the classification fields.
+                # Normalize team classifications
                 df["total_wins"] = pd.to_numeric(
                     df["total_wins"],
                     errors="coerce"
@@ -3962,9 +3920,7 @@ if (
 
                 else:
 
-                    # ------------------------------------------------
                     # Team category filter
-                    # ------------------------------------------------
 
                     st.markdown("### 🌍 Choose Team Category")
 
@@ -4004,9 +3960,7 @@ if (
                             == selected_category
                         ].copy()
 
-                    # ------------------------------------------------
                     # Competition filter
-                    # ------------------------------------------------
 
                     if selected_category == "Franchise":
 
@@ -4047,9 +4001,7 @@ if (
 
                         selected_competition = "All"
 
-                    # ------------------------------------------------
                     # Ranking
-                    # ------------------------------------------------
 
                     filtered_df = (
                         filtered_df
@@ -4070,9 +4022,7 @@ if (
 
                     else:
 
-                        # ------------------------------------------------
                         # Filter summary
-                        # ------------------------------------------------
 
                         if selected_category == "All":
 
@@ -4098,9 +4048,7 @@ if (
                             f"{filter_text}"
                         )
 
-                        # ------------------------------------------------
                         # Leaderboard summary
-                        # ------------------------------------------------
 
                         champion = filtered_df.iloc[0]
 
@@ -4236,9 +4184,7 @@ if (
                             """
                         )
 
-                        # ------------------------------------------------
                         # Quick stats
-                        # ------------------------------------------------
 
                         col1, col2, col3, col4 = st.columns(4)
 
@@ -4272,9 +4218,7 @@ if (
 
                         st.divider()
 
-                        # ------------------------------------------------
                         # Championship podium
-                        # ------------------------------------------------
 
                         st.markdown(
                             "### 🥇 Championship Podium"
@@ -4420,9 +4364,7 @@ if (
 
                         st.divider()
 
-                        # ------------------------------------------------
                         # Victory battle
-                        # ------------------------------------------------
 
                         st.markdown("### ⚔️ Victory Battle")
 
@@ -4630,9 +4572,7 @@ if (
 
                         st.divider()
 
-                        # ------------------------------------------------
                         # Win tiers
-                        # ------------------------------------------------
 
                         st.markdown("### 🎮 Victory Tiers")
 
@@ -4757,9 +4697,7 @@ if (
 
                         st.divider()
 
-                        # ------------------------------------------------
                         # Detailed leaderboard
-                        # ------------------------------------------------
 
                         st.markdown(
                             "### 📋 Winners' Club Standings"
@@ -4836,7 +4774,7 @@ if (
 
                 df = df.copy()
 
-                # Normalize the database result.
+                # Normalize the database result
                 df["player_count"] = pd.to_numeric(
                     df["player_count"],
                     errors="coerce"
@@ -4871,9 +4809,7 @@ if (
 
                 else:
 
-                    # ------------------------------------------------
-                    # Interactive role selector
-                    # ------------------------------------------------
+                    # Role selector
 
                     roles = df["role"].tolist()
 
@@ -4956,9 +4892,7 @@ if (
                         1
                     )
 
-                    # ------------------------------------------------
                     # Champion card
-                    # ------------------------------------------------
 
                     st.html(
                         f"""
@@ -5050,9 +4984,7 @@ if (
                         """
                     )
 
-                    # ------------------------------------------------
                     # Quick stats
-                    # ------------------------------------------------
 
                     col1, col2, col3, col4 = st.columns(4)
 
@@ -5082,9 +5014,7 @@ if (
 
                     st.divider()
 
-                    # ------------------------------------------------
-                    # Selected role mission card
-                    # ------------------------------------------------
+                    # Selected role mission
 
                     selected_name = html.escape(
                         str(selected_role)
@@ -5150,9 +5080,7 @@ if (
                         """
                     )
 
-                    # ------------------------------------------------
-                    # Chart 1 — role battle
-                    # ------------------------------------------------
+                    # Chart 1: Role battle
 
                     st.markdown("### 📊 Role Battle")
 
@@ -5167,9 +5095,7 @@ if (
                         height=340
                     )
 
-                    # ------------------------------------------------
-                    # Chart 2 — share of player pool
-                    # ------------------------------------------------
+                    # Chart 2: Player pool share
 
                     st.markdown("### 🧩 Player Pool Composition")
 
@@ -5203,9 +5129,7 @@ if (
 
                     st.divider()
 
-                    # ------------------------------------------------
                     # XP leaderboard
-                    # ------------------------------------------------
 
                     st.markdown("### ⚔️ Role XP Leaderboard")
 
@@ -5370,9 +5294,7 @@ if (
 
                     st.divider()
 
-                    # ------------------------------------------------
                     # Detailed standings
-                    # ------------------------------------------------
 
                     st.markdown("### 📋 Role Arena Standings")
 
@@ -5419,7 +5341,7 @@ if (
 
                 df = df.copy()
 
-                # Normalize the database result.
+                # Normalize the database result
                 df["highest_score"] = pd.to_numeric(
                     df["highest_score"],
                     errors="coerce"
@@ -5445,7 +5367,7 @@ if (
                     df["highest_score"].astype(int)
                 )
 
-                # Keep one record per format at the highest score.
+                # Keep the highest score per format
                 df = (
                     df.sort_values(
                         ["highest_score", "format"],
@@ -5467,9 +5389,7 @@ if (
 
                 else:
 
-                    # ------------------------------------------------
-                    # Interactive format selector
-                    # ------------------------------------------------
+                    # Format selector
 
                     formats = df["format"].tolist()
 
@@ -5543,9 +5463,7 @@ if (
                         df["highest_score"].mean()
                     )
 
-                    # ------------------------------------------------
-                    # Global champion card
-                    # ------------------------------------------------
+                    # Global champion
 
                     st.html(
                         f"""
@@ -5637,9 +5555,7 @@ if (
                         """
                     )
 
-                    # ------------------------------------------------
                     # Selected format challenge
-                    # ------------------------------------------------
 
                     selected_format_html = html.escape(
                         str(selected_format)
@@ -5743,9 +5659,7 @@ if (
                         """
                     )
 
-                    # ------------------------------------------------
                     # Quick stats
-                    # ------------------------------------------------
 
                     col1, col2, col3, col4 = st.columns(4)
 
@@ -5775,9 +5689,7 @@ if (
 
                     st.divider()
 
-                    # ------------------------------------------------
                     # Record chart
-                    # ------------------------------------------------
 
                     st.markdown("### 📊 Record-Breaking Scores")
 
@@ -5799,9 +5711,7 @@ if (
 
                     st.divider()
 
-                    # ------------------------------------------------
                     # Record arena
-                    # ------------------------------------------------
 
                     st.markdown("### ⚔️ Format Record Arena")
 
@@ -6001,9 +5911,7 @@ if (
 
                     st.divider()
 
-                    # ------------------------------------------------
                     # Detailed standings
-                    # ------------------------------------------------
 
                     st.markdown("### 📋 Batting Records")
 
@@ -6059,7 +5967,7 @@ if (
 
                 df = df.copy()
 
-                # Normalize the Q8 result.
+                # Normalize the Q8 result
                 df["series_name"] = (
                     df["series_name"]
                     .fillna("Unnamed Series")
@@ -6112,9 +6020,7 @@ if (
 
                 else:
 
-                    # ------------------------------------------------
-                    # Important data-quality handling
-                    # ------------------------------------------------
+                    # Data quality handling
 
                     planned_available = int(
                         df["total_matches"].notna().sum()
@@ -6124,9 +6030,7 @@ if (
                         df["total_matches"].isna().sum()
                     )
 
-                    # ------------------------------------------------
                     # Interactive filters
-                    # ------------------------------------------------
 
                     st.markdown("### 🎯 Explore the 2024 Series")
 
@@ -6198,9 +6102,7 @@ if (
 
                     else:
 
-                        # ------------------------------------------------
                         # Summary values
-                        # ------------------------------------------------
 
                         series_count = len(display_df)
 
@@ -6231,7 +6133,7 @@ if (
 
                         first_series = display_df.iloc[0]
 
-                        # Largest planned series, when data exists.
+                        # Identify the largest planned series
                         planned_df = display_df.dropna(
                             subset=["total_matches"]
                         )
@@ -6263,9 +6165,7 @@ if (
                             planned_leader_name = "Not available"
                             planned_leader_matches = 0
 
-                        # ------------------------------------------------
                         # Hero card
-                        # ------------------------------------------------
 
                         hero_title = (
                             "THE 2024 SERIES CHAMPION"
@@ -6356,9 +6256,7 @@ if (
                             """
                         )
 
-                        # ------------------------------------------------
                         # Metrics
-                        # ------------------------------------------------
 
                         col1, col2, col3, col4 = st.columns(4)
 
@@ -6394,9 +6292,7 @@ if (
                                 ].strftime("%d %b %Y")
                             )
 
-                        # ------------------------------------------------
                         # Data quality notice
-                        # ------------------------------------------------
 
                         if planned_missing > 0:
 
@@ -6410,9 +6306,7 @@ if (
 
                         st.divider()
 
-                        # ------------------------------------------------
-                        # Chart 1 — series by match type
-                        # ------------------------------------------------
+                        # Chart 1: Series by match type
 
                         st.markdown("### 📊 2024 Series Battle")
 
@@ -6433,9 +6327,7 @@ if (
                             height=320
                         )
 
-                        # ------------------------------------------------
-                        # Chart 2 — series starts by month
-                        # ------------------------------------------------
+                        # Chart 2: Series starts by month
 
                         st.markdown("### 📅 2024 Cricket Calendar")
 
@@ -6474,9 +6366,7 @@ if (
                             height=300
                         )
 
-                        # ------------------------------------------------
                         # Planned-match chart
-                        # ------------------------------------------------
 
                         if available_planned:
 
@@ -6518,9 +6408,7 @@ if (
 
                         st.divider()
 
-                        # ------------------------------------------------
                         # Planned-match champion
-                        # ------------------------------------------------
 
                         if available_planned:
 
@@ -6595,9 +6483,7 @@ if (
                                 """
                             )
 
-                        # ------------------------------------------------
-                        # Series timeline / cards
-                        # ------------------------------------------------
+                        # Series timeline and cards
 
                         st.markdown("### 🗺️ Series Timeline")
 
@@ -6727,9 +6613,7 @@ if (
 
                         st.divider()
 
-                        # ------------------------------------------------
                         # Detailed standings
-                        # ------------------------------------------------
 
                         st.markdown("### 📋 2024 Series Standings")
 
@@ -6792,7 +6676,7 @@ if (
 
                 df = df.copy()
 
-                # Normalize the SQL result without changing the query data.
+                # Normalize the SQL result
                 df["player_name"] = (
                     df["player_name"]
                     .fillna("Unknown Player")
@@ -6823,7 +6707,7 @@ if (
                         "No all-rounders currently meet the 1,000+ runs and 50+ wickets criteria."
                     )
                 else:
-                    # Keep the SQL ranking as the primary leaderboard order.
+                    # Preserve SQL ranking order
                     df["rank"] = range(1, len(df) + 1)
 
                     df["tier"] = "Elite"
@@ -6852,9 +6736,7 @@ if (
                     combined_runs = int(df["total_runs"].sum())
                     combined_wickets = int(df["total_wickets"].sum())
 
-                    # ------------------------------------------------
                     # Champion hero
-                    # ------------------------------------------------
                     st.html(
                         f"""
                         <div style="
@@ -6915,9 +6797,7 @@ if (
                         """
                     )
 
-                    # ------------------------------------------------
                     # Scoreboard
-                    # ------------------------------------------------
                     col1, col2, col3, col4 = st.columns(4)
 
                     with col1:
@@ -6934,9 +6814,7 @@ if (
 
                     st.divider()
 
-                    # ------------------------------------------------
                     # Interactive filters
-                    # ------------------------------------------------
                     st.markdown("### 🎯 All-Rounder Challenge")
 
                     filter_col1, filter_col2, filter_col3 = st.columns(3)
@@ -6977,9 +6855,7 @@ if (
                     if display_df.empty:
                         st.warning("No players match the selected filters.")
                     else:
-                        # ------------------------------------------------
                         # Player inspection
-                        # ------------------------------------------------
                         if selected_player != "All players":
                             selected_row = df[
                                 df["player_name"] == selected_player
@@ -7028,9 +6904,7 @@ if (
 
                             st.divider()
 
-                        # ------------------------------------------------
                         # Top 3 podium
-                        # ------------------------------------------------
                         st.markdown("### 🥇 All-Rounder Podium")
 
                         podium = display_df.head(3)
@@ -7084,9 +6958,7 @@ if (
 
                         st.divider()
 
-                        # ------------------------------------------------
                         # Interactive charts
-                        # ------------------------------------------------
                         st.markdown("### 📊 Runs vs Wickets Battle")
                         st.caption(
                             "Each point represents one qualifying all-rounder. "
@@ -7151,9 +7023,7 @@ if (
 
                         st.divider()
 
-                        # ------------------------------------------------
                         # Achievement cards
-                        # ------------------------------------------------
                         st.markdown("### 🎮 Achievement Board")
 
                         achievement_cols = st.columns(4)
@@ -7218,9 +7088,7 @@ if (
 
                         st.divider()
 
-                        # ------------------------------------------------
                         # Detailed leaderboard
-                        # ------------------------------------------------
                         st.markdown("### 📋 All-Rounder Leaderboard")
 
                         table_df = display_df[
@@ -7280,7 +7148,7 @@ if (
 
                 df = df.copy()
 
-                # Normalize the SQL result without changing the underlying rows.
+                # Normalize the SQL result
                 df["match_description"] = (
                     df["match_description"]
                     .fillna("Match description unavailable")
@@ -7320,7 +7188,7 @@ if (
                     .str.strip()
                 )
 
-                # Keep the SQL order as the official Q10 ranking.
+                # Preserve SQL ranking order
                 df = df.reset_index(drop=True)
                 df["rank"] = range(1, len(df) + 1)
 
@@ -7346,9 +7214,7 @@ if (
                 if df.empty:
                     st.info("Q10 returned no completed matches.")
                 else:
-                    # ------------------------------------------------
                     # Match statistics
-                    # ------------------------------------------------
                     total_matches = len(df)
                     run_wins = int(
                         (df["victory_type_normalized"] == "runs").sum()
@@ -7361,7 +7227,7 @@ if (
                     )
                     venues = int(df["venue_name"].nunique())
 
-                    # Winner with the most appearances in the 20-match window.
+                    # Identify the most frequent winner
                     winner_counts = (
                         df["winning_team"]
                         .loc[
@@ -7383,9 +7249,7 @@ if (
                         else 0
                     )
 
-                    # ------------------------------------------------
                     # Champion hero
-                    # ------------------------------------------------
                     latest = df.iloc[0]
                     latest_description = html.escape(
                         str(latest["match_description"])
@@ -7457,9 +7321,7 @@ if (
                         """
                     )
 
-                    # ------------------------------------------------
                     # Scoreboard
-                    # ------------------------------------------------
                     col1, col2, col3, col4 = st.columns(4)
 
                     with col1:
@@ -7476,9 +7338,7 @@ if (
 
                     st.divider()
 
-                    # ------------------------------------------------
-                    # Working filter buttons
-                    # ------------------------------------------------
+                    # Filter buttons
                     st.markdown("### 🎯 Match Battle Controls")
 
                     if "q10_view" not in st.session_state:
@@ -7528,9 +7388,7 @@ if (
                             )
                         ].copy()
 
-                    # ------------------------------------------------
                     # Secondary filters
-                    # ------------------------------------------------
                     filter_col1, filter_col2 = st.columns(2)
 
                     with filter_col1:
@@ -7568,9 +7426,7 @@ if (
                     if display_df.empty:
                         st.warning("No matches match the selected filters.")
                     else:
-                        # ------------------------------------------------
                         # Match spotlight
-                        # ------------------------------------------------
                         st.markdown("### 🔎 Match Spotlight")
 
                         spotlight_options = [
@@ -7663,9 +7519,7 @@ if (
 
                         st.divider()
 
-                        # ------------------------------------------------
                         # Rankings
-                        # ------------------------------------------------
                         st.markdown("### 🏆 Recent Match Rankings")
 
                         ranking_df = display_df.copy()
@@ -7822,9 +7676,7 @@ if (
 
                         st.divider()
 
-                        # ------------------------------------------------
                         # Interactive charts
-                        # ------------------------------------------------
                         st.markdown("### 📊 Match Analytics")
                         st.caption(
                             "Use the controls above to change the chart population. "
@@ -7901,9 +7753,7 @@ if (
 
                         st.divider()
 
-                        # ------------------------------------------------
                         # Venue battle
-                        # ------------------------------------------------
                         st.markdown("### 🏟️ Venue Battle")
 
                         venue_chart = (
@@ -7926,9 +7776,7 @@ if (
 
                         st.divider()
 
-                        # ------------------------------------------------
                         # Achievement board
-                        # ------------------------------------------------
                         st.markdown("### 🎮 Match Achievements")
 
                         largest_run_margin = display_df.loc[
@@ -8008,9 +7856,7 @@ if (
 
                         st.divider()
 
-                        # ------------------------------------------------
                         # Detailed leaderboard
-                        # ------------------------------------------------
                         st.markdown("### 📋 Complete Q10 Leaderboard")
 
                         table_df = display_df[
@@ -8076,13 +7922,10 @@ if (
 
             elif choice.startswith("Q11:"):
 
-                # ------------------------------------------------
                 # Q11: Format Masters
-                # ------------------------------------------------
-                # Only players with positive runs in all three
-                # requested formats are included.
-                # T20I and IT20 are treated as the same T20I bucket.
-                # The database remains the source of truth.
+                # Require positive runs in all three formats
+                # Treat T20I and IT20 as the same T20I format
+                # Use the database as the source of truth
 
                 df = df.copy()
 
@@ -8121,9 +7964,8 @@ if (
                     )
 
                 else:
-                    # Defensive filtering in the UI as well as in SQL.
-                    # This guarantees that zero-run players cannot enter
-                    # the leaderboard if the query definition changes.
+                    # Apply defensive UI filtering
+                    # Exclude zero-run players from the leaderboard
                     df = df[
                         (df["test_runs"] > 0)
                         & (df["odi_runs"] > 0)
@@ -8187,9 +8029,7 @@ if (
                         )
 
                     else:
-                        # ------------------------------------------------
                         # Hall of Fame hero
-                        # ------------------------------------------------
                         leader = df.iloc[0]
                         leader_name = html.escape(
                             str(leader["player_name"])
@@ -8272,9 +8112,7 @@ if (
                             """
                         )
 
-                        # ------------------------------------------------
                         # Quick stats
-                        # ------------------------------------------------
                         col1, col2, col3, col4 = st.columns(4)
 
                         with col1:
@@ -8303,9 +8141,7 @@ if (
 
                         st.divider()
 
-                        # ------------------------------------------------
                         # Interactive view buttons
-                        # ------------------------------------------------
                         st.markdown("### 🎮 Choose Your Battle Mode")
 
                         if "q11_view" not in st.session_state:
@@ -8347,9 +8183,7 @@ if (
 
                         current_view = st.session_state["q11_view"]
 
-                        # ------------------------------------------------
                         # Rankings controlled by buttons
-                        # ------------------------------------------------
                         if current_view == "Best Average":
                             ranking_df = (
                                 df.sort_values(
@@ -8411,9 +8245,7 @@ if (
                             f"{len(ranking_df)} players in the three-format club"
                         )
 
-                        # ------------------------------------------------
                         # Top 3 podium
-                        # ------------------------------------------------
                         st.markdown("### 🥇 Three-Format Podium")
 
                         podium = ranking_df.head(3)
@@ -8491,9 +8323,7 @@ if (
 
                         st.divider()
 
-                        # ------------------------------------------------
-                        # Interactive chart: format totals
-                        # ------------------------------------------------
+                        # Chart: Format totals
                         st.markdown("### 📊 Runs Across the Three Formats")
 
                         format_totals = pd.DataFrame(
@@ -8539,9 +8369,7 @@ if (
                             key="q11_format_totals_chart"
                         )
 
-                        # ------------------------------------------------
-                        # Interactive chart: top players across formats
-                        # ------------------------------------------------
+                        # Chart: Top players across formats
                         st.markdown("### ⚔️ Format-by-Format Run Battle")
 
                         chart_limit = st.slider(
@@ -8609,9 +8437,7 @@ if (
                             key="q11_format_battle_chart"
                         )
 
-                        # ------------------------------------------------
-                        # Interactive chart: Test vs ODI vs T20I relationship
-                        # ------------------------------------------------
+                        # Chart: Test vs ODI vs T20I relationship
                         st.markdown("### 🎯 Three-Format Performance Map")
 
                         scatter_fig = px.scatter(
@@ -8647,9 +8473,7 @@ if (
                             key="q11_three_format_scatter"
                         )
 
-                        # ------------------------------------------------
                         # Player explorer
-                        # ------------------------------------------------
                         st.markdown("### 🔎 Player Explorer")
 
                         player_options = ranking_df[
@@ -8743,9 +8567,7 @@ if (
                             "an official cricket statistic."
                         )
 
-                        # ------------------------------------------------
                         # Leaderboard
-                        # ------------------------------------------------
                         st.divider()
                         st.markdown("### 🏆 Complete Three-Format Leaderboard")
 
@@ -8802,7 +8624,7 @@ if (
 
                 df = df.copy()
 
-                # Normalize numeric values returned by SQLite.
+                # Normalize SQLite numeric values
                 for column in [
                     "home_wins",
                     "away_wins"
@@ -8815,7 +8637,7 @@ if (
                 df["home_wins"] = df["home_wins"].astype(int)
                 df["away_wins"] = df["away_wins"].astype(int)
 
-                # Build derived comparison metrics.
+                # Build comparison metrics
                 df["total_wins"] = (
                     df["home_wins"] + df["away_wins"]
                 )
@@ -8858,9 +8680,7 @@ if (
 
                 else:
 
-                    # ------------------------------------------------
                     # Hall of Fame summary
-                    # ------------------------------------------------
 
                     home_champion = (
                         df.sort_values(
@@ -8933,9 +8753,7 @@ if (
                         str(most_balanced["team"])
                     )
 
-                    # ------------------------------------------------
                     # Champion card
-                    # ------------------------------------------------
 
                     st.html(
                         f"""
@@ -9029,9 +8847,7 @@ if (
                         """
                     )
 
-                    # ------------------------------------------------
                     # Quick stats
-                    # ------------------------------------------------
 
                     col1, col2, col3, col4 = st.columns(4)
 
@@ -9061,9 +8877,7 @@ if (
 
                     st.divider()
 
-                    # ------------------------------------------------
                     # Interactive view buttons
-                    # ------------------------------------------------
 
                     st.markdown("### 🎮 Performance Mode")
 
@@ -9208,9 +9022,7 @@ if (
                         "It is a comparison metric, not an official cricket statistic."
                     )
 
-                    # ------------------------------------------------
                     # Podium
-                    # ------------------------------------------------
 
                     podium = ranking_df.head(3)
 
@@ -9343,9 +9155,7 @@ if (
 
                     st.divider()
 
-                    # ------------------------------------------------
                     # Interactive charts
-                    # ------------------------------------------------
 
                     st.markdown("### 📊 Home vs Away Battle")
 
@@ -9470,9 +9280,7 @@ if (
                         use_container_width=True
                     )
 
-                    # ------------------------------------------------
                     # Performance highlights
-                    # ------------------------------------------------
 
                     st.markdown("### 🏅 Performance Highlights")
 
@@ -9618,9 +9426,7 @@ if (
 
                     st.divider()
 
-                    # ------------------------------------------------
                     # Team explorer
-                    # ------------------------------------------------
 
                     st.markdown("### 🔎 Team Explorer")
 
@@ -9714,9 +9520,7 @@ if (
 
                     st.divider()
 
-                    # ------------------------------------------------
                     # Full leaderboard
-                    # ------------------------------------------------
 
                     st.markdown("### ⚔️ Home vs Away Leaderboard")
 
@@ -9783,8 +9587,8 @@ if (
 
                 df = df.copy()
 
-                # Q13's existing SQL returns these four columns.
-                # Do not require fields that the SQL does not produce.
+                # Use the existing Q13 output columns
+                # Do not require unavailable SQL columns
                 required_columns = [
                     "match_type",
                     "partnership",
@@ -9804,7 +9608,7 @@ if (
                         + ", ".join(missing_columns)
                     )
                 else:
-                    # Normalize the actual Q13 SQL output.
+                    # Normalize the Q13 result
                     df["match_type"] = (
                         df["match_type"]
                         .fillna("Unknown")
@@ -9833,8 +9637,7 @@ if (
                         subset=["partnership_runs", "innings_no"]
                     ).copy()
 
-                    # The SQL already applies partnership_runs >= 100, but
-                    # keep the same business rule defensively at the UI layer.
+                    # Apply the partnership threshold defensively
                     df = df[
                         df["partnership_runs"] >= 100
                     ].copy()
@@ -9879,9 +9682,7 @@ if (
                             str(champion["match_type"])
                         )
 
-                        # ------------------------------------------------
                         # Partnership champion
-                        # ------------------------------------------------
 
                         st.html(
                             f"""
@@ -9947,9 +9748,7 @@ if (
                             """
                         )
 
-                        # ------------------------------------------------
                         # Quick stats
-                        # ------------------------------------------------
 
                         col1, col2, col3, col4 = st.columns(4)
 
@@ -9979,23 +9778,19 @@ if (
 
                         st.divider()
 
-                        # ------------------------------------------------
                         # Interactive controls
-                        # ------------------------------------------------
 
                         st.markdown("### 🎮 Choose Match Type")
 
-                        # Q13 already returns the match format as match_type.
-                        # Use the actual formats in the query result instead of
-                        # milestone filters that may produce empty views.
+                        # Use the match format returned by Q13
+                        # Use formats present in the query result
                         available_formats = [
                             value
                             for value in ["T20", "ODI", "Test"]
                             if value in set(df["match_type"])
                         ]
 
-                        # Keep any additional real formats available in the
-                        # database without creating an Unknown button.
+                        # Preserve additional real formats
                         additional_formats = sorted(
                             {
                                 str(value).strip()
@@ -10071,9 +9866,7 @@ if (
                                 "No partnerships match this match type."
                             )
                         else:
-                            # ------------------------------------------------
                             # Podium
-                            # ------------------------------------------------
 
                             st.markdown("### 🏆 Partnership Podium")
 
@@ -10141,9 +9934,7 @@ if (
 
                             st.divider()
 
-                            # ------------------------------------------------
                             # Interactive chart
-                            # ------------------------------------------------
 
                             chart_df = display_df.head(15).copy()
                             chart_df["pair_label"] = chart_df[
@@ -10193,9 +9984,7 @@ if (
                                 key="q13_top_partnerships_chart"
                             )
 
-                            # ------------------------------------------------
-                            # Partnership distribution by innings
-                            # ------------------------------------------------
+                            # Chart: Partnership distribution by innings
 
                             innings_df = (
                                 display_df["innings_no"]
@@ -10232,9 +10021,7 @@ if (
                                 key="q13_innings_chart"
                             )
 
-                            # ------------------------------------------------
                             # Format breakdown
-                            # ------------------------------------------------
 
                             format_df = (
                                 display_df.groupby("match_type")
@@ -10288,9 +10075,7 @@ if (
 
                             st.divider()
 
-                            # ------------------------------------------------
                             # Partnership explorer
-                            # ------------------------------------------------
 
                             st.markdown("### 🔎 Partnership Explorer")
 
@@ -10345,9 +10130,7 @@ if (
 
                             st.divider()
 
-                            # ------------------------------------------------
-                            # XP-style leaderboard
-                            # ------------------------------------------------
+                            # XP leaderboard
 
                             st.markdown("### ⚔️ Partnership Leaderboard")
 
@@ -10449,9 +10232,7 @@ if (
 
                             st.divider()
 
-                            # ------------------------------------------------
                             # Detailed results
-                            # ------------------------------------------------
 
                             st.markdown("### 📋 Detailed Partnership Records")
 
@@ -11417,7 +11198,7 @@ if (
                     )
 
                 else:
-                    # Normalize only the fields needed by the dashboard.
+                    # Normalize dashboard fields
                     numeric_columns = [
                         "avg_runs_close_matches",
                         "close_matches_played",
@@ -14619,7 +14400,7 @@ if (
                 if summary_df.empty:
                     st.info("No qualifying head-to-head matchups were found.")
                 else:
-                    # Clean numeric columns used by the interactive experience.
+                    # Clean dashboard numeric fields
                     numeric_summary_columns = [
                         "total_matches",
                         "team_a_wins",
@@ -14637,7 +14418,7 @@ if (
                                 errors="coerce"
                             )
 
-                    # Quick matchup buttons.
+                    # Matchup buttons
                     st.markdown("### 🎮 Quick Matchups")
                     st.caption(
                         "Click a matchup to open its head-to-head battle card."
@@ -14683,7 +14464,7 @@ if (
 
                     st.divider()
 
-                    # All qualifying matchups selector.
+                    # Matchup selector
                     pair_labels = [
                         f"{row['team_a']} vs {row['team_b']}"
                         for _, row in summary_df.iterrows()
@@ -14733,7 +14514,7 @@ if (
                     team_a_margin = selected_row["team_a_avg_victory_margin"]
                     team_b_margin = selected_row["team_b_avg_victory_margin"]
 
-                    # Historical prediction card.
+                    # Historical prediction
                     if team_a_pct > team_b_pct:
                         predicted_team = selected_team_a
                         prediction_pct = team_a_pct
@@ -14793,7 +14574,7 @@ if (
                         """
                     )
 
-                    # Core battle metrics.
+                    # Head-to-head metrics
                     metric_1, metric_2, metric_3, metric_4 = st.columns(4)
 
                     with metric_1:
@@ -14831,7 +14612,7 @@ if (
 
                     st.divider()
 
-                    # H2H win chart.
+                    # Head-to-head win chart
                     st.markdown("### 🥊 Head-to-Head Win Battle")
 
                     win_chart_df = pd.DataFrame({
@@ -14862,7 +14643,7 @@ if (
                         use_container_width=True
                     )
 
-                    # Venue performance for selected pair only.
+                    # Selected-pair venue performance
                     if not venue_df.empty:
                         pair_venue_df = venue_df[
                             (venue_df["team_a"].astype(str) == selected_team_a)
@@ -14895,7 +14676,7 @@ if (
                             else:
                                 selected_venue_df = pair_venue_df.copy()
 
-                            # Batting-first comparison.
+                            # Batting-first comparison
                             bat_chart_df = pd.DataFrame({
                                 "Team": [
                                     selected_team_a,
@@ -14915,7 +14696,7 @@ if (
                                 ]
                             })
 
-                            # Bowling-first comparison.
+                            # Bowling-first comparison
                             bowl_chart_df = pd.DataFrame({
                                 "Team": [
                                     selected_team_a,
@@ -14987,9 +14768,8 @@ if (
                                     use_container_width=True
                                 )
 
-                            # Venue map uses country-level coordinates supplied by Plotly.
-                            # The database has venue country but not latitude/longitude,
-                            # so this avoids inventing venue coordinates.
+                            # Venue map
+                            # Use country-level coordinates because the database has no venue coordinates
                             if "country" in selected_venue_df.columns:
                                 map_df = (
                                     selected_venue_df
@@ -15034,7 +14814,7 @@ if (
                                         use_container_width=True
                                     )
 
-                            # Venue detail table.
+                            # Venue details
                             st.markdown("### 📋 Venue Performance Details")
 
                             venue_display = selected_venue_df[[
@@ -15092,7 +14872,7 @@ if (
 
                     st.divider()
 
-                    # Full qualifying matchup leaderboard.
+                    # Qualifying matchup leaderboard
                     st.markdown("### 🏆 H2H Leaderboard")
 
                     leaderboard_df = summary_df.copy()

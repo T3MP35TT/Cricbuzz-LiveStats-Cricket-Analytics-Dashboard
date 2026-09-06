@@ -32,7 +32,6 @@ Thumbs.db
 *.temp
 
 # Cache
-data/api_cache/
 data/api_cache_backup/
 data/backups/
 data/cricinfo_cache/

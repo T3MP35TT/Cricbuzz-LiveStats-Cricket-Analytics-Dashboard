@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 169660,
+    "seriesId": 12901,
+    "seriesName": "Women's Continental Cup 2026",
+    "matchDesc": "3rd Place Play-off",
+    "matchFormat": "T20",
+    "startDate": "1788069600000",
+    "endDate": "1788082200000",
+    "state": "Complete",
+    "status": "Austria Women won by 7 wkts",
+    "team1": {
+      "teamId": 1055,
+      "teamName": "Norway Women",
+      "teamSName": "NOYW",
+      "imageId": 247202
+    },
+    "team2": {
+      "teamId": 775,
+      "teamName": "Austria Women",
+      "teamSName": "AUTW",
+      "imageId": 274436
+    },
+    "venueInfo": {
+      "id": 1696,
+      "ground": "Moara Vlasiei Cricket Ground, Bucharest",
+      "city": "Ilfov County",
+      "timezone": "+03:00",
+      "latitude": "44.309448",
+      "longitude": "26.017920"
+    },
+    "currBatTeamId": 775,
+    "seriesStartDt": "1787702400000",
+    "seriesEndDt": "1788220800000",
+    "isTimeAnnounced": true,
+    "stateTitle": "AUTW Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 81,
+        "wickets": 10,
+        "overs": 17.3
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 82,
+        "wickets": 3,
+        "overs": 16.4
+      }
+    }
+  }
+}

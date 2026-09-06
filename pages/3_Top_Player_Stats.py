@@ -7,13 +7,13 @@ import pandas as pd
 import textwrap
 import streamlit as st
 
-# Resolve imports from the project root so the page works consistently
-# on Windows, GitHub, and Streamlit Community Cloud.
+# Project root
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from utils.db_connection import run_query
+from utils.api_helper import get_top_player_leaderboard
 from utils.gamification import (
     init_game_state,
     add_xp,
@@ -31,7 +31,7 @@ st.set_page_config(
 )
 
 
-# Sidebar navigation styling
+# Sidebar navigation
 
 st.markdown(
     """
@@ -144,7 +144,7 @@ st.markdown(
 )
 
 
-# Page-specific sidebar information
+# Sidebar information
 
 with st.sidebar.container(border=True):
 
@@ -338,7 +338,7 @@ def render_gamified_leaderboard(df, category, fmt, value_label="Points"):
         else "BOWLING POWER"
     )
 
-    # Gamified section header
+    # Leaderboard header
 
     st.markdown(
         f"### {category_icon} {fmt.upper()} Leaderboard"
@@ -349,7 +349,7 @@ def render_gamified_leaderboard(df, category, fmt, value_label="Points"):
         f"{len(df)} players  •  Ranked by rating"
     )
 
-    # Header row
+    # Leaderboard header row
 
     header_cols = st.columns(
         [0.55, 2.05, 1.25, 0.85, 0.90, 1.65, 0.90]
@@ -434,7 +434,7 @@ def render_gamified_leaderboard(df, category, fmt, value_label="Points"):
         else:
             trend_display = f"➖ {trend}"
 
-        # Keep each player visually separated while using native Streamlit.
+        # Player row layout
 
         with st.container(border=True):
 
@@ -486,7 +486,7 @@ def render_gamified_leaderboard(df, category, fmt, value_label="Points"):
 
 
 
-# Page intro
+# Page introduction
 
 st.write(
     "View the latest imported ICC batting and bowling rankings "
@@ -494,7 +494,8 @@ st.write(
 )
 
 st.caption(
-    "🏆 Top 20 ICC-ranked players are shown separately for batting and bowling."
+    "🏆 Top 20 ICC-ranked players are shown separately for batting and bowling. "
+    "Cached/API rankings are used first and refreshed when the ranking cache expires. SQLite is used only as an emergency fallback."
 )
 
 
@@ -509,7 +510,7 @@ fmt = st.selectbox(
 db_format = fmt.upper()
 
 
-# Format Explorer bonus
+# Format explorer bonus
 
 st.session_state["top_stats_formats_seen"].add(fmt)
 
@@ -530,9 +531,185 @@ if (
         st.balloons()
 
 
-def get_icc_rankings(format_code, ranking_type):
-    """Load the top 20 ICC rankings directly from the format-specific table."""
+def _find_ranking_entries(value, ranking_type):
+    """Find player ranking entries inside common Cricbuzz response structures."""
+    if isinstance(value, list):
+        if value and all(isinstance(item, dict) for item in value):
+            keys = set().union(*(item.keys() for item in value))
+            player_keys = {
+                "player", "playerName", "name", "fullName",
+                "batsman", "bowler", "playerDetails"
+            }
+            rating_keys = {
+                "rating", "points", "ratingPoints", "currentRating",
+                "rankRating", "rankingRating"
+            }
+            if keys & player_keys and keys & rating_keys:
+                return value
 
+        for item in value:
+            found = _find_ranking_entries(item, ranking_type)
+            if found:
+                return found
+
+    elif isinstance(value, dict):
+        preferred_keys = [
+            ranking_type,
+            f"{ranking_type}s",
+            "rankings",
+            "ranking",
+            "rankingsList",
+            "rankingList",
+            "rankingData",
+            "data",
+            "content",
+            "list",
+            "items",
+        ]
+
+        for key in preferred_keys:
+            if key in value:
+                found = _find_ranking_entries(value[key], ranking_type)
+                if found:
+                    return found
+
+        for child in value.values():
+            found = _find_ranking_entries(child, ranking_type)
+            if found:
+                return found
+
+    return []
+
+
+def _first_value(record, keys, default=None):
+    for key in keys:
+        if key in record and record[key] not in (None, ""):
+            value = record[key]
+            if isinstance(value, dict):
+                nested = _first_value(
+                    value,
+                    ["name", "fullName", "playerName", "shortName"],
+                    default
+                )
+                if nested not in (None, ""):
+                    return nested
+            return value
+    return default
+
+
+def _normalize_ranking_entries(entries):
+    """Normalize Cricbuzz ranking records for the existing leaderboard UI."""
+    normalized = []
+
+    for index, record in enumerate(entries, start=1):
+        if not isinstance(record, dict):
+            continue
+
+        player_obj = record.get("playerDetails")
+        if not isinstance(player_obj, dict):
+            player_obj = record.get("player") if isinstance(record.get("player"), dict) else {}
+
+        player = _first_value(
+            record,
+            ["playerName", "name", "fullName", "player"],
+            None
+        )
+        if isinstance(player, dict):
+            player = _first_value(player, ["name", "fullName", "playerName"], None)
+
+        if not player and player_obj:
+            player = _first_value(
+                player_obj,
+                ["name", "fullName", "playerName", "shortName"],
+                None
+            )
+
+        team = _first_value(
+            record,
+            ["team", "country", "teamName", "countryName"],
+            None
+        )
+        if isinstance(team, dict):
+            team = _first_value(team, ["name", "teamName", "shortName"], None)
+
+        if not team and player_obj:
+            team = _first_value(
+                player_obj,
+                ["team", "country", "teamName", "countryName"],
+                None
+            )
+
+        rating = _first_value(
+            record,
+            ["rating", "points", "ratingPoints", "currentRating",
+             "rankRating", "rankingRating"],
+            None
+        )
+
+        career_best = _first_value(
+            record,
+            ["careerBestRating", "career_best_rating", "careerBest",
+             "bestRating", "best"],
+            None
+        )
+
+        rank = _first_value(record, ["rank", "ranking", "position"], index)
+
+        if player is None:
+            continue
+
+        normalized.append(
+            {
+                "Rank": rank,
+                "Player": str(player),
+                "Country": str(team) if team is not None else "Unknown",
+                "Rating": rating,
+                "Career_Best_Rating": career_best,
+            }
+        )
+
+    if not normalized:
+        return pd.DataFrame(
+            columns=["Rank", "Player", "Country", "Rating", "Career_Best_Rating"]
+        )
+
+    df = pd.DataFrame(normalized)
+
+    df["Rating"] = pd.to_numeric(df["Rating"], errors="coerce")
+    df["Career_Best_Rating"] = pd.to_numeric(
+        df["Career_Best_Rating"], errors="coerce"
+    )
+
+    # Keep all API/cache ranking records available to the page.
+    df = df.drop_duplicates(subset=["Player"], keep="first")
+
+    # Re-rank locally when the API does not provide a usable rank.
+    if df["Rating"].notna().any():
+        df = df.sort_values(
+            ["Rating", "Player"],
+            ascending=[False, True],
+            na_position="last"
+        ).reset_index(drop=True)
+        df["Rank"] = range(1, len(df) + 1)
+
+    return df
+
+
+def get_icc_rankings(format_code, ranking_type):
+    """Load rankings from cache/API first, with SQLite as emergency fallback."""
+    try:
+        api_data = get_top_player_leaderboard(format_code)
+
+        entries = _find_ranking_entries(api_data, ranking_type)
+        df = _normalize_ranking_entries(entries)
+
+        if not df.empty:
+            return df
+
+    except Exception:
+        pass
+
+    # Emergency database fallback.
     table_map = {
         "odi": "icc_rankings_odi",
         "test": "icc_rankings_test",
@@ -553,15 +730,9 @@ def get_icc_rankings(format_code, ranking_type):
           AND rating IS NOT NULL
           AND rating > 0
         ORDER BY rating DESC, player ASC
-        LIMIT 20
     """
 
-    df = run_query(query, (ranking_type,))
-
-    if df is None:
-        return pd.DataFrame()
-
-    return df
+    return run_query(query, (ranking_type,))
 
 
 def render_icc_leaderboard(df, category, fmt):

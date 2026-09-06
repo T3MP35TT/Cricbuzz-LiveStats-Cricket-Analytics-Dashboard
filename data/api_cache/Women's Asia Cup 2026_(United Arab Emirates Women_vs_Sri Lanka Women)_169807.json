@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 169807,
+    "seriesId": 12927,
+    "seriesName": "Women's Asia Cup 2026",
+    "matchDesc": "Match 2, Group B",
+    "matchFormat": "T20",
+    "startDate": "1788013800000",
+    "endDate": "1788026400000",
+    "state": "Complete",
+    "status": "Sri Lanka Women won by 9 wkts",
+    "team1": {
+      "teamId": 449,
+      "teamName": "United Arab Emirates Women",
+      "teamSName": "UAEW",
+      "imageId": 776246
+    },
+    "team2": {
+      "teamId": 258,
+      "teamName": "Sri Lanka Women",
+      "teamSName": "SLW",
+      "imageId": 776267
+    },
+    "venueInfo": {
+      "id": 153,
+      "ground": "Dubai International Cricket Stadium",
+      "city": "Dubai",
+      "timezone": "+04:00",
+      "latitude": "25.046842",
+      "longitude": "55.218969"
+    },
+    "currBatTeamId": 258,
+    "seriesStartDt": "1787875200000",
+    "seriesEndDt": "1789430400000",
+    "isTimeAnnounced": true,
+    "stateTitle": "SLW Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 79,
+        "wickets": 10,
+        "overs": 19.5
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 80,
+        "wickets": 1,
+        "overs": 7.5
+      }
+    }
+  }
+}

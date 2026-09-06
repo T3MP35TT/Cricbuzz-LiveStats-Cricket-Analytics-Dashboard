@@ -1,0 +1,380 @@
+{
+  "batsmen": {
+    "rank": [
+      {
+        "id": "11808",
+        "rank": "1",
+        "name": "Shubman Gill",
+        "country": "India",
+        "rating": "801",
+        "points": "801",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "616515",
+        "countryId": "2"
+      },
+      {
+        "id": "10713",
+        "rank": "2",
+        "name": "Daryl Mitchell",
+        "country": "New Zealand",
+        "rating": "794",
+        "points": "794",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "845511",
+        "countryId": "13"
+      },
+      {
+        "id": "1413",
+        "rank": "3",
+        "name": "Virat Kohli",
+        "country": "India",
+        "rating": "767",
+        "points": "767",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "616517",
+        "countryId": "2"
+      },
+      {
+        "id": "576",
+        "rank": "4",
+        "name": "Rohit Sharma",
+        "country": "India",
+        "rating": "758",
+        "points": "758",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "616514",
+        "countryId": "2"
+      },
+      {
+        "id": "12173",
+        "rank": "5",
+        "name": "Ibrahim Zadran",
+        "country": "Afghanistan",
+        "rating": "719",
+        "points": "719",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "845418",
+        "countryId": "96"
+      },
+      {
+        "id": "8359",
+        "rank": "6",
+        "name": "Babar Azam",
+        "country": "Pakistan",
+        "rating": "689",
+        "points": "689",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "846059",
+        "countryId": "3"
+      },
+      {
+        "id": "8019",
+        "rank": "7",
+        "name": "Joe Root",
+        "country": "England",
+        "rating": "674",
+        "points": "674",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "717792",
+        "countryId": "9"
+      },
+      {
+        "id": "10384",
+        "rank": "8",
+        "name": "Shai Hope",
+        "country": "West Indies",
+        "rating": "673",
+        "points": "673",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "845520",
+        "countryId": "10"
+      },
+      {
+        "id": "10934",
+        "rank": "9",
+        "name": "Charith Asalanka",
+        "country": "Sri Lanka",
+        "rating": "659",
+        "points": "659",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "847180",
+        "countryId": "5"
+      },
+      {
+        "id": "11130",
+        "rank": "10",
+        "name": "Harry Tector",
+        "country": "Ireland",
+        "rating": "653",
+        "points": "653",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "845641",
+        "countryId": "27"
+      },
+      {
+        "id": "9494",
+        "rank": "11",
+        "name": "Kusal Mendis",
+        "country": "Sri Lanka",
+        "rating": "648",
+        "points": "648",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "847148",
+        "countryId": "5"
+      },
+      {
+        "id": "8520",
+        "rank": "12",
+        "name": "Quinton de Kock",
+        "country": "South Africa",
+        "rating": "640",
+        "points": "640",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "846114",
+        "countryId": "11"
+      },
+      {
+        "id": "9428",
+        "rank": "13",
+        "name": "Shreyas Iyer",
+        "country": "India",
+        "rating": "633",
+        "points": "633",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "616518",
+        "countryId": "2"
+      },
+      {
+        "id": "13682",
+        "rank": "14",
+        "name": "Pathum Nissanka",
+        "country": "Sri Lanka",
+        "rating": "632",
+        "points": "632",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "847160",
+        "countryId": "5"
+      },
+      {
+        "id": "10101",
+        "rank": "15",
+        "name": "Salman Agha",
+        "country": "Pakistan",
+        "rating": "630",
+        "points": "630",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "846055",
+        "countryId": "3"
+      }
+    ],
+    "appIndex": {
+      "seoTitle": "ICC Cricket Rankings - Top 100 Batter | Cricbuzz.com",
+      "webURL": "www.cricbuzz.com/cricket-stats/icc-rankings"
+    }
+  },
+  "_format": "odi",
+  "_updated_at": 1788629991,
+  "bowlers": {
+    "rank": [
+      {
+        "id": "10738",
+        "rank": "1",
+        "name": "Rashid Khan",
+        "country": "Afghanistan",
+        "rating": "714",
+        "points": "714",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "845423",
+        "countryId": "96"
+      },
+      {
+        "id": "12555",
+        "rank": "2",
+        "name": "Abrar Ahmed",
+        "country": "Pakistan",
+        "rating": "675",
+        "points": "675",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "846068",
+        "countryId": "3"
+      },
+      {
+        "id": "11540",
+        "rank": "3",
+        "name": "Jofra Archer",
+        "country": "England",
+        "rating": "649",
+        "points": "649",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "848536",
+        "countryId": "9"
+      },
+      {
+        "id": "9720",
+        "rank": "4",
+        "name": "Keshav Maharaj",
+        "country": "South Africa",
+        "rating": "645",
+        "points": "645",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "846109",
+        "countryId": "11"
+      },
+      {
+        "id": "10100",
+        "rank": "5",
+        "name": "Mitchell Santner",
+        "country": "New Zealand",
+        "rating": "644",
+        "points": "644",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "845505",
+        "countryId": "13"
+      },
+      {
+        "id": "18504",
+        "rank": "6",
+        "name": "Maheesh Theekshana",
+        "country": "Sri Lanka",
+        "rating": "641",
+        "points": "641",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "847197",
+        "countryId": "5"
+      },
+      {
+        "id": "10769",
+        "rank": "7",
+        "name": "Bernard Scholtz",
+        "country": "Namibia",
+        "rating": "613",
+        "points": "613",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "844994",
+        "countryId": "161"
+      },
+      {
+        "id": "12160",
+        "rank": "8",
+        "name": "Shaheen Afridi",
+        "country": "Pakistan",
+        "rating": "604",
+        "points": "604",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "846065",
+        "countryId": "3"
+      },
+      {
+        "id": "11081",
+        "rank": "9",
+        "name": "Mehidy Hasan Miraz",
+        "country": "Bangladesh",
+        "rating": "602",
+        "points": "602",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "616461",
+        "countryId": "6"
+      },
+      {
+        "id": "1742",
+        "rank": "10",
+        "name": "Adil Rashid",
+        "country": "England",
+        "rating": "599",
+        "points": "599",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "848537",
+        "countryId": "9"
+      },
+      {
+        "id": "8292",
+        "rank": "11",
+        "name": "Kuldeep Yadav",
+        "country": "India",
+        "rating": "596",
+        "points": "596",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "846039",
+        "countryId": "2"
+      },
+      {
+        "id": "9793",
+        "rank": "11",
+        "name": "Gudakesh Motie",
+        "country": "West Indies",
+        "rating": "596",
+        "points": "596",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "845500",
+        "countryId": "10"
+      },
+      {
+        "id": "37581",
+        "rank": "13",
+        "name": "Nahid Rana",
+        "country": "Bangladesh",
+        "rating": "590",
+        "points": "590",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "616465",
+        "countryId": "6"
+      },
+      {
+        "id": "6258",
+        "rank": "14",
+        "name": "Josh Hazlewood",
+        "country": "Australia",
+        "rating": "589",
+        "points": "589",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "845819",
+        "countryId": "4"
+      },
+      {
+        "id": "10926",
+        "rank": "15",
+        "name": "Wanindu Hasaranga",
+        "country": "Sri Lanka",
+        "rating": "588",
+        "points": "588",
+        "lastUpdatedOn": "2026-09-05",
+        "trend": "Flat",
+        "faceImageId": "847146",
+        "countryId": "5"
+      }
+    ],
+    "appIndex": {
+      "seoTitle": "ICC Cricket Rankings - Top 100 Batter | Cricbuzz.com",
+      "webURL": "www.cricbuzz.com/cricket-stats/icc-rankings"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 170177,
+    "seriesId": 12993,
+    "seriesName": "ACC Men's Premier Cup, 2026",
+    "matchDesc": "1st Match, Group B",
+    "matchFormat": "ODI",
+    "startDate": "1788053400000",
+    "endDate": "1788082200000",
+    "state": "Complete",
+    "status": "Oman won by 131 runs",
+    "team1": {
+      "teamId": 304,
+      "teamName": "Oman",
+      "teamSName": "OMAN",
+      "imageId": 776328
+    },
+    "team2": {
+      "teamId": 190,
+      "teamName": "Singapore",
+      "teamSName": "SIN",
+      "imageId": 776275
+    },
+    "venueInfo": {
+      "id": 394,
+      "ground": "Bayuemas Oval",
+      "city": "Kuala Lumpur",
+      "timezone": "+08:00",
+      "latitude": "2.819586",
+      "longitude": "101.5199"
+    },
+    "currBatTeamId": 304,
+    "seriesStartDt": "1788048000000",
+    "seriesEndDt": "1789344000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "OMAN Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 316,
+        "wickets": 9,
+        "overs": 49.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 185,
+        "wickets": 10,
+        "overs": 42.3
+      }
+    }
+  }
+}

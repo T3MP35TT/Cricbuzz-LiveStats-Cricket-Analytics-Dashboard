@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 170187,
+    "seriesId": 12993,
+    "seriesName": "ACC Men's Premier Cup, 2026",
+    "matchDesc": "2nd Match, Group A",
+    "matchFormat": "ODI",
+    "startDate": "1788053400000",
+    "endDate": "1788082200000",
+    "state": "Complete",
+    "status": "Hong Kong, China won by 16 runs",
+    "team1": {
+      "teamId": 8,
+      "teamName": "Hong Kong, China",
+      "teamSName": "HKC",
+      "imageId": 776271
+    },
+    "team2": {
+      "teamId": 571,
+      "teamName": "Saudi Arabia",
+      "teamSName": "SAU",
+      "imageId": 172623
+    },
+    "venueInfo": {
+      "id": 1853,
+      "ground": "YSD-UKM Cricket Oval",
+      "city": "Bangi",
+      "timezone": "+08:00",
+      "latitude": "2.9348189",
+      "longitude": "101.7823779"
+    },
+    "currBatTeamId": 8,
+    "seriesStartDt": "1788048000000",
+    "seriesEndDt": "1789344000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "HKC Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 273,
+        "wickets": 10,
+        "overs": 48.5
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 257,
+        "wickets": 10,
+        "overs": 49.2
+      }
+    }
+  }
+}
