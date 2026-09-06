@@ -631,7 +631,7 @@
                   "startDate": "1788687000000",
                   "endDate": "1788715800000",
                   "state": "In Progress",
-                  "status": "Ireland Women need 120 runs in 44 balls",
+                  "status": "Ireland Women need 119 runs in 42 balls",
                   "team1": {
                     "teamId": 99,
                     "teamName": "England Women",
@@ -670,9 +670,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 172,
+                      "runs": 173,
                       "wickets": 8,
-                      "overs": 42.4
+                      "overs": 42.6
                     }
                   }
                 }
@@ -942,5 +942,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788710070"
+  "responseLastUpdated": "1788710079"
 }
