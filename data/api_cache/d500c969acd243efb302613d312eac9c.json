@@ -1,0 +1,120 @@
+{
+  "headers": [
+    "Rank",
+    "Flag",
+    "Team",
+    "Points"
+  ],
+  "values": [
+    {
+      "value": [
+        "1",
+        "776333",
+        "New Zealand",
+        "175"
+      ]
+    },
+    {
+      "value": [
+        "2",
+        "776237",
+        "England",
+        "155"
+      ]
+    },
+    {
+      "value": [
+        "3",
+        "776210",
+        "Bangladesh",
+        "155"
+      ]
+    },
+    {
+      "value": [
+        "4",
+        "776162",
+        "India",
+        "139"
+      ]
+    },
+    {
+      "value": [
+        "5",
+        "776308",
+        "Pakistan",
+        "130"
+      ]
+    },
+    {
+      "value": [
+        "6",
+        "776202",
+        "Australia",
+        "120"
+      ]
+    },
+    {
+      "value": [
+        "7",
+        "776177",
+        "Afghanistan",
+        "115"
+      ]
+    },
+    {
+      "value": [
+        "8",
+        "776287",
+        "South Africa",
+        "98"
+      ]
+    },
+    {
+      "value": [
+        "9",
+        "776191",
+        "West Indies",
+        "88"
+      ]
+    },
+    {
+      "value": [
+        "10",
+        "776254",
+        "Sri Lanka",
+        "81"
+      ]
+    },
+    {
+      "value": [
+        "11",
+        "839366",
+        "Ireland",
+        "73"
+      ]
+    },
+    {
+      "value": [
+        "12",
+        "776198",
+        "Zimbabwe",
+        "65"
+      ]
+    },
+    {
+      "value": [
+        "13",
+        "776335",
+        "Netherlands",
+        "35"
+      ]
+    }
+  ],
+  "seasonStandings": [
+    {
+      "id": 3,
+      "name": "ICC Men's Cricket World Cup Super League (2021 - 2023)"
+    }
+  ]
+}
