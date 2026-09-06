@@ -1,75 +1,6 @@
 {
   "typeMatches": [
     {
-      "matchType": "International",
-      "seriesMatches": [
-        {
-          "seriesAdWrapper": {
-            "seriesId": 12933,
-            "seriesName": "Namibia T20I Tri-Series 2026",
-            "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 170017,
-                  "seriesId": 12933,
-                  "seriesName": "Namibia T20I Tri-Series 2026",
-                  "matchDesc": "Final",
-                  "matchFormat": "T20",
-                  "startDate": "1788696000000",
-                  "endDate": "1788708600000",
-                  "state": "Complete",
-                  "status": "South Africa won by 48 runs",
-                  "team1": {
-                    "teamId": 11,
-                    "teamName": "South Africa",
-                    "teamSName": "RSA",
-                    "imageId": 776287
-                  },
-                  "team2": {
-                    "teamId": 12,
-                    "teamName": "Zimbabwe",
-                    "teamSName": "ZIM",
-                    "imageId": 776198
-                  },
-                  "venueInfo": {
-                    "id": 1438021,
-                    "ground": "Namibia Cricket Ground",
-                    "city": " Windhoek",
-                    "timezone": "+02:00",
-                    "latitude": "-22.5872377",
-                    "longitude": "17.0677249"
-                  },
-                  "currBatTeamId": 11,
-                  "seriesStartDt": "1787875200000",
-                  "seriesEndDt": "1788825600000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 205,
-                      "wickets": 5,
-                      "overs": 19.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 157,
-                      "wickets": 10,
-                      "overs": 17.6
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
       "matchType": "League",
       "seriesMatches": [
         {
@@ -86,8 +17,8 @@
                   "matchFormat": "T20",
                   "startDate": "1788721200000",
                   "endDate": "1788733800000",
-                  "state": "Innings Break",
-                  "status": "Innings Break",
+                  "state": "In Progress",
+                  "status": "Guyana Amazon Warriors need 114 runs",
                   "team1": {
                     "teamId": 302,
                     "teamName": "St Kitts and Nevis Patriots",
@@ -108,11 +39,11 @@
                     "latitude": "41.823872",
                     "longitude": "-71.411987"
                   },
-                  "currBatTeamId": 302,
+                  "currBatTeamId": 159,
                   "seriesStartDt": "1786060800000",
                   "seriesEndDt": "1790035200000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "Ings Break"
+                  "stateTitle": "In Progress"
                 },
                 "matchScore": {
                   "team1Score": {
@@ -121,6 +52,13 @@
                       "runs": 128,
                       "wickets": 10,
                       "overs": 19.2
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 15,
+                      "overs": 1.2
                     }
                   }
                 }
@@ -193,13 +131,6 @@
           }
         },
         {
-          "ad": {
-            "name": "native_matches",
-            "layout": "native_large",
-            "position": 3
-          }
-        },
-        {
           "seriesAdWrapper": {
             "seriesId": 13073,
             "seriesName": "Sher-E-Punjab T20 League, 2026",
@@ -261,6 +192,13 @@
                 }
               }
             ]
+          }
+        },
+        {
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 3
           }
         }
       ]
@@ -600,5 +538,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788728178"
+  "responseLastUpdated": "1788728737"
 }
