@@ -190,13 +190,6 @@
               }
             ]
           }
-        },
-        {
-          "ad": {
-            "name": "native_matches",
-            "layout": "native_large",
-            "position": 3
-          }
         }
       ]
     },
@@ -260,6 +253,13 @@
           }
         },
         {
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 4
+          }
+        },
+        {
           "seriesAdWrapper": {
             "seriesId": 12993,
             "seriesName": "ACC Men's Premier Cup, 2026",
@@ -274,7 +274,7 @@
                   "startDate": "1788658200000",
                   "endDate": "1788687000000",
                   "state": "In Progress",
-                  "status": "United Arab Emirates need 148 runs",
+                  "status": "United Arab Emirates need 141 runs",
                   "team1": {
                     "teamId": 190,
                     "teamName": "Singapore",
@@ -313,9 +313,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 25,
+                      "runs": 32,
                       "wickets": 1,
-                      "overs": 3.4
+                      "overs": 4.6
                     }
                   }
                 }
@@ -564,5 +564,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788697432"
+  "responseLastUpdated": "1788697461"
 }
