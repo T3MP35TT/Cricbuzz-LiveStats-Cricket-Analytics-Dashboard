@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 170261,
+    "seriesId": 12993,
+    "seriesName": "ACC Men's Premier Cup, 2026",
+    "matchDesc": "10th Match, Group A",
+    "matchFormat": "ODI",
+    "startDate": "1788399000000",
+    "endDate": "1788427800000",
+    "state": "Complete",
+    "status": "Nepal won by 6 wkts",
+    "team1": {
+      "teamId": 71,
+      "teamName": "Malaysia",
+      "teamSName": "MLY",
+      "imageId": 776319
+    },
+    "team2": {
+      "teamId": 72,
+      "teamName": "Nepal",
+      "teamSName": "NEP",
+      "imageId": 776331
+    },
+    "venueInfo": {
+      "id": 1853,
+      "ground": "YSD-UKM Cricket Oval",
+      "city": "Bangi",
+      "timezone": "+08:00",
+      "latitude": "2.9348189",
+      "longitude": "101.7823779"
+    },
+    "currBatTeamId": 72,
+    "seriesStartDt": "1788048000000",
+    "seriesEndDt": "1789344000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "NEP Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 103,
+        "wickets": 10,
+        "overs": 32.3
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 106,
+        "wickets": 4,
+        "overs": 21.4
+      }
+    }
+  }
+}
