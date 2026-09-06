@@ -1,0 +1,68 @@
+{
+  "matchInfo": {
+    "matchId": 142528,
+    "seriesId": 11408,
+    "seriesName": "County Championship Division One 2026",
+    "matchDesc": "50th Match",
+    "matchFormat": "TEST",
+    "startDate": "1787824800000",
+    "endDate": "1788109200000",
+    "state": "Complete",
+    "status": "Match drawn",
+    "team1": {
+      "teamId": 119,
+      "teamName": "Somerset",
+      "teamSName": "SOM",
+      "imageId": 172199
+    },
+    "team2": {
+      "teamId": 41,
+      "teamName": "Sussex",
+      "teamSName": "SUS",
+      "imageId": 172148
+    },
+    "venueInfo": {
+      "id": 292,
+      "ground": "County Ground",
+      "city": "Hove",
+      "timezone": "+01:00",
+      "latitude": "50.830995",
+      "longitude": "-0.163522"
+    },
+    "seriesStartDt": "1775174400000",
+    "seriesEndDt": "1790640000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "Complete"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 202,
+        "wickets": 10,
+        "overs": 57.6
+      },
+      "inngs2": {
+        "inningsId": 3,
+        "runs": 350,
+        "wickets": 9,
+        "overs": 97.2,
+        "isDeclared": true
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 250,
+        "wickets": 10,
+        "overs": 69.4
+      },
+      "inngs2": {
+        "inningsId": 4,
+        "runs": 62,
+        "wickets": 1,
+        "overs": 13.6
+      }
+    }
+  }
+}
