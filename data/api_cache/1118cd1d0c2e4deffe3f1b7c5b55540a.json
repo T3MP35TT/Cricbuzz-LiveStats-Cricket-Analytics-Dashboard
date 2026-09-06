@@ -114,7 +114,8 @@
                   "stateTitle": "Toss"
                 }
               }
-            ]
+            ],
+            "isLiveStreamEnabled": true
           }
         },
         {
@@ -178,7 +179,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "isLiveStreamEnabled": true
           }
         },
         {
@@ -434,71 +436,8 @@
                   }
                 }
               }
-            ]
-          }
-        },
-        {
-          "seriesAdWrapper": {
-            "seriesId": 10548,
-            "seriesName": "Ireland Women tour of England 2026",
-            "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 129546,
-                  "seriesId": 10548,
-                  "seriesName": "Ireland Women tour of England 2026",
-                  "matchDesc": "3rd ODI",
-                  "matchFormat": "ODI",
-                  "startDate": "1788687000000",
-                  "endDate": "1788715800000",
-                  "state": "Complete",
-                  "status": "England Women won by 114 runs",
-                  "team1": {
-                    "teamId": 99,
-                    "teamName": "England Women",
-                    "teamSName": "ENGW",
-                    "imageId": 776241
-                  },
-                  "team2": {
-                    "teamId": 189,
-                    "teamName": "Ireland Women",
-                    "teamSName": "IREW",
-                    "imageId": 839468
-                  },
-                  "venueInfo": {
-                    "id": 225,
-                    "ground": "New Road",
-                    "city": "Worcester",
-                    "timezone": "+01:00",
-                    "latitude": "52.189294",
-                    "longitude": "-2.2268"
-                  },
-                  "currBatTeamId": 99,
-                  "seriesStartDt": "1788220800000",
-                  "seriesEndDt": "1788825600000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 291,
-                      "wickets": 10,
-                      "overs": 48.5
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 177,
-                      "wickets": 10,
-                      "overs": 44.2
-                    }
-                  }
-                }
-              }
-            ]
+            ],
+            "isLiveStreamEnabled": true
           }
         },
         {
@@ -562,7 +501,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "isLiveStreamEnabled": true
           }
         },
         {
@@ -699,7 +639,7 @@
                   "matchFormat": "T20",
                   "startDate": "1788696000000",
                   "endDate": "1788708600000",
-                  "state": "Toss",
+                  "state": "In Progress",
                   "status": "Bulgaria Women opt to bat",
                   "team1": {
                     "teamId": 2201,
@@ -721,13 +661,89 @@
                     "latitude": "44.8125",
                     "longitude": "20.4612"
                   },
+                  "currBatTeamId": 2201,
                   "seriesStartDt": "1788480000000",
                   "seriesEndDt": "1788825600000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "Toss"
+                  "stateTitle": "In Progress"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 144,
+                      "wickets": 5,
+                      "overs": 17.6
+                    }
+                  }
                 }
               }
             ]
+          }
+        },
+        {
+          "seriesAdWrapper": {
+            "seriesId": 10548,
+            "seriesName": "Ireland Women tour of England 2026",
+            "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 129546,
+                  "seriesId": 10548,
+                  "seriesName": "Ireland Women tour of England 2026",
+                  "matchDesc": "3rd ODI",
+                  "matchFormat": "ODI",
+                  "startDate": "1788687000000",
+                  "endDate": "1788715800000",
+                  "state": "Complete",
+                  "status": "England Women won by 114 runs",
+                  "team1": {
+                    "teamId": 99,
+                    "teamName": "England Women",
+                    "teamSName": "ENGW",
+                    "imageId": 776241
+                  },
+                  "team2": {
+                    "teamId": 189,
+                    "teamName": "Ireland Women",
+                    "teamSName": "IREW",
+                    "imageId": 839468
+                  },
+                  "venueInfo": {
+                    "id": 225,
+                    "ground": "New Road",
+                    "city": "Worcester",
+                    "timezone": "+01:00",
+                    "latitude": "52.189294",
+                    "longitude": "-2.2268"
+                  },
+                  "currBatTeamId": 99,
+                  "seriesStartDt": "1788220800000",
+                  "seriesEndDt": "1788825600000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 291,
+                      "wickets": 10,
+                      "overs": 48.5
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 177,
+                      "wickets": 10,
+                      "overs": 44.2
+                    }
+                  }
+                }
+              }
+            ],
+            "isLiveStreamEnabled": true
           }
         }
       ]
@@ -745,6 +761,11 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788719469",
-  "_cache_saved_at": 1788719467.6918435
+  "responseLastUpdated": "1788720405",
+  "contentFilters": [
+    {
+      "filterId": "liveStream",
+      "filterName": "Live Streaming"
+    }
+  ]
 }
