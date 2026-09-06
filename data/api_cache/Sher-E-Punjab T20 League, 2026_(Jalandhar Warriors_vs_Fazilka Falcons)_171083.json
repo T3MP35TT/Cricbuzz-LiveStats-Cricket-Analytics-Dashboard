@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 171083,
+    "seriesId": 13073,
+    "seriesName": "Sher-E-Punjab T20 League, 2026",
+    "matchDesc": "2nd Match",
+    "matchFormat": "T20",
+    "startDate": "1788161400000",
+    "endDate": "1788174000000",
+    "state": "Complete",
+    "status": "Fazilka Falcons won by 8 wkts",
+    "team1": {
+      "teamId": 3581,
+      "teamName": "Jalandhar Warriors",
+      "teamSName": "JLW",
+      "imageId": 1064853
+    },
+    "team2": {
+      "teamId": 3561,
+      "teamName": "Fazilka Falcons",
+      "teamSName": "FZF",
+      "imageId": 1064854
+    },
+    "venueInfo": {
+      "id": 46,
+      "ground": "Punjab Cricket Association IS Bindra Stadium",
+      "city": "Mohali",
+      "timezone": "+05:30",
+      "latitude": "30.690905",
+      "longitude": "76.737455"
+    },
+    "currBatTeamId": 3561,
+    "seriesStartDt": "1788048000000",
+    "seriesEndDt": "1789430400000",
+    "isTimeAnnounced": true,
+    "stateTitle": "FZF Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 187,
+        "wickets": 10,
+        "overs": 19.4
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 192,
+        "wickets": 2,
+        "overs": 17.4
+      }
+    }
+  }
+}
