@@ -3,190 +3,7 @@
   "comwrapper": [
     {
       "commentary": {
-        "commtxt": "Duan Jansen to Brad Evans, B0$",
-        "timestamp": 1788707643904,
-        "overnum": 17.4,
-        "inningsid": 2,
-        "eventtype": "FOUR",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "bold",
-            "value": [
-              {
-                "id": "B0$",
-                "value": "FOUR"
-              }
-            ]
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 106,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "Duan Jansen to Brad Evans, B0$, B1$ Picks this fullish delivery and smokes it over cow corner for his fourth maximum",
-        "timestamp": 1788707579588,
-        "overnum": 17.3,
-        "inningsid": 2,
-        "eventtype": "FIFTY",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "bold",
-            "value": [
-              {
-                "id": "B0$",
-                "value": "SIX"
-              },
-              {
-                "id": "B1$",
-                "value": "maiden T20I fifty for Brad Evans!"
-              }
-            ]
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 105,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "Duan Jansen to Brad Evans, B0$, it’s been given as a wide, as the left-armer goes outside the wide guideline. The keeper makes a mess of it, missing the ball completely, and it races away for a boundary",
-        "timestamp": 1788707537259,
-        "overnum": 17.3,
-        "inningsid": 2,
-        "eventtype": "NONE",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "bold",
-            "value": [
-              {
-                "id": "B0$",
-                "value": "5 wides"
-              }
-            ]
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 105,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "Duan Jansen to Blessing Muzarabani, 1 run, yorker outside off, Blessing Muzarabani inside edges the heave onto the pads as the ball rolls to point",
-        "timestamp": 1788707494917,
-        "overnum": 17.2,
-        "inningsid": 2,
-        "eventtype": "NONE",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 104,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "Duan Jansen to Blessing Muzarabani, B0$, oh hello, Blessing Muzarabani! Gets a full toss close to off and lofts it high over long-on for a maximum, then holds the pose and admires the shot",
+        "commtxt": "Duan Jansen to Blessing Muzarabani, B0$, to long-on",
         "timestamp": 1788707451702,
         "overnum": 17.1,
         "inningsid": 2,
@@ -462,40 +279,199 @@
         "batteamscore": 0,
         "boundarytracker": false
       }
+    },
+    {
+      "commentary": {
+        "commtxt": "Kwena Maphaka to Blessing Muzarabani, no run, greets Blessing Muzarabani with a yorker but the tall man does well to bring his bat down and dig it out",
+        "timestamp": 1788707243379,
+        "overnum": 16.2,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 98,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "B0$",
+        "timestamp": 1788707185593,
+        "overnum": 0.0,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "Blessing Muzarabani, right handed bat, comes to the crease"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Kwena Maphaka to Kundai Matigimu, B0$ Caught by Connor Esterhuizen!! The entertaining partnership has been broken! Matigimu comes down the track and moves to the leg side, looking to whip this through deep mid-wicket, but gets a top edge that flies high behind the stumps. The keeper backpedals and takes it comfortably. Seems like it was a cutter from Kwena Maphaka. B1$",
+        "timestamp": 1788707147737,
+        "overnum": 16.1,
+        "inningsid": 2,
+        "eventtype": "WICKET",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "out"
+              },
+              {
+                "id": "B1$",
+                "value": "Kundai Matigimu c Connor Esterhuizen b Kwena Maphaka 19(11) [6s-2]"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 97,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Kwena Maphaka to Kundai Matigimu, B0$ Caught!!",
+        "timestamp": 1788707145926,
+        "overnum": 0.0,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "THATS OUT!!"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
     }
   ],
   "miniscore": {
     "batsmanstriker": {
-      "id": 19592,
-      "balls": 30,
-      "runs": 55,
-      "fours": 4,
-      "sixes": 4,
-      "strkrate": "183.33",
-      "name": "Brad Evans",
-      "nickname": "Brad Evans",
-      "iscaptain": false,
-      "iskeeper": false,
-      "outdec": "",
-      "videotype": "",
-      "videourl": "",
-      "videoid": 0,
-      "planid": 0,
-      "imageid": 0,
-      "premiumvideourl": "",
-      "iscbplusfree": false,
-      "ispremiumfree": false,
-      "inmatchchange": "",
-      "isoverseas": false,
-      "playingxichange": ""
-    },
-    "batsmannonstriker": {
       "id": 13316,
-      "balls": 4,
-      "runs": 8,
+      "balls": 3,
+      "runs": 7,
       "fours": 0,
       "sixes": 1,
-      "strkrate": "200",
+      "strkrate": "233.33",
       "name": "Blessing Muzarabani",
       "nickname": "Blessing Muzarabani",
       "iscaptain": false,
@@ -513,13 +489,37 @@
       "isoverseas": false,
       "playingxichange": ""
     },
+    "batsmannonstriker": {
+      "id": 19592,
+      "balls": 28,
+      "runs": 45,
+      "fours": 3,
+      "sixes": 3,
+      "strkrate": "160.71",
+      "name": "Brad Evans",
+      "nickname": "Brad Evans",
+      "iscaptain": false,
+      "iskeeper": false,
+      "outdec": "",
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "iscbplusfree": false,
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
     "bowlerstriker": {
       "id": 18523,
-      "overs": "2.4",
+      "overs": "2.1",
       "maidens": 0,
       "wickets": 2,
-      "runs": 37,
-      "economy": "13.9",
+      "runs": 21,
+      "economy": "9.7",
       "name": "Duan Jansen",
       "nickname": "",
       "iscaptain": false,
@@ -563,24 +563,24 @@
       "isoverseas": false,
       "playingxichange": ""
     },
-    "crr": 8.83,
-    "rrr": 21.43,
+    "crr": 8.16,
+    "rrr": 23.29,
     "inningsnbr": "1st inn",
     "lastwkt": "Kundai Matigimu  c Connor Esterhuizen b Kwena Maphaka 19(11)  - 133/9 in 16.1 ov.",
-    "curovsstats": "6 1 Wd5 6 4",
+    "curovsstats": "6",
     "inningsscores": {
       "inningsscore": [
         {
           "inningsid": 2,
           "batteamid": 12,
           "batteamshortname": "ZIM",
-          "runs": 156,
+          "runs": 140,
           "wickets": 9,
-          "overs": 17.4,
+          "overs": 17.1,
           "isdeclared": false,
           "isfollowon": false,
           "target": 206,
-          "balls": 106
+          "balls": 103
         },
         {
           "inningsid": 1,
@@ -599,17 +599,17 @@
     "inningsid": 2,
     "performance": [
       {
-        "runs": 66,
+        "runs": 53,
         "wickets": 1,
         "label": "Last 5 overs"
       },
       {
-        "runs": 42,
+        "runs": 34,
         "wickets": 1,
         "label": "Last 3 overs"
       }
     ],
-    "partnership": "23(9)",
+    "partnership": "7(6)",
     "oversrem": "",
     "pp": {
       "powerplay": [
@@ -630,11 +630,11 @@
     "rrpb": 0.0,
     "responselastupdated": 0,
     "event": "",
-    "timestamp": 1788707643904
+    "timestamp": 1788707451702
   },
   "matchheaders": {
     "state": "In Progress",
-    "status": "Zimbabwe need 50 runs in 14 balls",
+    "status": "Zimbabwe need 66 runs in 17 balls",
     "matchformat": "T20",
     "matchstarttimestamp": 1788696000000,
     "teamdetails": {
@@ -706,7 +706,7 @@
     "weburl": "http://www.cricbuzz.com/live-cricket-scores/170017/rsa-vs-zim-final-namibia-t20i-tri-series-2026"
   },
   "matchvideos": [],
-  "responselastupdated": 1788707642,
+  "responselastupdated": 1788707454,
   "buzz": {
     "imageids": [
       1064841,
