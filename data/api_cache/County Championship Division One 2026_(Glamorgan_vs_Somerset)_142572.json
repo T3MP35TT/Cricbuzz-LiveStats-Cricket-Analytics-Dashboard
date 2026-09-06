@@ -1,0 +1,62 @@
+{
+  "matchInfo": {
+    "matchId": 142572,
+    "seriesId": 11408,
+    "seriesName": "County Championship Division One 2026",
+    "matchDesc": "54th Match",
+    "matchFormat": "TEST",
+    "startDate": "1788341400000",
+    "endDate": "1788625800000",
+    "state": "Complete",
+    "status": "Somerset won by an innings and 64 runs",
+    "team1": {
+      "teamId": 149,
+      "teamName": "Glamorgan",
+      "teamSName": "GLAM",
+      "imageId": 172216
+    },
+    "team2": {
+      "teamId": 119,
+      "teamName": "Somerset",
+      "teamSName": "SOM",
+      "imageId": 172199
+    },
+    "venueInfo": {
+      "id": 223,
+      "ground": "The Cooper Associates County Ground",
+      "city": "Taunton",
+      "timezone": "+01:00",
+      "latitude": "51.018913",
+      "longitude": "3.100894"
+    },
+    "currBatTeamId": 119,
+    "seriesStartDt": "1775174400000",
+    "seriesEndDt": "1790640000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "SOM Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 194,
+        "wickets": 10,
+        "overs": 59.2
+      },
+      "inngs2": {
+        "inningsId": 3,
+        "runs": 183,
+        "wickets": 10,
+        "overs": 58.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 441,
+        "wickets": 10,
+        "overs": 109.1
+      }
+    }
+  }
+}
