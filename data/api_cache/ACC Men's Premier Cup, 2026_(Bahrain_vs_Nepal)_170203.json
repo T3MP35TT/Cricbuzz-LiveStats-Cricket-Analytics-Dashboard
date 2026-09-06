@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 170203,
+    "seriesId": 12993,
+    "seriesName": "ACC Men's Premier Cup, 2026",
+    "matchDesc": "4th Match, Group A",
+    "matchFormat": "ODI",
+    "startDate": "1788139800000",
+    "endDate": "1788168600000",
+    "state": "Complete",
+    "status": "Nepal won by 7 wkts",
+    "team1": {
+      "teamId": 543,
+      "teamName": "Bahrain",
+      "teamSName": "BHR",
+      "imageId": 172594
+    },
+    "team2": {
+      "teamId": 72,
+      "teamName": "Nepal",
+      "teamSName": "NEP",
+      "imageId": 776331
+    },
+    "venueInfo": {
+      "id": 1853,
+      "ground": "YSD-UKM Cricket Oval",
+      "city": "Bangi",
+      "timezone": "+08:00",
+      "latitude": "2.9348189",
+      "longitude": "101.7823779"
+    },
+    "currBatTeamId": 72,
+    "seriesStartDt": "1788048000000",
+    "seriesEndDt": "1789344000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "NEP Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 87,
+        "wickets": 10,
+        "overs": 36.2
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 88,
+        "wickets": 3,
+        "overs": 20.6
+      }
+    }
+  }
+}
