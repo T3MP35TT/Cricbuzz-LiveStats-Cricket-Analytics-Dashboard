@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 154584,
+    "seriesId": 12123,
+    "seriesName": "Caribbean Premier League 2026",
+    "matchDesc": "27th Match",
+    "matchFormat": "T20",
+    "startDate": "1788652800000",
+    "endDate": "1788665400000",
+    "state": "Complete",
+    "status": "Trinbago Knight Riders won by 35 runs",
+    "team1": {
+      "teamId": 271,
+      "teamName": "Trinbago Knight Riders",
+      "teamSName": "TKR",
+      "imageId": 825110
+    },
+    "team2": {
+      "teamId": 262,
+      "teamName": "Barbados Tridents",
+      "teamSName": "BBT",
+      "imageId": 1050666
+    },
+    "venueInfo": {
+      "id": 55,
+      "ground": "Kensington Oval",
+      "city": "Bridgetown, Barbados",
+      "timezone": "-04:00",
+      "latitude": "13.105021",
+      "longitude": "-59.62257"
+    },
+    "currBatTeamId": 271,
+    "seriesStartDt": "1786060800000",
+    "seriesEndDt": "1790035200000",
+    "isTimeAnnounced": true,
+    "stateTitle": "TKR Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 147,
+        "wickets": 6,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 112,
+        "wickets": 10,
+        "overs": 18.3
+      }
+    }
+  }
+}
