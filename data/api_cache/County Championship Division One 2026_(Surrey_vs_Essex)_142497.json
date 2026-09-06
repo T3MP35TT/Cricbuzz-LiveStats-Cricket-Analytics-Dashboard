@@ -1,0 +1,61 @@
+{
+  "matchInfo": {
+    "matchId": 142497,
+    "seriesId": 11408,
+    "seriesName": "County Championship Division One 2026",
+    "matchDesc": "47th Match",
+    "matchFormat": "TEST",
+    "startDate": "1787824800000",
+    "endDate": "1788109200000",
+    "state": "Complete",
+    "status": "Match drawn",
+    "team1": {
+      "teamId": 148,
+      "teamName": "Surrey",
+      "teamSName": "SUR",
+      "imageId": 172215
+    },
+    "team2": {
+      "teamId": 152,
+      "teamName": "Essex",
+      "teamSName": "ESS",
+      "imageId": 172219
+    },
+    "venueInfo": {
+      "id": 1438338,
+      "ground": "The Ambassador Cruise Line Ground",
+      "city": "Chelmsford",
+      "timezone": "+01:00",
+      "latitude": "51.73158",
+      "longitude": "0.46842"
+    },
+    "seriesStartDt": "1775174400000",
+    "seriesEndDt": "1790640000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "Complete"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 183,
+        "wickets": 10,
+        "overs": 53.2
+      },
+      "inngs2": {
+        "inningsId": 3,
+        "runs": 298,
+        "wickets": 8,
+        "overs": 98.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 279,
+        "wickets": 10,
+        "overs": 84.6
+      }
+    }
+  }
+}
