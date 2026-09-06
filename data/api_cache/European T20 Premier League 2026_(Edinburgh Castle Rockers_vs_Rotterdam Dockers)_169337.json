@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 169337,
+    "seriesId": 12870,
+    "seriesName": "European T20 Premier League 2026",
+    "matchDesc": "14th Match",
+    "matchFormat": "T20",
+    "startDate": "1788600600000",
+    "endDate": "1788613200000",
+    "state": "Complete",
+    "status": "Edinburgh Castle Rockers won by 55 runs",
+    "team1": {
+      "teamId": 574,
+      "teamName": "Edinburgh Castle Rockers",
+      "teamSName": "ECR",
+      "imageId": 1044579
+    },
+    "team2": {
+      "teamId": 573,
+      "teamName": "Rotterdam Dockers",
+      "teamSName": "RDD",
+      "imageId": 1044574
+    },
+    "venueInfo": {
+      "id": 1437791,
+      "ground": "Sportpark Duivesteijn",
+      "city": "Voorburg",
+      "timezone": "+02:00",
+      "latitude": "52.0848131",
+      "longitude": "4.3662509"
+    },
+    "currBatTeamId": 574,
+    "seriesStartDt": "1787702400000",
+    "seriesEndDt": "1790035200000",
+    "isTimeAnnounced": true,
+    "stateTitle": "ECR Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 148,
+        "wickets": 10,
+        "overs": 19.3
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 93,
+        "wickets": 10,
+        "overs": 17.6
+      }
+    }
+  }
+}
