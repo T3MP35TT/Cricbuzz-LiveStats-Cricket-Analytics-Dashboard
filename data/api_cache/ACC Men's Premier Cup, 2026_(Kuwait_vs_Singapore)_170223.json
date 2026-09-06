@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 170223,
+    "seriesId": 12993,
+    "seriesName": "ACC Men's Premier Cup, 2026",
+    "matchDesc": "6th Match, Group B",
+    "matchFormat": "ODI",
+    "startDate": "1788226200000",
+    "endDate": "1788255000000",
+    "state": "Complete",
+    "status": "Kuwait won by 153 runs",
+    "team1": {
+      "teamId": 298,
+      "teamName": "Kuwait",
+      "teamSName": "KUW",
+      "imageId": 776312
+    },
+    "team2": {
+      "teamId": 190,
+      "teamName": "Singapore",
+      "teamSName": "SIN",
+      "imageId": 776275
+    },
+    "venueInfo": {
+      "id": 1853,
+      "ground": "YSD-UKM Cricket Oval",
+      "city": "Bangi",
+      "timezone": "+08:00",
+      "latitude": "2.9348189",
+      "longitude": "101.7823779"
+    },
+    "currBatTeamId": 298,
+    "seriesStartDt": "1788048000000",
+    "seriesEndDt": "1789344000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "KUW Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 249,
+        "wickets": 4,
+        "overs": 43.4
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 96,
+        "wickets": 10,
+        "overs": 27.3
+      }
+    }
+  }
+}
