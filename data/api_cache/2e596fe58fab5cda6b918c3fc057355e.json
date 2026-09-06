@@ -1,0 +1,750 @@
+{
+  "inningsid": 0,
+  "comwrapper": [
+    {
+      "commentary": {
+        "commtxt": "Bas de Leede to du Plessis, 1 run, to cover",
+        "timestamp": 1788705302777,
+        "overnum": 16.6,
+        "inningsid": 1,
+        "eventtype": "over-break",
+        "oversep": {
+          "score": 129,
+          "wickets": 5,
+          "inningsid": 1,
+          "oversummary": "W1 4 2 0 1 1 ",
+          "runs": 9,
+          "batstrikerdetails": "7(4)",
+          "batnonstrikerdetails": "54(45)",
+          "bowldetails": "0-19 (3)",
+          "timestamp": 1788705302777,
+          "overnum": 16.6,
+          "ovrbatnames": [],
+          "ovrbowlnames": [],
+          "batstrikername": "David Wiese",
+          "batnonstrikername": "Faf du Plessis",
+          "bowlname": "Bas de Leede",
+          "battingteamname": "RDD"
+        },
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 102,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false,
+        "ad": {
+          "name": "mpu_over_break",
+          "layout": "mpu",
+          "position": 1
+        }
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Bas de Leede to Wiese, 1 run, to deep extra cover",
+        "timestamp": 1788705240858,
+        "overnum": 16.5,
+        "inningsid": 1,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 101,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Bas de Leede to Wiese, no run",
+        "timestamp": 1788705230333,
+        "overnum": 16.4,
+        "inningsid": 1,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 100,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Bas de Leede to Wiese, 2 runs, to deep mid-wicket",
+        "timestamp": 1788705227986,
+        "overnum": 16.3,
+        "inningsid": 1,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 99,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Bas de Leede to Wiese, B0$, to fine leg",
+        "timestamp": 1788705203402,
+        "overnum": 16.2,
+        "inningsid": 1,
+        "eventtype": "FOUR",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "FOUR"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 98,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "B0$",
+        "timestamp": 1788705098363,
+        "overnum": 0.0,
+        "inningsid": 1,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "David Wiese, right handed bat, comes to the crease"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Bas de Leede to Ben Manenti, B0$ Ben Manenti Run Out!! 1 run completed B1$",
+        "timestamp": 1788705092774,
+        "overnum": 16.1,
+        "inningsid": 1,
+        "eventtype": "WICKET",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "out"
+              },
+              {
+                "id": "B1$",
+                "value": "Ben Manenti run out (Curtis Campher/Scott Edwards) 8(10)"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 97,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Bas de Leede to Ben Manenti, B0$ Run Out!!",
+        "timestamp": 1788705091699,
+        "overnum": 0.0,
+        "inningsid": 1,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "THATS OUT!!"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "B0$",
+        "timestamp": 1788705065103,
+        "overnum": 0.0,
+        "inningsid": 1,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "Bas de Leede [2.0-0-10-0] is back into the attack"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Aryan Dutt to Ben Manenti, 1 run, to deep mid-wicket",
+        "timestamp": 1788704960427,
+        "overnum": 15.6,
+        "inningsid": 1,
+        "eventtype": "over-break",
+        "oversep": {
+          "score": 120,
+          "wickets": 4,
+          "inningsid": 1,
+          "oversummary": "1 4 1 1 1 1 ",
+          "runs": 9,
+          "batstrikerdetails": "53(44)",
+          "batnonstrikerdetails": "7(9)",
+          "bowldetails": "1-23 (4)",
+          "timestamp": 1788704960427,
+          "overnum": 15.6,
+          "ovrbatnames": [],
+          "ovrbowlnames": [],
+          "batstrikername": "Faf du Plessis",
+          "batnonstrikername": "Ben Manenti",
+          "bowlname": "Aryan Dutt",
+          "battingteamname": "RDD"
+        },
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 96,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    }
+  ],
+  "miniscore": {
+    "batsmanstriker": {
+      "id": 7825,
+      "balls": 45,
+      "runs": 54,
+      "fours": 2,
+      "sixes": 3,
+      "strkrate": "120",
+      "name": "Faf du Plessis",
+      "nickname": "Faf du Plessis",
+      "iscaptain": false,
+      "iskeeper": false,
+      "outdec": "",
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "iscbplusfree": false,
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "batsmannonstriker": {
+      "id": 8589,
+      "balls": 4,
+      "runs": 7,
+      "fours": 1,
+      "sixes": 0,
+      "strkrate": "175",
+      "name": "David Wiese",
+      "nickname": "David Wiese",
+      "iscaptain": false,
+      "iskeeper": false,
+      "outdec": "",
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "iscbplusfree": false,
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "bowlerstriker": {
+      "id": 19532,
+      "overs": "4",
+      "maidens": 0,
+      "wickets": 1,
+      "runs": 23,
+      "economy": "5.75",
+      "name": "Aryan Dutt",
+      "nickname": "",
+      "iscaptain": false,
+      "iskeeper": false,
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "dots": 0,
+      "balls": 0,
+      "rpb": 0.0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "bowlernonstriker": {
+      "id": 13273,
+      "overs": "3",
+      "maidens": 0,
+      "wickets": 0,
+      "runs": 19,
+      "economy": "6.33",
+      "name": "Bas de Leede",
+      "nickname": "",
+      "iscaptain": false,
+      "iskeeper": false,
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "dots": 0,
+      "balls": 0,
+      "rpb": 0.0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "crr": 7.59,
+    "rrr": 0.0,
+    "inningsnbr": "1st inn",
+    "lastwkt": "Ben Manenti  run out (Curtis Campher/Scott Edwards)  8(10)  - 121/5 in 16.1 ov.",
+    "curovsstats": "W1 4 2 0 1 1",
+    "inningsscores": {
+      "inningsscore": [
+        {
+          "inningsid": 1,
+          "batteamid": 573,
+          "batteamshortname": "RDD",
+          "runs": 129,
+          "wickets": 5,
+          "overs": 16.6,
+          "isdeclared": false,
+          "isfollowon": false,
+          "target": 0,
+          "balls": 102
+        }
+      ]
+    },
+    "inningsid": 1,
+    "performance": [
+      {
+        "runs": 45,
+        "wickets": 2,
+        "label": "Last 5 overs"
+      },
+      {
+        "runs": 23,
+        "wickets": 1,
+        "label": "Last 3 overs"
+      }
+    ],
+    "partnership": "8(5)",
+    "oversrem": "",
+    "pp": {
+      "powerplay": [
+        {
+          "id": 1,
+          "ovrfrom": 0.1,
+          "ovrto": 6.0,
+          "pptype": "Mandatory",
+          "run": 55,
+          "wickets": 0
+        }
+      ]
+    },
+    "target": 0,
+    "custstatus": "",
+    "ballsrem": 0,
+    "rpb": 0.0,
+    "rrpb": 0.0,
+    "responselastupdated": 0,
+    "event": "",
+    "timestamp": 1788705302777
+  },
+  "matchheaders": {
+    "state": "In Progress",
+    "status": "Amsterdam Flames opt to bowl",
+    "matchformat": "T20",
+    "matchstarttimestamp": 1788700500000,
+    "teamdetails": {
+      "batteamid": 573,
+      "batteamname": "RDD",
+      "bowlteamid": 572,
+      "bowlteamname": "ADF"
+    },
+    "momplayers": {
+      "player": [],
+      "category": ""
+    },
+    "mosplayers": {
+      "player": [],
+      "category": ""
+    },
+    "winningteamid": 0,
+    "revisedtarget": 0,
+    "matchendtimestamp": 1788711300000,
+    "seriesid": 12870,
+    "matchdesc": "17th Match",
+    "seriesname": "European T20 Premier League 2026",
+    "alerttype": "auto",
+    "tossresults": {
+      "tosswinnerid": 572,
+      "tosswinnername": "Amsterdam Flames",
+      "decision": "Bowling"
+    },
+    "livestreamenabled": false,
+    "team1": {
+      "teamid": 572,
+      "teamname": "Amsterdam Flames",
+      "teamsname": "ADF",
+      "isfullmember": false,
+      "isassociated": false,
+      "isleagueteam": false,
+      "iswomenteam": false,
+      "isheader": false,
+      "isactive": false,
+      "teampriority": "",
+      "isvideopresent": false,
+      "imageid": 0,
+      "countryname": "",
+      "belongsto": "",
+      "teamcolor": "",
+      "isdefaultimage": false
+    },
+    "team2": {
+      "teamid": 573,
+      "teamname": "Rotterdam Dockers",
+      "teamsname": "RDD",
+      "isfullmember": false,
+      "isassociated": false,
+      "isleagueteam": false,
+      "iswomenteam": false,
+      "isheader": false,
+      "isactive": false,
+      "teampriority": "",
+      "isvideopresent": false,
+      "imageid": 0,
+      "countryname": "",
+      "belongsto": "",
+      "teamcolor": "",
+      "isdefaultimage": false
+    }
+  },
+  "appindex": {
+    "seotitle": "ADF vs RDD 17th Match,European T20 Premier League 2026 | Cricbuzz.com",
+    "weburl": "http://www.cricbuzz.com/live-cricket-scores/169347/adf-vs-rdd-17th-match-european-t20-premier-league-2026"
+  },
+  "matchvideos": [],
+  "responselastupdated": 1788705369,
+  "buzz": {
+    "imageids": [
+      1064841,
+      1067223,
+      1066396
+    ],
+    "position": 2,
+    "applink": "cricbuzz://buzz",
+    "isbuzzenabled": true
+  },
+  "winprobability": {
+    "matchid": 169347,
+    "drawtiepercent": 0,
+    "team1": {
+      "id": 572,
+      "percent": 62,
+      "name": "Amsterdam Flames",
+      "shortname": "ADF",
+      "color": "#F56114|#F56114"
+    },
+    "team2": {
+      "id": 573,
+      "percent": 38,
+      "name": "Rotterdam Dockers",
+      "shortname": "RDD",
+      "color": "#DC3838|#DC3838"
+    },
+    "odds": {
+      "team1point": 1.5,
+      "team2point": 2.5,
+      "drawpoint": 0.0
+    },
+    "lastupdatedover": 17.0
+  }
+}
