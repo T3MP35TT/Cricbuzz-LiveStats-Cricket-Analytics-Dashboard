@@ -79,62 +79,6 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 169347,
-                  "seriesId": 12870,
-                  "seriesName": "European T20 Premier League 2026",
-                  "matchDesc": "17th Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788700500000",
-                  "endDate": "1788713100000",
-                  "state": "Complete",
-                  "status": "Amsterdam Flames won by 8 wkts",
-                  "team1": {
-                    "teamId": 573,
-                    "teamName": "Rotterdam Dockers",
-                    "teamSName": "RDD",
-                    "imageId": 1044574
-                  },
-                  "team2": {
-                    "teamId": 572,
-                    "teamName": "Amsterdam Flames",
-                    "teamSName": "ADF",
-                    "imageId": 1044576
-                  },
-                  "venueInfo": {
-                    "id": 1437791,
-                    "ground": "Sportpark Duivesteijn",
-                    "city": "Voorburg",
-                    "timezone": "+02:00",
-                    "latitude": "52.0848131",
-                    "longitude": "4.3662509"
-                  },
-                  "currBatTeamId": 572,
-                  "seriesStartDt": "1787702400000",
-                  "seriesEndDt": "1790035200000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 176,
-                      "wickets": 6,
-                      "overs": 19.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 178,
-                      "wickets": 2,
-                      "overs": 17.4
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 169343,
                   "seriesId": 12870,
                   "seriesName": "European T20 Premier League 2026",
@@ -185,6 +129,62 @@
                       "runs": 163,
                       "wickets": 3,
                       "overs": 18.6
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 169347,
+                  "seriesId": 12870,
+                  "seriesName": "European T20 Premier League 2026",
+                  "matchDesc": "17th Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788700500000",
+                  "endDate": "1788713100000",
+                  "state": "Complete",
+                  "status": "Amsterdam Flames won by 8 wkts",
+                  "team1": {
+                    "teamId": 573,
+                    "teamName": "Rotterdam Dockers",
+                    "teamSName": "RDD",
+                    "imageId": 1044574
+                  },
+                  "team2": {
+                    "teamId": 572,
+                    "teamName": "Amsterdam Flames",
+                    "teamSName": "ADF",
+                    "imageId": 1044576
+                  },
+                  "venueInfo": {
+                    "id": 1437791,
+                    "ground": "Sportpark Duivesteijn",
+                    "city": "Voorburg",
+                    "timezone": "+02:00",
+                    "latitude": "52.0848131",
+                    "longitude": "4.3662509"
+                  },
+                  "currBatTeamId": 572,
+                  "seriesStartDt": "1787702400000",
+                  "seriesEndDt": "1790035200000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 176,
+                      "wickets": 6,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 178,
+                      "wickets": 2,
+                      "overs": 17.4
                     }
                   }
                 }
@@ -387,62 +387,6 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 170311,
-                  "seriesId": 12993,
-                  "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "16th Match, Group B",
-                  "matchFormat": "ODI",
-                  "startDate": "1788658200000",
-                  "endDate": "1788687000000",
-                  "state": "Complete",
-                  "status": "United Arab Emirates won by 7 wkts",
-                  "team1": {
-                    "teamId": 190,
-                    "teamName": "Singapore",
-                    "teamSName": "SIN",
-                    "imageId": 776275
-                  },
-                  "team2": {
-                    "teamId": 7,
-                    "teamName": "United Arab Emirates",
-                    "teamSName": "UAE",
-                    "imageId": 776242
-                  },
-                  "venueInfo": {
-                    "id": 1853,
-                    "ground": "YSD-UKM Cricket Oval",
-                    "city": "Bangi",
-                    "timezone": "+08:00",
-                    "latitude": "2.9348189",
-                    "longitude": "101.7823779"
-                  },
-                  "currBatTeamId": 7,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789344000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 172,
-                      "wickets": 10,
-                      "overs": 47.4
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 174,
-                      "wickets": 3,
-                      "overs": 24.3
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 170307,
                   "seriesId": 12993,
                   "seriesName": "ACC Men's Premier Cup, 2026",
@@ -493,6 +437,62 @@
                       "runs": 193,
                       "wickets": 5,
                       "overs": 40.6
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170311,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "16th Match, Group B",
+                  "matchFormat": "ODI",
+                  "startDate": "1788658200000",
+                  "endDate": "1788687000000",
+                  "state": "Complete",
+                  "status": "United Arab Emirates won by 7 wkts",
+                  "team1": {
+                    "teamId": 190,
+                    "teamName": "Singapore",
+                    "teamSName": "SIN",
+                    "imageId": 776275
+                  },
+                  "team2": {
+                    "teamId": 7,
+                    "teamName": "United Arab Emirates",
+                    "teamSName": "UAE",
+                    "imageId": 776242
+                  },
+                  "venueInfo": {
+                    "id": 1853,
+                    "ground": "YSD-UKM Cricket Oval",
+                    "city": "Bangi",
+                    "timezone": "+08:00",
+                    "latitude": "2.9348189",
+                    "longitude": "101.7823779"
+                  },
+                  "currBatTeamId": 7,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 172,
+                      "wickets": 10,
+                      "overs": 47.4
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 174,
+                      "wickets": 3,
+                      "overs": 24.3
                     }
                   }
                 }
@@ -575,7 +575,7 @@
                   "startDate": "1788705000000",
                   "endDate": "1788717600000",
                   "state": "In Progress",
-                  "status": "Sri Lanka Women need 89 runs in 94 balls",
+                  "status": "Sri Lanka Women need 89 runs in 93 balls",
                   "team1": {
                     "teamId": 329,
                     "teamName": "Bangladesh Women",
@@ -616,7 +616,7 @@
                       "inningsId": 2,
                       "runs": 26,
                       "wickets": 2,
-                      "overs": 4.2
+                      "overs": 4.3
                     }
                   }
                 }
@@ -703,7 +703,7 @@
                   "startDate": "1788703200000",
                   "endDate": "1788715800000",
                   "state": "In Progress",
-                  "status": "Jamaica Empress Women need 60 runs in 58 balls",
+                  "status": "Jamaica Empress Women need 54 runs in 57 balls",
                   "team1": {
                     "teamId": 1144,
                     "teamName": "Guyana Amazon Warriors Women",
@@ -742,9 +742,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 79,
+                      "runs": 85,
                       "wickets": 1,
-                      "overs": 10.2
+                      "overs": 10.3
                     }
                   }
                 }
@@ -757,62 +757,6 @@
             "seriesId": 13060,
             "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
             "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 170871,
-                  "seriesId": 13060,
-                  "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
-                  "matchDesc": "3rd place play-off",
-                  "matchFormat": "T20",
-                  "startDate": "1788679800000",
-                  "endDate": "1788692400000",
-                  "state": "Complete",
-                  "status": "Portugal Women won by 8 wkts",
-                  "team1": {
-                    "teamId": 496,
-                    "teamName": "Belgium Women",
-                    "teamSName": "BELW",
-                    "imageId": 776217
-                  },
-                  "team2": {
-                    "teamId": 2380,
-                    "teamName": "Portugal Women",
-                    "teamSName": "PORTW",
-                    "imageId": 625937
-                  },
-                  "venueInfo": {
-                    "id": 941,
-                    "ground": "Scott Page Field, Vinor",
-                    "city": "Prague",
-                    "timezone": "+02:00",
-                    "latitude": "50.0755",
-                    "longitude": "14.4378"
-                  },
-                  "currBatTeamId": 2380,
-                  "seriesStartDt": "1788480000000",
-                  "seriesEndDt": "1788825600000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 106,
-                      "wickets": 10,
-                      "overs": 19.5
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 108,
-                      "wickets": 2,
-                      "overs": 10.2
-                    }
-                  }
-                }
-              },
               {
                 "matchInfo": {
                   "matchId": 170873,
@@ -865,6 +809,62 @@
                       "runs": 71,
                       "wickets": 6,
                       "overs": 12.5
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170871,
+                  "seriesId": 13060,
+                  "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
+                  "matchDesc": "3rd place play-off",
+                  "matchFormat": "T20",
+                  "startDate": "1788679800000",
+                  "endDate": "1788692400000",
+                  "state": "Complete",
+                  "status": "Portugal Women won by 8 wkts",
+                  "team1": {
+                    "teamId": 496,
+                    "teamName": "Belgium Women",
+                    "teamSName": "BELW",
+                    "imageId": 776217
+                  },
+                  "team2": {
+                    "teamId": 2380,
+                    "teamName": "Portugal Women",
+                    "teamSName": "PORTW",
+                    "imageId": 625937
+                  },
+                  "venueInfo": {
+                    "id": 941,
+                    "ground": "Scott Page Field, Vinor",
+                    "city": "Prague",
+                    "timezone": "+02:00",
+                    "latitude": "50.0755",
+                    "longitude": "14.4378"
+                  },
+                  "currBatTeamId": 2380,
+                  "seriesStartDt": "1788480000000",
+                  "seriesEndDt": "1788825600000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 106,
+                      "wickets": 10,
+                      "overs": 19.5
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 108,
+                      "wickets": 2,
+                      "overs": 10.2
                     }
                   }
                 }
@@ -951,5 +951,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788712227"
+  "responseLastUpdated": "1788712273"
 }
