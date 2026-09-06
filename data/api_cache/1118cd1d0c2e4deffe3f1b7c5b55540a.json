@@ -49,8 +49,8 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 39,
-                      "overs": 3.3
+                      "runs": 46,
+                      "overs": 4.5
                     }
                   }
                 }
@@ -78,7 +78,7 @@
                   "startDate": "1788687000000",
                   "endDate": "1788699600000",
                   "state": "In Progress",
-                  "status": "Edinburgh Castle Rockers need 46 runs in 39 balls",
+                  "status": "Edinburgh Castle Rockers need 31 runs in 30 balls",
                   "team1": {
                     "teamId": 575,
                     "teamName": "Glasgow Cosmic",
@@ -117,9 +117,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 114,
+                      "runs": 129,
                       "wickets": 2,
-                      "overs": 13.3
+                      "overs": 14.6
                     }
                   }
                 }
@@ -273,8 +273,8 @@
                   "matchFormat": "ODI",
                   "startDate": "1788658200000",
                   "endDate": "1788687000000",
-                  "state": "Innings Break",
-                  "status": "Innings Break",
+                  "state": "In Progress",
+                  "status": "United Arab Emirates need 152 runs",
                   "team1": {
                     "teamId": 190,
                     "teamName": "Singapore",
@@ -295,11 +295,11 @@
                     "latitude": "2.9348189",
                     "longitude": "101.7823779"
                   },
-                  "currBatTeamId": 190,
+                  "currBatTeamId": 7,
                   "seriesStartDt": "1788048000000",
                   "seriesEndDt": "1789344000000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "Ings Break"
+                  "stateTitle": "In Progress"
                 },
                 "matchScore": {
                   "team1Score": {
@@ -308,6 +308,13 @@
                       "runs": 172,
                       "wickets": 10,
                       "overs": 47.4
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 21,
+                      "overs": 2.1
                     }
                   }
                 }
@@ -321,7 +328,7 @@
                   "matchFormat": "ODI",
                   "startDate": "1788658200000",
                   "endDate": "1788687000000",
-                  "state": "In Progress",
+                  "state": "Complete",
                   "status": "Nepal won by 5 wkts",
                   "team1": {
                     "teamId": 571,
@@ -347,7 +354,7 @@
                   "seriesStartDt": "1788048000000",
                   "seriesEndDt": "1789344000000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "In Progress"
+                  "stateTitle": "Complete"
                 },
                 "matchScore": {
                   "team1Score": {
@@ -467,9 +474,9 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 264,
-                      "wickets": 5,
-                      "overs": 42.5
+                      "runs": 266,
+                      "wickets": 6,
+                      "overs": 43.2
                     }
                   }
                 }
@@ -556,5 +563,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788697019"
+  "responseLastUpdated": "1788697386"
 }
