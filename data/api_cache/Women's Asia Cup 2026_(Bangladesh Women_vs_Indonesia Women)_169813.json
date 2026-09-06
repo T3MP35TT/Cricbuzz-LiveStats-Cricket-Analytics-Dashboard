@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 169813,
+    "seriesId": 12927,
+    "seriesName": "Women's Asia Cup 2026",
+    "matchDesc": "Match 4, Group B",
+    "matchFormat": "T20",
+    "startDate": "1788186600000",
+    "endDate": "1788199200000",
+    "state": "Complete",
+    "status": "Bangladesh Women won by 71 runs",
+    "team1": {
+      "teamId": 329,
+      "teamName": "Bangladesh Women",
+      "teamSName": "BANW",
+      "imageId": 776213
+    },
+    "team2": {
+      "teamId": 484,
+      "teamName": "Indonesia Women",
+      "teamSName": "IDNW",
+      "imageId": 172532
+    },
+    "venueInfo": {
+      "id": 153,
+      "ground": "Dubai International Cricket Stadium",
+      "city": "Dubai",
+      "timezone": "+04:00",
+      "latitude": "25.046842",
+      "longitude": "55.218969"
+    },
+    "currBatTeamId": 329,
+    "seriesStartDt": "1787875200000",
+    "seriesEndDt": "1789430400000",
+    "isTimeAnnounced": true,
+    "stateTitle": "BANW Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 129,
+        "wickets": 8,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 58,
+        "wickets": 10,
+        "overs": 17.3
+      }
+    }
+  }
+}
