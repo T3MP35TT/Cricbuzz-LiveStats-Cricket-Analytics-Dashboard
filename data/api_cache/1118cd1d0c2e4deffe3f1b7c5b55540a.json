@@ -79,62 +79,6 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 169343,
-                  "seriesId": 12870,
-                  "seriesName": "European T20 Premier League 2026",
-                  "matchDesc": "16th Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788687000000",
-                  "endDate": "1788699600000",
-                  "state": "Complete",
-                  "status": "Edinburgh Castle Rockers won by 7 wkts",
-                  "team1": {
-                    "teamId": 575,
-                    "teamName": "Glasgow Cosmic",
-                    "teamSName": "GGC",
-                    "imageId": 1044580
-                  },
-                  "team2": {
-                    "teamId": 574,
-                    "teamName": "Edinburgh Castle Rockers",
-                    "teamSName": "ECR",
-                    "imageId": 1044579
-                  },
-                  "venueInfo": {
-                    "id": 1437791,
-                    "ground": "Sportpark Duivesteijn",
-                    "city": "Voorburg",
-                    "timezone": "+02:00",
-                    "latitude": "52.0848131",
-                    "longitude": "4.3662509"
-                  },
-                  "currBatTeamId": 574,
-                  "seriesStartDt": "1787702400000",
-                  "seriesEndDt": "1790035200000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 159,
-                      "wickets": 6,
-                      "overs": 19.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 163,
-                      "wickets": 3,
-                      "overs": 18.6
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 169347,
                   "seriesId": 12870,
                   "seriesName": "European T20 Premier League 2026",
@@ -185,6 +129,62 @@
                       "runs": 178,
                       "wickets": 2,
                       "overs": 17.4
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 169343,
+                  "seriesId": 12870,
+                  "seriesName": "European T20 Premier League 2026",
+                  "matchDesc": "16th Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788687000000",
+                  "endDate": "1788699600000",
+                  "state": "Complete",
+                  "status": "Edinburgh Castle Rockers won by 7 wkts",
+                  "team1": {
+                    "teamId": 575,
+                    "teamName": "Glasgow Cosmic",
+                    "teamSName": "GGC",
+                    "imageId": 1044580
+                  },
+                  "team2": {
+                    "teamId": 574,
+                    "teamName": "Edinburgh Castle Rockers",
+                    "teamSName": "ECR",
+                    "imageId": 1044579
+                  },
+                  "venueInfo": {
+                    "id": 1437791,
+                    "ground": "Sportpark Duivesteijn",
+                    "city": "Voorburg",
+                    "timezone": "+02:00",
+                    "latitude": "52.0848131",
+                    "longitude": "4.3662509"
+                  },
+                  "currBatTeamId": 574,
+                  "seriesStartDt": "1787702400000",
+                  "seriesEndDt": "1790035200000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 159,
+                      "wickets": 6,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 163,
+                      "wickets": 3,
+                      "overs": 18.6
                     }
                   }
                 }
@@ -703,7 +703,7 @@
                   "startDate": "1788703200000",
                   "endDate": "1788715800000",
                   "state": "In Progress",
-                  "status": "Jamaica Empress Women need 62 runs in 60 balls",
+                  "status": "Jamaica Empress Women need 60 runs in 58 balls",
                   "team1": {
                     "teamId": 1144,
                     "teamName": "Guyana Amazon Warriors Women",
@@ -742,9 +742,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 77,
+                      "runs": 79,
                       "wickets": 1,
-                      "overs": 9.6
+                      "overs": 10.2
                     }
                   }
                 }
@@ -951,5 +951,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788712219"
+  "responseLastUpdated": "1788712227"
 }
