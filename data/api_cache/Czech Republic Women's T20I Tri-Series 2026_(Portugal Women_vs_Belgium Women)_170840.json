@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 170840,
+    "seriesId": 13060,
+    "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
+    "matchDesc": "1st Match",
+    "matchFormat": "T20",
+    "startDate": "1788507000000",
+    "endDate": "1788519600000",
+    "state": "Complete",
+    "status": "Portugal Women won by 52 runs",
+    "team1": {
+      "teamId": 2380,
+      "teamName": "Portugal Women",
+      "teamSName": "PORTW",
+      "imageId": 625937
+    },
+    "team2": {
+      "teamId": 496,
+      "teamName": "Belgium Women",
+      "teamSName": "BELW",
+      "imageId": 776217
+    },
+    "venueInfo": {
+      "id": 941,
+      "ground": "Scott Page Field, Vinor",
+      "city": "Prague",
+      "timezone": "+02:00",
+      "latitude": "50.0755",
+      "longitude": "14.4378"
+    },
+    "currBatTeamId": 2380,
+    "seriesStartDt": "1788480000000",
+    "seriesEndDt": "1788825600000",
+    "isTimeAnnounced": true,
+    "stateTitle": "PORTW Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 157,
+        "wickets": 4,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 105,
+        "wickets": 4,
+        "overs": 19.6
+      }
+    }
+  }
+}
