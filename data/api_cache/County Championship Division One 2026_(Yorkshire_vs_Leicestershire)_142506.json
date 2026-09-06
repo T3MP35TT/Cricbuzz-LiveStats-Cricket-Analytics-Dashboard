@@ -1,0 +1,54 @@
+{
+  "matchInfo": {
+    "matchId": 142506,
+    "seriesId": 11408,
+    "seriesName": "County Championship Division One 2026",
+    "matchDesc": "48th Match",
+    "matchFormat": "TEST",
+    "startDate": "1787824800000",
+    "endDate": "1788109200000",
+    "state": "Complete",
+    "status": "Match drawn",
+    "team1": {
+      "teamId": 146,
+      "teamName": "Yorkshire",
+      "teamSName": "YORKS",
+      "imageId": 172213
+    },
+    "team2": {
+      "teamId": 145,
+      "teamName": "Leicestershire",
+      "teamSName": "LEIC",
+      "imageId": 172212
+    },
+    "venueInfo": {
+      "id": 220,
+      "ground": "North Marine Road Ground",
+      "city": "Scarborough",
+      "timezone": "+01:00",
+      "latitude": "54.288277",
+      "longitude": "-0.40539"
+    },
+    "seriesStartDt": "1775174400000",
+    "seriesEndDt": "1790640000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "Complete"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 263,
+        "wickets": 10,
+        "overs": 76.4
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 84,
+        "overs": 35.3
+      }
+    }
+  }
+}
