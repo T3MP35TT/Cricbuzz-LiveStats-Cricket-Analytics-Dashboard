@@ -184,13 +184,6 @@
           }
         },
         {
-          "ad": {
-            "name": "native_matches",
-            "layout": "native_large",
-            "position": 3
-          }
-        },
-        {
           "seriesAdWrapper": {
             "seriesId": 13073,
             "seriesName": "Sher-E-Punjab T20 League, 2026",
@@ -252,6 +245,13 @@
                 }
               }
             ]
+          }
+        },
+        {
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 4
           }
         }
       ]
@@ -512,62 +512,6 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 170873,
-                  "seriesId": 13060,
-                  "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
-                  "matchDesc": "Final",
-                  "matchFormat": "T20",
-                  "startDate": "1788694200000",
-                  "endDate": "1788706800000",
-                  "state": "Complete",
-                  "status": "Portugal Women won by 4 wkts",
-                  "team1": {
-                    "teamId": 1987,
-                    "teamName": "Czech Republic Women",
-                    "teamSName": "CZEW",
-                    "imageId": 501075
-                  },
-                  "team2": {
-                    "teamId": 2380,
-                    "teamName": "Portugal Women",
-                    "teamSName": "PORTW",
-                    "imageId": 625937
-                  },
-                  "venueInfo": {
-                    "id": 941,
-                    "ground": "Scott Page Field, Vinor",
-                    "city": "Prague",
-                    "timezone": "+02:00",
-                    "latitude": "50.0755",
-                    "longitude": "14.4378"
-                  },
-                  "currBatTeamId": 2380,
-                  "seriesStartDt": "1788480000000",
-                  "seriesEndDt": "1788825600000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 70,
-                      "wickets": 10,
-                      "overs": 14.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 71,
-                      "wickets": 6,
-                      "overs": 12.5
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 170871,
                   "seriesId": 13060,
                   "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
@@ -621,6 +565,62 @@
                     }
                   }
                 }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170873,
+                  "seriesId": 13060,
+                  "seriesName": "Czech Republic Women's T20I Tri-Series 2026",
+                  "matchDesc": "Final",
+                  "matchFormat": "T20",
+                  "startDate": "1788694200000",
+                  "endDate": "1788706800000",
+                  "state": "Complete",
+                  "status": "Portugal Women won by 4 wkts",
+                  "team1": {
+                    "teamId": 1987,
+                    "teamName": "Czech Republic Women",
+                    "teamSName": "CZEW",
+                    "imageId": 501075
+                  },
+                  "team2": {
+                    "teamId": 2380,
+                    "teamName": "Portugal Women",
+                    "teamSName": "PORTW",
+                    "imageId": 625937
+                  },
+                  "venueInfo": {
+                    "id": 941,
+                    "ground": "Scott Page Field, Vinor",
+                    "city": "Prague",
+                    "timezone": "+02:00",
+                    "latitude": "50.0755",
+                    "longitude": "14.4378"
+                  },
+                  "currBatTeamId": 2380,
+                  "seriesStartDt": "1788480000000",
+                  "seriesEndDt": "1788825600000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 70,
+                      "wickets": 10,
+                      "overs": 14.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 71,
+                      "wickets": 6,
+                      "overs": 12.5
+                    }
+                  }
+                }
               }
             ]
           }
@@ -671,7 +671,7 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 144,
+                      "runs": 145,
                       "wickets": 5,
                       "overs": 17.6
                     }
@@ -761,7 +761,7 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788720405",
+  "responseLastUpdated": "1788720420",
   "contentFilters": [
     {
       "filterId": "liveStream",
