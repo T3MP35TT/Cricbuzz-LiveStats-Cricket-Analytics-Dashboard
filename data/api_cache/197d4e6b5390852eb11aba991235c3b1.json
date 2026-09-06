@@ -1,0 +1,108 @@
+{
+  "rank": [
+    {
+      "id": "4",
+      "rank": "1",
+      "name": "Australia",
+      "rating": "126",
+      "matches": "27",
+      "points": "3411",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776202"
+    },
+    {
+      "id": "11",
+      "rank": "2",
+      "name": "South Africa",
+      "rating": "119",
+      "matches": "19",
+      "points": "2256",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776287"
+    },
+    {
+      "id": "13",
+      "rank": "3",
+      "name": "New Zealand",
+      "rating": "106",
+      "matches": "22",
+      "points": "2336",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776333"
+    },
+    {
+      "id": "2",
+      "rank": "4",
+      "name": "India",
+      "rating": "105",
+      "matches": "29",
+      "points": "3042",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776162"
+    },
+    {
+      "id": "9",
+      "rank": "5",
+      "name": "England",
+      "rating": "99",
+      "matches": "32",
+      "points": "3158",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776237"
+    },
+    {
+      "id": "6",
+      "rank": "6",
+      "name": "Bangladesh",
+      "rating": "78",
+      "matches": "24",
+      "points": "1878",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776210"
+    },
+    {
+      "id": "5",
+      "rank": "7",
+      "name": "Sri Lanka",
+      "rating": "75",
+      "matches": "19",
+      "points": "1434",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776254"
+    },
+    {
+      "id": "3",
+      "rank": "8",
+      "name": "Pakistan",
+      "rating": "75",
+      "matches": "19",
+      "points": "1427",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776308"
+    },
+    {
+      "id": "10",
+      "rank": "9",
+      "name": "West Indies",
+      "rating": "74",
+      "matches": "27",
+      "points": "2008",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776191"
+    },
+    {
+      "id": "12",
+      "rank": "10",
+      "name": "Zimbabwe",
+      "rating": "17",
+      "matches": "13",
+      "points": "217",
+      "lastUpdatedOn": "2026-09-06",
+      "imageId": "776198"
+    }
+  ],
+  "appIndex": {
+    "seoTitle": "ICC Cricket Rankings - Top 100 Batter | Cricbuzz.com",
+    "webURL": "www.cricbuzz.com/cricket-stats/icc-rankings"
+  }
+}
