@@ -1,0 +1,68 @@
+{
+  "matchInfo": {
+    "matchId": 142539,
+    "seriesId": 11408,
+    "seriesName": "County Championship Division One 2026",
+    "matchDesc": "51st Match",
+    "matchFormat": "TEST",
+    "startDate": "1788341400000",
+    "endDate": "1788625800000",
+    "state": "Complete",
+    "status": "Sussex won by 47 runs",
+    "team1": {
+      "teamId": 41,
+      "teamName": "Sussex",
+      "teamSName": "SUS",
+      "imageId": 172148
+    },
+    "team2": {
+      "teamId": 152,
+      "teamName": "Essex",
+      "teamSName": "ESS",
+      "imageId": 172219
+    },
+    "venueInfo": {
+      "id": 1438338,
+      "ground": "The Ambassador Cruise Line Ground",
+      "city": "Chelmsford",
+      "timezone": "+01:00",
+      "latitude": "51.73158",
+      "longitude": "0.46842"
+    },
+    "currBatTeamId": 41,
+    "seriesStartDt": "1775174400000",
+    "seriesEndDt": "1790640000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "SUS Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 275,
+        "wickets": 10,
+        "overs": 98.6
+      },
+      "inngs2": {
+        "inningsId": 3,
+        "runs": 230,
+        "wickets": 10,
+        "overs": 50.1
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 177,
+        "wickets": 10,
+        "overs": 58.5
+      },
+      "inngs2": {
+        "inningsId": 4,
+        "runs": 281,
+        "wickets": 10,
+        "overs": 73.3
+      }
+    }
+  }
+}
