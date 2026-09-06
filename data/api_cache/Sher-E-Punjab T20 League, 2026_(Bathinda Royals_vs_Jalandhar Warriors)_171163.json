@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 171163,
+    "seriesId": 13073,
+    "seriesName": "Sher-E-Punjab T20 League, 2026",
+    "matchDesc": "14th Match",
+    "matchFormat": "T20",
+    "startDate": "1788679800000",
+    "endDate": "1788692400000",
+    "state": "Complete",
+    "status": "Bathinda Royals won by 9 runs",
+    "team1": {
+      "teamId": 3571,
+      "teamName": "Bathinda Royals",
+      "teamSName": "BTR",
+      "imageId": 1064855
+    },
+    "team2": {
+      "teamId": 3581,
+      "teamName": "Jalandhar Warriors",
+      "teamSName": "JLW",
+      "imageId": 1064853
+    },
+    "venueInfo": {
+      "id": 46,
+      "ground": "Punjab Cricket Association IS Bindra Stadium",
+      "city": "Mohali",
+      "timezone": "+05:30",
+      "latitude": "30.690905",
+      "longitude": "76.737455"
+    },
+    "currBatTeamId": 3571,
+    "seriesStartDt": "1788048000000",
+    "seriesEndDt": "1789430400000",
+    "isTimeAnnounced": true,
+    "stateTitle": "Complete"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 228,
+        "wickets": 6,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 219,
+        "wickets": 9,
+        "overs": 19.6
+      }
+    }
+  }
+}
