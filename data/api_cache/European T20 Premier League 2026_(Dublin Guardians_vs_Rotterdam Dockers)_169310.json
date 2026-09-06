@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 169310,
+    "seriesId": 12870,
+    "seriesName": "European T20 Premier League 2026",
+    "matchDesc": "10th Match",
+    "matchFormat": "T20",
+    "startDate": "1788341400000",
+    "endDate": "1788354000000",
+    "state": "Complete",
+    "status": "Rotterdam Dockers won by 7 wkts",
+    "team1": {
+      "teamId": 576,
+      "teamName": "Dublin Guardians",
+      "teamSName": "DBG",
+      "imageId": 1061703
+    },
+    "team2": {
+      "teamId": 573,
+      "teamName": "Rotterdam Dockers",
+      "teamSName": "RDD",
+      "imageId": 1044574
+    },
+    "venueInfo": {
+      "id": 1437791,
+      "ground": "Sportpark Duivesteijn",
+      "city": "Voorburg",
+      "timezone": "+02:00",
+      "latitude": "52.0848131",
+      "longitude": "4.3662509"
+    },
+    "currBatTeamId": 573,
+    "seriesStartDt": "1787702400000",
+    "seriesEndDt": "1790035200000",
+    "isTimeAnnounced": true,
+    "stateTitle": "RDD Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 178,
+        "wickets": 4,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 179,
+        "wickets": 3,
+        "overs": 18.4
+      }
+    }
+  }
+}
