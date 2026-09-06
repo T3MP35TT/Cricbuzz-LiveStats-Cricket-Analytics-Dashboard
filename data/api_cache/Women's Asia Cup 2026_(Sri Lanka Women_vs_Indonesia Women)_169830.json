@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 169830,
+    "seriesId": 12927,
+    "seriesName": "Women's Asia Cup 2026",
+    "matchDesc": "Match 6, Group B",
+    "matchFormat": "T20",
+    "startDate": "1788359400000",
+    "endDate": "1788372000000",
+    "state": "Complete",
+    "status": "Sri Lanka Women won by 75 runs",
+    "team1": {
+      "teamId": 258,
+      "teamName": "Sri Lanka Women",
+      "teamSName": "SLW",
+      "imageId": 776267
+    },
+    "team2": {
+      "teamId": 484,
+      "teamName": "Indonesia Women",
+      "teamSName": "IDNW",
+      "imageId": 172532
+    },
+    "venueInfo": {
+      "id": 153,
+      "ground": "Dubai International Cricket Stadium",
+      "city": "Dubai",
+      "timezone": "+04:00",
+      "latitude": "25.046842",
+      "longitude": "55.218969"
+    },
+    "currBatTeamId": 258,
+    "seriesStartDt": "1787875200000",
+    "seriesEndDt": "1789430400000",
+    "isTimeAnnounced": true,
+    "stateTitle": "SLW Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 124,
+        "wickets": 7,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 49,
+        "wickets": 10,
+        "overs": 18.3
+      }
+    }
+  }
+}
