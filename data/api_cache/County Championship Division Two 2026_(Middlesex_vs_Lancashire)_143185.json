@@ -1,0 +1,68 @@
+{
+  "matchInfo": {
+    "matchId": 143185,
+    "seriesId": 11416,
+    "seriesName": "County Championship Division Two 2026",
+    "matchDesc": "44th Match",
+    "matchFormat": "TEST",
+    "startDate": "1788341400000",
+    "endDate": "1788625800000",
+    "state": "Complete",
+    "status": "Middlesex won by 160 runs",
+    "team1": {
+      "teamId": 74,
+      "teamName": "Middlesex",
+      "teamSName": "MDX",
+      "imageId": 172170
+    },
+    "team2": {
+      "teamId": 143,
+      "teamName": "Lancashire",
+      "teamSName": "LANCS",
+      "imageId": 172210
+    },
+    "venueInfo": {
+      "id": 385,
+      "ground": "Merchant Taylors' School Ground",
+      "city": "Northwood",
+      "timezone": "+01:00",
+      "latitude": "51.63656",
+      "longitude": "-0.4275100"
+    },
+    "currBatTeamId": 74,
+    "seriesStartDt": "1775174400000",
+    "seriesEndDt": "1790640000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "MDX Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 247,
+        "wickets": 10,
+        "overs": 68.3
+      },
+      "inngs2": {
+        "inningsId": 3,
+        "runs": 200,
+        "wickets": 10,
+        "overs": 43.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 151,
+        "wickets": 10,
+        "overs": 48.5
+      },
+      "inngs2": {
+        "inningsId": 4,
+        "runs": 136,
+        "wickets": 10,
+        "overs": 43.4
+      }
+    }
+  }
+}
