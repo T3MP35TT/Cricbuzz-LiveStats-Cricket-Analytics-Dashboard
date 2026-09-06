@@ -3,9 +3,9 @@
   "comwrapper": [
     {
       "commentary": {
-        "commtxt": "Bjorn Fortuin to Sikandar Raza, 1 run, sends this to extra cover and scampers across to the other end",
-        "timestamp": 1788705344720,
-        "overnum": 9.1,
+        "commtxt": "Bjorn Fortuin to Kundai Matigimu, no run, drifts in and then turns away, Kundai Matigimu fiddles and is beaten",
+        "timestamp": 1788706501835,
+        "overnum": 13.4,
         "inningsid": 2,
         "eventtype": "NONE",
         "commentaryformats": [
@@ -33,7 +33,7 @@
         "videotype": "",
         "videourl": "",
         "videoid": 0,
-        "ballnbr": 55,
+        "ballnbr": 82,
         "planid": 0,
         "imageid": 0,
         "premiumvideourl": "",
@@ -44,29 +44,11 @@
     },
     {
       "commentary": {
-        "commtxt": "Subrayen to Brad Evans, no run, fires it around off as Brad Evans guides it to short third off the outer part of the bat",
-        "timestamp": 1788705290493,
-        "overnum": 8.6,
+        "commtxt": "Bjorn Fortuin to Brad Evans, 1 run, flatter on the stumps, Brad Evans swipes it to deep square leg for a single",
+        "timestamp": 1788706479638,
+        "overnum": 13.3,
         "inningsid": 2,
-        "eventtype": "over-break",
-        "oversep": {
-          "score": 59,
-          "wickets": 6,
-          "inningsid": 2,
-          "oversummary": "1 1 W 1 1 0 ",
-          "runs": 4,
-          "batstrikerdetails": "15(16)",
-          "batnonstrikerdetails": "1(2)",
-          "bowldetails": "1-9 (2)",
-          "timestamp": 1788705290493,
-          "overnum": 8.6,
-          "ovrbatnames": [],
-          "ovrbowlnames": [],
-          "batstrikername": "Sikandar Raza",
-          "batnonstrikername": "Brad Evans",
-          "bowlname": "Prenelan Subrayen",
-          "battingteamname": "ZIM"
-        },
+        "eventtype": "NONE",
         "commentaryformats": [
           {
             "type": "",
@@ -92,7 +74,158 @@
         "videotype": "",
         "videourl": "",
         "videoid": 0,
-        "ballnbr": 54,
+        "ballnbr": 81,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Bjorn Fortuin to Brad Evans, B0$, he has hit this alright! Plants his knee for the slog sweep and sends it well over deep mid-wicket for a maximum",
+        "timestamp": 1788706449218,
+        "overnum": 13.2,
+        "inningsid": 2,
+        "eventtype": "SIX",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "SIX"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 80,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Bjorn Fortuin to Kundai Matigimu, 1 run, knocks it to the on side and gets a single",
+        "timestamp": 1788706432041,
+        "overnum": 13.1,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 79,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Nqobani Mokoena to Brad Evans, B0$, in his arc and Brad Evans takes a step back and lofts it over extra cover for a boundary",
+        "timestamp": 1788706366781,
+        "overnum": 12.6,
+        "inningsid": 2,
+        "eventtype": "over-break,FOUR",
+        "oversep": {
+          "score": 96,
+          "wickets": 8,
+          "inningsid": 2,
+          "oversummary": "2 1 0 2 1 Wd 4 ",
+          "runs": 11,
+          "batstrikerdetails": "4(4)",
+          "batnonstrikerdetails": "23(13)",
+          "bowldetails": "0-11 (1)",
+          "timestamp": 1788706366781,
+          "overnum": 12.6,
+          "ovrbatnames": [],
+          "ovrbowlnames": [],
+          "batstrikername": "Kundai Matigimu",
+          "batnonstrikername": "Brad Evans",
+          "bowlname": "Nqobani Mokoena",
+          "battingteamname": "ZIM"
+        },
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "FOUR"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 78,
         "planid": 0,
         "imageid": 0,
         "premiumvideourl": "",
@@ -108,91 +241,9 @@
     },
     {
       "commentary": {
-        "commtxt": "Subrayen to Sikandar Raza, 1 run, leans forward for this tossed up delivery and pushes it to cover",
-        "timestamp": 1788705265881,
-        "overnum": 8.5,
-        "inningsid": 2,
-        "eventtype": "NONE",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 53,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "Subrayen to Brad Evans, 1 run, probably some inside edge there! Fires in a yorker as Brad Evans inside edges it onto the boot and takes a single as the ball rolls to backward square leg",
-        "timestamp": 1788705240601,
-        "overnum": 8.4,
-        "inningsid": 2,
-        "eventtype": "NONE",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 52,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "B0$",
-        "timestamp": 1788705176785,
-        "overnum": 0.0,
+        "commtxt": "Nqobani Mokoena to Brad Evans, B0$, this one is way down the leg side, the keeper does well to move to his left and stop the ball",
+        "timestamp": 1788706334394,
+        "overnum": 12.6,
         "inningsid": 2,
         "eventtype": "NONE",
         "commentaryformats": [
@@ -205,7 +256,7 @@
             "value": [
               {
                 "id": "B0$",
-                "value": "Brad Evans, right handed bat, comes to the crease"
+                "value": "wide"
               }
             ]
           },
@@ -225,7 +276,7 @@
         "videotype": "",
         "videourl": "",
         "videoid": 0,
-        "ballnbr": 0,
+        "ballnbr": 78,
         "planid": 0,
         "imageid": 0,
         "premiumvideourl": "",
@@ -236,105 +287,9 @@
     },
     {
       "commentary": {
-        "commtxt": "Subrayen to Tadiwanashe Marumani, B0$ Caught by Jordan Hermann!! Nicely taken by Jordan Hermann! That was anything but an easy catch! It went miles up in the air and was swirling all the way down, but the fielder got underneath it and then had to dive at the last moment to take it just inches above the ground. Prenelan Subrayen bowled this a bit fuller, and Tadiwanashe Marumani miscued it towards extra cover trying to play the big shot. Got it off the toe end and Hermann then did the rest! B1$",
-        "timestamp": 1788705126301,
-        "overnum": 8.3,
-        "inningsid": 2,
-        "eventtype": "WICKET",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "bold",
-            "value": [
-              {
-                "id": "B0$",
-                "value": "out"
-              },
-              {
-                "id": "B1$",
-                "value": "Tadiwanashe Marumani c Jordan Hermann b Subrayen 3(5)"
-              }
-            ]
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 51,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "Subrayen to Tadiwanashe Marumani, B0$ Caught!!",
-        "timestamp": 1788705124656,
-        "overnum": 0.0,
-        "inningsid": 2,
-        "eventtype": "NONE",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "bold",
-            "value": [
-              {
-                "id": "B0$",
-                "value": "THATS OUT!!"
-              }
-            ]
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 0,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "Subrayen to Sikandar Raza, 1 run, very full on the stumps, Sikandar Raza slices the drive square of the wicket",
-        "timestamp": 1788705088032,
-        "overnum": 8.2,
+        "commtxt": "Nqobani Mokoena to Kundai Matigimu, 1 run, direct hit, and Evans was gone for all money! Kundai Matigimu pats it to backward point and takes off for a quick single, but Evans was no where in the frame when the throw came in",
+        "timestamp": 1788706296915,
+        "overnum": 12.5,
         "inningsid": 2,
         "eventtype": "NONE",
         "commentaryformats": [
@@ -362,7 +317,7 @@
         "videotype": "",
         "videourl": "",
         "videoid": 0,
-        "ballnbr": 50,
+        "ballnbr": 77,
         "planid": 0,
         "imageid": 0,
         "premiumvideourl": "",
@@ -373,9 +328,50 @@
     },
     {
       "commentary": {
-        "commtxt": "Subrayen to Tadiwanashe Marumani, 1 run, punches it to off side and collects a single",
-        "timestamp": 1788705062968,
-        "overnum": 8.1,
+        "commtxt": "Nqobani Mokoena to Kundai Matigimu, 2 runs, another drop, but this was a really, really difficult chance! The batter goes for the agricultural heave but miscues it high over mid-on. Jansen runs back and dives forward, but can only get a few fingers to it",
+        "timestamp": 1788706267505,
+        "overnum": 12.4,
+        "inningsid": 2,
+        "eventtype": "DROPPED",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 76,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Nqobani Mokoena to Kundai Matigimu, no run, swing and a miss! The ball comes in with the angle as Kundai Matigimu attempts a big heave, only to meet thin air",
+        "timestamp": 1788706217564,
+        "overnum": 12.3,
         "inningsid": 2,
         "eventtype": "NONE",
         "commentaryformats": [
@@ -403,7 +399,7 @@
         "videotype": "",
         "videourl": "",
         "videoid": 0,
-        "ballnbr": 49,
+        "ballnbr": 75,
         "planid": 0,
         "imageid": 0,
         "premiumvideourl": "",
@@ -414,29 +410,11 @@
     },
     {
       "commentary": {
-        "commtxt": "Bjorn Fortuin to Tadiwanashe Marumani, 1 run, goes on the back foot once again as the ball drifts away, Tadiwanashe Marumani drills it to long off",
-        "timestamp": 1788705002938,
-        "overnum": 7.6,
+        "commtxt": "Nqobani Mokoena to Brad Evans, 1 run, dropped! Brad Evans times it to the right of the bowler, who gets both hands to it but fails to hold on. To be fair, this was hit with some power",
+        "timestamp": 1788706155707,
+        "overnum": 12.2,
         "inningsid": 2,
-        "eventtype": "over-break",
-        "oversep": {
-          "score": 55,
-          "wickets": 5,
-          "inningsid": 2,
-          "oversummary": "1 W 1 1 0 1 ",
-          "runs": 4,
-          "batstrikerdetails": "13(14)",
-          "batnonstrikerdetails": "2(3)",
-          "bowldetails": "1-4 (1)",
-          "timestamp": 1788705002938,
-          "overnum": 7.6,
-          "ovrbatnames": [],
-          "ovrbowlnames": [],
-          "batstrikername": "Sikandar Raza",
-          "batnonstrikername": "Tadiwanashe Marumani",
-          "bowlname": "Bjorn Fortuin",
-          "battingteamname": "ZIM"
-        },
+        "eventtype": "DROPPED",
         "commentaryformats": [
           {
             "type": "",
@@ -462,7 +440,7 @@
         "videotype": "",
         "videourl": "",
         "videoid": 0,
-        "ballnbr": 48,
+        "ballnbr": 74,
         "planid": 0,
         "imageid": 0,
         "premiumvideourl": "",
@@ -474,12 +452,36 @@
   ],
   "miniscore": {
     "batsmanstriker": {
-      "id": 19592,
-      "balls": 2,
-      "runs": 1,
+      "id": 11235,
+      "balls": 6,
+      "runs": 5,
       "fours": 0,
       "sixes": 0,
-      "strkrate": "50",
+      "strkrate": "83.33",
+      "name": "Kundai Matigimu",
+      "nickname": "Kundai Matigimu",
+      "iscaptain": false,
+      "iskeeper": false,
+      "outdec": "",
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "iscbplusfree": false,
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "batsmannonstriker": {
+      "id": 19592,
+      "balls": 15,
+      "runs": 30,
+      "fours": 2,
+      "sixes": 2,
+      "strkrate": "200",
       "name": "Brad Evans",
       "nickname": "Brad Evans",
       "iscaptain": false,
@@ -497,37 +499,13 @@
       "isoverseas": false,
       "playingxichange": ""
     },
-    "batsmannonstriker": {
-      "id": 9354,
-      "balls": 17,
-      "runs": 16,
-      "fours": 0,
-      "sixes": 1,
-      "strkrate": "94.12",
-      "name": "Sikandar Raza",
-      "nickname": "Sikandar Raza",
-      "iscaptain": false,
-      "iskeeper": false,
-      "outdec": "",
-      "videotype": "",
-      "videourl": "",
-      "videoid": 0,
-      "planid": 0,
-      "imageid": 0,
-      "premiumvideourl": "",
-      "iscbplusfree": false,
-      "ispremiumfree": false,
-      "inmatchchange": "",
-      "isoverseas": false,
-      "playingxichange": ""
-    },
     "bowlerstriker": {
       "id": 10676,
-      "overs": "1.1",
+      "overs": "3.4",
       "maidens": 0,
-      "wickets": 1,
-      "runs": 5,
-      "economy": "4.3",
+      "wickets": 3,
+      "runs": 22,
+      "economy": "6",
       "name": "Bjorn Fortuin",
       "nickname": "",
       "iscaptain": false,
@@ -547,13 +525,13 @@
       "playingxichange": ""
     },
     "bowlernonstriker": {
-      "id": 8530,
-      "overs": "2",
+      "id": 53408,
+      "overs": "1",
       "maidens": 0,
-      "wickets": 1,
-      "runs": 9,
-      "economy": "4.5",
-      "name": "Prenelan Subrayen",
+      "wickets": 0,
+      "runs": 11,
+      "economy": "11",
+      "name": "Nqobani Mokoena",
       "nickname": "",
       "iscaptain": false,
       "iskeeper": false,
@@ -571,24 +549,24 @@
       "isoverseas": false,
       "playingxichange": ""
     },
-    "crr": 6.55,
-    "rrr": 13.48,
+    "crr": 7.61,
+    "rrr": 16.11,
     "inningsnbr": "1st inn",
-    "lastwkt": "Tadiwanashe Marumani  c Jordan Hermann b Subrayen 3(5)  - 57/6 in 8.3 ov.",
-    "curovsstats": "1",
+    "lastwkt": "Newman Nyamhuri  c Eathan Bosch b Bjorn Fortuin 7(7)  - 81/8 in 11.3 ov.",
+    "curovsstats": "1 6 1 0",
     "inningsscores": {
       "inningsscore": [
         {
           "inningsid": 2,
           "batteamid": 12,
           "batteamshortname": "ZIM",
-          "runs": 60,
-          "wickets": 6,
-          "overs": 9.1,
+          "runs": 104,
+          "wickets": 8,
+          "overs": 13.4,
           "isdeclared": false,
           "isfollowon": false,
           "target": 206,
-          "balls": 55
+          "balls": 82
         },
         {
           "inningsid": 1,
@@ -607,17 +585,17 @@
     "inningsid": 2,
     "performance": [
       {
-        "runs": 34,
+        "runs": 46,
         "wickets": 2,
         "label": "Last 5 overs"
       },
       {
-        "runs": 14,
-        "wickets": 2,
+        "runs": 35,
+        "wickets": 1,
         "label": "Last 3 overs"
       }
     ],
-    "partnership": "3(4)",
+    "partnership": "23(13)",
     "oversrem": "",
     "pp": {
       "powerplay": [
@@ -638,11 +616,11 @@
     "rrpb": 0.0,
     "responselastupdated": 0,
     "event": "",
-    "timestamp": 1788705344720
+    "timestamp": 1788706501835
   },
   "matchheaders": {
     "state": "In Progress",
-    "status": "Zimbabwe need 146 runs in 65 balls",
+    "status": "Zimbabwe need 102 runs in 38 balls",
     "matchformat": "T20",
     "matchstarttimestamp": 1788696000000,
     "teamdetails": {
@@ -714,7 +692,7 @@
     "weburl": "http://www.cricbuzz.com/live-cricket-scores/170017/rsa-vs-zim-final-namibia-t20i-tri-series-2026"
   },
   "matchvideos": [],
-  "responselastupdated": 1788705367,
+  "responselastupdated": 1788706515,
   "buzz": {
     "imageids": [
       1064841,
