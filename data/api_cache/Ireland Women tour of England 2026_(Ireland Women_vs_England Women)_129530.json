@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 129530,
+    "seriesId": 10548,
+    "seriesName": "Ireland Women tour of England 2026",
+    "matchDesc": "1st ODI",
+    "matchFormat": "ODI",
+    "startDate": "1788264000000",
+    "endDate": "1788292800000",
+    "state": "Complete",
+    "status": "England Women won by 6 wkts",
+    "team1": {
+      "teamId": 189,
+      "teamName": "Ireland Women",
+      "teamSName": "IREW",
+      "imageId": 839468
+    },
+    "team2": {
+      "teamId": 99,
+      "teamName": "England Women",
+      "teamSName": "ENGW",
+      "imageId": 776241
+    },
+    "venueInfo": {
+      "id": 222,
+      "ground": "Grace Road",
+      "city": "Leicester",
+      "timezone": "+01:00",
+      "latitude": "52.607861",
+      "longitude": "-1.142709"
+    },
+    "currBatTeamId": 99,
+    "seriesStartDt": "1788220800000",
+    "seriesEndDt": "1788825600000",
+    "isTimeAnnounced": true,
+    "stateTitle": "ENGW Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 281,
+        "wickets": 5,
+        "overs": 49.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 283,
+        "wickets": 4,
+        "overs": 38.1
+      }
+    }
+  }
+}
