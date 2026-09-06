@@ -1,0 +1,101 @@
+{
+  "headers": [
+    "Rank",
+    "Flag",
+    "Team",
+    "PCT"
+  ],
+  "values": [
+    {
+      "value": [
+        "1",
+        "776202",
+        "Australia",
+        "80.000"
+      ]
+    },
+    {
+      "value": [
+        "2",
+        "776287",
+        "South Africa",
+        "75.000"
+      ]
+    },
+    {
+      "value": [
+        "3",
+        "776333",
+        "New Zealand",
+        "72.220"
+      ]
+    },
+    {
+      "value": [
+        "4",
+        "776210",
+        "Bangladesh",
+        "55.560"
+      ]
+    },
+    {
+      "value": [
+        "5",
+        "776162",
+        "India",
+        "51.520"
+      ]
+    },
+    {
+      "value": [
+        "6",
+        "776237",
+        "England",
+        "34.440"
+      ]
+    },
+    {
+      "value": [
+        "7",
+        "776254",
+        "Sri Lanka",
+        "33.330"
+      ]
+    },
+    {
+      "value": [
+        "8",
+        "776191",
+        "West Indies",
+        "20.830"
+      ]
+    },
+    {
+      "value": [
+        "9",
+        "776308",
+        "Pakistan",
+        "16.670"
+      ]
+    }
+  ],
+  "seasonStandings": [
+    {
+      "id": 15,
+      "name": "World Test Championship (2025-2027) "
+    },
+    {
+      "id": 5,
+      "name": "World Test Championship (2023-2025)"
+    },
+    {
+      "id": 4,
+      "name": "World Test Championship (2021-2023)"
+    },
+    {
+      "id": 3,
+      "name": "World Test Championship (2019-2021)"
+    }
+  ],
+  "subText": "In the WTC 2025-2027, teams will get 12 points for a win, 4 for a draw and 6 for a tie. Points percentage system (PCT) will be used to determine the leaderboard. PCT = Points won by a team / Points contested * 100."
+}
