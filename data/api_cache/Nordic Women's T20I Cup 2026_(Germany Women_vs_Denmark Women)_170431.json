@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 170431,
+    "seriesId": 13003,
+    "seriesName": "Nordic Women's T20I Cup 2026",
+    "matchDesc": "6th Match",
+    "matchFormat": "T20",
+    "startDate": "1788091200000",
+    "endDate": "1788103800000",
+    "state": "Complete",
+    "status": "Germany Women won by 37 runs",
+    "team1": {
+      "teamId": 504,
+      "teamName": "Germany Women",
+      "teamSName": "GERW",
+      "imageId": 776262
+    },
+    "team2": {
+      "teamId": 508,
+      "teamName": "Denmark Women",
+      "teamSName": "DENW",
+      "imageId": 776234
+    },
+    "venueInfo": {
+      "id": 1437730,
+      "ground": "GelsenTrabPark",
+      "city": "Gelsenkirchen",
+      "timezone": "+02:00",
+      "latitude": "51.5048828",
+      "longitude": "7.053373"
+    },
+    "currBatTeamId": 504,
+    "seriesStartDt": "1787875200000",
+    "seriesEndDt": "1788220800000",
+    "isTimeAnnounced": true,
+    "stateTitle": "GERW Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 119,
+        "wickets": 9,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 82,
+        "wickets": 7,
+        "overs": 19.6
+      }
+    }
+  }
+}
