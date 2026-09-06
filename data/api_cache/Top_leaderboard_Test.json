@@ -197,5 +197,206 @@
     }
   },
   "_format": "test",
-  "_updated_at": 1788712044
+  "_updated_at": 1788712046,
+  "bowlers": {
+    "rank": [
+      {
+        "id": "7710",
+        "rank": "1",
+        "name": "Mitchell Starc",
+        "country": "Australia",
+        "rating": "872",
+        "points": "872",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Flat",
+        "faceImageId": "352462",
+        "countryId": "4"
+      },
+      {
+        "id": "9067",
+        "rank": "2",
+        "name": "Matt Henry",
+        "country": "New Zealand",
+        "rating": "861",
+        "difference": 1,
+        "points": "861",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Up",
+        "faceImageId": "845495",
+        "countryId": "13"
+      },
+      {
+        "id": "9311",
+        "rank": "3",
+        "name": "Jasprit Bumrah",
+        "country": "India",
+        "rating": "853",
+        "difference": -1,
+        "points": "853",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Down",
+        "faceImageId": "846037",
+        "countryId": "2"
+      },
+      {
+        "id": "8095",
+        "rank": "4",
+        "name": "Pat Cummins",
+        "country": "Australia",
+        "rating": "841",
+        "points": "841",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Flat",
+        "faceImageId": "352460",
+        "countryId": "4"
+      },
+      {
+        "id": "9531",
+        "rank": "5",
+        "name": "Ollie Robinson",
+        "country": "England",
+        "rating": "831",
+        "difference": 6,
+        "points": "831",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Up",
+        "faceImageId": "240049",
+        "countryId": "9"
+      },
+      {
+        "id": "14565",
+        "rank": "6",
+        "name": "Marco Jansen",
+        "country": "South Africa",
+        "rating": "825",
+        "difference": -1,
+        "points": "825",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Down",
+        "faceImageId": "846113",
+        "countryId": "11"
+      },
+      {
+        "id": "9585",
+        "rank": "7",
+        "name": "Kagiso Rabada",
+        "country": "South Africa",
+        "rating": "807",
+        "difference": -1,
+        "points": "807",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Down",
+        "faceImageId": "846108",
+        "countryId": "11"
+      },
+      {
+        "id": "8631",
+        "rank": "8",
+        "name": "Scott Boland",
+        "country": "Australia",
+        "rating": "804",
+        "difference": -1,
+        "points": "804",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Down",
+        "faceImageId": "332914",
+        "countryId": "4"
+      },
+      {
+        "id": "14545",
+        "rank": "9",
+        "name": "Noman Ali",
+        "country": "Pakistan",
+        "rating": "785",
+        "difference": -1,
+        "points": "785",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Down",
+        "faceImageId": "182026",
+        "countryId": "3"
+      },
+      {
+        "id": "6258",
+        "rank": "10",
+        "name": "Josh Hazlewood",
+        "country": "Australia",
+        "rating": "783",
+        "difference": -1,
+        "points": "783",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Down",
+        "faceImageId": "845819",
+        "countryId": "4"
+      },
+      {
+        "id": "10938",
+        "rank": "11",
+        "name": "Asitha Fernando",
+        "country": "Sri Lanka",
+        "rating": "732",
+        "difference": 4,
+        "points": "732",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Up",
+        "faceImageId": "582352",
+        "countryId": "5"
+      },
+      {
+        "id": "7850",
+        "rank": "12",
+        "name": "Nathan Lyon",
+        "country": "Australia",
+        "rating": "731",
+        "difference": -2,
+        "points": "731",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Down",
+        "faceImageId": "332913",
+        "countryId": "4"
+      },
+      {
+        "id": "9540",
+        "rank": "13",
+        "name": "Simon Harmer",
+        "country": "South Africa",
+        "rating": "721",
+        "difference": -1,
+        "points": "721",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Down",
+        "faceImageId": "157480",
+        "countryId": "11"
+      },
+      {
+        "id": "12747",
+        "rank": "13",
+        "name": "Josh Tongue",
+        "country": "England",
+        "rating": "721",
+        "difference": 4,
+        "points": "721",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Up",
+        "faceImageId": "848540",
+        "countryId": "9"
+      },
+      {
+        "id": "11298",
+        "rank": "15",
+        "name": "Mohammad Abbas",
+        "country": "Pakistan",
+        "rating": "720",
+        "difference": 10,
+        "points": "720",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Up",
+        "faceImageId": "155513",
+        "countryId": "3"
+      }
+    ],
+    "appIndex": {
+      "seoTitle": "ICC Cricket Rankings - Top 100 Batter | Cricbuzz.com",
+      "webURL": "www.cricbuzz.com/cricket-stats/icc-rankings"
+    }
+  }
 }
