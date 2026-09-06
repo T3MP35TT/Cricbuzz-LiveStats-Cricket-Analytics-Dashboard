@@ -1,0 +1,63 @@
+{
+  "matchInfo": {
+    "matchId": 142583,
+    "seriesId": 11408,
+    "seriesName": "County Championship Division One 2026",
+    "matchDesc": "55th Match",
+    "matchFormat": "TEST",
+    "startDate": "1788341400000",
+    "endDate": "1788625800000",
+    "state": "Complete",
+    "status": "Warwickshire won by an innings and 129 runs",
+    "team1": {
+      "teamId": 140,
+      "teamName": "Warwickshire",
+      "teamSName": "WARKS",
+      "imageId": 172207
+    },
+    "team2": {
+      "teamId": 153,
+      "teamName": "Hampshire",
+      "teamSName": "HAM",
+      "imageId": 172220
+    },
+    "venueInfo": {
+      "id": 21,
+      "ground": "The Rose Bowl",
+      "city": "Southampton",
+      "timezone": "+01:00",
+      "latitude": "50.924131",
+      "longitude": "-1.322163"
+    },
+    "currBatTeamId": 140,
+    "seriesStartDt": "1775174400000",
+    "seriesEndDt": "1790640000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "WARKS Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 398,
+        "wickets": 10,
+        "overs": 115.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 115,
+        "wickets": 10,
+        "overs": 38.1
+      },
+      "inngs2": {
+        "inningsId": 3,
+        "runs": 154,
+        "wickets": 10,
+        "overs": 60.3,
+        "isFollowOn": true
+      }
+    }
+  }
+}
