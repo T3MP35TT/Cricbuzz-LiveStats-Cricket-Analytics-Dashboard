@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 161747,
+    "seriesId": 12595,
+    "seriesName": "Womens Caribbean Premier League 2026",
+    "matchDesc": "1st Match",
+    "matchFormat": "T20",
+    "startDate": "1788634800000",
+    "endDate": "1788647400000",
+    "state": "Complete",
+    "status": "Trinbago Knight Riders Women won by 21 runs",
+    "team1": {
+      "teamId": 1139,
+      "teamName": "Trinbago Knight Riders Women",
+      "teamSName": "TKRW",
+      "imageId": 825117
+    },
+    "team2": {
+      "teamId": 1137,
+      "teamName": "Barbados Tridents Women",
+      "teamSName": "BTW",
+      "imageId": 825125
+    },
+    "venueInfo": {
+      "id": 55,
+      "ground": "Kensington Oval",
+      "city": "Bridgetown, Barbados",
+      "timezone": "-04:00",
+      "latitude": "13.105021",
+      "longitude": "-59.62257"
+    },
+    "currBatTeamId": 1139,
+    "seriesStartDt": "1788566400000",
+    "seriesEndDt": "1789776000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "Complete"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 155,
+        "wickets": 10,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 134,
+        "wickets": 10,
+        "overs": 18.4
+      }
+    }
+  }
+}
