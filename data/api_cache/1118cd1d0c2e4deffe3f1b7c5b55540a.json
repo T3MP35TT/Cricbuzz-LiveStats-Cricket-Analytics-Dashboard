@@ -184,13 +184,6 @@
           }
         },
         {
-          "ad": {
-            "name": "native_matches",
-            "layout": "native_large",
-            "position": 3
-          }
-        },
-        {
           "seriesAdWrapper": {
             "seriesId": 13073,
             "seriesName": "Sher-E-Punjab T20 League, 2026",
@@ -313,6 +306,13 @@
                 }
               }
             ]
+          }
+        },
+        {
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 5
           }
         },
         {
@@ -671,9 +671,9 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 150,
+                      "runs": 151,
                       "wickets": 5,
-                      "overs": 18.4
+                      "overs": 18.6
                     }
                   }
                 }
@@ -761,7 +761,7 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788720442",
+  "responseLastUpdated": "1788720445",
   "contentFilters": [
     {
       "filterId": "liveStream",
