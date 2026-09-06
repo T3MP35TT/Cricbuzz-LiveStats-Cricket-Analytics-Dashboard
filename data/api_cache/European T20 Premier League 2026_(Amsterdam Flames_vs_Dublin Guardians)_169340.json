@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 169340,
+    "seriesId": 12870,
+    "seriesName": "European T20 Premier League 2026",
+    "matchDesc": "15th Match",
+    "matchFormat": "T20",
+    "startDate": "1788614100000",
+    "endDate": "1788626700000",
+    "state": "Complete",
+    "status": "Amsterdam Flames won by 9 runs",
+    "team1": {
+      "teamId": 572,
+      "teamName": "Amsterdam Flames",
+      "teamSName": "ADF",
+      "imageId": 1044576
+    },
+    "team2": {
+      "teamId": 576,
+      "teamName": "Dublin Guardians",
+      "teamSName": "DBG",
+      "imageId": 1061703
+    },
+    "venueInfo": {
+      "id": 1437791,
+      "ground": "Sportpark Duivesteijn",
+      "city": "Voorburg",
+      "timezone": "+02:00",
+      "latitude": "52.0848131",
+      "longitude": "4.3662509"
+    },
+    "currBatTeamId": 572,
+    "seriesStartDt": "1787702400000",
+    "seriesEndDt": "1790035200000",
+    "isTimeAnnounced": true,
+    "stateTitle": "ADF Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 169,
+        "wickets": 7,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 160,
+        "wickets": 8,
+        "overs": 19.6
+      }
+    }
+  }
+}
