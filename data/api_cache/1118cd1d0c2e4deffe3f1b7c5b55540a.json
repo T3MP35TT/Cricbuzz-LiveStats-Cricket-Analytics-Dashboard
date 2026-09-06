@@ -87,7 +87,7 @@
                   "startDate": "1788700500000",
                   "endDate": "1788713100000",
                   "state": "In Progress",
-                  "status": "Amsterdam Flames need 83 runs in 60 balls",
+                  "status": "Amsterdam Flames need 67 runs in 48 balls",
                   "team1": {
                     "teamId": 573,
                     "teamName": "Rotterdam Dockers",
@@ -126,9 +126,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 94,
+                      "runs": 110,
                       "wickets": 2,
-                      "overs": 9.6
+                      "overs": 11.6
                     }
                   }
                 }
@@ -207,7 +207,7 @@
                   "startDate": "1788701400000",
                   "endDate": "1788714000000",
                   "state": "In Progress",
-                  "status": "Ludhiana Lions need 123 runs in 87 balls",
+                  "status": "Ludhiana Lions need 121 runs in 85 balls",
                   "team1": {
                     "teamId": 3561,
                     "teamName": "Fazilka Falcons",
@@ -246,9 +246,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 48,
+                      "runs": 50,
                       "wickets": 2,
-                      "overs": 5.3
+                      "overs": 5.5
                     }
                   }
                 }
@@ -387,62 +387,6 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 170307,
-                  "seriesId": 12993,
-                  "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "15th Match, Group A",
-                  "matchFormat": "ODI",
-                  "startDate": "1788658200000",
-                  "endDate": "1788687000000",
-                  "state": "Complete",
-                  "status": "Nepal won by 5 wkts",
-                  "team1": {
-                    "teamId": 571,
-                    "teamName": "Saudi Arabia",
-                    "teamSName": "SAU",
-                    "imageId": 172623
-                  },
-                  "team2": {
-                    "teamId": 72,
-                    "teamName": "Nepal",
-                    "teamSName": "NEP",
-                    "imageId": 776331
-                  },
-                  "venueInfo": {
-                    "id": 394,
-                    "ground": "Bayuemas Oval",
-                    "city": "Kuala Lumpur",
-                    "timezone": "+08:00",
-                    "latitude": "2.819586",
-                    "longitude": "101.5199"
-                  },
-                  "currBatTeamId": 72,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789344000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 190,
-                      "wickets": 10,
-                      "overs": 49.2
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 193,
-                      "wickets": 5,
-                      "overs": 40.6
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 170311,
                   "seriesId": 12993,
                   "seriesName": "ACC Men's Premier Cup, 2026",
@@ -493,6 +437,62 @@
                       "runs": 174,
                       "wickets": 3,
                       "overs": 24.3
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170307,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "15th Match, Group A",
+                  "matchFormat": "ODI",
+                  "startDate": "1788658200000",
+                  "endDate": "1788687000000",
+                  "state": "Complete",
+                  "status": "Nepal won by 5 wkts",
+                  "team1": {
+                    "teamId": 571,
+                    "teamName": "Saudi Arabia",
+                    "teamSName": "SAU",
+                    "imageId": 172623
+                  },
+                  "team2": {
+                    "teamId": 72,
+                    "teamName": "Nepal",
+                    "teamSName": "NEP",
+                    "imageId": 776331
+                  },
+                  "venueInfo": {
+                    "id": 394,
+                    "ground": "Bayuemas Oval",
+                    "city": "Kuala Lumpur",
+                    "timezone": "+08:00",
+                    "latitude": "2.819586",
+                    "longitude": "101.5199"
+                  },
+                  "currBatTeamId": 72,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 190,
+                      "wickets": 10,
+                      "overs": 49.2
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 193,
+                      "wickets": 5,
+                      "overs": 40.6
                     }
                   }
                 }
@@ -630,8 +630,8 @@
                   "matchFormat": "ODI",
                   "startDate": "1788687000000",
                   "endDate": "1788715800000",
-                  "state": "In Progress",
-                  "status": "Ireland Women need 119 runs in 42 balls",
+                  "state": "Complete",
+                  "status": "England Women won by 114 runs",
                   "team1": {
                     "teamId": 99,
                     "teamName": "England Women",
@@ -652,11 +652,11 @@
                     "latitude": "52.189294",
                     "longitude": "-2.2268"
                   },
-                  "currBatTeamId": 189,
+                  "currBatTeamId": 99,
                   "seriesStartDt": "1788220800000",
                   "seriesEndDt": "1788825600000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "In Progress"
+                  "stateTitle": "Complete"
                 },
                 "matchScore": {
                   "team1Score": {
@@ -670,9 +670,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 173,
-                      "wickets": 8,
-                      "overs": 42.6
+                      "runs": 177,
+                      "wickets": 10,
+                      "overs": 44.2
                     }
                   }
                 }
@@ -695,7 +695,7 @@
                   "startDate": "1788703200000",
                   "endDate": "1788715800000",
                   "state": "In Progress",
-                  "status": "Jamaica Empress Women need 106 runs",
+                  "status": "Jamaica Empress Women need 95 runs in 95 balls",
                   "team1": {
                     "teamId": 1144,
                     "teamName": "Guyana Amazon Warriors Women",
@@ -734,8 +734,8 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 33,
-                      "overs": 2.6
+                      "runs": 44,
+                      "overs": 4.1
                     }
                   }
                 }
@@ -942,5 +942,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788710448"
+  "responseLastUpdated": "1788710657"
 }
