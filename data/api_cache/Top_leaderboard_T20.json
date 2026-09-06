@@ -195,5 +195,199 @@
     }
   },
   "_format": "t20",
-  "_updated_at": 1788721317
+  "_updated_at": 1788721319,
+  "bowlers": {
+    "rank": [
+      {
+        "id": "10738",
+        "rank": "1",
+        "name": "Rashid Khan",
+        "country": "Afghanistan",
+        "rating": "753",
+        "points": "753",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Flat",
+        "faceImageId": "845423",
+        "countryId": "96"
+      },
+      {
+        "id": "12555",
+        "rank": "2",
+        "name": "Abrar Ahmed",
+        "country": "Pakistan",
+        "rating": "736",
+        "points": "736",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Flat",
+        "faceImageId": "846068",
+        "countryId": "3"
+      },
+      {
+        "id": "1742",
+        "rank": "3",
+        "name": "Adil Rashid",
+        "country": "England",
+        "rating": "710",
+        "points": "710",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Flat",
+        "faceImageId": "848537",
+        "countryId": "9"
+      },
+      {
+        "id": "8642",
+        "rank": "4",
+        "name": "Adam Zampa",
+        "country": "Australia",
+        "rating": "700",
+        "points": "700",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Flat",
+        "faceImageId": "845772",
+        "countryId": "4"
+      },
+      {
+        "id": "15480",
+        "rank": "5",
+        "name": "Nathan Ellis",
+        "country": "Australia",
+        "rating": "675",
+        "points": "675",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Flat",
+        "faceImageId": "845764",
+        "countryId": "4"
+      },
+      {
+        "id": "10926",
+        "rank": "6",
+        "name": "Wanindu Hasaranga",
+        "country": "Sri Lanka",
+        "rating": "668",
+        "difference": 1,
+        "points": "668",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Up",
+        "faceImageId": "847146",
+        "countryId": "5"
+      },
+      {
+        "id": "12071",
+        "rank": "7",
+        "name": "Mujeeb Ur Rahman",
+        "country": "Afghanistan",
+        "rating": "663",
+        "difference": 1,
+        "points": "663",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Up",
+        "faceImageId": "845427",
+        "countryId": "96"
+      },
+      {
+        "id": "12926",
+        "rank": "7",
+        "name": "Varun Chakaravarthy",
+        "country": "India",
+        "rating": "663",
+        "difference": 1,
+        "points": "663",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Up",
+        "faceImageId": "846040",
+        "countryId": "2"
+      },
+      {
+        "id": "18504",
+        "rank": "9",
+        "name": "Maheesh Theekshana",
+        "country": "Sri Lanka",
+        "rating": "658",
+        "difference": 1,
+        "points": "658",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Up",
+        "faceImageId": "847197",
+        "countryId": "5"
+      },
+      {
+        "id": "8367",
+        "rank": "9",
+        "name": "Mohammad Nawaz",
+        "country": "Pakistan",
+        "rating": "658",
+        "difference": 1,
+        "points": "658",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Up",
+        "faceImageId": "846062",
+        "countryId": "3"
+      },
+      {
+        "id": "9576",
+        "rank": "11",
+        "name": "Corbin Bosch",
+        "country": "South Africa",
+        "rating": "650",
+        "difference": -5,
+        "points": "650",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Down",
+        "faceImageId": "846101",
+        "countryId": "11"
+      },
+      {
+        "id": "8543",
+        "rank": "12",
+        "name": "Nasum Ahmed ",
+        "country": "Bangladesh",
+        "rating": "646",
+        "points": "646",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Flat",
+        "faceImageId": "616467",
+        "countryId": "6"
+      },
+      {
+        "id": "15809",
+        "rank": "12",
+        "name": "Matthew Forde",
+        "country": "West Indies",
+        "rating": "646",
+        "points": "646",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Flat",
+        "faceImageId": "845506",
+        "countryId": "10"
+      },
+      {
+        "id": "14251",
+        "rank": "14",
+        "name": "Dunith Wellalage",
+        "country": "Sri Lanka",
+        "rating": "640",
+        "points": "640",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Flat",
+        "faceImageId": "847184",
+        "countryId": "5"
+      },
+      {
+        "id": "19318",
+        "rank": "15",
+        "name": "Salman Mirza",
+        "country": "Pakistan",
+        "rating": "636",
+        "points": "636",
+        "lastUpdatedOn": "2026-09-06",
+        "trend": "Flat",
+        "faceImageId": "846072",
+        "countryId": "3"
+      }
+    ],
+    "appIndex": {
+      "seoTitle": "ICC Cricket Rankings - Top 100 Batter | Cricbuzz.com",
+      "webURL": "www.cricbuzz.com/cricket-stats/icc-rankings"
+    }
+  }
 }
