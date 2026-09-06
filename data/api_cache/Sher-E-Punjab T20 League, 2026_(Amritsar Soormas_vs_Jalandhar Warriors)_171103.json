@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 171103,
+    "seriesId": 13073,
+    "seriesName": "Sher-E-Punjab T20 League, 2026",
+    "matchDesc": "5th Match",
+    "matchFormat": "T20",
+    "startDate": "1788269400000",
+    "endDate": "1788282000000",
+    "state": "Complete",
+    "status": "Jalandhar Warriors won by 8 wkts",
+    "team1": {
+      "teamId": 3567,
+      "teamName": "Amritsar Soormas",
+      "teamSName": "AMS",
+      "imageId": 1064825
+    },
+    "team2": {
+      "teamId": 3581,
+      "teamName": "Jalandhar Warriors",
+      "teamSName": "JLW",
+      "imageId": 1064853
+    },
+    "venueInfo": {
+      "id": 46,
+      "ground": "Punjab Cricket Association IS Bindra Stadium",
+      "city": "Mohali",
+      "timezone": "+05:30",
+      "latitude": "30.690905",
+      "longitude": "76.737455"
+    },
+    "currBatTeamId": 3581,
+    "seriesStartDt": "1788048000000",
+    "seriesEndDt": "1789430400000",
+    "isTimeAnnounced": true,
+    "stateTitle": "JLW Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 264,
+        "wickets": 5,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 265,
+        "wickets": 2,
+        "overs": 16.5
+      }
+    }
+  }
+}
