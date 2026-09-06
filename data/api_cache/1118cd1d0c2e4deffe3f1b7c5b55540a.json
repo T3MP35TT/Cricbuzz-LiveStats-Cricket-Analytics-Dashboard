@@ -87,7 +87,7 @@
                   "startDate": "1788700500000",
                   "endDate": "1788713100000",
                   "state": "In Progress",
-                  "status": "Amsterdam Flames need 90 runs in 63 balls",
+                  "status": "Amsterdam Flames need 83 runs in 60 balls",
                   "team1": {
                     "teamId": 573,
                     "teamName": "Rotterdam Dockers",
@@ -126,9 +126,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 87,
+                      "runs": 94,
                       "wickets": 2,
-                      "overs": 9.3
+                      "overs": 9.6
                     }
                   }
                 }
@@ -207,7 +207,7 @@
                   "startDate": "1788701400000",
                   "endDate": "1788714000000",
                   "state": "In Progress",
-                  "status": "Ludhiana Lions need 133 runs in 95 balls",
+                  "status": "Ludhiana Lions need 133 runs in 94 balls",
                   "team1": {
                     "teamId": 3561,
                     "teamName": "Fazilka Falcons",
@@ -247,8 +247,8 @@
                     "inngs1": {
                       "inningsId": 2,
                       "runs": 38,
-                      "wickets": 1,
-                      "overs": 4.1
+                      "wickets": 2,
+                      "overs": 4.2
                     }
                   }
                 }
@@ -631,7 +631,7 @@
                   "startDate": "1788687000000",
                   "endDate": "1788715800000",
                   "state": "In Progress",
-                  "status": "Ireland Women need 121 runs in 46 balls",
+                  "status": "Ireland Women need 120 runs in 44 balls",
                   "team1": {
                     "teamId": 99,
                     "teamName": "England Women",
@@ -670,9 +670,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 171,
+                      "runs": 172,
                       "wickets": 8,
-                      "overs": 42.2
+                      "overs": 42.4
                     }
                   }
                 }
@@ -942,5 +942,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788710009"
+  "responseLastUpdated": "1788710070"
 }
