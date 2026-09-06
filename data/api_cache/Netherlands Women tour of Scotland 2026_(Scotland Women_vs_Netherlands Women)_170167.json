@@ -1,0 +1,37 @@
+{
+  "matchInfo": {
+    "matchId": 170167,
+    "seriesId": 12983,
+    "seriesName": "Netherlands Women tour of Scotland 2026",
+    "matchDesc": "2nd ODI",
+    "matchFormat": "ODI",
+    "startDate": "1788084000000",
+    "endDate": "1788112800000",
+    "state": "Complete",
+    "status": "Match Abandoned without toss",
+    "team1": {
+      "teamId": 389,
+      "teamName": "Scotland Women",
+      "teamSName": "SCOW",
+      "imageId": 776283
+    },
+    "team2": {
+      "teamId": 188,
+      "teamName": "Netherlands Women",
+      "teamSName": "NEDW",
+      "imageId": 776337
+    },
+    "venueInfo": {
+      "id": 435,
+      "ground": "New Williamfield No1 Oval",
+      "city": "Stirling",
+      "timezone": "+01:00",
+      "latitude": "56.1207091",
+      "longitude": "-3.911987"
+    },
+    "seriesStartDt": "1787875200000",
+    "seriesEndDt": "1788393600000",
+    "isTimeAnnounced": true,
+    "stateTitle": "Abandon"
+  }
+}
