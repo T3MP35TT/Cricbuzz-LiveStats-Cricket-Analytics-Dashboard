@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 170277,
+    "seriesId": 12993,
+    "seriesName": "ACC Men's Premier Cup, 2026",
+    "matchDesc": "12th Match, Group A",
+    "matchFormat": "ODI",
+    "startDate": "1788485400000",
+    "endDate": "1788514200000",
+    "state": "Complete",
+    "status": "Saudi Arabia won by 17 runs",
+    "team1": {
+      "teamId": 571,
+      "teamName": "Saudi Arabia",
+      "teamSName": "SAU",
+      "imageId": 172623
+    },
+    "team2": {
+      "teamId": 543,
+      "teamName": "Bahrain",
+      "teamSName": "BHR",
+      "imageId": 172594
+    },
+    "venueInfo": {
+      "id": 1853,
+      "ground": "YSD-UKM Cricket Oval",
+      "city": "Bangi",
+      "timezone": "+08:00",
+      "latitude": "2.9348189",
+      "longitude": "101.7823779"
+    },
+    "currBatTeamId": 571,
+    "seriesStartDt": "1788048000000",
+    "seriesEndDt": "1789344000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "SAU Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 221,
+        "wickets": 10,
+        "overs": 48.4
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 204,
+        "wickets": 8,
+        "overs": 49.6
+      }
+    }
+  }
+}
