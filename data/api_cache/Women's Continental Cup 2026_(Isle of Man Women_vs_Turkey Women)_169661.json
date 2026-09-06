@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 169661,
+    "seriesId": 12901,
+    "seriesName": "Women's Continental Cup 2026",
+    "matchDesc": "Final",
+    "matchFormat": "T20",
+    "startDate": "1788084000000",
+    "endDate": "1788096600000",
+    "state": "Complete",
+    "status": "Turkey Women won by 5 wkts",
+    "team1": {
+      "teamId": 1209,
+      "teamName": "Isle of Man Women",
+      "teamSName": "IOMW",
+      "imageId": 248416
+    },
+    "team2": {
+      "teamId": 902,
+      "teamName": "Turkey Women",
+      "teamSName": "TRKW",
+      "imageId": 247209
+    },
+    "venueInfo": {
+      "id": 1696,
+      "ground": "Moara Vlasiei Cricket Ground, Bucharest",
+      "city": "Ilfov County",
+      "timezone": "+03:00",
+      "latitude": "44.309448",
+      "longitude": "26.017920"
+    },
+    "currBatTeamId": 902,
+    "seriesStartDt": "1787702400000",
+    "seriesEndDt": "1788220800000",
+    "isTimeAnnounced": true,
+    "stateTitle": "TRKW Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 117,
+        "wickets": 8,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 118,
+        "wickets": 5,
+        "overs": 14.6
+      }
+    }
+  }
+}
