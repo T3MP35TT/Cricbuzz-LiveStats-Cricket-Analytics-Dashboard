@@ -3,7 +3,377 @@
   "comwrapper": [
     {
       "commentary": {
-        "commtxt": "Subrayen to Tadiwanashe Marumani, 1 run",
+        "commtxt": "Bjorn Fortuin to Sikandar Raza, 1 run, sends this to extra cover and scampers across to the other end",
+        "timestamp": 1788705344720,
+        "overnum": 9.1,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 55,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Subrayen to Brad Evans, no run, fires it around off as Brad Evans guides it to short third off the outer part of the bat",
+        "timestamp": 1788705290493,
+        "overnum": 8.6,
+        "inningsid": 2,
+        "eventtype": "over-break",
+        "oversep": {
+          "score": 59,
+          "wickets": 6,
+          "inningsid": 2,
+          "oversummary": "1 1 W 1 1 0 ",
+          "runs": 4,
+          "batstrikerdetails": "15(16)",
+          "batnonstrikerdetails": "1(2)",
+          "bowldetails": "1-9 (2)",
+          "timestamp": 1788705290493,
+          "overnum": 8.6,
+          "ovrbatnames": [],
+          "ovrbowlnames": [],
+          "batstrikername": "Sikandar Raza",
+          "batnonstrikername": "Brad Evans",
+          "bowlname": "Prenelan Subrayen",
+          "battingteamname": "ZIM"
+        },
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 54,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false,
+        "ad": {
+          "name": "mpu_over_break",
+          "layout": "mpu",
+          "position": 1
+        }
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Subrayen to Sikandar Raza, 1 run, leans forward for this tossed up delivery and pushes it to cover",
+        "timestamp": 1788705265881,
+        "overnum": 8.5,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 53,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Subrayen to Brad Evans, 1 run, probably some inside edge there! Fires in a yorker as Brad Evans inside edges it onto the boot and takes a single as the ball rolls to backward square leg",
+        "timestamp": 1788705240601,
+        "overnum": 8.4,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 52,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "B0$",
+        "timestamp": 1788705176785,
+        "overnum": 0.0,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "Brad Evans, right handed bat, comes to the crease"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Subrayen to Tadiwanashe Marumani, B0$ Caught by Jordan Hermann!! Nicely taken by Jordan Hermann! That was anything but an easy catch! It went miles up in the air and was swirling all the way down, but the fielder got underneath it and then had to dive at the last moment to take it just inches above the ground. Prenelan Subrayen bowled this a bit fuller, and Tadiwanashe Marumani miscued it towards extra cover trying to play the big shot. Got it off the toe end and Hermann then did the rest! B1$",
+        "timestamp": 1788705126301,
+        "overnum": 8.3,
+        "inningsid": 2,
+        "eventtype": "WICKET",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "out"
+              },
+              {
+                "id": "B1$",
+                "value": "Tadiwanashe Marumani c Jordan Hermann b Subrayen 3(5)"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 51,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Subrayen to Tadiwanashe Marumani, B0$ Caught!!",
+        "timestamp": 1788705124656,
+        "overnum": 0.0,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "THATS OUT!!"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Subrayen to Sikandar Raza, 1 run, very full on the stumps, Sikandar Raza slices the drive square of the wicket",
+        "timestamp": 1788705088032,
+        "overnum": 8.2,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 50,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Subrayen to Tadiwanashe Marumani, 1 run, punches it to off side and collects a single",
         "timestamp": 1788705062968,
         "overnum": 8.1,
         "inningsid": 2,
@@ -98,379 +468,42 @@
         "premiumvideourl": "",
         "ispremiumfree": false,
         "batteamscore": 0,
-        "boundarytracker": false,
-        "ad": {
-          "name": "mpu_over_break",
-          "layout": "mpu",
-          "position": 1
-        }
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "Bjorn Fortuin to Tadiwanashe Marumani, no run, too full close to off, Tadiwanashe Marumani squeezes it back to the bowler",
-        "timestamp": 1788704982760,
-        "overnum": 7.5,
-        "inningsid": 2,
-        "eventtype": "NONE",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 47,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "Bjorn Fortuin to Sikandar Raza, 1 run, flatter on the stumps, Sikandar Raza backs away and swats it to the left of cover for a single",
-        "timestamp": 1788704962792,
-        "overnum": 7.4,
-        "inningsid": 2,
-        "eventtype": "NONE",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 46,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "Bjorn Fortuin to Tadiwanashe Marumani, 1 run, rocks back and tucks this shortish delivery to deep mid-wicket to get off the mark",
-        "timestamp": 1788704935625,
-        "overnum": 7.3,
-        "inningsid": 2,
-        "eventtype": "NONE",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 45,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "B0$",
-        "timestamp": 1788704899066,
-        "overnum": 0.0,
-        "inningsid": 2,
-        "eventtype": "NONE",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "bold",
-            "value": [
-              {
-                "id": "B0$",
-                "value": "Tadiwanashe Marumani, left handed bat, comes to the crease"
-              }
-            ]
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 0,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "Bjorn Fortuin to Ryan Burl, B0$ Bowled!! B1$ Fortuin drops this on middle stump from round the wicket and gets plenty of dip. Ryan Burl swings across the line, targeting the deep mid-wicket boundary, but is beaten all ends up. The ball crashes into the middle stump. B2$",
-        "timestamp": 1788704838666,
-        "overnum": 7.2,
-        "inningsid": 2,
-        "eventtype": "WICKET",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "bold",
-            "value": [
-              {
-                "id": "B0$",
-                "value": "out"
-              },
-              {
-                "id": "B1$",
-                "value": "Zimbabwe have now lost half their side, and we are only into the 8th over."
-              },
-              {
-                "id": "B2$",
-                "value": "Ryan Burl b Bjorn Fortuin 13(10) [4s-2]"
-              }
-            ]
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 44,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "Bjorn Fortuin to Ryan Burl, B0$ Bowled!!",
-        "timestamp": 1788704837022,
-        "overnum": 0.0,
-        "inningsid": 2,
-        "eventtype": "NONE",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "bold",
-            "value": [
-              {
-                "id": "B0$",
-                "value": "THATS OUT!!"
-              }
-            ]
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 0,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "Bjorn Fortuin to Sikandar Raza, 1 run, drifts into the stumps, the right-hander drops it to cover with soft hands and takes off for a quick single",
-        "timestamp": 1788704811175,
-        "overnum": 7.1,
-        "inningsid": 2,
-        "eventtype": "NONE",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 43,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "B0$",
-        "timestamp": 1788704785948,
-        "overnum": 0.0,
-        "inningsid": 2,
-        "eventtype": "NONE",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "bold",
-            "value": [
-              {
-                "id": "B0$",
-                "value": "Bjorn Fortuin, Left arm orthodox, comes into the attack"
-              }
-            ]
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 0,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
         "boundarytracker": false
       }
     }
   ],
   "miniscore": {
     "batsmanstriker": {
+      "id": 19592,
+      "balls": 2,
+      "runs": 1,
+      "fours": 0,
+      "sixes": 0,
+      "strkrate": "50",
+      "name": "Brad Evans",
+      "nickname": "Brad Evans",
+      "iscaptain": false,
+      "iskeeper": false,
+      "outdec": "",
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "iscbplusfree": false,
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "batsmannonstriker": {
       "id": 9354,
-      "balls": 14,
-      "runs": 13,
+      "balls": 17,
+      "runs": 16,
       "fours": 0,
       "sixes": 1,
-      "strkrate": "92.86",
+      "strkrate": "94.12",
       "name": "Sikandar Raza",
       "nickname": "Sikandar Raza",
       "iscaptain": false,
@@ -488,62 +521,13 @@
       "isoverseas": false,
       "playingxichange": ""
     },
-    "batsmannonstriker": {
-      "id": 15877,
-      "balls": 4,
-      "runs": 3,
-      "fours": 0,
-      "sixes": 0,
-      "strkrate": "75",
-      "name": "Tadiwanashe Marumani",
-      "nickname": "Tadiwanashe Marumani",
-      "iscaptain": false,
-      "iskeeper": false,
-      "outdec": "",
-      "videotype": "",
-      "videourl": "",
-      "videoid": 0,
-      "planid": 0,
-      "imageid": 0,
-      "premiumvideourl": "",
-      "iscbplusfree": false,
-      "ispremiumfree": false,
-      "inmatchchange": "",
-      "isoverseas": false,
-      "playingxichange": ""
-    },
     "bowlerstriker": {
-      "id": 8530,
+      "id": 10676,
       "overs": "1.1",
       "maidens": 0,
-      "wickets": 0,
-      "runs": 6,
-      "economy": "5.1",
-      "name": "Prenelan Subrayen",
-      "nickname": "",
-      "iscaptain": false,
-      "iskeeper": false,
-      "videotype": "",
-      "videourl": "",
-      "videoid": 0,
-      "dots": 0,
-      "balls": 0,
-      "rpb": 0.0,
-      "planid": 0,
-      "imageid": 0,
-      "premiumvideourl": "",
-      "ispremiumfree": false,
-      "inmatchchange": "",
-      "isoverseas": false,
-      "playingxichange": ""
-    },
-    "bowlernonstriker": {
-      "id": 10676,
-      "overs": "1",
-      "maidens": 0,
       "wickets": 1,
-      "runs": 4,
-      "economy": "4",
+      "runs": 5,
+      "economy": "4.3",
       "name": "Bjorn Fortuin",
       "nickname": "",
       "iscaptain": false,
@@ -562,10 +546,35 @@
       "isoverseas": false,
       "playingxichange": ""
     },
-    "crr": 6.86,
-    "rrr": 12.68,
+    "bowlernonstriker": {
+      "id": 8530,
+      "overs": "2",
+      "maidens": 0,
+      "wickets": 1,
+      "runs": 9,
+      "economy": "4.5",
+      "name": "Prenelan Subrayen",
+      "nickname": "",
+      "iscaptain": false,
+      "iskeeper": false,
+      "videotype": "",
+      "videourl": "",
+      "videoid": 0,
+      "dots": 0,
+      "balls": 0,
+      "rpb": 0.0,
+      "planid": 0,
+      "imageid": 0,
+      "premiumvideourl": "",
+      "ispremiumfree": false,
+      "inmatchchange": "",
+      "isoverseas": false,
+      "playingxichange": ""
+    },
+    "crr": 6.55,
+    "rrr": 13.48,
     "inningsnbr": "1st inn",
-    "lastwkt": "Ryan Burl   b Bjorn Fortuin 13(10)  - 52/5 in 7.2 ov.",
+    "lastwkt": "Tadiwanashe Marumani  c Jordan Hermann b Subrayen 3(5)  - 57/6 in 8.3 ov.",
     "curovsstats": "1",
     "inningsscores": {
       "inningsscore": [
@@ -573,13 +582,13 @@
           "inningsid": 2,
           "batteamid": 12,
           "batteamshortname": "ZIM",
-          "runs": 56,
-          "wickets": 5,
-          "overs": 8.1,
+          "runs": 60,
+          "wickets": 6,
+          "overs": 9.1,
           "isdeclared": false,
           "isfollowon": false,
           "target": 206,
-          "balls": 49
+          "balls": 55
         },
         {
           "inningsid": 1,
@@ -598,17 +607,17 @@
     "inningsid": 2,
     "performance": [
       {
-        "runs": 36,
+        "runs": 34,
         "wickets": 2,
         "label": "Last 5 overs"
       },
       {
-        "runs": 17,
-        "wickets": 1,
+        "runs": 14,
+        "wickets": 2,
         "label": "Last 3 overs"
       }
     ],
-    "partnership": "4(5)",
+    "partnership": "3(4)",
     "oversrem": "",
     "pp": {
       "powerplay": [
@@ -629,11 +638,11 @@
     "rrpb": 0.0,
     "responselastupdated": 0,
     "event": "",
-    "timestamp": 1788705062968
+    "timestamp": 1788705344720
   },
   "matchheaders": {
     "state": "In Progress",
-    "status": "Zimbabwe need 150 runs in 71 balls",
+    "status": "Zimbabwe need 146 runs in 65 balls",
     "matchformat": "T20",
     "matchstarttimestamp": 1788696000000,
     "teamdetails": {
@@ -705,7 +714,7 @@
     "weburl": "http://www.cricbuzz.com/live-cricket-scores/170017/rsa-vs-zim-final-namibia-t20i-tri-series-2026"
   },
   "matchvideos": [],
-  "responselastupdated": 1788705076,
+  "responselastupdated": 1788705361,
   "buzz": {
     "imageids": [
       1064841,
