@@ -1,0 +1,61 @@
+{
+  "matchInfo": {
+    "matchId": 143130,
+    "seriesId": 11416,
+    "seriesName": "County Championship Division Two 2026",
+    "matchDesc": "39th Match",
+    "matchFormat": "TEST",
+    "startDate": "1787824800000",
+    "endDate": "1788109200000",
+    "state": "Complete",
+    "status": "Match drawn",
+    "team1": {
+      "teamId": 143,
+      "teamName": "Lancashire",
+      "teamSName": "LANCS",
+      "imageId": 172210
+    },
+    "team2": {
+      "teamId": 147,
+      "teamName": "Worcestershire",
+      "teamSName": "WORCS",
+      "imageId": 172214
+    },
+    "venueInfo": {
+      "id": 225,
+      "ground": "New Road",
+      "city": "Worcester",
+      "timezone": "+01:00",
+      "latitude": "52.189294",
+      "longitude": "-2.2268"
+    },
+    "seriesStartDt": "1775174400000",
+    "seriesEndDt": "1790640000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "Complete"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 180,
+        "wickets": 10,
+        "overs": 61.2
+      },
+      "inngs2": {
+        "inningsId": 3,
+        "runs": 2,
+        "overs": 1.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 263,
+        "wickets": 7,
+        "overs": 61.6,
+        "isDeclared": true
+      }
+    }
+  }
+}
