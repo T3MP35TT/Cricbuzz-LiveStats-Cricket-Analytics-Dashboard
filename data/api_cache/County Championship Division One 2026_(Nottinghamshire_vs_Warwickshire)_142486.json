@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 142486,
+    "seriesId": 11408,
+    "seriesName": "County Championship Division One 2026",
+    "matchDesc": "46th Match",
+    "matchFormat": "TEST",
+    "startDate": "1787824800000",
+    "endDate": "1788109200000",
+    "state": "Complete",
+    "status": "Match drawn",
+    "team1": {
+      "teamId": 139,
+      "teamName": "Nottinghamshire",
+      "teamSName": "NOTTS",
+      "imageId": 172206
+    },
+    "team2": {
+      "teamId": 140,
+      "teamName": "Warwickshire",
+      "teamSName": "WARKS",
+      "imageId": 172207
+    },
+    "venueInfo": {
+      "id": 20,
+      "ground": "Edgbaston",
+      "city": "Birmingham",
+      "timezone": "+01:00",
+      "latitude": "52.455774",
+      "longitude": "-1.902624"
+    },
+    "seriesStartDt": "1775174400000",
+    "seriesEndDt": "1790640000000",
+    "isTimeAnnounced": true,
+    "stateTitle": "Complete"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 325,
+        "wickets": 8,
+        "overs": 88.1,
+        "isDeclared": true
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 185,
+        "wickets": 10,
+        "overs": 54.1
+      }
+    }
+  }
+}
