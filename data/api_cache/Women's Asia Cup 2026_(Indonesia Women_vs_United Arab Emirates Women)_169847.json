@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 169847,
+    "seriesId": 12927,
+    "seriesName": "Women's Asia Cup 2026",
+    "matchDesc": "Match 8, Group B",
+    "matchFormat": "T20",
+    "startDate": "1788532200000",
+    "endDate": "1788544800000",
+    "state": "Complete",
+    "status": "United Arab Emirates Women won by 6 wkts",
+    "team1": {
+      "teamId": 484,
+      "teamName": "Indonesia Women",
+      "teamSName": "IDNW",
+      "imageId": 172532
+    },
+    "team2": {
+      "teamId": 449,
+      "teamName": "United Arab Emirates Women",
+      "teamSName": "UAEW",
+      "imageId": 776246
+    },
+    "venueInfo": {
+      "id": 153,
+      "ground": "Dubai International Cricket Stadium",
+      "city": "Dubai",
+      "timezone": "+04:00",
+      "latitude": "25.046842",
+      "longitude": "55.218969"
+    },
+    "currBatTeamId": 449,
+    "seriesStartDt": "1787875200000",
+    "seriesEndDt": "1789430400000",
+    "isTimeAnnounced": true,
+    "stateTitle": "UAEW Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 71,
+        "wickets": 10,
+        "overs": 19.4
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 75,
+        "wickets": 4,
+        "overs": 13.1
+      }
+    }
+  }
+}
