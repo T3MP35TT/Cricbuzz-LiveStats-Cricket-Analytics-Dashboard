@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 154573,
+    "seriesId": 12123,
+    "seriesName": "Caribbean Premier League 2026",
+    "matchDesc": "26th Match",
+    "matchFormat": "T20",
+    "startDate": "1788562800000",
+    "endDate": "1788575400000",
+    "state": "Complete",
+    "status": "Guyana Amazon Warriors won by 8 wkts",
+    "team1": {
+      "teamId": 3208,
+      "teamName": "Jamaica Kingsmen",
+      "teamSName": "JKM",
+      "imageId": 943098
+    },
+    "team2": {
+      "teamId": 159,
+      "teamName": "Guyana Amazon Warriors",
+      "teamSName": "GAW",
+      "imageId": 825126
+    },
+    "venueInfo": {
+      "id": 110,
+      "ground": "Providence Stadium",
+      "city": "Guyana",
+      "timezone": "-04:00",
+      "latitude": "41.823872",
+      "longitude": "-71.411987"
+    },
+    "currBatTeamId": 159,
+    "seriesStartDt": "1786060800000",
+    "seriesEndDt": "1790035200000",
+    "isTimeAnnounced": true,
+    "stateTitle": "GAW Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 159,
+        "wickets": 7,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 160,
+        "wickets": 2,
+        "overs": 17.2
+      }
+    }
+  }
+}
