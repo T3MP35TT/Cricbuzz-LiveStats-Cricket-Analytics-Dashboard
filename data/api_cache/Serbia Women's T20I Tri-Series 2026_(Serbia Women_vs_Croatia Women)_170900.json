@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 170900,
+    "seriesId": 13070,
+    "seriesName": "Serbia Women's T20I Tri-Series 2026",
+    "matchDesc": "5th Match",
+    "matchFormat": "T20",
+    "startDate": "1788681600000",
+    "endDate": "1788694200000",
+    "state": "Complete",
+    "status": "Croatia Women won by 7 wkts",
+    "team1": {
+      "teamId": 1789,
+      "teamName": "Serbia Women",
+      "teamSName": "SRBW",
+      "imageId": 349600
+    },
+    "team2": {
+      "teamId": 1994,
+      "teamName": "Croatia Women",
+      "teamSName": "CRTW",
+      "imageId": 501076
+    },
+    "venueInfo": {
+      "id": 950,
+      "ground": "Lisicji Jarak Cricket Ground",
+      "city": "Belgrade",
+      "timezone": "+02:00",
+      "latitude": "44.8125",
+      "longitude": "20.4612"
+    },
+    "currBatTeamId": 1994,
+    "seriesStartDt": "1788480000000",
+    "seriesEndDt": "1788825600000",
+    "isTimeAnnounced": true,
+    "stateTitle": "Complete"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 85,
+        "wickets": 10,
+        "overs": 19.3
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 86,
+        "wickets": 3,
+        "overs": 14.5
+      }
+    }
+  }
+}
