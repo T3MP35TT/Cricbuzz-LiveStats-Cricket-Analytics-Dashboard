@@ -3,9 +3,9 @@
   "comwrapper": [
     {
       "commentary": {
-        "commtxt": "Bjorn Fortuin to Kundai Matigimu, no run, drifts in and then turns away, Kundai Matigimu fiddles and is beaten",
-        "timestamp": 1788706501835,
-        "overnum": 13.4,
+        "commtxt": "Kwena Maphaka to Blessing Muzarabani, no run, greets Blessing Muzarabani with a yorker but the tall man does well to bring his bat down and dig it out",
+        "timestamp": 1788707243379,
+        "overnum": 16.2,
         "inningsid": 2,
         "eventtype": "NONE",
         "commentaryformats": [
@@ -33,7 +33,7 @@
         "videotype": "",
         "videourl": "",
         "videoid": 0,
-        "ballnbr": 82,
+        "ballnbr": 98,
         "planid": 0,
         "imageid": 0,
         "premiumvideourl": "",
@@ -44,52 +44,11 @@
     },
     {
       "commentary": {
-        "commtxt": "Bjorn Fortuin to Brad Evans, 1 run, flatter on the stumps, Brad Evans swipes it to deep square leg for a single",
-        "timestamp": 1788706479638,
-        "overnum": 13.3,
+        "commtxt": "B0$",
+        "timestamp": 1788707185593,
+        "overnum": 0.0,
         "inningsid": 2,
         "eventtype": "NONE",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 81,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "Bjorn Fortuin to Brad Evans, B0$, he has hit this alright! Plants his knee for the slog sweep and sends it well over deep mid-wicket for a maximum",
-        "timestamp": 1788706449218,
-        "overnum": 13.2,
-        "inningsid": 2,
-        "eventtype": "SIX",
         "commentaryformats": [
           {
             "type": "",
@@ -100,7 +59,7 @@
             "value": [
               {
                 "id": "B0$",
-                "value": "SIX"
+                "value": "Blessing Muzarabani, right handed bat, comes to the crease"
               }
             ]
           },
@@ -120,7 +79,7 @@
         "videotype": "",
         "videourl": "",
         "videoid": 0,
-        "ballnbr": 80,
+        "ballnbr": 0,
         "planid": 0,
         "imageid": 0,
         "premiumvideourl": "",
@@ -131,19 +90,28 @@
     },
     {
       "commentary": {
-        "commtxt": "Bjorn Fortuin to Kundai Matigimu, 1 run, knocks it to the on side and gets a single",
-        "timestamp": 1788706432041,
-        "overnum": 13.1,
+        "commtxt": "Kwena Maphaka to Kundai Matigimu, B0$ Caught by Connor Esterhuizen!! The partnership has been broken! Matigimu comes down the track and moves to the leg side, looking to whip this through deep mid-wicket, but gets a top edge that flies high behind the stumps. The keeper backpedals and takes it comfortably. Seems like it was a cutter from Kwena Maphaka. B1$",
+        "timestamp": 1788707147737,
+        "overnum": 16.1,
         "inningsid": 2,
-        "eventtype": "NONE",
+        "eventtype": "WICKET",
         "commentaryformats": [
           {
             "type": "",
             "value": []
           },
           {
-            "type": "",
-            "value": []
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "out"
+              },
+              {
+                "id": "B1$",
+                "value": "Kundai Matigimu c Connor Esterhuizen b Kwena Maphaka 19(11) [6s-2]"
+              }
+            ]
           },
           {
             "type": "",
@@ -161,7 +129,7 @@
         "videotype": "",
         "videourl": "",
         "videoid": 0,
-        "ballnbr": 79,
+        "ballnbr": 97,
         "planid": 0,
         "imageid": 0,
         "premiumvideourl": "",
@@ -172,27 +140,119 @@
     },
     {
       "commentary": {
-        "commtxt": "Nqobani Mokoena to Brad Evans, B0$, in his arc and Brad Evans takes a step back and lofts it over extra cover for a boundary",
-        "timestamp": 1788706366781,
-        "overnum": 12.6,
+        "commtxt": "Kwena Maphaka to Kundai Matigimu, B0$ Caught!!",
+        "timestamp": 1788707145926,
+        "overnum": 0.0,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "THATS OUT!!"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "B0$",
+        "timestamp": 1788707127823,
+        "overnum": 0.0,
+        "inningsid": 2,
+        "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "Kwena Maphaka [1.0-0-8-0] is back into the attack"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 0,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Subrayen to Brad Evans, B0$, B1$ Gets down on his knee and times the sweep over square leg for a boundary. Nicely played",
+        "timestamp": 1788707062561,
+        "overnum": 15.6,
         "inningsid": 2,
         "eventtype": "over-break,FOUR",
         "oversep": {
-          "score": 96,
+          "score": 133,
           "wickets": 8,
           "inningsid": 2,
-          "oversummary": "2 1 0 2 1 Wd 4 ",
-          "runs": 11,
-          "batstrikerdetails": "4(4)",
-          "batnonstrikerdetails": "23(13)",
-          "bowldetails": "0-11 (1)",
-          "timestamp": 1788706366781,
-          "overnum": 12.6,
+          "oversummary": "0 1 6 6 1 4 ",
+          "runs": 18,
+          "batstrikerdetails": "19(10)",
+          "batnonstrikerdetails": "45(25)",
+          "bowldetails": "1-41 (4)",
+          "timestamp": 1788707062561,
+          "overnum": 15.6,
           "ovrbatnames": [],
           "ovrbowlnames": [],
           "batstrikername": "Kundai Matigimu",
           "batnonstrikername": "Brad Evans",
-          "bowlname": "Nqobani Mokoena",
+          "bowlname": "Prenelan Subrayen",
           "battingteamname": "ZIM"
         },
         "commentaryformats": [
@@ -206,6 +266,10 @@
               {
                 "id": "B0$",
                 "value": "FOUR"
+              },
+              {
+                "id": "B1$",
+                "value": "highest T20I score for Brad Evans!"
               }
             ]
           },
@@ -225,7 +289,7 @@
         "videotype": "",
         "videourl": "",
         "videoid": 0,
-        "ballnbr": 78,
+        "ballnbr": 96,
         "planid": 0,
         "imageid": 0,
         "premiumvideourl": "",
@@ -241,11 +305,52 @@
     },
     {
       "commentary": {
-        "commtxt": "Nqobani Mokoena to Brad Evans, B0$, this one is way down the leg side, the keeper does well to move to his left and stop the ball",
-        "timestamp": 1788706334394,
-        "overnum": 12.6,
+        "commtxt": "Subrayen to Kundai Matigimu, 1 run, drills it to long-on for a single and gets to the other end",
+        "timestamp": 1788707030370,
+        "overnum": 15.5,
         "inningsid": 2,
         "eventtype": "NONE",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 95,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Subrayen to Kundai Matigimu, B0$, in the air, and it has cleared the long-on! This was bowled away from him but Kundai Matigimu managed to reach out and smokes it over long-on for B1$",
+        "timestamp": 1788706995743,
+        "overnum": 15.4,
+        "inningsid": 2,
+        "eventtype": "SIX",
         "commentaryformats": [
           {
             "type": "",
@@ -256,7 +361,11 @@
             "value": [
               {
                 "id": "B0$",
-                "value": "wide"
+                "value": "SIX"
+              },
+              {
+                "id": "B1$",
+                "value": "back-to-back sixes"
               }
             ]
           },
@@ -276,7 +385,7 @@
         "videotype": "",
         "videourl": "",
         "videoid": 0,
-        "ballnbr": 78,
+        "ballnbr": 94,
         "planid": 0,
         "imageid": 0,
         "premiumvideourl": "",
@@ -287,9 +396,59 @@
     },
     {
       "commentary": {
-        "commtxt": "Nqobani Mokoena to Kundai Matigimu, 1 run, direct hit, and Evans was gone for all money! Kundai Matigimu pats it to backward point and takes off for a quick single, but Evans was no where in the frame when the throw came in",
-        "timestamp": 1788706296915,
-        "overnum": 12.5,
+        "commtxt": "Subrayen to Kundai Matigimu, B0$, B1$ Sees this flatter delivery in his arc, clears his front leg and heaves it over the leaping fielder at deep mid-wicket for a maximum",
+        "timestamp": 1788706950685,
+        "overnum": 15.3,
+        "inningsid": 2,
+        "eventtype": "SIX",
+        "commentaryformats": [
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "bold",
+            "value": [
+              {
+                "id": "B0$",
+                "value": "SIX"
+              },
+              {
+                "id": "B1$",
+                "value": "Kundai Matigimu gets into the act!"
+              }
+            ]
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          },
+          {
+            "type": "",
+            "value": []
+          }
+        ],
+        "videotype": "",
+        "videourl": "",
+        "videoid": 0,
+        "ballnbr": 93,
+        "planid": 0,
+        "imageid": 0,
+        "premiumvideourl": "",
+        "ispremiumfree": false,
+        "batteamscore": 0,
+        "boundarytracker": false
+      }
+    },
+    {
+      "commentary": {
+        "commtxt": "Subrayen to Brad Evans, 1 run, Brad Evans shuffles across, but Prenelan Subrayen continues to bowl full and wide, can only squeeze it to long off for a single",
+        "timestamp": 1788706911631,
+        "overnum": 15.2,
         "inningsid": 2,
         "eventtype": "NONE",
         "commentaryformats": [
@@ -317,130 +476,7 @@
         "videotype": "",
         "videourl": "",
         "videoid": 0,
-        "ballnbr": 77,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "Nqobani Mokoena to Kundai Matigimu, 2 runs, another drop, but this was a really, really difficult chance! The batter goes for the agricultural heave but miscues it high over mid-on. Jansen runs back and dives forward, but can only get a few fingers to it",
-        "timestamp": 1788706267505,
-        "overnum": 12.4,
-        "inningsid": 2,
-        "eventtype": "DROPPED",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 76,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "Nqobani Mokoena to Kundai Matigimu, no run, swing and a miss! The ball comes in with the angle as Kundai Matigimu attempts a big heave, only to meet thin air",
-        "timestamp": 1788706217564,
-        "overnum": 12.3,
-        "inningsid": 2,
-        "eventtype": "NONE",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 75,
-        "planid": 0,
-        "imageid": 0,
-        "premiumvideourl": "",
-        "ispremiumfree": false,
-        "batteamscore": 0,
-        "boundarytracker": false
-      }
-    },
-    {
-      "commentary": {
-        "commtxt": "Nqobani Mokoena to Brad Evans, 1 run, dropped! Brad Evans times it to the right of the bowler, who gets both hands to it but fails to hold on. To be fair, this was hit with some power",
-        "timestamp": 1788706155707,
-        "overnum": 12.2,
-        "inningsid": 2,
-        "eventtype": "DROPPED",
-        "commentaryformats": [
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          },
-          {
-            "type": "",
-            "value": []
-          }
-        ],
-        "videotype": "",
-        "videourl": "",
-        "videoid": 0,
-        "ballnbr": 74,
+        "ballnbr": 92,
         "planid": 0,
         "imageid": 0,
         "premiumvideourl": "",
@@ -452,14 +488,14 @@
   ],
   "miniscore": {
     "batsmanstriker": {
-      "id": 11235,
-      "balls": 6,
-      "runs": 5,
+      "id": 13316,
+      "balls": 1,
+      "runs": 0,
       "fours": 0,
       "sixes": 0,
-      "strkrate": "83.33",
-      "name": "Kundai Matigimu",
-      "nickname": "Kundai Matigimu",
+      "strkrate": "0",
+      "name": "Blessing Muzarabani",
+      "nickname": "Blessing Muzarabani",
       "iscaptain": false,
       "iskeeper": false,
       "outdec": "",
@@ -477,11 +513,11 @@
     },
     "batsmannonstriker": {
       "id": 19592,
-      "balls": 15,
-      "runs": 30,
-      "fours": 2,
-      "sixes": 2,
-      "strkrate": "200",
+      "balls": 25,
+      "runs": 45,
+      "fours": 3,
+      "sixes": 3,
+      "strkrate": "180",
       "name": "Brad Evans",
       "nickname": "Brad Evans",
       "iscaptain": false,
@@ -500,13 +536,13 @@
       "playingxichange": ""
     },
     "bowlerstriker": {
-      "id": 10676,
-      "overs": "3.4",
+      "id": 23346,
+      "overs": "1.2",
       "maidens": 0,
-      "wickets": 3,
-      "runs": 22,
+      "wickets": 1,
+      "runs": 8,
       "economy": "6",
-      "name": "Bjorn Fortuin",
+      "name": "Kwena Maphaka",
       "nickname": "",
       "iscaptain": false,
       "iskeeper": false,
@@ -525,13 +561,13 @@
       "playingxichange": ""
     },
     "bowlernonstriker": {
-      "id": 53408,
-      "overs": "1",
+      "id": 8530,
+      "overs": "4",
       "maidens": 0,
-      "wickets": 0,
-      "runs": 11,
-      "economy": "11",
-      "name": "Nqobani Mokoena",
+      "wickets": 1,
+      "runs": 41,
+      "economy": "10.2",
+      "name": "Prenelan Subrayen",
       "nickname": "",
       "iscaptain": false,
       "iskeeper": false,
@@ -549,24 +585,24 @@
       "isoverseas": false,
       "playingxichange": ""
     },
-    "crr": 7.61,
-    "rrr": 16.11,
+    "crr": 8.14,
+    "rrr": 19.91,
     "inningsnbr": "1st inn",
-    "lastwkt": "Newman Nyamhuri  c Eathan Bosch b Bjorn Fortuin 7(7)  - 81/8 in 11.3 ov.",
-    "curovsstats": "1 6 1 0",
+    "lastwkt": "Kundai Matigimu  c Connor Esterhuizen b Kwena Maphaka 19(11)  - 133/9 in 16.1 ov.",
+    "curovsstats": "W 0",
     "inningsscores": {
       "inningsscore": [
         {
           "inningsid": 2,
           "batteamid": 12,
           "batteamshortname": "ZIM",
-          "runs": 104,
-          "wickets": 8,
-          "overs": 13.4,
+          "runs": 133,
+          "wickets": 9,
+          "overs": 16.2,
           "isdeclared": false,
           "isfollowon": false,
           "target": 206,
-          "balls": 82
+          "balls": 98
         },
         {
           "inningsid": 1,
@@ -585,17 +621,17 @@
     "inningsid": 2,
     "performance": [
       {
-        "runs": 46,
-        "wickets": 2,
+        "runs": 52,
+        "wickets": 1,
         "label": "Last 5 overs"
       },
       {
-        "runs": 35,
+        "runs": 30,
         "wickets": 1,
         "label": "Last 3 overs"
       }
     ],
-    "partnership": "23(13)",
+    "partnership": "0(1)",
     "oversrem": "",
     "pp": {
       "powerplay": [
@@ -616,11 +652,11 @@
     "rrpb": 0.0,
     "responselastupdated": 0,
     "event": "",
-    "timestamp": 1788706501835
+    "timestamp": 1788707243379
   },
   "matchheaders": {
     "state": "In Progress",
-    "status": "Zimbabwe need 102 runs in 38 balls",
+    "status": "Zimbabwe need 73 runs in 22 balls",
     "matchformat": "T20",
     "matchstarttimestamp": 1788696000000,
     "teamdetails": {
@@ -692,7 +728,7 @@
     "weburl": "http://www.cricbuzz.com/live-cricket-scores/170017/rsa-vs-zim-final-namibia-t20i-tri-series-2026"
   },
   "matchvideos": [],
-  "responselastupdated": 1788706515,
+  "responselastupdated": 1788707266,
   "buzz": {
     "imageids": [
       1064841,
