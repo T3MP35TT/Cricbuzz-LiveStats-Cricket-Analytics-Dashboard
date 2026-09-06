@@ -1,0 +1,542 @@
+{
+  "typeMatches": [
+    {
+      "matchType": "International",
+      "seriesMatches": [
+        {
+          "seriesAdWrapper": {
+            "seriesId": 12933,
+            "seriesName": "Namibia T20I Tri-Series 2026",
+            "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 170017,
+                  "seriesId": 12933,
+                  "seriesName": "Namibia T20I Tri-Series 2026",
+                  "matchDesc": "Final",
+                  "matchFormat": "T20",
+                  "startDate": "1788696000000",
+                  "endDate": "1788708600000",
+                  "state": "Toss",
+                  "status": "South Africa opt to bat",
+                  "team1": {
+                    "teamId": 11,
+                    "teamName": "South Africa",
+                    "teamSName": "RSA",
+                    "imageId": 776287
+                  },
+                  "team2": {
+                    "teamId": 12,
+                    "teamName": "Zimbabwe",
+                    "teamSName": "ZIM",
+                    "imageId": 776198
+                  },
+                  "venueInfo": {
+                    "id": 1438021,
+                    "ground": "Namibia Cricket Ground",
+                    "city": " Windhoek",
+                    "timezone": "+02:00",
+                    "latitude": "-22.5872377",
+                    "longitude": "17.0677249"
+                  },
+                  "seriesStartDt": "1787875200000",
+                  "seriesEndDt": "1788825600000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Toss"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "League",
+      "seriesMatches": [
+        {
+          "seriesAdWrapper": {
+            "seriesId": 12870,
+            "seriesName": "European T20 Premier League 2026",
+            "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 169343,
+                  "seriesId": 12870,
+                  "seriesName": "European T20 Premier League 2026",
+                  "matchDesc": "16th Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788687000000",
+                  "endDate": "1788699600000",
+                  "state": "In Progress",
+                  "status": "Edinburgh Castle Rockers need 85 runs in 64 balls",
+                  "team1": {
+                    "teamId": 575,
+                    "teamName": "Glasgow Cosmic",
+                    "teamSName": "GGC",
+                    "imageId": 1044580
+                  },
+                  "team2": {
+                    "teamId": 574,
+                    "teamName": "Edinburgh Castle Rockers",
+                    "teamSName": "ECR",
+                    "imageId": 1044579
+                  },
+                  "venueInfo": {
+                    "id": 1437791,
+                    "ground": "Sportpark Duivesteijn",
+                    "city": "Voorburg",
+                    "timezone": "+02:00",
+                    "latitude": "52.0848131",
+                    "longitude": "4.3662509"
+                  },
+                  "currBatTeamId": 574,
+                  "seriesStartDt": "1787702400000",
+                  "seriesEndDt": "1790035200000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "In Progress"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 159,
+                      "wickets": 6,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 75,
+                      "wickets": 2,
+                      "overs": 9.2
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "seriesAdWrapper": {
+            "seriesId": 13073,
+            "seriesName": "Sher-E-Punjab T20 League, 2026",
+            "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 171163,
+                  "seriesId": 13073,
+                  "seriesName": "Sher-E-Punjab T20 League, 2026",
+                  "matchDesc": "14th Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788679800000",
+                  "endDate": "1788692400000",
+                  "state": "Complete",
+                  "status": "Bathinda Royals won by 9 runs",
+                  "team1": {
+                    "teamId": 3571,
+                    "teamName": "Bathinda Royals",
+                    "teamSName": "BTR",
+                    "imageId": 1064855
+                  },
+                  "team2": {
+                    "teamId": 3581,
+                    "teamName": "Jalandhar Warriors",
+                    "teamSName": "JLW",
+                    "imageId": 1064853
+                  },
+                  "venueInfo": {
+                    "id": 46,
+                    "ground": "Punjab Cricket Association IS Bindra Stadium",
+                    "city": "Mohali",
+                    "timezone": "+05:30",
+                    "latitude": "30.690905",
+                    "longitude": "76.737455"
+                  },
+                  "currBatTeamId": 3571,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789430400000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 228,
+                      "wickets": 6,
+                      "overs": 19.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 219,
+                      "wickets": 9,
+                      "overs": 19.6
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 3
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Domestic",
+      "seriesMatches": [
+        {
+          "seriesAdWrapper": {
+            "seriesId": 12376,
+            "seriesName": "Duleep Trophy 2026",
+            "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 163061,
+                  "seriesId": 12376,
+                  "seriesName": "Duleep Trophy 2026",
+                  "matchDesc": "Final",
+                  "matchFormat": "TEST",
+                  "startDate": "1788667200000",
+                  "endDate": "1789038000000",
+                  "state": "Stumps",
+                  "status": "Day 1: Stumps",
+                  "team1": {
+                    "teamId": 235,
+                    "teamName": "East Zone",
+                    "teamSName": "EZONE",
+                    "imageId": 172288
+                  },
+                  "team2": {
+                    "teamId": 236,
+                    "teamName": "South Zone",
+                    "teamSName": "SZONE",
+                    "imageId": 172289
+                  },
+                  "venueInfo": {
+                    "id": 11,
+                    "ground": "MA Chidambaram Stadium",
+                    "city": "Chennai",
+                    "timezone": "+05:30",
+                    "latitude": "13.06282",
+                    "longitude": "80.279274"
+                  },
+                  "currBatTeamId": 235,
+                  "seriesStartDt": "1787443200000",
+                  "seriesEndDt": "1789171200000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 385,
+                      "wickets": 4,
+                      "overs": 78.6
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "seriesAdWrapper": {
+            "seriesId": 12993,
+            "seriesName": "ACC Men's Premier Cup, 2026",
+            "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 170307,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "15th Match, Group A",
+                  "matchFormat": "ODI",
+                  "startDate": "1788658200000",
+                  "endDate": "1788687000000",
+                  "state": "Innings Break",
+                  "status": "Innings Break",
+                  "team1": {
+                    "teamId": 571,
+                    "teamName": "Saudi Arabia",
+                    "teamSName": "SAU",
+                    "imageId": 172623
+                  },
+                  "team2": {
+                    "teamId": 72,
+                    "teamName": "Nepal",
+                    "teamSName": "NEP",
+                    "imageId": 776331
+                  },
+                  "venueInfo": {
+                    "id": 394,
+                    "ground": "Bayuemas Oval",
+                    "city": "Kuala Lumpur",
+                    "timezone": "+08:00",
+                    "latitude": "2.819586",
+                    "longitude": "101.5199"
+                  },
+                  "currBatTeamId": 571,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Ings Break"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 190,
+                      "wickets": 10,
+                      "overs": 49.2
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170311,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "16th Match, Group B",
+                  "matchFormat": "ODI",
+                  "startDate": "1788658200000",
+                  "endDate": "1788687000000",
+                  "state": "Innings Break",
+                  "status": "Innings Break",
+                  "team1": {
+                    "teamId": 190,
+                    "teamName": "Singapore",
+                    "teamSName": "SIN",
+                    "imageId": 776275
+                  },
+                  "team2": {
+                    "teamId": 7,
+                    "teamName": "United Arab Emirates",
+                    "teamSName": "UAE",
+                    "imageId": 776242
+                  },
+                  "venueInfo": {
+                    "id": 1853,
+                    "ground": "YSD-UKM Cricket Oval",
+                    "city": "Bangi",
+                    "timezone": "+08:00",
+                    "latitude": "2.9348189",
+                    "longitude": "101.7823779"
+                  },
+                  "currBatTeamId": 190,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Ings Break"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 172,
+                      "wickets": 10,
+                      "overs": 47.4
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "seriesAdWrapper": {
+            "seriesId": 13033,
+            "seriesName": "Bangladesh A tour of South Africa, 2026",
+            "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 170673,
+                  "seriesId": 13033,
+                  "seriesName": "Bangladesh A tour of South Africa, 2026",
+                  "matchDesc": "1st Unofficial ODI",
+                  "matchFormat": "ODI",
+                  "startDate": "1788679800000",
+                  "endDate": "1788708600000",
+                  "state": "Toss",
+                  "status": "South Africa A opt to bowl",
+                  "team1": {
+                    "teamId": 288,
+                    "teamName": "Bangladesh A",
+                    "teamSName": "BANA",
+                    "imageId": 776212
+                  },
+                  "team2": {
+                    "teamId": 268,
+                    "teamName": "South Africa A",
+                    "teamSName": "RSAA",
+                    "imageId": 776296
+                  },
+                  "venueInfo": {
+                    "id": 72,
+                    "ground": "Mangaung Oval",
+                    "city": "Bloemfontein",
+                    "timezone": "+02:00",
+                    "latitude": "-29.116752",
+                    "longitude": "26.20519"
+                  },
+                  "seriesStartDt": "1787443200000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Toss"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "matchType": "Women",
+      "seriesMatches": [
+        {
+          "seriesAdWrapper": {
+            "seriesId": 10548,
+            "seriesName": "Ireland Women tour of England 2026",
+            "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 129546,
+                  "seriesId": 10548,
+                  "seriesName": "Ireland Women tour of England 2026",
+                  "matchDesc": "3rd ODI",
+                  "matchFormat": "ODI",
+                  "startDate": "1788687000000",
+                  "endDate": "1788715800000",
+                  "state": "In Progress",
+                  "status": "Ireland Women opt to bowl",
+                  "team1": {
+                    "teamId": 99,
+                    "teamName": "England Women",
+                    "teamSName": "ENGW",
+                    "imageId": 776241
+                  },
+                  "team2": {
+                    "teamId": 189,
+                    "teamName": "Ireland Women",
+                    "teamSName": "IREW",
+                    "imageId": 839468
+                  },
+                  "venueInfo": {
+                    "id": 225,
+                    "ground": "New Road",
+                    "city": "Worcester",
+                    "timezone": "+01:00",
+                    "latitude": "52.189294",
+                    "longitude": "-2.2268"
+                  },
+                  "currBatTeamId": 99,
+                  "seriesStartDt": "1788220800000",
+                  "seriesEndDt": "1788825600000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "In Progress"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 234,
+                      "wickets": 4,
+                      "overs": 38.4
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "seriesAdWrapper": {
+            "seriesId": 13070,
+            "seriesName": "Serbia Women's T20I Tri-Series 2026",
+            "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 170900,
+                  "seriesId": 13070,
+                  "seriesName": "Serbia Women's T20I Tri-Series 2026",
+                  "matchDesc": "5th Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788681600000",
+                  "endDate": "1788694200000",
+                  "state": "Complete",
+                  "status": "Croatia Women won by 7 wkts",
+                  "team1": {
+                    "teamId": 1789,
+                    "teamName": "Serbia Women",
+                    "teamSName": "SRBW",
+                    "imageId": 349600
+                  },
+                  "team2": {
+                    "teamId": 1994,
+                    "teamName": "Croatia Women",
+                    "teamSName": "CRTW",
+                    "imageId": 501076
+                  },
+                  "venueInfo": {
+                    "id": 950,
+                    "ground": "Lisicji Jarak Cricket Ground",
+                    "city": "Belgrade",
+                    "timezone": "+02:00",
+                    "latitude": "44.8125",
+                    "longitude": "20.4612"
+                  },
+                  "currBatTeamId": 1994,
+                  "seriesStartDt": "1788480000000",
+                  "seriesEndDt": "1788825600000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 85,
+                      "wickets": 10,
+                      "overs": 19.3
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 86,
+                      "wickets": 3,
+                      "overs": 14.5
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "filters": {
+    "matchType": [
+      "International",
+      "League",
+      "Domestic",
+      "Women"
+    ]
+  },
+  "appIndex": {
+    "seoTitle": "Live Cricket Score - Scorecard and Match Results",
+    "webURL": "www.cricbuzz.com/live-cricket-scores/"
+  },
+  "responseLastUpdated": "1788696104"
+}
