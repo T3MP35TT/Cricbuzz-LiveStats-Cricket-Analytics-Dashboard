@@ -1,0 +1,56 @@
+{
+  "matchInfo": {
+    "matchId": 154551,
+    "seriesId": 12123,
+    "seriesName": "Caribbean Premier League 2026",
+    "matchDesc": "24th Match",
+    "matchFormat": "T20",
+    "startDate": "1788390000000",
+    "endDate": "1788402600000",
+    "state": "Complete",
+    "status": "Antigua and Barbuda Falcons won by 8 runs",
+    "team1": {
+      "teamId": 1978,
+      "teamName": "Antigua and Barbuda Falcons",
+      "teamSName": "ABF",
+      "imageId": 825120
+    },
+    "team2": {
+      "teamId": 271,
+      "teamName": "Trinbago Knight Riders",
+      "teamSName": "TKR",
+      "imageId": 825110
+    },
+    "venueInfo": {
+      "id": 54,
+      "ground": "Queen's Park Oval",
+      "city": "Port of Spain, Trinidad",
+      "timezone": "-04:00",
+      "latitude": "10.667461",
+      "longitude": "-61.523717"
+    },
+    "currBatTeamId": 1978,
+    "seriesStartDt": "1786060800000",
+    "seriesEndDt": "1790035200000",
+    "isTimeAnnounced": true,
+    "stateTitle": "ABF Won"
+  },
+  "matchScore": {
+    "team1Score": {
+      "inngs1": {
+        "inningsId": 1,
+        "runs": 183,
+        "wickets": 4,
+        "overs": 19.6
+      }
+    },
+    "team2Score": {
+      "inngs1": {
+        "inningsId": 2,
+        "runs": 175,
+        "wickets": 7,
+        "overs": 19.6
+      }
+    }
+  }
+}
