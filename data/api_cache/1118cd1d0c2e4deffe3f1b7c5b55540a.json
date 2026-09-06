@@ -17,7 +17,7 @@
                   "matchFormat": "T20",
                   "startDate": "1788696000000",
                   "endDate": "1788708600000",
-                  "state": "Toss",
+                  "state": "In Progress",
                   "status": "South Africa opt to bat",
                   "team1": {
                     "teamId": 11,
@@ -39,10 +39,20 @@
                     "latitude": "-22.5872377",
                     "longitude": "17.0677249"
                   },
+                  "currBatTeamId": 11,
                   "seriesStartDt": "1787875200000",
                   "seriesEndDt": "1788825600000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "Toss"
+                  "stateTitle": "In Progress"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 39,
+                      "overs": 3.3
+                    }
+                  }
                 }
               }
             ]
@@ -68,7 +78,7 @@
                   "startDate": "1788687000000",
                   "endDate": "1788699600000",
                   "state": "In Progress",
-                  "status": "Edinburgh Castle Rockers need 85 runs in 64 balls",
+                  "status": "Edinburgh Castle Rockers need 46 runs in 39 balls",
                   "team1": {
                     "teamId": 575,
                     "teamName": "Glasgow Cosmic",
@@ -107,9 +117,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 75,
+                      "runs": 114,
                       "wickets": 2,
-                      "overs": 9.2
+                      "overs": 13.3
                     }
                   }
                 }
@@ -180,13 +190,6 @@
               }
             ]
           }
-        },
-        {
-          "ad": {
-            "name": "native_matches",
-            "layout": "native_large",
-            "position": 3
-          }
         }
       ]
     },
@@ -250,58 +253,17 @@
           }
         },
         {
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 4
+          }
+        },
+        {
           "seriesAdWrapper": {
             "seriesId": 12993,
             "seriesName": "ACC Men's Premier Cup, 2026",
             "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 170307,
-                  "seriesId": 12993,
-                  "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "15th Match, Group A",
-                  "matchFormat": "ODI",
-                  "startDate": "1788658200000",
-                  "endDate": "1788687000000",
-                  "state": "Innings Break",
-                  "status": "Innings Break",
-                  "team1": {
-                    "teamId": 571,
-                    "teamName": "Saudi Arabia",
-                    "teamSName": "SAU",
-                    "imageId": 172623
-                  },
-                  "team2": {
-                    "teamId": 72,
-                    "teamName": "Nepal",
-                    "teamSName": "NEP",
-                    "imageId": 776331
-                  },
-                  "venueInfo": {
-                    "id": 394,
-                    "ground": "Bayuemas Oval",
-                    "city": "Kuala Lumpur",
-                    "timezone": "+08:00",
-                    "latitude": "2.819586",
-                    "longitude": "101.5199"
-                  },
-                  "currBatTeamId": 571,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789344000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Ings Break"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 190,
-                      "wickets": 10,
-                      "overs": 49.2
-                    }
-                  }
-                }
-              },
               {
                 "matchInfo": {
                   "matchId": 170311,
@@ -346,6 +308,62 @@
                       "runs": 172,
                       "wickets": 10,
                       "overs": 47.4
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170307,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "15th Match, Group A",
+                  "matchFormat": "ODI",
+                  "startDate": "1788658200000",
+                  "endDate": "1788687000000",
+                  "state": "In Progress",
+                  "status": "Nepal won by 5 wkts",
+                  "team1": {
+                    "teamId": 571,
+                    "teamName": "Saudi Arabia",
+                    "teamSName": "SAU",
+                    "imageId": 172623
+                  },
+                  "team2": {
+                    "teamId": 72,
+                    "teamName": "Nepal",
+                    "teamSName": "NEP",
+                    "imageId": 776331
+                  },
+                  "venueInfo": {
+                    "id": 394,
+                    "ground": "Bayuemas Oval",
+                    "city": "Kuala Lumpur",
+                    "timezone": "+08:00",
+                    "latitude": "2.819586",
+                    "longitude": "101.5199"
+                  },
+                  "currBatTeamId": 72,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "In Progress"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 190,
+                      "wickets": 10,
+                      "overs": 49.2
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 193,
+                      "wickets": 5,
+                      "overs": 40.6
                     }
                   }
                 }
@@ -449,9 +467,9 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 234,
-                      "wickets": 4,
-                      "overs": 38.4
+                      "runs": 264,
+                      "wickets": 5,
+                      "overs": 42.5
                     }
                   }
                 }
@@ -538,5 +556,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788696104"
+  "responseLastUpdated": "1788697019"
 }
