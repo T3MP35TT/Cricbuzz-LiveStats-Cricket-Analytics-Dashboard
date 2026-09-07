@@ -135,62 +135,6 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 170331,
-                  "seriesId": 12993,
-                  "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "18th Match, Group B",
-                  "matchFormat": "ODI",
-                  "startDate": "1788744600000",
-                  "endDate": "1788773400000",
-                  "state": "Complete",
-                  "status": "Qatar won by 4 wkts",
-                  "team1": {
-                    "teamId": 298,
-                    "teamName": "Kuwait",
-                    "teamSName": "KUW",
-                    "imageId": 776312
-                  },
-                  "team2": {
-                    "teamId": 525,
-                    "teamName": "Qatar",
-                    "teamSName": "QAT",
-                    "imageId": 172575
-                  },
-                  "venueInfo": {
-                    "id": 1853,
-                    "ground": "YSD-UKM Cricket Oval",
-                    "city": "Bangi",
-                    "timezone": "+08:00",
-                    "latitude": "2.9348189",
-                    "longitude": "101.7823779"
-                  },
-                  "currBatTeamId": 525,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789344000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 233,
-                      "wickets": 10,
-                      "overs": 49.5
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 235,
-                      "wickets": 6,
-                      "overs": 35.5
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 170321,
                   "seriesId": 12993,
                   "seriesName": "ACC Men's Premier Cup, 2026",
@@ -244,6 +188,62 @@
                     }
                   }
                 }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170331,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "18th Match, Group B",
+                  "matchFormat": "ODI",
+                  "startDate": "1788744600000",
+                  "endDate": "1788773400000",
+                  "state": "Complete",
+                  "status": "Qatar won by 4 wkts",
+                  "team1": {
+                    "teamId": 298,
+                    "teamName": "Kuwait",
+                    "teamSName": "KUW",
+                    "imageId": 776312
+                  },
+                  "team2": {
+                    "teamId": 525,
+                    "teamName": "Qatar",
+                    "teamSName": "QAT",
+                    "imageId": 172575
+                  },
+                  "venueInfo": {
+                    "id": 1853,
+                    "ground": "YSD-UKM Cricket Oval",
+                    "city": "Bangi",
+                    "timezone": "+08:00",
+                    "latitude": "2.9348189",
+                    "longitude": "101.7823779"
+                  },
+                  "currBatTeamId": 525,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 233,
+                      "wickets": 10,
+                      "overs": 49.5
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 235,
+                      "wickets": 6,
+                      "overs": 35.5
+                    }
+                  }
+                }
               }
             ]
           }
@@ -263,5 +263,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788781035"
+  "responseLastUpdated": "1788783411"
 }
