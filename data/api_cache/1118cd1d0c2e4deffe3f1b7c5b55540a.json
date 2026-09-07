@@ -5,160 +5,31 @@
       "seriesMatches": [
         {
           "seriesAdWrapper": {
-            "seriesId": 12123,
-            "seriesName": "Caribbean Premier League 2026",
-            "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 154595,
-                  "seriesId": 12123,
-                  "seriesName": "Caribbean Premier League 2026",
-                  "matchDesc": "28th Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788721200000",
-                  "endDate": "1788733800000",
-                  "state": "In Progress",
-                  "status": "Guyana Amazon Warriors need 81 runs in 95 balls",
-                  "team1": {
-                    "teamId": 302,
-                    "teamName": "St Kitts and Nevis Patriots",
-                    "teamSName": "SNP",
-                    "imageId": 825128
-                  },
-                  "team2": {
-                    "teamId": 159,
-                    "teamName": "Guyana Amazon Warriors",
-                    "teamSName": "GAW",
-                    "imageId": 825126
-                  },
-                  "venueInfo": {
-                    "id": 110,
-                    "ground": "Providence Stadium",
-                    "city": "Guyana",
-                    "timezone": "-04:00",
-                    "latitude": "41.823872",
-                    "longitude": "-71.411987"
-                  },
-                  "currBatTeamId": 159,
-                  "seriesStartDt": "1786060800000",
-                  "seriesEndDt": "1790035200000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "In Progress"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 128,
-                      "wickets": 10,
-                      "overs": 19.2
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 48,
-                      "overs": 4.1
-                    }
-                  }
-                }
-              }
-            ],
-            "isLiveStreamEnabled": true
-          }
-        },
-        {
-          "seriesAdWrapper": {
-            "seriesId": 12870,
-            "seriesName": "European T20 Premier League 2026",
-            "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 169347,
-                  "seriesId": 12870,
-                  "seriesName": "European T20 Premier League 2026",
-                  "matchDesc": "17th Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788700500000",
-                  "endDate": "1788713100000",
-                  "state": "Complete",
-                  "status": "Amsterdam Flames won by 8 wkts",
-                  "team1": {
-                    "teamId": 573,
-                    "teamName": "Rotterdam Dockers",
-                    "teamSName": "RDD",
-                    "imageId": 1044574
-                  },
-                  "team2": {
-                    "teamId": 572,
-                    "teamName": "Amsterdam Flames",
-                    "teamSName": "ADF",
-                    "imageId": 1044576
-                  },
-                  "venueInfo": {
-                    "id": 1437791,
-                    "ground": "Sportpark Duivesteijn",
-                    "city": "Voorburg",
-                    "timezone": "+02:00",
-                    "latitude": "52.0848131",
-                    "longitude": "4.3662509"
-                  },
-                  "currBatTeamId": 572,
-                  "seriesStartDt": "1787702400000",
-                  "seriesEndDt": "1790035200000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 176,
-                      "wickets": 6,
-                      "overs": 19.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 178,
-                      "wickets": 2,
-                      "overs": 17.4
-                    }
-                  }
-                }
-              }
-            ],
-            "isLiveStreamEnabled": true
-          }
-        },
-        {
-          "seriesAdWrapper": {
             "seriesId": 13073,
             "seriesName": "Sher-E-Punjab T20 League, 2026",
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 171170,
+                  "matchId": 171180,
                   "seriesId": 13073,
                   "seriesName": "Sher-E-Punjab T20 League, 2026",
-                  "matchDesc": "15th Match",
+                  "matchDesc": "16th Match",
                   "matchFormat": "T20",
-                  "startDate": "1788701400000",
-                  "endDate": "1788714000000",
+                  "startDate": "1788766200000",
+                  "endDate": "1788778800000",
                   "state": "Complete",
-                  "status": "Fazilka Falcons won by 1 run",
+                  "status": "Mohali Kings won by 4 wkts",
                   "team1": {
-                    "teamId": 3561,
-                    "teamName": "Fazilka Falcons",
-                    "teamSName": "FZF",
-                    "imageId": 1064854
-                  },
-                  "team2": {
                     "teamId": 3591,
                     "teamName": "Ludhiana Lions",
                     "teamSName": "LDL",
                     "imageId": 1064856
+                  },
+                  "team2": {
+                    "teamId": 3601,
+                    "teamName": "Mohali Kings",
+                    "teamSName": "MHK",
+                    "imageId": 1064857
                   },
                   "venueInfo": {
                     "id": 46,
@@ -168,7 +39,7 @@
                     "latitude": "30.690905",
                     "longitude": "76.737455"
                   },
-                  "currBatTeamId": 3561,
+                  "currBatTeamId": 3601,
                   "seriesStartDt": "1788048000000",
                   "seriesEndDt": "1789430400000",
                   "isTimeAnnounced": true,
@@ -178,16 +49,16 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 170,
-                      "wickets": 9,
+                      "runs": 213,
+                      "wickets": 6,
                       "overs": 19.6
                     }
                   },
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 169,
-                      "wickets": 7,
+                      "runs": 214,
+                      "wickets": 6,
                       "overs": 19.6
                     }
                   }
@@ -216,7 +87,7 @@
                   "startDate": "1788667200000",
                   "endDate": "1789038000000",
                   "state": "Stumps",
-                  "status": "Day 1: Stumps",
+                  "status": "Day 2: Stumps",
                   "team1": {
                     "teamId": 235,
                     "teamName": "East Zone",
@@ -247,215 +118,9 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 385,
-                      "wickets": 4,
-                      "overs": 78.6
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        },
-        {
-          "ad": {
-            "name": "native_matches",
-            "layout": "native_large",
-            "position": 4
-          }
-        }
-      ]
-    },
-    {
-      "matchType": "Women",
-      "seriesMatches": [
-        {
-          "seriesAdWrapper": {
-            "seriesId": 12927,
-            "seriesName": "Women's Asia Cup 2026",
-            "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 169857,
-                  "seriesId": 12927,
-                  "seriesName": "Women's Asia Cup 2026",
-                  "matchDesc": "Match 10, Group B",
-                  "matchFormat": "T20",
-                  "startDate": "1788705000000",
-                  "endDate": "1788717600000",
-                  "state": "Complete",
-                  "status": "Sri Lanka Women won by 4 wkts",
-                  "team1": {
-                    "teamId": 329,
-                    "teamName": "Bangladesh Women",
-                    "teamSName": "BANW",
-                    "imageId": 776213
-                  },
-                  "team2": {
-                    "teamId": 258,
-                    "teamName": "Sri Lanka Women",
-                    "teamSName": "SLW",
-                    "imageId": 776267
-                  },
-                  "venueInfo": {
-                    "id": 153,
-                    "ground": "Dubai International Cricket Stadium",
-                    "city": "Dubai",
-                    "timezone": "+04:00",
-                    "latitude": "25.046842",
-                    "longitude": "55.218969"
-                  },
-                  "currBatTeamId": 258,
-                  "seriesStartDt": "1787875200000",
-                  "seriesEndDt": "1789430400000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 114,
-                      "wickets": 8,
-                      "overs": 19.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 115,
-                      "wickets": 6,
-                      "overs": 19.2
-                    }
-                  }
-                }
-              }
-            ],
-            "isLiveStreamEnabled": true
-          }
-        },
-        {
-          "seriesAdWrapper": {
-            "seriesId": 12595,
-            "seriesName": "Womens Caribbean Premier League 2026",
-            "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 161822,
-                  "seriesId": 12595,
-                  "seriesName": "Womens Caribbean Premier League 2026",
-                  "matchDesc": "2nd Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788703200000",
-                  "endDate": "1788715800000",
-                  "state": "Complete",
-                  "status": "JEW won by 1 wkt  -  2nd innings reduced to 19 overs - DLS Target 132 ",
-                  "team1": {
-                    "teamId": 1144,
-                    "teamName": "Guyana Amazon Warriors Women",
-                    "teamSName": "GAWW",
-                    "imageId": 825127
-                  },
-                  "team2": {
-                    "teamId": 3428,
-                    "teamName": "Jamaica Empress Women",
-                    "teamSName": "JEW",
-                    "imageId": 1005087
-                  },
-                  "venueInfo": {
-                    "id": 55,
-                    "ground": "Kensington Oval",
-                    "city": "Bridgetown, Barbados",
-                    "timezone": "-04:00",
-                    "latitude": "13.105021",
-                    "longitude": "-59.62257"
-                  },
-                  "currBatTeamId": 3428,
-                  "seriesStartDt": "1788566400000",
-                  "seriesEndDt": "1789776000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 138,
-                      "wickets": 7,
-                      "overs": 19.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 136,
-                      "wickets": 9,
-                      "overs": 18.6
-                    }
-                  }
-                }
-              }
-            ],
-            "isLiveStreamEnabled": true
-          }
-        },
-        {
-          "seriesAdWrapper": {
-            "seriesId": 13070,
-            "seriesName": "Serbia Women's T20I Tri-Series 2026",
-            "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 170903,
-                  "seriesId": 13070,
-                  "seriesName": "Serbia Women's T20I Tri-Series 2026",
-                  "matchDesc": "6th Match",
-                  "matchFormat": "T20",
-                  "startDate": "1788696000000",
-                  "endDate": "1788708600000",
-                  "state": "Complete",
-                  "status": "Serbia Women won by 5 wkts",
-                  "team1": {
-                    "teamId": 2201,
-                    "teamName": "Bulgaria Women",
-                    "teamSName": "BGRW",
-                    "imageId": 692936
-                  },
-                  "team2": {
-                    "teamId": 1789,
-                    "teamName": "Serbia Women",
-                    "teamSName": "SRBW",
-                    "imageId": 349600
-                  },
-                  "venueInfo": {
-                    "id": 950,
-                    "ground": "Lisicji Jarak Cricket Ground",
-                    "city": "Belgrade",
-                    "timezone": "+02:00",
-                    "latitude": "44.8125",
-                    "longitude": "20.4612"
-                  },
-                  "currBatTeamId": 1789,
-                  "seriesStartDt": "1788480000000",
-                  "seriesEndDt": "1788825600000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "SRBW Won"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 154,
-                      "wickets": 5,
-                      "overs": 19.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 155,
-                      "wickets": 5,
-                      "overs": 19.6
+                      "runs": 708,
+                      "wickets": 10,
+                      "overs": 162.6
                     }
                   }
                 }
@@ -465,67 +130,122 @@
         },
         {
           "seriesAdWrapper": {
-            "seriesId": 10548,
-            "seriesName": "Ireland Women tour of England 2026",
+            "seriesId": 12993,
+            "seriesName": "ACC Men's Premier Cup, 2026",
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 129546,
-                  "seriesId": 10548,
-                  "seriesName": "Ireland Women tour of England 2026",
-                  "matchDesc": "3rd ODI",
+                  "matchId": 170331,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "18th Match, Group B",
                   "matchFormat": "ODI",
-                  "startDate": "1788687000000",
-                  "endDate": "1788715800000",
+                  "startDate": "1788744600000",
+                  "endDate": "1788773400000",
                   "state": "Complete",
-                  "status": "England Women won by 114 runs",
+                  "status": "Qatar won by 4 wkts",
                   "team1": {
-                    "teamId": 99,
-                    "teamName": "England Women",
-                    "teamSName": "ENGW",
-                    "imageId": 776241
+                    "teamId": 298,
+                    "teamName": "Kuwait",
+                    "teamSName": "KUW",
+                    "imageId": 776312
                   },
                   "team2": {
-                    "teamId": 189,
-                    "teamName": "Ireland Women",
-                    "teamSName": "IREW",
-                    "imageId": 839468
+                    "teamId": 525,
+                    "teamName": "Qatar",
+                    "teamSName": "QAT",
+                    "imageId": 172575
                   },
                   "venueInfo": {
-                    "id": 225,
-                    "ground": "New Road",
-                    "city": "Worcester",
-                    "timezone": "+01:00",
-                    "latitude": "52.189294",
-                    "longitude": "-2.2268"
+                    "id": 1853,
+                    "ground": "YSD-UKM Cricket Oval",
+                    "city": "Bangi",
+                    "timezone": "+08:00",
+                    "latitude": "2.9348189",
+                    "longitude": "101.7823779"
                   },
-                  "currBatTeamId": 99,
-                  "seriesStartDt": "1788220800000",
-                  "seriesEndDt": "1788825600000",
+                  "currBatTeamId": 525,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "ENGW Won"
+                  "stateTitle": "Complete"
                 },
                 "matchScore": {
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 291,
+                      "runs": 233,
                       "wickets": 10,
-                      "overs": 48.5
+                      "overs": 49.5
                     }
                   },
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 177,
+                      "runs": 235,
+                      "wickets": 6,
+                      "overs": 35.5
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170321,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "17th Match, Group A",
+                  "matchFormat": "ODI",
+                  "startDate": "1788744600000",
+                  "endDate": "1788773400000",
+                  "state": "Complete",
+                  "status": "Malaysia won by 126 runs",
+                  "team1": {
+                    "teamId": 71,
+                    "teamName": "Malaysia",
+                    "teamSName": "MLY",
+                    "imageId": 776319
+                  },
+                  "team2": {
+                    "teamId": 543,
+                    "teamName": "Bahrain",
+                    "teamSName": "BHR",
+                    "imageId": 172594
+                  },
+                  "venueInfo": {
+                    "id": 394,
+                    "ground": "Bayuemas Oval",
+                    "city": "Kuala Lumpur",
+                    "timezone": "+08:00",
+                    "latitude": "2.819586",
+                    "longitude": "101.5199"
+                  },
+                  "currBatTeamId": 71,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 254,
+                      "wickets": 8,
+                      "overs": 49.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 128,
                       "wickets": 10,
-                      "overs": 44.2
+                      "overs": 37.5
                     }
                   }
                 }
               }
-            ],
-            "isLiveStreamEnabled": true
+            ]
           }
         }
       ]
@@ -543,11 +263,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788729706",
-  "contentFilters": [
-    {
-      "filterId": "liveStream",
-      "filterName": "Live Streaming"
-    }
-  ]
+  "responseLastUpdated": "1788781035"
 }
