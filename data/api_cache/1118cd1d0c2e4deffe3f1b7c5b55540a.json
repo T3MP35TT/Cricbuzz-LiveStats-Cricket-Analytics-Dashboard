@@ -247,6 +247,13 @@
               }
             ]
           }
+        },
+        {
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 3
+          }
         }
       ]
     }
@@ -263,5 +270,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788855120"
+  "responseLastUpdated": "1788855122"
 }
