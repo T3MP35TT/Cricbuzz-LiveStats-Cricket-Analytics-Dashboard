@@ -119,7 +119,7 @@
                       "inningsId": 2,
                       "runs": 126,
                       "wickets": 3,
-                      "overs": 34.2
+                      "overs": 34.3
                     }
                   }
                 }
@@ -245,13 +245,6 @@
                 }
               }
             ]
-          }
-        },
-        {
-          "ad": {
-            "name": "native_matches",
-            "layout": "native_large",
-            "position": 3
           }
         }
       ]
