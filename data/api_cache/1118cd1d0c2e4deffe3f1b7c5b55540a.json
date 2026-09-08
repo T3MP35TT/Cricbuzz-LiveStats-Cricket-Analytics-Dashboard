@@ -49,8 +49,9 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 3,
-                      "overs": 0.6
+                      "runs": 94,
+                      "wickets": 2,
+                      "overs": 7.3
                     }
                   }
                 }
@@ -78,7 +79,7 @@
                   "startDate": "1788667200000",
                   "endDate": "1789038000000",
                   "state": "In Progress",
-                  "status": "Day 3: 2nd Session - South Zone trail by 582 runs",
+                  "status": "Day 3: 2nd Session - South Zone trail by 565 runs",
                   "team1": {
                     "teamId": 235,
                     "teamName": "East Zone",
@@ -117,9 +118,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 126,
-                      "wickets": 3,
-                      "overs": 34.3
+                      "runs": 143,
+                      "wickets": 4,
+                      "overs": 41.4
                     }
                   }
                 }
@@ -134,62 +135,6 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 170351,
-                  "seriesId": 12993,
-                  "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "20th Match, Group B",
-                  "matchFormat": "ODI",
-                  "startDate": "1788831000000",
-                  "endDate": "1788859800000",
-                  "state": "In Progress",
-                  "status": "Oman need 90 runs",
-                  "team1": {
-                    "teamId": 7,
-                    "teamName": "United Arab Emirates",
-                    "teamSName": "UAE",
-                    "imageId": 776242
-                  },
-                  "team2": {
-                    "teamId": 304,
-                    "teamName": "Oman",
-                    "teamSName": "OMAN",
-                    "imageId": 776328
-                  },
-                  "venueInfo": {
-                    "id": 1853,
-                    "ground": "YSD-UKM Cricket Oval",
-                    "city": "Bangi",
-                    "timezone": "+08:00",
-                    "latitude": "2.9348189",
-                    "longitude": "101.7823779"
-                  },
-                  "currBatTeamId": 304,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789344000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "In Progress"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 192,
-                      "wickets": 10,
-                      "overs": 48.1
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 103,
-                      "wickets": 6,
-                      "overs": 21.6
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 170341,
                   "seriesId": 12993,
                   "seriesName": "ACC Men's Premier Cup, 2026",
@@ -198,7 +143,7 @@
                   "startDate": "1788831000000",
                   "endDate": "1788859800000",
                   "state": "In Progress",
-                  "status": "Nepal need 169 runs",
+                  "status": "Nepal need 115 runs in 90 balls",
                   "team1": {
                     "teamId": 8,
                     "teamName": "Hong Kong, China",
@@ -237,9 +182,65 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 93,
-                      "wickets": 4,
-                      "overs": 24.6
+                      "runs": 147,
+                      "wickets": 5,
+                      "overs": 34.6
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170351,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "20th Match, Group B",
+                  "matchFormat": "ODI",
+                  "startDate": "1788831000000",
+                  "endDate": "1788859800000",
+                  "state": "In Progress",
+                  "status": "Oman need 58 runs",
+                  "team1": {
+                    "teamId": 7,
+                    "teamName": "United Arab Emirates",
+                    "teamSName": "UAE",
+                    "imageId": 776242
+                  },
+                  "team2": {
+                    "teamId": 304,
+                    "teamName": "Oman",
+                    "teamSName": "OMAN",
+                    "imageId": 776328
+                  },
+                  "venueInfo": {
+                    "id": 1853,
+                    "ground": "YSD-UKM Cricket Oval",
+                    "city": "Bangi",
+                    "timezone": "+08:00",
+                    "latitude": "2.9348189",
+                    "longitude": "101.7823779"
+                  },
+                  "currBatTeamId": 304,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "In Progress"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 192,
+                      "wickets": 10,
+                      "overs": 48.1
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 135,
+                      "wickets": 8,
+                      "overs": 32.5
                     }
                   }
                 }
@@ -269,5 +270,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788853044"
+  "responseLastUpdated": "1788855094"
 }
