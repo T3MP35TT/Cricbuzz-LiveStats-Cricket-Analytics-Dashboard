@@ -290,7 +290,7 @@ with st.sidebar:
             "Real-time match data through the Cricbuzz API."
         )
 
-        st.markdown("📊 **Player Analytics**")
+        st.markdown("📊 **Cricket Rankings & Fantasy**")
         st.caption(
             "Rankings, ratings, points, and player performance."
         )
@@ -398,7 +398,7 @@ with st.container(border=True):
 ├── pages/
 │   ├── 1_Home.py
 │   ├── 2_Live_Matches.py
-│   ├── 3_Top_Player_Stats.py
+│   ├── 3_Cricket_Rankings_&_Fantasy.py
 │   ├── 4_SQL_Queries_Analytics.py
 │   └── 5_CRUD_Operations.py
 ├── utils/
