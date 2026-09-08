@@ -506,7 +506,7 @@ with st.container(border=True):
         """
         - 🏠 **Home** — project overview and key metrics
         - 🔴 **Live Matches** — follow live cricket scores and match updates
-        - 🏆 **Top Player Stats** — explore batting and bowling leaderboards
+        - 🏆 **Cricket Rankings & Fantasy** — explore batting and bowling leaderboards
         - 🧠 **SQL Queries & Analytics** — explore all 25 cricket analytics questions
         - 🛠️ **CRUD Operations** — add, edit and manage player records
         """
