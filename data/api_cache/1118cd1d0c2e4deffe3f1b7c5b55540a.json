@@ -143,7 +143,7 @@
                   "startDate": "1788831000000",
                   "endDate": "1788859800000",
                   "state": "In Progress",
-                  "status": "Nepal need 115 runs in 90 balls",
+                  "status": "Nepal need 113 runs in 89 balls",
                   "team1": {
                     "teamId": 8,
                     "teamName": "Hong Kong, China",
@@ -182,9 +182,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 147,
+                      "runs": 149,
                       "wickets": 5,
-                      "overs": 34.6
+                      "overs": 35.1
                     }
                   }
                 }
@@ -270,5 +270,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788855094"
+  "responseLastUpdated": "1788855099"
 }
