@@ -1,6 +1,56 @@
 {
   "typeMatches": [
     {
+      "matchType": "International",
+      "seriesMatches": [
+        {
+          "seriesAdWrapper": {
+            "seriesId": 13121,
+            "seriesName": "Africa Continental Cup 2026",
+            "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 171491,
+                  "seriesId": 13121,
+                  "seriesName": "Africa Continental Cup 2026",
+                  "matchDesc": "1st Match",
+                  "matchFormat": "T20",
+                  "startDate": "1788852600000",
+                  "endDate": "1788865200000",
+                  "state": "Toss",
+                  "status": "Botswana opt to bowl",
+                  "team1": {
+                    "teamId": 569,
+                    "teamName": "Rwanda",
+                    "teamSName": "RWA",
+                    "imageId": 172621
+                  },
+                  "team2": {
+                    "teamId": 529,
+                    "teamName": "Botswana",
+                    "teamSName": "BW",
+                    "imageId": 776225
+                  },
+                  "venueInfo": {
+                    "id": 1437955,
+                    "ground": "Gahanga B Ground",
+                    "city": "Kigali City",
+                    "timezone": "+02:00",
+                    "latitude": "-2.0290307",
+                    "longitude": "30.1034024"
+                  },
+                  "seriesStartDt": "1788825600000",
+                  "seriesEndDt": "1789948800000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Toss"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "matchType": "League",
       "seriesMatches": [
         {
@@ -49,9 +99,9 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 97,
-                      "wickets": 2,
-                      "overs": 7.6
+                      "runs": 273,
+                      "wickets": 5,
+                      "overs": 19.2
                     }
                   }
                 }
@@ -78,8 +128,8 @@
                   "matchFormat": "TEST",
                   "startDate": "1788667200000",
                   "endDate": "1789038000000",
-                  "state": "In Progress",
-                  "status": "Day 3: 2nd Session - South Zone trail by 565 runs",
+                  "state": "Tea",
+                  "status": "Day 3: Tea Break - South Zone trail by 532 runs",
                   "team1": {
                     "teamId": 235,
                     "teamName": "East Zone",
@@ -104,7 +154,7 @@
                   "seriesStartDt": "1787443200000",
                   "seriesEndDt": "1789171200000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "In Progress"
+                  "stateTitle": "Tea"
                 },
                 "matchScore": {
                   "team1Score": {
@@ -118,11 +168,174 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 143,
-                      "wickets": 4,
-                      "overs": 41.4
+                      "runs": 176,
+                      "wickets": 5,
+                      "overs": 55.6
                     }
                   }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 3
+          }
+        },
+        {
+          "seriesAdWrapper": {
+            "seriesId": 11408,
+            "seriesName": "County Championship Division One 2026",
+            "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 142605,
+                  "seriesId": 11408,
+                  "seriesName": "County Championship Division One 2026",
+                  "matchDesc": "57th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Toss",
+                  "status": "Yorkshire opt to bat",
+                  "team1": {
+                    "teamId": 146,
+                    "teamName": "Yorkshire",
+                    "teamSName": "YORKS",
+                    "imageId": 172213
+                  },
+                  "team2": {
+                    "teamId": 152,
+                    "teamName": "Essex",
+                    "teamSName": "ESS",
+                    "imageId": 172219
+                  },
+                  "venueInfo": {
+                    "id": 66,
+                    "ground": "Headingley",
+                    "city": "Leeds",
+                    "timezone": "+01:00",
+                    "latitude": "53.817622",
+                    "longitude": "-1.58211"
+                  },
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Toss"
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 142616,
+                  "seriesId": 11408,
+                  "seriesName": "County Championship Division One 2026",
+                  "matchDesc": "58th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Delay",
+                  "status": "Day 1: Toss delayed due to rain",
+                  "team1": {
+                    "teamId": 149,
+                    "teamName": "Glamorgan",
+                    "teamSName": "GLAM",
+                    "imageId": 172216
+                  },
+                  "team2": {
+                    "teamId": 140,
+                    "teamName": "Warwickshire",
+                    "teamSName": "WARKS",
+                    "imageId": 172207
+                  },
+                  "venueInfo": {
+                    "id": 62,
+                    "ground": "Sophia Gardens",
+                    "city": "Cardiff",
+                    "timezone": "+01:00",
+                    "latitude": "51.484257",
+                    "longitude": "-3.189187"
+                  },
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Delay"
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 142594,
+                  "seriesId": 11408,
+                  "seriesName": "County Championship Division One 2026",
+                  "matchDesc": "56th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Toss",
+                  "status": "Hampshire opt to bowl",
+                  "team1": {
+                    "teamId": 139,
+                    "teamName": "Nottinghamshire",
+                    "teamSName": "NOTTS",
+                    "imageId": 172206
+                  },
+                  "team2": {
+                    "teamId": 153,
+                    "teamName": "Hampshire",
+                    "teamSName": "HAM",
+                    "imageId": 172220
+                  },
+                  "venueInfo": {
+                    "id": 18,
+                    "ground": "Trent Bridge",
+                    "city": "Nottingham",
+                    "timezone": "+01:00",
+                    "latitude": "52.936884",
+                    "longitude": "-1.132230"
+                  },
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Toss"
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 142618,
+                  "seriesId": 11408,
+                  "seriesName": "County Championship Division One 2026",
+                  "matchDesc": "59th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Delay",
+                  "status": "Day 1: Toss delayed due to rain\n",
+                  "team1": {
+                    "teamId": 41,
+                    "teamName": "Sussex",
+                    "teamSName": "SUS",
+                    "imageId": 172148
+                  },
+                  "team2": {
+                    "teamId": 148,
+                    "teamName": "Surrey",
+                    "teamSName": "SUR",
+                    "imageId": 172215
+                  },
+                  "venueInfo": {
+                    "id": 292,
+                    "ground": "County Ground",
+                    "city": "Hove",
+                    "timezone": "+01:00",
+                    "latitude": "50.830995",
+                    "longitude": "-0.163522"
+                  },
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Delay"
                 }
               }
             ]
@@ -142,8 +355,8 @@
                   "matchFormat": "ODI",
                   "startDate": "1788831000000",
                   "endDate": "1788859800000",
-                  "state": "In Progress",
-                  "status": "Oman need 58 runs",
+                  "state": "Complete",
+                  "status": "United Arab Emirates won by 49 runs",
                   "team1": {
                     "teamId": 7,
                     "teamName": "United Arab Emirates",
@@ -164,11 +377,11 @@
                     "latitude": "2.9348189",
                     "longitude": "101.7823779"
                   },
-                  "currBatTeamId": 304,
+                  "currBatTeamId": 7,
                   "seriesStartDt": "1788048000000",
                   "seriesEndDt": "1789344000000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "In Progress"
+                  "stateTitle": "Complete"
                 },
                 "matchScore": {
                   "team1Score": {
@@ -182,9 +395,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 135,
-                      "wickets": 8,
-                      "overs": 32.5
+                      "runs": 143,
+                      "wickets": 10,
+                      "overs": 34.5
                     }
                   }
                 }
@@ -198,8 +411,8 @@
                   "matchFormat": "ODI",
                   "startDate": "1788831000000",
                   "endDate": "1788859800000",
-                  "state": "In Progress",
-                  "status": "Nepal need 109 runs in 78 balls",
+                  "state": "Complete",
+                  "status": "Hong Kong, China won by 15 runs",
                   "team1": {
                     "teamId": 8,
                     "teamName": "Hong Kong, China",
@@ -220,11 +433,11 @@
                     "latitude": "2.819586",
                     "longitude": "101.5199"
                   },
-                  "currBatTeamId": 72,
+                  "currBatTeamId": 8,
                   "seriesStartDt": "1788048000000",
                   "seriesEndDt": "1789344000000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "In Progress"
+                  "stateTitle": "Complete"
                 },
                 "matchScore": {
                   "team1Score": {
@@ -238,11 +451,167 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 153,
-                      "wickets": 5,
-                      "overs": 36.6
+                      "runs": 246,
+                      "wickets": 10,
+                      "overs": 49.1
                     }
                   }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "seriesAdWrapper": {
+            "seriesId": 11416,
+            "seriesName": "County Championship Division Two 2026",
+            "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 143218,
+                  "seriesId": 11416,
+                  "seriesName": "County Championship Division Two 2026",
+                  "matchDesc": "47th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Toss",
+                  "status": "Middlesex opt to bowl",
+                  "team1": {
+                    "teamId": 141,
+                    "teamName": "Durham",
+                    "teamSName": "DUR",
+                    "imageId": 172208
+                  },
+                  "team2": {
+                    "teamId": 74,
+                    "teamName": "Middlesex",
+                    "teamSName": "MDX",
+                    "imageId": 172170
+                  },
+                  "venueInfo": {
+                    "id": 60,
+                    "ground": "Riverside Ground",
+                    "city": "Chester-le-Street",
+                    "timezone": "+01:00",
+                    "latitude": "54.849531",
+                    "longitude": "-1.56103"
+                  },
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Toss"
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 143196,
+                  "seriesId": 11416,
+                  "seriesName": "County Championship Division Two 2026",
+                  "matchDesc": "45th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Toss",
+                  "status": "Kent opt to bowl",
+                  "team1": {
+                    "teamId": 144,
+                    "teamName": "Derbyshire",
+                    "teamSName": "DERBY",
+                    "imageId": 172211
+                  },
+                  "team2": {
+                    "teamId": 150,
+                    "teamName": "Kent",
+                    "teamSName": "KENT",
+                    "imageId": 172217
+                  },
+                  "venueInfo": {
+                    "id": 226,
+                    "ground": "County Ground",
+                    "city": "Derby",
+                    "timezone": "+01:00",
+                    "latitude": "52.927517",
+                    "longitude": "-1.461188"
+                  },
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Toss"
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 143229,
+                  "seriesId": 11416,
+                  "seriesName": "County Championship Division Two 2026",
+                  "matchDesc": "48th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Toss",
+                  "status": "Gloucestershire opt to bat",
+                  "team1": {
+                    "teamId": 151,
+                    "teamName": "Gloucestershire",
+                    "teamSName": "GLOUCS",
+                    "imageId": 172218
+                  },
+                  "team2": {
+                    "teamId": 143,
+                    "teamName": "Lancashire",
+                    "teamSName": "LANCS",
+                    "imageId": 172210
+                  },
+                  "venueInfo": {
+                    "id": 65,
+                    "ground": "Emirates Old Trafford",
+                    "city": "Manchester",
+                    "timezone": "+01:00",
+                    "latitude": "53.463066",
+                    "longitude": "-2.291301"
+                  },
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Toss"
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 143207,
+                  "seriesId": 11416,
+                  "seriesName": "County Championship Division Two 2026",
+                  "matchDesc": "46th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Delay",
+                  "status": "Day 1: Toss delayed due to rain",
+                  "team1": {
+                    "teamId": 147,
+                    "teamName": "Worcestershire",
+                    "teamSName": "WORCS",
+                    "imageId": 172214
+                  },
+                  "team2": {
+                    "teamId": 142,
+                    "teamName": "Northamptonshire",
+                    "teamSName": "NHNTS",
+                    "imageId": 172209
+                  },
+                  "venueInfo": {
+                    "id": 225,
+                    "ground": "New Road",
+                    "city": "Worcester",
+                    "timezone": "+01:00",
+                    "latitude": "52.189294",
+                    "longitude": "-2.2268"
+                  },
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Delay"
                 }
               }
             ]
@@ -263,5 +632,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788855123"
+  "responseLastUpdated": "1788859733"
 }
