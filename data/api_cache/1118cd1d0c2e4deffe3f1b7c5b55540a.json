@@ -68,7 +68,7 @@
                   "startDate": "1788852600000",
                   "endDate": "1788865200000",
                   "state": "In Progress",
-                  "status": "Mohali Kings opt to bowl",
+                  "status": "Innings Break",
                   "team1": {
                     "teamId": 3567,
                     "teamName": "Amritsar Soormas",
@@ -99,9 +99,9 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 273,
-                      "wickets": 5,
-                      "overs": 19.2
+                      "runs": 279,
+                      "wickets": 7,
+                      "overs": 19.6
                     }
                   }
                 }
@@ -128,8 +128,8 @@
                   "matchFormat": "TEST",
                   "startDate": "1788667200000",
                   "endDate": "1789038000000",
-                  "state": "Tea",
-                  "status": "Day 3: Tea Break - South Zone trail by 532 runs",
+                  "state": "In Progress",
+                  "status": "Day 3: 3rd Session - South Zone trail by 530 runs",
                   "team1": {
                     "teamId": 235,
                     "teamName": "East Zone",
@@ -154,7 +154,7 @@
                   "seriesStartDt": "1787443200000",
                   "seriesEndDt": "1789171200000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "Tea"
+                  "stateTitle": "In Progress"
                 },
                 "matchScore": {
                   "team1Score": {
@@ -168,9 +168,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 176,
+                      "runs": 178,
                       "wickets": 5,
-                      "overs": 55.6
+                      "overs": 56.6
                     }
                   }
                 }
@@ -183,43 +183,6 @@
             "seriesId": 11408,
             "seriesName": "County Championship Division One 2026",
             "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 142605,
-                  "seriesId": 11408,
-                  "seriesName": "County Championship Division One 2026",
-                  "matchDesc": "57th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "Toss",
-                  "status": "Yorkshire opt to bat",
-                  "team1": {
-                    "teamId": 146,
-                    "teamName": "Yorkshire",
-                    "teamSName": "YORKS",
-                    "imageId": 172213
-                  },
-                  "team2": {
-                    "teamId": 152,
-                    "teamName": "Essex",
-                    "teamSName": "ESS",
-                    "imageId": 172219
-                  },
-                  "venueInfo": {
-                    "id": 66,
-                    "ground": "Headingley",
-                    "city": "Leeds",
-                    "timezone": "+01:00",
-                    "latitude": "53.817622",
-                    "longitude": "-1.58211"
-                  },
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Toss"
-                }
-              },
               {
                 "matchInfo": {
                   "matchId": 142616,
@@ -266,8 +229,8 @@
                   "matchFormat": "TEST",
                   "startDate": "1788859800000",
                   "endDate": "1789144200000",
-                  "state": "Toss",
-                  "status": "Hampshire opt to bowl",
+                  "state": "In Progress",
+                  "status": "Day 1: 1st Session",
                   "team1": {
                     "teamId": 139,
                     "teamName": "Nottinghamshire",
@@ -288,10 +251,20 @@
                     "latitude": "52.936884",
                     "longitude": "-1.132230"
                   },
+                  "currBatTeamId": 139,
                   "seriesStartDt": "1775174400000",
                   "seriesEndDt": "1790640000000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "Toss"
+                  "stateTitle": "In Progress"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 8,
+                      "overs": 1.2
+                    }
+                  }
                 }
               },
               {
@@ -330,6 +303,90 @@
                   "isTimeAnnounced": true,
                   "stateTitle": "Delay"
                 }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 142605,
+                  "seriesId": 11408,
+                  "seriesName": "County Championship Division One 2026",
+                  "matchDesc": "57th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "In Progress",
+                  "status": "Day 1: 1st Session",
+                  "team1": {
+                    "teamId": 146,
+                    "teamName": "Yorkshire",
+                    "teamSName": "YORKS",
+                    "imageId": 172213
+                  },
+                  "team2": {
+                    "teamId": 152,
+                    "teamName": "Essex",
+                    "teamSName": "ESS",
+                    "imageId": 172219
+                  },
+                  "venueInfo": {
+                    "id": 66,
+                    "ground": "Headingley",
+                    "city": "Leeds",
+                    "timezone": "+01:00",
+                    "latitude": "53.817622",
+                    "longitude": "-1.58211"
+                  },
+                  "currBatTeamId": 146,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "In Progress"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 9,
+                      "overs": 1.4
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 142629,
+                  "seriesId": 11408,
+                  "seriesName": "County Championship Division One 2026",
+                  "matchDesc": "60th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Delay",
+                  "status": "Day 1: Rain stops play",
+                  "team1": {
+                    "teamId": 145,
+                    "teamName": "Leicestershire",
+                    "teamSName": "LEIC",
+                    "imageId": 172212
+                  },
+                  "team2": {
+                    "teamId": 119,
+                    "teamName": "Somerset",
+                    "teamSName": "SOM",
+                    "imageId": 172199
+                  },
+                  "venueInfo": {
+                    "id": 222,
+                    "ground": "Grace Road",
+                    "city": "Leicester",
+                    "timezone": "+01:00",
+                    "latitude": "52.607861",
+                    "longitude": "-1.142709"
+                  },
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Delay"
+                }
               }
             ]
           }
@@ -339,62 +396,6 @@
             "seriesId": 12993,
             "seriesName": "ACC Men's Premier Cup, 2026",
             "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 170341,
-                  "seriesId": 12993,
-                  "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "19th Match, Group A",
-                  "matchFormat": "ODI",
-                  "startDate": "1788831000000",
-                  "endDate": "1788859800000",
-                  "state": "Complete",
-                  "status": "Hong Kong, China won by 15 runs",
-                  "team1": {
-                    "teamId": 8,
-                    "teamName": "Hong Kong, China",
-                    "teamSName": "HKC",
-                    "imageId": 776271
-                  },
-                  "team2": {
-                    "teamId": 72,
-                    "teamName": "Nepal",
-                    "teamSName": "NEP",
-                    "imageId": 776331
-                  },
-                  "venueInfo": {
-                    "id": 394,
-                    "ground": "Bayuemas Oval",
-                    "city": "Kuala Lumpur",
-                    "timezone": "+08:00",
-                    "latitude": "2.819586",
-                    "longitude": "101.5199"
-                  },
-                  "currBatTeamId": 8,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789344000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 261,
-                      "wickets": 7,
-                      "overs": 49.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 246,
-                      "wickets": 10,
-                      "overs": 49.1
-                    }
-                  }
-                }
-              },
               {
                 "matchInfo": {
                   "matchId": 170351,
@@ -450,6 +451,62 @@
                     }
                   }
                 }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170341,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "19th Match, Group A",
+                  "matchFormat": "ODI",
+                  "startDate": "1788831000000",
+                  "endDate": "1788859800000",
+                  "state": "Complete",
+                  "status": "Hong Kong, China won by 15 runs",
+                  "team1": {
+                    "teamId": 8,
+                    "teamName": "Hong Kong, China",
+                    "teamSName": "HKC",
+                    "imageId": 776271
+                  },
+                  "team2": {
+                    "teamId": 72,
+                    "teamName": "Nepal",
+                    "teamSName": "NEP",
+                    "imageId": 776331
+                  },
+                  "venueInfo": {
+                    "id": 394,
+                    "ground": "Bayuemas Oval",
+                    "city": "Kuala Lumpur",
+                    "timezone": "+08:00",
+                    "latitude": "2.819586",
+                    "longitude": "101.5199"
+                  },
+                  "currBatTeamId": 8,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 261,
+                      "wickets": 7,
+                      "overs": 49.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 246,
+                      "wickets": 10,
+                      "overs": 49.1
+                    }
+                  }
+                }
               }
             ]
           }
@@ -475,8 +532,8 @@
                   "matchFormat": "TEST",
                   "startDate": "1788859800000",
                   "endDate": "1789144200000",
-                  "state": "Toss",
-                  "status": "Middlesex opt to bowl",
+                  "state": "In Progress",
+                  "status": "Day 1: 1st Session",
                   "team1": {
                     "teamId": 141,
                     "teamName": "Durham",
@@ -497,10 +554,20 @@
                     "latitude": "54.849531",
                     "longitude": "-1.56103"
                   },
+                  "currBatTeamId": 141,
                   "seriesStartDt": "1775174400000",
                   "seriesEndDt": "1790640000000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "Toss"
+                  "stateTitle": "In Progress"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 1,
+                      "overs": 0.6
+                    }
+                  }
                 }
               },
               {
@@ -512,8 +579,8 @@
                   "matchFormat": "TEST",
                   "startDate": "1788859800000",
                   "endDate": "1789144200000",
-                  "state": "Toss",
-                  "status": "Kent opt to bowl",
+                  "state": "In Progress",
+                  "status": "Day 1: 1st Session",
                   "team1": {
                     "teamId": 144,
                     "teamName": "Derbyshire",
@@ -534,10 +601,20 @@
                     "latitude": "52.927517",
                     "longitude": "-1.461188"
                   },
+                  "currBatTeamId": 144,
                   "seriesStartDt": "1775174400000",
                   "seriesEndDt": "1790640000000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "Toss"
+                  "stateTitle": "In Progress"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "wickets": 2,
+                      "overs": 0.2
+                    }
+                  }
                 }
               },
               {
@@ -549,8 +626,8 @@
                   "matchFormat": "TEST",
                   "startDate": "1788859800000",
                   "endDate": "1789144200000",
-                  "state": "Toss",
-                  "status": "Gloucestershire opt to bat",
+                  "state": "In Progress",
+                  "status": "Day 1: 1st Session",
                   "team1": {
                     "teamId": 151,
                     "teamName": "Gloucestershire",
@@ -571,10 +648,18 @@
                     "latitude": "53.463066",
                     "longitude": "-2.291301"
                   },
+                  "currBatTeamId": 151,
                   "seriesStartDt": "1775174400000",
                   "seriesEndDt": "1790640000000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "Toss"
+                  "stateTitle": "In Progress"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1
+                    }
+                  }
                 }
               },
               {
@@ -632,5 +717,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788859736"
+  "responseLastUpdated": "1788860301"
 }
