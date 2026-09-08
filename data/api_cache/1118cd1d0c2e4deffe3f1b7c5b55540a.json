@@ -49,9 +49,9 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 96,
+                      "runs": 97,
                       "wickets": 2,
-                      "overs": 7.5
+                      "overs": 7.6
                     }
                   }
                 }
@@ -135,62 +135,6 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 170341,
-                  "seriesId": 12993,
-                  "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "19th Match, Group A",
-                  "matchFormat": "ODI",
-                  "startDate": "1788831000000",
-                  "endDate": "1788859800000",
-                  "state": "In Progress",
-                  "status": "Nepal need 109 runs in 78 balls",
-                  "team1": {
-                    "teamId": 8,
-                    "teamName": "Hong Kong, China",
-                    "teamSName": "HKC",
-                    "imageId": 776271
-                  },
-                  "team2": {
-                    "teamId": 72,
-                    "teamName": "Nepal",
-                    "teamSName": "NEP",
-                    "imageId": 776331
-                  },
-                  "venueInfo": {
-                    "id": 394,
-                    "ground": "Bayuemas Oval",
-                    "city": "Kuala Lumpur",
-                    "timezone": "+08:00",
-                    "latitude": "2.819586",
-                    "longitude": "101.5199"
-                  },
-                  "currBatTeamId": 72,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789344000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "In Progress"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 261,
-                      "wickets": 7,
-                      "overs": 49.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 153,
-                      "wickets": 5,
-                      "overs": 36.6
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 170351,
                   "seriesId": 12993,
                   "seriesName": "ACC Men's Premier Cup, 2026",
@@ -244,15 +188,64 @@
                     }
                   }
                 }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170341,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "19th Match, Group A",
+                  "matchFormat": "ODI",
+                  "startDate": "1788831000000",
+                  "endDate": "1788859800000",
+                  "state": "In Progress",
+                  "status": "Nepal need 109 runs in 78 balls",
+                  "team1": {
+                    "teamId": 8,
+                    "teamName": "Hong Kong, China",
+                    "teamSName": "HKC",
+                    "imageId": 776271
+                  },
+                  "team2": {
+                    "teamId": 72,
+                    "teamName": "Nepal",
+                    "teamSName": "NEP",
+                    "imageId": 776331
+                  },
+                  "venueInfo": {
+                    "id": 394,
+                    "ground": "Bayuemas Oval",
+                    "city": "Kuala Lumpur",
+                    "timezone": "+08:00",
+                    "latitude": "2.819586",
+                    "longitude": "101.5199"
+                  },
+                  "currBatTeamId": 72,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "In Progress"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 261,
+                      "wickets": 7,
+                      "overs": 49.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 153,
+                      "wickets": 5,
+                      "overs": 36.6
+                    }
+                  }
+                }
               }
             ]
-          }
-        },
-        {
-          "ad": {
-            "name": "native_matches",
-            "layout": "native_large",
-            "position": 3
           }
         }
       ]
@@ -270,5 +263,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788855122"
+  "responseLastUpdated": "1788855123"
 }
