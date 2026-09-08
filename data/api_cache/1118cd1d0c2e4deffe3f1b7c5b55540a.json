@@ -129,7 +129,7 @@
                   "startDate": "1788667200000",
                   "endDate": "1789038000000",
                   "state": "In Progress",
-                  "status": "Day 3: 3rd Session - South Zone trail by 530 runs",
+                  "status": "Day 3: 3rd Session - South Zone trail by 528 runs",
                   "team1": {
                     "teamId": 235,
                     "teamName": "East Zone",
@@ -168,9 +168,9 @@
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 178,
+                      "runs": 180,
                       "wickets": 5,
-                      "overs": 56.6
+                      "overs": 57.6
                     }
                   }
                 }
@@ -183,6 +183,90 @@
             "seriesId": 11408,
             "seriesName": "County Championship Division One 2026",
             "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 142605,
+                  "seriesId": 11408,
+                  "seriesName": "County Championship Division One 2026",
+                  "matchDesc": "57th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "In Progress",
+                  "status": "Day 1: 1st Session",
+                  "team1": {
+                    "teamId": 146,
+                    "teamName": "Yorkshire",
+                    "teamSName": "YORKS",
+                    "imageId": 172213
+                  },
+                  "team2": {
+                    "teamId": 152,
+                    "teamName": "Essex",
+                    "teamSName": "ESS",
+                    "imageId": 172219
+                  },
+                  "venueInfo": {
+                    "id": 66,
+                    "ground": "Headingley",
+                    "city": "Leeds",
+                    "timezone": "+01:00",
+                    "latitude": "53.817622",
+                    "longitude": "-1.58211"
+                  },
+                  "currBatTeamId": 146,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "In Progress"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 9,
+                      "overs": 1.6
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 142629,
+                  "seriesId": 11408,
+                  "seriesName": "County Championship Division One 2026",
+                  "matchDesc": "60th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Delay",
+                  "status": "Day 1: Rain stops play",
+                  "team1": {
+                    "teamId": 145,
+                    "teamName": "Leicestershire",
+                    "teamSName": "LEIC",
+                    "imageId": 172212
+                  },
+                  "team2": {
+                    "teamId": 119,
+                    "teamName": "Somerset",
+                    "teamSName": "SOM",
+                    "imageId": 172199
+                  },
+                  "venueInfo": {
+                    "id": 222,
+                    "ground": "Grace Road",
+                    "city": "Leicester",
+                    "timezone": "+01:00",
+                    "latitude": "52.607861",
+                    "longitude": "-1.142709"
+                  },
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Delay"
+                }
+              },
               {
                 "matchInfo": {
                   "matchId": 142616,
@@ -261,8 +345,8 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 8,
-                      "overs": 1.2
+                      "runs": 12,
+                      "overs": 1.6
                     }
                   }
                 }
@@ -303,90 +387,6 @@
                   "isTimeAnnounced": true,
                   "stateTitle": "Delay"
                 }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 142605,
-                  "seriesId": 11408,
-                  "seriesName": "County Championship Division One 2026",
-                  "matchDesc": "57th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "In Progress",
-                  "status": "Day 1: 1st Session",
-                  "team1": {
-                    "teamId": 146,
-                    "teamName": "Yorkshire",
-                    "teamSName": "YORKS",
-                    "imageId": 172213
-                  },
-                  "team2": {
-                    "teamId": 152,
-                    "teamName": "Essex",
-                    "teamSName": "ESS",
-                    "imageId": 172219
-                  },
-                  "venueInfo": {
-                    "id": 66,
-                    "ground": "Headingley",
-                    "city": "Leeds",
-                    "timezone": "+01:00",
-                    "latitude": "53.817622",
-                    "longitude": "-1.58211"
-                  },
-                  "currBatTeamId": 146,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "In Progress"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 9,
-                      "overs": 1.4
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 142629,
-                  "seriesId": 11408,
-                  "seriesName": "County Championship Division One 2026",
-                  "matchDesc": "60th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "Delay",
-                  "status": "Day 1: Rain stops play",
-                  "team1": {
-                    "teamId": 145,
-                    "teamName": "Leicestershire",
-                    "teamSName": "LEIC",
-                    "imageId": 172212
-                  },
-                  "team2": {
-                    "teamId": 119,
-                    "teamName": "Somerset",
-                    "teamSName": "SOM",
-                    "imageId": 172199
-                  },
-                  "venueInfo": {
-                    "id": 222,
-                    "ground": "Grace Road",
-                    "city": "Leicester",
-                    "timezone": "+01:00",
-                    "latitude": "52.607861",
-                    "longitude": "-1.142709"
-                  },
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Delay"
-                }
               }
             ]
           }
@@ -396,62 +396,6 @@
             "seriesId": 12993,
             "seriesName": "ACC Men's Premier Cup, 2026",
             "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 170351,
-                  "seriesId": 12993,
-                  "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "20th Match, Group B",
-                  "matchFormat": "ODI",
-                  "startDate": "1788831000000",
-                  "endDate": "1788859800000",
-                  "state": "Complete",
-                  "status": "United Arab Emirates won by 49 runs",
-                  "team1": {
-                    "teamId": 7,
-                    "teamName": "United Arab Emirates",
-                    "teamSName": "UAE",
-                    "imageId": 776242
-                  },
-                  "team2": {
-                    "teamId": 304,
-                    "teamName": "Oman",
-                    "teamSName": "OMAN",
-                    "imageId": 776328
-                  },
-                  "venueInfo": {
-                    "id": 1853,
-                    "ground": "YSD-UKM Cricket Oval",
-                    "city": "Bangi",
-                    "timezone": "+08:00",
-                    "latitude": "2.9348189",
-                    "longitude": "101.7823779"
-                  },
-                  "currBatTeamId": 7,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789344000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 192,
-                      "wickets": 10,
-                      "overs": 48.1
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 143,
-                      "wickets": 10,
-                      "overs": 34.5
-                    }
-                  }
-                }
-              },
               {
                 "matchInfo": {
                   "matchId": 170341,
@@ -507,6 +451,62 @@
                     }
                   }
                 }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170351,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "20th Match, Group B",
+                  "matchFormat": "ODI",
+                  "startDate": "1788831000000",
+                  "endDate": "1788859800000",
+                  "state": "Complete",
+                  "status": "United Arab Emirates won by 49 runs",
+                  "team1": {
+                    "teamId": 7,
+                    "teamName": "United Arab Emirates",
+                    "teamSName": "UAE",
+                    "imageId": 776242
+                  },
+                  "team2": {
+                    "teamId": 304,
+                    "teamName": "Oman",
+                    "teamSName": "OMAN",
+                    "imageId": 776328
+                  },
+                  "venueInfo": {
+                    "id": 1853,
+                    "ground": "YSD-UKM Cricket Oval",
+                    "city": "Bangi",
+                    "timezone": "+08:00",
+                    "latitude": "2.9348189",
+                    "longitude": "101.7823779"
+                  },
+                  "currBatTeamId": 7,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Complete"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 192,
+                      "wickets": 10,
+                      "overs": 48.1
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 143,
+                      "wickets": 10,
+                      "overs": 34.5
+                    }
+                  }
+                }
               }
             ]
           }
@@ -523,6 +523,43 @@
             "seriesId": 11416,
             "seriesName": "County Championship Division Two 2026",
             "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 143207,
+                  "seriesId": 11416,
+                  "seriesName": "County Championship Division Two 2026",
+                  "matchDesc": "46th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Delay",
+                  "status": "Day 1: Toss delayed due to rain",
+                  "team1": {
+                    "teamId": 147,
+                    "teamName": "Worcestershire",
+                    "teamSName": "WORCS",
+                    "imageId": 172214
+                  },
+                  "team2": {
+                    "teamId": 142,
+                    "teamName": "Northamptonshire",
+                    "teamSName": "NHNTS",
+                    "imageId": 172209
+                  },
+                  "venueInfo": {
+                    "id": 225,
+                    "ground": "New Road",
+                    "city": "Worcester",
+                    "timezone": "+01:00",
+                    "latitude": "52.189294",
+                    "longitude": "-2.2268"
+                  },
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Delay"
+                }
+              },
               {
                 "matchInfo": {
                   "matchId": 143218,
@@ -565,7 +602,7 @@
                     "inngs1": {
                       "inningsId": 1,
                       "runs": 1,
-                      "overs": 0.6
+                      "overs": 1.6
                     }
                   }
                 }
@@ -611,8 +648,9 @@
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
+                      "runs": 4,
                       "wickets": 2,
-                      "overs": 0.2
+                      "overs": 0.6
                     }
                   }
                 }
@@ -657,46 +695,12 @@
                 "matchScore": {
                   "team1Score": {
                     "inngs1": {
-                      "inningsId": 1
+                      "inningsId": 1,
+                      "runs": 4,
+                      "wickets": 1,
+                      "overs": 1.6
                     }
                   }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 143207,
-                  "seriesId": 11416,
-                  "seriesName": "County Championship Division Two 2026",
-                  "matchDesc": "46th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "Delay",
-                  "status": "Day 1: Toss delayed due to rain",
-                  "team1": {
-                    "teamId": 147,
-                    "teamName": "Worcestershire",
-                    "teamSName": "WORCS",
-                    "imageId": 172214
-                  },
-                  "team2": {
-                    "teamId": 142,
-                    "teamName": "Northamptonshire",
-                    "teamSName": "NHNTS",
-                    "imageId": 172209
-                  },
-                  "venueInfo": {
-                    "id": 225,
-                    "ground": "New Road",
-                    "city": "Worcester",
-                    "timezone": "+01:00",
-                    "latitude": "52.189294",
-                    "longitude": "-2.2268"
-                  },
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Delay"
                 }
               }
             ]
@@ -717,5 +721,5 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788860301"
+  "responseLastUpdated": "1788860593"
 }
