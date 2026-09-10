@@ -236,6 +236,13 @@
               }
             ]
           }
+        },
+        {
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 4
+          }
         }
       ]
     },
@@ -257,7 +264,7 @@
                   "startDate": "1788667200000",
                   "endDate": "1789038000000",
                   "state": "Complete",
-                  "status": "Match drawn East Zone won on 1st innings - Match drawn",
+                  "status": "East Zone won on 1st innings - Match drawn",
                   "team1": {
                     "teamId": 235,
                     "teamName": "East Zone",
@@ -313,17 +320,67 @@
           }
         },
         {
-          "ad": {
-            "name": "native_matches",
-            "layout": "native_large",
-            "position": 5
-          }
-        },
-        {
           "seriesAdWrapper": {
             "seriesId": 11408,
             "seriesName": "County Championship Division One 2026",
             "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 142605,
+                  "seriesId": 11408,
+                  "seriesName": "County Championship Division One 2026",
+                  "matchDesc": "57th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps - Essex trail by 253 runs",
+                  "team1": {
+                    "teamId": 146,
+                    "teamName": "Yorkshire",
+                    "teamSName": "YORKS",
+                    "imageId": 172213
+                  },
+                  "team2": {
+                    "teamId": 152,
+                    "teamName": "Essex",
+                    "teamSName": "ESS",
+                    "imageId": 172219
+                  },
+                  "venueInfo": {
+                    "id": 66,
+                    "ground": "Headingley",
+                    "city": "Leeds",
+                    "timezone": "+01:00",
+                    "latitude": "53.817622",
+                    "longitude": "-1.58211"
+                  },
+                  "currBatTeamId": 152,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 390,
+                      "wickets": 10,
+                      "overs": 117.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 137,
+                      "wickets": 7,
+                      "overs": 53.6
+                    }
+                  }
+                }
+              },
               {
                 "matchInfo": {
                   "matchId": 142618,
@@ -492,63 +549,6 @@
                     }
                   }
                 }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 142605,
-                  "seriesId": 11408,
-                  "seriesName": "County Championship Division One 2026",
-                  "matchDesc": "57th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "Stumps",
-                  "status": "Day 2: Stumps - Essex trail by 253 runs",
-                  "team1": {
-                    "teamId": 146,
-                    "teamName": "Yorkshire",
-                    "teamSName": "YORKS",
-                    "imageId": 172213
-                  },
-                  "team2": {
-                    "teamId": 152,
-                    "teamName": "Essex",
-                    "teamSName": "ESS",
-                    "imageId": 172219
-                  },
-                  "venueInfo": {
-                    "id": 66,
-                    "ground": "Headingley",
-                    "city": "Leeds",
-                    "timezone": "+01:00",
-                    "latitude": "53.817622",
-                    "longitude": "-1.58211"
-                  },
-                  "currBatTeamId": 152,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Stumps",
-                  "hideScoreStatus": "Day 2 : Stumps"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 390,
-                      "wickets": 10,
-                      "overs": 117.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 137,
-                      "wickets": 7,
-                      "overs": 53.6
-                    }
-                  }
-                }
               }
             ]
           }
@@ -674,132 +674,6 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 143207,
-                  "seriesId": 11416,
-                  "seriesName": "County Championship Division Two 2026",
-                  "matchDesc": "46th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "Stumps",
-                  "status": "Day 2: Stumps - Worcestershire trail by 34 runs",
-                  "team1": {
-                    "teamId": 147,
-                    "teamName": "Worcestershire",
-                    "teamSName": "WORCS",
-                    "imageId": 172214
-                  },
-                  "team2": {
-                    "teamId": 142,
-                    "teamName": "Northamptonshire",
-                    "teamSName": "NHNTS",
-                    "imageId": 172209
-                  },
-                  "venueInfo": {
-                    "id": 225,
-                    "ground": "New Road",
-                    "city": "Worcester",
-                    "timezone": "+01:00",
-                    "latitude": "52.189294",
-                    "longitude": "-2.2268"
-                  },
-                  "currBatTeamId": 147,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Stumps",
-                  "hideScoreStatus": "Day 2 : Stumps"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 200,
-                      "wickets": 10,
-                      "overs": 67.1
-                    },
-                    "inngs2": {
-                      "inningsId": 3,
-                      "runs": 55,
-                      "wickets": 3,
-                      "overs": 21.3
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 289,
-                      "wickets": 10,
-                      "overs": 85.3
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 143218,
-                  "seriesId": 11416,
-                  "seriesName": "County Championship Division Two 2026",
-                  "matchDesc": "47th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "Stumps",
-                  "status": "Day 2: Stumps - Durham lead by 253 runs",
-                  "team1": {
-                    "teamId": 141,
-                    "teamName": "Durham",
-                    "teamSName": "DUR",
-                    "imageId": 172208
-                  },
-                  "team2": {
-                    "teamId": 74,
-                    "teamName": "Middlesex",
-                    "teamSName": "MDX",
-                    "imageId": 172170
-                  },
-                  "venueInfo": {
-                    "id": 60,
-                    "ground": "Riverside Ground",
-                    "city": "Chester-le-Street",
-                    "timezone": "+01:00",
-                    "latitude": "54.849531",
-                    "longitude": "-1.56103"
-                  },
-                  "currBatTeamId": 141,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Stumps",
-                  "hideScoreStatus": "Day 2 : Stumps"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 252,
-                      "wickets": 10,
-                      "overs": 73.4
-                    },
-                    "inngs2": {
-                      "inningsId": 3,
-                      "runs": 204,
-                      "wickets": 2,
-                      "overs": 51.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 203,
-                      "wickets": 10,
-                      "overs": 55.6
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 143196,
                   "seriesId": 11416,
                   "seriesName": "County Championship Division Two 2026",
@@ -923,6 +797,132 @@
                     }
                   }
                 }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 143207,
+                  "seriesId": 11416,
+                  "seriesName": "County Championship Division Two 2026",
+                  "matchDesc": "46th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps - Worcestershire trail by 34 runs",
+                  "team1": {
+                    "teamId": 147,
+                    "teamName": "Worcestershire",
+                    "teamSName": "WORCS",
+                    "imageId": 172214
+                  },
+                  "team2": {
+                    "teamId": 142,
+                    "teamName": "Northamptonshire",
+                    "teamSName": "NHNTS",
+                    "imageId": 172209
+                  },
+                  "venueInfo": {
+                    "id": 225,
+                    "ground": "New Road",
+                    "city": "Worcester",
+                    "timezone": "+01:00",
+                    "latitude": "52.189294",
+                    "longitude": "-2.2268"
+                  },
+                  "currBatTeamId": 147,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 200,
+                      "wickets": 10,
+                      "overs": 67.1
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 55,
+                      "wickets": 3,
+                      "overs": 21.3
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 289,
+                      "wickets": 10,
+                      "overs": 85.3
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 143218,
+                  "seriesId": 11416,
+                  "seriesName": "County Championship Division Two 2026",
+                  "matchDesc": "47th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps - Durham lead by 253 runs",
+                  "team1": {
+                    "teamId": 141,
+                    "teamName": "Durham",
+                    "teamSName": "DUR",
+                    "imageId": 172208
+                  },
+                  "team2": {
+                    "teamId": 74,
+                    "teamName": "Middlesex",
+                    "teamSName": "MDX",
+                    "imageId": 172170
+                  },
+                  "venueInfo": {
+                    "id": 60,
+                    "ground": "Riverside Ground",
+                    "city": "Chester-le-Street",
+                    "timezone": "+01:00",
+                    "latitude": "54.849531",
+                    "longitude": "-1.56103"
+                  },
+                  "currBatTeamId": 141,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 252,
+                      "wickets": 10,
+                      "overs": 73.4
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 204,
+                      "wickets": 2,
+                      "overs": 51.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 203,
+                      "wickets": 10,
+                      "overs": 55.6
+                    }
+                  }
+                }
               }
             ]
           }
@@ -988,7 +988,7 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1789032087",
+  "responseLastUpdated": "1789032089",
   "contentFilters": [
     {
       "filterId": "liveStream",
