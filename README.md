@@ -1,203 +1,239 @@
-# 🏏 Cricbuzz LiveStats — Cricket Analytics Dashboard
+# 🏏 Cricbuzz LiveStats — Cricket Analytics & Decision Support Platform
 
-An end-to-end cricket analytics platform built with **Python, SQL, SQLite, Streamlit, REST APIs, and interactive data visualizations**. The project combines live cricket data with structured historical datasets to demonstrate practical data analysis, database querying, KPI development, and interactive dashboard design.
+Cricbuzz LiveStats is an end-to-end cricket analytics platform that combines **Python, SQL, SQLite, pandas, Streamlit, REST APIs, statistical analysis, and interactive visualization** to transform historical and live cricket data into actionable player, team, match, venue, and performance insights.
 
-🔗 **Repository:** https://github.com/T3MP35TT/Cricbuzz-LiveStats-Cricket-Analytics-Dashboard
+🔗 **Live Streamlit Dashboard:** https://cricbuzz-livestats-cricket-analytics-dashboard-kartikey-singh.streamlit.app/
 
----
+🔗 **GitHub Repository:** https://github.com/T3MP35TT/Cricbuzz-LiveStats-Cricket-Analytics-Dashboard
 
-## 📊 Project Overview
 
-**Cricbuzz LiveStats** is an interactive cricket analytics application designed to transform raw cricket data into meaningful insights through a combination of **data engineering, SQL analytics, statistical analysis, and dashboard visualization**.
+![Cricbuzz LiveStats Dashboard](./Snapshots/Cricbuzz%20LiveStats%20Dashboard%20Snapshot.png)
 
-The project goes beyond basic dashboards by incorporating **25 SQL analytics challenges**, player performance analysis, team and venue analysis, recent-form analysis, head-to-head analytics, batting partnerships, career trends, and live cricket information.
 
-The objective is to demonstrate how a Data Analyst can work across the complete analytics workflow:
+## 📌 Project Overview
 
-```text
-Raw Data / APIs
-      ↓
-Data Collection & Processing
-      ↓
-Data Cleaning & Transformation
-      ↓
-SQLite Data Model
-      ↓
-SQL Analytics
-      ↓
-Python Analysis
-      ↓
-Interactive Visualizations
-      ↓
-Business-Friendly Insights
-```
+Cricket generates large volumes of structured data across players, teams, matches, innings, venues, partnerships, rankings, and formats.
 
----
+Cricbuzz LiveStats transforms this data into an interactive analytical product designed to answer questions such as:
+
+- 🏏 Which players are performing best across formats?
+- 🏆 Which teams have the strongest winning records?
+- 🏠 How does performance differ between home and away matches?
+- 🪙 Is winning the toss associated with a higher probability of winning?
+- 🎯 Which bowlers demonstrate strong efficiency?
+- 📊 Which players show greater batting consistency?
+- 🔥 Who is currently showing strong recent form?
+- 🤝 Which batting partnerships are the most productive?
+- 📈 Which players are improving or declining over time?
+- ⚔️ How do teams perform against specific opponents?
+- 🏟️ How does venue context relate to player and match performance?
+
+The project demonstrates how a Data Analyst can move from raw data to structured analysis, statistical evaluation, visualization, and decision support.
+
 
 ## 🎯 Business & Analytical Objectives
 
-The dashboard addresses several analytical questions relevant to sports performance and decision-making:
+The project was designed to demonstrate practical analytical workflows across several areas:
 
-* Which players are performing best across formats?
-* Which teams have the strongest winning records?
-* How does performance differ between home and away matches?
-* Does winning the toss provide a measurable advantage?
-* Which bowlers are the most economical?
-* Which batsmen are the most consistent?
-* Which players are currently showing strong momentum?
-* Which batting partnerships are most successful?
-* How do player performances evolve over time?
-* How do teams perform against specific opponents?
-* Which venues produce different batting or bowling outcomes?
+- Analyze player performance across **Test, ODI, and T20I**
+- Compare team performance and winning records
+- Evaluate home vs away performance
+- Analyze match and venue characteristics
+- Examine toss decisions and match outcomes
+- Measure batting and bowling efficiency
+- Identify consistent performers
+- Evaluate recent player momentum
+- Analyze high-value batting partnerships
+- Compare team head-to-head performance
+- Track performance evolution over time
+- Convert analytical results into interactive decision-support views
+- Demonstrate SQL proficiency through 25 progressively complex analytical challenges
 
----
 
-## 🛠️ Tech Stack
+## 📊 Dataset & Key Metrics
 
-| Category               | Technologies        |
-| ---------------------- | ------------------- |
-| Programming            | Python              |
-| Database               | SQLite              |
-| Query Language         | SQL                 |
-| Dashboard              | Streamlit           |
-| Data Analysis          | pandas              |
-| API Integration        | REST API / Requests |
-| Data Processing        | Python              |
-| Visualization          | Interactive charts  |
-| Environment Management | python-dotenv       |
-| Version Control        | Git & GitHub        |
+The analytical database currently contains approximately:
 
----
+| Metric | Records |
+|---|---:|
+| 🏏 Matches | 22,000+ |
+| 👥 Players | 700+ |
+| 🏟️ Venues | 600+ |
+| 🏏 Batting Records | 81,000+ |
+| 🎯 Bowling Records | 57,000+ |
+| 🤝 Partnership Records | 35,000+ |
 
-## 📌 Key Features
+The relational structure allows player, match, venue, series, batting, bowling, partnership, ranking, and classification data to be analyzed together.
 
-### 🏏 Live Cricket Data
 
-The application integrates cricket API data to provide current match information.
+## 🧠 Analytical Framework
 
-Features include:
+Cricbuzz LiveStats uses multiple analytical perspectives rather than relying on a single leaderboard.
 
-* Live match information
-* Match status
-* Current scores
-* Team information
-* Player information
-* API response caching
-* Fallback handling for unavailable API data
+### 👤 Player Analytics
 
----
+Player performance can be evaluated across:
 
-### 📈 Player Statistics & Rankings
+- Test
+- ODI
+- T20I
 
-Analyze player performance across:
+Key metrics include:
 
-* Test
-* ODI
-* T20I
+- Runs
+- Batting average
+- Strike rate
+- Wickets
+- Economy rate
+- Catches
+- Stumpings
+- Match experience
+- Recent form
+- Performance consistency
 
-The dashboard supports analysis of:
+### 🏆 Team Analytics
 
-* Runs
-* Batting average
-* Strike rate
-* Wickets
-* Economy rate
-* Catches
-* Stumpings
-* Player rankings
+Team-level analysis includes:
 
----
+- Team rankings
+- Winning records
+- Home vs away performance
+- Head-to-head records
+- Match outcomes
+- Competitive strength
 
-### 🔎 SQL Analytics — 25 Analytical Challenges
+### 🏟️ Match & Venue Analytics
 
-The project includes **25 SQL-driven analytical questions**, organized into three difficulty levels.
+Match intelligence includes:
 
-#### Beginner — Q1–Q8
+- Toss decisions
+- Match outcomes
+- Close matches
+- Venue characteristics
+- Bowling efficiency
+- Historical venue signals
 
-| Query | Analysis                           |
-| ----- | ---------------------------------- |
-| Q1    | Indian player profiles             |
-| Q2    | Matches played in the last 30 days |
-| Q3    | Top 10 ODI run scorers             |
-| Q4    | High-capacity cricket venues       |
-| Q5    | Team winning records               |
-| Q6    | Player role distribution           |
-| Q7    | Highest individual score by format |
-| Q8    | Cricket series started in 2024     |
+### 🤝 Partnership Analytics
 
-#### Intermediate — Q9–Q16
+Partnership analysis evaluates player combinations using:
 
-| Query | Analysis                         |
-| ----- | -------------------------------- |
-| Q9    | All-rounder performance          |
-| Q10   | Last 20 completed matches        |
-| Q11   | Cross-format player comparison   |
-| Q12   | Home vs Away performance         |
-| Q13   | 100+ batting partnerships        |
-| Q14   | Bowling performance by venue     |
-| Q15   | Close-match performance          |
-| Q16   | Yearly batting trends since 2020 |
+- Partnership frequency
+- Average partnership runs
+- 50+ partnerships
+- Highest partnership
+- Partnership success rate
 
-#### Advanced — Q17–Q25
+### 📈 Time-Based Analytics
 
-| Query | Analysis                              |
-| ----- | ------------------------------------- |
-| Q17   | Toss advantage                        |
-| Q18   | Most economical limited-overs bowlers |
-| Q19   | Batting consistency                   |
-| Q20   | Multi-format experience               |
-| Q21   | Weighted player performance ranking   |
-| Q22   | Team head-to-head analysis            |
-| Q23   | Recent form & momentum                |
-| Q24   | Best batting partnerships             |
-| Q25   | Career performance evolution          |
+The platform introduces temporal analysis through:
 
----
+- Recent-form analysis
+- Recent batting momentum
+- Yearly performance comparisons
+- Quarterly performance evolution
 
-## 🧠 Advanced Analytics
 
-### Toss Advantage
+## 🔎 SQL Analytics — 25 Analytical Challenges
 
-Measures the percentage of matches won by the team winning the toss and breaks the analysis down by whether the team chose to:
+The project contains **25 SQL-driven analytical challenges** designed to progress from fundamental querying to multi-dimensional performance analysis.
 
-* Bat first
-* Bowl first
+### 🟢 Beginner — Q1–Q8
 
-### Player Consistency
+| Query | Analytical Focus |
+|---|---|
+| Q1 | Indian player profiles |
+| Q2 | Recent matches |
+| Q3 | Top ODI run scorers |
+| Q4 | High-capacity venues |
+| Q5 | Team winning records |
+| Q6 | Player role distribution |
+| Q7 | Highest individual score by format |
+| Q8 | Series analysis |
 
-Uses:
+### 🟡 Intermediate — Q9–Q16
 
-* Average runs
-* Standard deviation
-* Minimum balls faced per innings
+| Query | Analytical Focus |
+|---|---|
+| Q9 | All-rounder performance |
+| Q10 | Recent completed matches |
+| Q11 | Cross-format player comparison |
+| Q12 | Home vs Away performance |
+| Q13 | High-value partnerships |
+| Q14 | Bowling performance by venue |
+| Q15 | Close-match performance |
+| Q16 | Yearly batting trends |
 
-to identify players with more consistent batting performances.
+### 🔴 Advanced — Q17–Q25
 
-### Recent Form & Momentum
+| Query | Analytical Focus |
+|---|---|
+| Q17 | Toss-performance association |
+| Q18 | Limited-overs bowling efficiency |
+| Q19 | Batting consistency |
+| Q20 | Multi-format experience |
+| Q21 | Weighted player performance |
+| Q22 | Team head-to-head analysis |
+| Q23 | Recent form and momentum |
+| Q24 | Partnership performance |
+| Q25 | Recent performance evolution |
 
-The Q23 analysis evaluates a player's latest batting performances using:
-
-* Average runs in last 5 performances
-* Average runs in last 10 performances
-* Strike-rate trend
-* 50+ scores
-* Standard deviation
-* Consistency score
-
-Players are classified into:
+The broader analytical workflow is:
 
 ```text
-Excellent Form
-Good Form
-Average Form
-Poor Form
+Business Question
+        ↓
+SQL Query
+        ↓
+Result
+        ↓
+Validation
+        ↓
+Visualization
+        ↓
+Interpretation
 ```
 
-### Weighted Performance Ranking
+##🧮 Advanced Performance Analytics
 
-Q21 combines batting, bowling, and fielding into a single performance score.
+The project goes beyond traditional statistics by combining multiple analytical dimensions.
 
-**Batting:**
+###🪙 Toss Analysis
+
+Q17 evaluates the relationship between toss decisions and match outcomes.
+
+The analysis compares outcomes based on whether the team winning the toss chose to:
+
+Bat first
+Bowl first
+
+The results are treated as an observed association rather than proof of causation.
+
+###🎯 Bowling Efficiency
+
+Bowling analysis considers multiple dimensions including:
+
+Economy rate
+Wickets
+Match participation
+Venue performance
+
+This provides a more meaningful comparison than ranking bowlers using wickets alone.
+
+###📊 Batting Consistency
+
+Consistency analysis combines:
+
+Average runs
+Standard deviation
+Minimum balls faced per innings
+
+The objective is to distinguish consistent run production from averages influenced by a small number of high-scoring performances.
+
+### 🧠 Weighted Performance Ranking
+
+Q21 combines batting, bowling, and fielding-related metrics into a single **project-generated analytical score**.
+
+#### 🏏 Batting Score
 
 ```text
 (runs × 0.01)
@@ -205,7 +241,7 @@ Q21 combines batting, bowling, and fielding into a single performance score.
 + (strike rate × 0.3)
 ```
 
-**Bowling:**
+#### 🎯 Bowling Score
 
 ```text
 (wickets × 2)
@@ -213,39 +249,260 @@ Q21 combines batting, bowling, and fielding into a single performance score.
 + ((6 - economy rate) × 2)
 ```
 
-**Fielding:**
+#### 🧤 Fielding Score
 
 ```text
 (catches × 3)
 + (stumpings × 5)
 ```
 
-Players are then ranked within each format.
+Players are then ranked within each format based on the calculated analytical score.
 
-### Career Evolution
+> ⚠️ **Note:** The weighted score is a project-generated analytical model and is **not an official cricket rating**.
 
-Q25 uses quarterly batting performance to analyze:
+## 🔥 Recent Form & Momentum
 
-* Average runs
-* Strike rate
-* Quarter-over-quarter movement
-* Performance trajectory
+Q23 introduces a distinction between **historical performance and current momentum**.
+
+The analysis considers:
+
+- 📊 Average runs in the last 5 performances
+- 📊 Average runs in the last 10 performances
+- 📈 Strike-rate trend
+- 🏏 50+ scores
+- 📉 Standard deviation
+- 🎯 Consistency score
 
 Players are categorized as:
 
 ```text
-Career Ascending
-Career Stable
-Career Declining
+🔥 Excellent Form
+🟢 Good Form
+🟡 Average Form
+🔴 Poor Form
 ```
 
----
+This allows the dashboard to answer:
+
+> **Who is performing well right now?**
+
+rather than relying exclusively on long-term career statistics.
+
+## 📅 Recent Performance Evolution
+
+Q25 introduces a time-based perspective by comparing player performance across six qualifying quarters from **2025 Q1 through 2026 Q2**.
+
+The analysis evaluates:
+
+- 📊 Average runs
+- 📈 Strike rate
+- 🔄 Quarter-over-quarter movement
+- 📉 Performance trajectory
+
+Players are categorized as:
+
+```text
+📈 Ascending
+➡️ Stable
+📉 Declining
+```
+
+This shifts the analytical question from:
+
+> Who is performing well?
+
+to:
+
+> **Who is improving, maintaining performance, or declining?**
+
+## ⚡ Live Match Intelligence
+
+Cricbuzz LiveStats combines historical analytics with current cricket information through REST API integration.
+
+The live-match experience provides:
+
+- 🏏 Live match information
+- 📊 Match status
+- 🏃 Current scores
+- 👥 Team information
+- 👤 Player information
+- 💬 Commentary
+- 📋 Scorecards
+- 📈 Historical trends
+- 🎯 Player performance
+- ⚔️ Head-to-head signals
+- 🏟️ Venue signals
+- 🔥 Recent form
+- 🧠 Prediction context
+
+The objective is to go beyond simply displaying a live score.
+
+> 🏏 **A score tells you what is happening. Analytics helps explain the context around it.**
+
+## 🌐 Live API & Fallback Architecture
+
+Live data introduces an important reliability challenge: external APIs can become unavailable, slow, rate-limited, inconsistent, or incomplete.
+
+Cricbuzz LiveStats therefore incorporates API caching and fallback handling where appropriate.
+
+```text
+🌐 API
+ ↓
+🔍 Data availability check
+ ↓
+⚠️ Response validation
+ ↓
+🚨 Failure detection
+ ↓
+🛡️ Fallback / cached / historical source
+ ↓
+✅ Data validation
+ ↓
+📊 Analytical layer
+ ↓
+👤 User-facing output
+```
+
+The design principle is:
+
+> **Live data when available. Reliable application behaviour when it isn't.**
+
+This separates the live-data experience from the historical analytical database so that temporary API issues do not invalidate the broader analytical platform.
+
+## 🛡️ Data Quality & Defensive Analytics
+
+Analytical accuracy depends on more than writing correct SQL.
+
+The project considers:
+
+- 🔍 Missing values
+- ⚠️ Invalid records
+- 🔄 Duplicate or inconsistent information
+- 🌐 Data availability
+- 🎯 Qualification thresholds
+- 🏁 Match completion status
+- 📊 Minimum sample sizes
+
+Several analytical queries require sufficient observations before players or teams qualify.
+
+This reduces the risk of drawing conclusions from extremely small samples.
+
+## 🎨 Context-Aware Dashboard Experience
+
+The dashboard includes a dynamic sidebar that changes based on the section being viewed.
+
+### ⚡ Live Matches
+
+Provides context around:
+
+- 🏏 Current match information
+- 🔄 Data refresh status
+- 📊 Relevant live information
+
+### 🏆 Rankings & Fantasy
+
+Provides:
+
+- 🏆 Top teams
+- 👤 Top players
+- 🔎 Scouting indicators
+- 📊 Player-specific metrics
+
+### 📊 SQL Analytics
+
+Provides query-specific information such as:
+
+- 🔢 Rows analyzed
+- 👥 Role distributions
+- 📋 Available profiles
+
+### 🛠️ CRUD
+
+Provides database-oriented information such as:
+
+- 👥 Total players
+- ✅ Active players
+- 🌍 Countries
+- 🎯 Roles
+
+This makes the sidebar more than navigation.
+
+It becomes a **context-aware analytical layer**.
+
+## 🧠 Fantasy Analytics
+
+The Fantasy Cricket Arena converts analytical outputs into user-friendly decision-support indicators.
+
+Player analysis can include:
+
+- ⭐ Impact score
+- 📊 Recent average
+- 📈 Strike rate
+- 🔥 50+ scores
+- 💥 Boundary potential
+- 🚀 Recent momentum
+
+Players can be classified using project-generated signals such as:
+
+> ⭐ **Elite Pick**
+
+These are analytical indicators created within the project and are **not official fantasy ratings**.
+
+## 🎮 Gamified Analytics Experience
+
+The SQL Analytics section is designed as an interactive analytical experience rather than a static SQL-output page.
+
+Users can:
+
+- 🔎 Explore analytical challenges
+- 💻 View the underlying SQL
+- ▶️ Execute queries
+- 📊 Explore returned datasets
+- 📈 Interact with charts
+- ⚔️ Compare players and teams
+- 🔥 Identify performance trends
+- 📥 Download analytical results
+
+This combines **SQL analysis, exploratory analytics, visualization, and dashboard storytelling**.
+
+## 🛠️ CRUD & Database Operations
+
+The application also includes an operational database layer.
+
+Users can:
+
+- ➕ Create player records
+- 👁️ Read player information
+- ✏️ Update player records
+- 🗑️ Delete player records
+
+Player information includes:
+
+- 👤 Name
+- 🌍 Country
+- 🎯 Role
+- 🏏 Batting style
+- 🎳 Bowling style
+
+This extends the project beyond:
+
+```text
+Read → Analyze → Visualize
+```
+
+into:
+
+```text
+Create → Read → Update → Delete
+```
+
+The database therefore supports both **analytical and operational workflows**.
 
 ## 🗄️ Data Architecture
 
-The project uses a relational SQLite database containing match, player, venue, series, batting, bowling, partnership, ranking, and classification data.
+Cricbuzz LiveStats uses a relational SQLite database containing match, player, venue, series, batting, bowling, partnership, ranking, and classification data.
 
-Major analytical tables include:
+### Core Analytical Tables
 
 ```text
 players
@@ -261,117 +518,108 @@ team_classification
 series
 ```
 
-Specialized analytical datasets support advanced questions such as Q22 and Q23.
-
----
+The relational model allows analytical joins across multiple cricket entities rather than treating the dataset as one flat table.
 
 ## 🔄 Data Pipeline
 
 ```text
-                Cricket API
-                    │
-                    ▼
-             API Helper Layer
-                    │
-                    ▼
-              API Cache
-                    │
-                    ▼
-          Historical / Structured Data
-                    │
-                    ▼
-               SQLite DB
-                    │
-          ┌─────────┴─────────┐
-          ▼                   ▼
-       SQL Layer          Python/pandas
-          │                   │
-          └─────────┬─────────┘
-                    ▼
-             Streamlit Dashboard
-                    │
-                    ▼
-            Interactive Insights
+                    🌐 Cricket API
+                         │
+                         ▼
+                  API Helper Layer
+                         │
+                         ▼
+                     API Cache
+                         │
+                         ▼
+             Historical / Structured Data
+                         │
+                         ▼
+                    🗄️ SQLite DB
+                         │
+              ┌──────────┴──────────┐
+              ▼                     ▼
+          🔎 SQL Layer         🐍 Python/pandas
+              │                     │
+              └──────────┬──────────┘
+                         ▼
+                  ⚡ Streamlit
+                         │
+                         ▼
+                  📊 Interactive
+                     Insights
 ```
 
----
+## 💻 Technical Stack
 
-## 📊 Analytical Skills Demonstrated
+| Technology | Purpose |
+|---|---|
+| 🐍 Python | Data processing, analytics and application logic |
+| 🔎 SQL | Relational data analysis |
+| 🗄️ SQLite | Analytical database |
+| 🐼 pandas | Data manipulation and transformation |
+| ⚡ Streamlit | Interactive dashboard application |
+| 🌐 REST APIs | Live cricket data integration |
+| 📊 Interactive Charts | Data visualization and analytical storytelling |
+| 🔐 python-dotenv | Environment configuration |
+| 🌿 Git | Version control |
+| 🐙 GitHub | Repository and project management |
 
-This project demonstrates practical experience with:
+## 📊 Data Analyst Skills Demonstrated
 
-### SQL
+### 🔎 SQL
 
-* SELECT statements
-* Filtering
-* JOINs
-* GROUP BY
-* Aggregations
-* CASE expressions
-* Date-based analysis
-* Conditional aggregation
-* CTEs
-* Window functions
-* Ranking
-* Statistical calculations
-* Multi-table analysis
-* Comparative analysis
+- SELECT
+- Filtering
+- JOINs
+- GROUP BY
+- Aggregations
+- CASE expressions
+- Date-based analysis
+- Conditional aggregation
+- CTEs
+- Window functions
+- Ranking
+- Statistical calculations
+- Multi-table analysis
+- Comparative analysis
 
-### Python
+### 🐍 Python
 
-* pandas
-* Data transformation
-* Data validation
-* API integration
-* Database connectivity
-* Statistical calculations
-* Application logic
-* Error handling
+- pandas
+- Data transformation
+- Data validation
+- API integration
+- Database connectivity
+- Statistical calculations
+- Application logic
+- Error handling
 
-### Data Visualization
+### 📈 Data Visualization
 
-* KPI cards
-* Ranking visualizations
-* Comparative charts
-* Trend analysis
-* Performance distributions
-* Interactive filtering
-* Player comparisons
+- KPI cards
+- Ranking visualizations
+- Comparative charts
+- Trend analysis
+- Performance distributions
+- Interactive filtering
+- Player comparisons
+- Analytical dashboards
 
-### Data Analytics
+### 🧠 Data Analytics
 
-* Descriptive analytics
-* Trend analysis
-* Comparative analytics
-* Performance measurement
-* Consistency analysis
-* Time-series analysis
-* Segmentation
-* Ranking systems
-
----
-
-## 🎮 Gamified Analytics Experience
-
-The SQL analytics section is designed as an interactive experience rather than a static SQL output page.
-
-Users can:
-
-* Explore individual analytical challenges
-* View the underlying SQL
-* Execute queries against the database
-* Explore returned datasets
-* Interact with charts
-* Compare players and teams
-* Identify performance trends
-* Download analytical results
-
-This approach combines **SQL learning, exploratory analysis, and dashboard storytelling** in a single application.
-
----
-
-## 🖥️ Application Structure
-
+- Descriptive analytics
+- Exploratory analysis
+- Comparative analytics
+- Trend analysis
+- Performance measurement
+- Consistency analysis
+- Time-based analysis
+- Segmentation
+- Ranking systems
+- Decision-support analytics
+  
+##📁 Project Structure
 ```text
 Cricbuzz-LiveStats-Cricket-Analytics-Dashboard/
 │
@@ -408,8 +656,6 @@ Cricbuzz-LiveStats-Cricket-Analytics-Dashboard/
 └── .env.example
 ```
 
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
@@ -421,14 +667,14 @@ cd Cricbuzz-LiveStats-Cricket-Analytics-Dashboard
 
 ### 2. Create a Virtual Environment
 
-Windows:
+#### Windows
 
-```powershell
+```bash
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 
-macOS / Linux:
+#### macOS / Linux
 
 ```bash
 python3 -m venv .venv
@@ -445,8 +691,6 @@ pip install -r requirements.txt
 
 Create a `.env` file based on `.env.example`.
 
-Example:
-
 ```env
 CRICBUZZ_API_KEY=your_api_key
 CRICBUZZ_API_HOST=cricbuzz-cricket.p.rapidapi.com
@@ -460,22 +704,18 @@ Keep API credentials private and never commit `.env`.
 streamlit run app.py
 ```
 
----
-
 ## 📚 Documentation
 
-Detailed technical documentation is available in the `Documentation/` directory.
+Detailed project documentation is available in the `Documentation/` directory.
 
-| Document                  | Purpose                                      |
-| ------------------------- | -------------------------------------------- |
-| `README.md`               | Project overview                             |
-| `PROJECT_SETUP.md`        | Installation and setup                       |
-| `API_CONFIGURATION.md`    | API configuration and caching                |
-| `DATABASE_SCHEMA.md`      | Database architecture                        |
-| `SQL_ANALYTICS.md`        | Complete Q1–Q25 SQL analytics                |
+| Document | Purpose |
+|---|---|
+| `README.md` | Project overview |
+| `PROJECT_SETUP.md` | Installation and setup |
+| `API_CONFIGURATION.md` | API configuration, caching and API handling |
+| `DATABASE_SCHEMA.md` | Database architecture |
+| `SQL_ANALYTICS.md` | Complete Q1–Q25 SQL analytics |
 | `PROJECT_DELIVERABLES.md` | Project deliverables and acceptance criteria |
-
----
 
 ## 🔐 Security
 
@@ -493,53 +733,168 @@ Private credentials
 
 Use `.env.example` as the configuration template.
 
----
+## 💡 Key Design Principles
+
+### 1. 📥 Data First
+
+Start with structured, validated data before building analytical outputs.
+
+### 2. 🗄️ Relational Thinking
+
+Use a relational database to connect players, matches, venues, series, partnerships, and performance records.
+
+### 3. 🔎 Analytical SQL
+
+Use SQL not only for extraction, but for aggregation, comparison, ranking, segmentation, and performance analysis.
+
+### 4. 📊 Multiple KPIs
+
+Avoid relying on a single metric when the analytical question requires multiple dimensions.
+
+### 5. 🛡️ Data Reliability
+
+Consider missing data, sample sizes, API failures, caching, and fallback behaviour.
+
+### 6. 🎨 User-Centered Analytics
+
+Present analytical results through interactive interfaces that allow users to explore the data themselves.
+
+### 7. 💡 Decision Support
+
+The objective is not simply to display statistics, but to provide context that helps users interpret performance.
 
 ## 📈 Why This Project Matters
 
-This project demonstrates more than the ability to create a dashboard.
+Cricbuzz LiveStats demonstrates more than the ability to create a cricket dashboard.
 
 It brings together the complete analytical workflow:
 
-**Data Collection → Data Preparation → Data Modeling → SQL → Analysis → Visualization → Insights**
+```text
+📥 Data Ingestion
+↓
+🛡️ Data Validation
+↓
+🗄️ Relational Modelling
+↓
+🔎 SQL
+↓
+🐍 Python
+↓
+🧠 Analytical Models
+↓
+📊 Visualization
+↓
+🌐 API Integration
+↓
+🛡️ Fallback Behaviour
+↓
+👤 User Interaction
+```
 
-From querying relational data to building statistical performance measures and interactive visualizations, the project demonstrates how technical analytics skills can be applied to a real-world domain.
+The same analytical workflow can be adapted beyond sports analytics to areas such as:
 
-The same workflow can be adapted to business domains such as:
+- 💰 Sales analytics
+- 👥 Customer analytics
+- 💵 Financial analytics
+- ⚙️ Operations analytics
+- 📦 Product analytics
+- 📈 Performance analytics
 
-* Sales analytics
-* Customer analytics
-* Financial analytics
-* Operations analytics
-* Product analytics
-* Performance analytics
+## 🎓 What This Project Demonstrates
 
----
+Cricbuzz LiveStats demonstrates practical experience across:
+
+- 📥 Data collection and preparation
+- 🛡️ Data cleaning and validation
+- 🗄️ Relational database design
+- 🔎 SQL analytics
+- 🐍 Python data analysis
+- 📊 Statistical analysis
+- 🎯 KPI development
+- 📈 Performance measurement
+- 📉 Trend analysis
+- 🎯 Consistency analysis
+- 📊 Interactive visualization
+- 🌐 API integration
+- 🛡️ Fallback and reliability design
+- ⚡ Dashboard development
+- 🛠️ Database CRUD operations
+- 📖 Data storytelling
+- 💡 Decision-support design
+
+The broader objective is to demonstrate the ability to take a real-world analytical problem and move through:
+
+```text
+Data
+ ↓
+🛡️ Data Quality
+ ↓
+🗄️ Data Model
+ ↓
+🔎 Analysis
+ ↓
+✅ Validation
+ ↓
+📊 Visualization
+ ↓
+🎨 User Experience
+ ↓
+💡 Decision Support
+```
 
 ## 👤 Author
 
 **Kartikey Singh**
 
-Data Analyst | SQL | Python | Power BI | Data Visualization | Analytics
+**Data Analyst | Power BI | Python | SQL | Excel**
 
----
+🔗 **LinkedIn:** [Kartikey Singh](https://www.linkedin.com/in/btwitskartiksinghdatanalyst/)
 
 ## ⭐ Project Highlights
 
 ```text
-25 SQL Analytics Challenges
+🏏 22,000+ Matches
         +
-Live Cricket API Integration
+👥 700+ Players
         +
-SQLite Analytical Database
+🏟️ 600+ Venues
         +
-Python Data Analysis
+🔎 25 SQL Analytics Challenges
         +
-Interactive Streamlit Dashboard
+🌐 Live Cricket API Integration
         +
-Advanced Performance Analytics
+🗄️ SQLite Analytical Database
         +
-Gamified User Experience
+🐍 Python Data Analysis
+        +
+📊 Interactive Streamlit Dashboard
+        +
+🧠 Advanced Performance Analytics
+        +
+🔥 Recent Form & Momentum
+        +
+📈 Performance Evolution
+        +
+🎮 Gamified Analytics Experience
+        +
+🛡️ Fallback & Reliability
+        +
+🛠️ CRUD Database Operations
 ```
 
-If you find the project useful, consider giving the repository a ⭐ on GitHub.
+---
+
+### 🔗 Explore the Project
+
+🌐 Live Dashboard: *[Cricbuzz-LiveStats-Cricket-Analytics-Dashboard](https://cricbuzz-livestats-cricket-analytics-dashboard-kartikey-singh.streamlit.app/)*
+
+LinkedIn: *[Kartikey_Singh](https://www.linkedin.com/in/btwitskartiksinghdatanalyst/)*
+
+GitHub: *[Kartikey_Singh](https://github.com/T3MP35TT)*
+
+Portfolio : *[Kartikey_Singh](https://sites.google.com/view/kartikeysingh09/home)*
+
+Complete WriteUp: *[Kartikey_Singh](https://medium.com/@kartikey.singh09/cricbuzz-livestats-building-an-end-to-end-cricket-analytics-product-with-python-sql-and-607b4594d6bc)*
+
+
+⭐ If you find the project useful, consider giving the repository a star.
