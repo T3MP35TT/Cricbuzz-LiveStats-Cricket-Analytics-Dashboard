@@ -326,63 +326,6 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 142605,
-                  "seriesId": 11408,
-                  "seriesName": "County Championship Division One 2026",
-                  "matchDesc": "57th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "Stumps",
-                  "status": "Day 2: Stumps - Essex trail by 253 runs",
-                  "team1": {
-                    "teamId": 146,
-                    "teamName": "Yorkshire",
-                    "teamSName": "YORKS",
-                    "imageId": 172213
-                  },
-                  "team2": {
-                    "teamId": 152,
-                    "teamName": "Essex",
-                    "teamSName": "ESS",
-                    "imageId": 172219
-                  },
-                  "venueInfo": {
-                    "id": 66,
-                    "ground": "Headingley",
-                    "city": "Leeds",
-                    "timezone": "+01:00",
-                    "latitude": "53.817622",
-                    "longitude": "-1.58211"
-                  },
-                  "currBatTeamId": 152,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Stumps",
-                  "hideScoreStatus": "Day 2 : Stumps"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 390,
-                      "wickets": 10,
-                      "overs": 117.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 137,
-                      "wickets": 7,
-                      "overs": 53.6
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 142618,
                   "seriesId": 11408,
                   "seriesName": "County Championship Division One 2026",
@@ -549,6 +492,63 @@
                     }
                   }
                 }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 142605,
+                  "seriesId": 11408,
+                  "seriesName": "County Championship Division One 2026",
+                  "matchDesc": "57th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps - Essex trail by 253 runs",
+                  "team1": {
+                    "teamId": 146,
+                    "teamName": "Yorkshire",
+                    "teamSName": "YORKS",
+                    "imageId": 172213
+                  },
+                  "team2": {
+                    "teamId": 152,
+                    "teamName": "Essex",
+                    "teamSName": "ESS",
+                    "imageId": 172219
+                  },
+                  "venueInfo": {
+                    "id": 66,
+                    "ground": "Headingley",
+                    "city": "Leeds",
+                    "timezone": "+01:00",
+                    "latitude": "53.817622",
+                    "longitude": "-1.58211"
+                  },
+                  "currBatTeamId": 152,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 390,
+                      "wickets": 10,
+                      "overs": 117.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 137,
+                      "wickets": 7,
+                      "overs": 53.6
+                    }
+                  }
+                }
               }
             ]
           }
@@ -674,132 +674,6 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 143196,
-                  "seriesId": 11416,
-                  "seriesName": "County Championship Division Two 2026",
-                  "matchDesc": "45th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "Stumps",
-                  "status": "Day 2: Stumps - Derbyshire lead by 181 runs",
-                  "team1": {
-                    "teamId": 144,
-                    "teamName": "Derbyshire",
-                    "teamSName": "DERBY",
-                    "imageId": 172211
-                  },
-                  "team2": {
-                    "teamId": 150,
-                    "teamName": "Kent",
-                    "teamSName": "KENT",
-                    "imageId": 172217
-                  },
-                  "venueInfo": {
-                    "id": 226,
-                    "ground": "County Ground",
-                    "city": "Derby",
-                    "timezone": "+01:00",
-                    "latitude": "52.927517",
-                    "longitude": "-1.461188"
-                  },
-                  "currBatTeamId": 144,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Stumps",
-                  "hideScoreStatus": "Day 2 : Stumps"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 300,
-                      "wickets": 10,
-                      "overs": 87.5
-                    },
-                    "inngs2": {
-                      "inningsId": 3,
-                      "runs": 100,
-                      "wickets": 1,
-                      "overs": 27.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 219,
-                      "wickets": 10,
-                      "overs": 73.2
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 143229,
-                  "seriesId": 11416,
-                  "seriesName": "County Championship Division Two 2026",
-                  "matchDesc": "48th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "Stumps",
-                  "status": "Day 2: Stumps - Gloucestershire lead by 196 runs",
-                  "team1": {
-                    "teamId": 151,
-                    "teamName": "Gloucestershire",
-                    "teamSName": "GLOUCS",
-                    "imageId": 172218
-                  },
-                  "team2": {
-                    "teamId": 143,
-                    "teamName": "Lancashire",
-                    "teamSName": "LANCS",
-                    "imageId": 172210
-                  },
-                  "venueInfo": {
-                    "id": 65,
-                    "ground": "Emirates Old Trafford",
-                    "city": "Manchester",
-                    "timezone": "+01:00",
-                    "latitude": "53.463066",
-                    "longitude": "-2.291301"
-                  },
-                  "currBatTeamId": 151,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Stumps",
-                  "hideScoreStatus": "Day 2 : Stumps"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 212,
-                      "wickets": 10,
-                      "overs": 80.2
-                    },
-                    "inngs2": {
-                      "inningsId": 3,
-                      "runs": 118,
-                      "wickets": 8,
-                      "overs": 41.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 134,
-                      "wickets": 10,
-                      "overs": 35.5
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 143207,
                   "seriesId": 11416,
                   "seriesName": "County Championship Division Two 2026",
@@ -923,6 +797,132 @@
                     }
                   }
                 }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 143196,
+                  "seriesId": 11416,
+                  "seriesName": "County Championship Division Two 2026",
+                  "matchDesc": "45th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps - Derbyshire lead by 181 runs",
+                  "team1": {
+                    "teamId": 144,
+                    "teamName": "Derbyshire",
+                    "teamSName": "DERBY",
+                    "imageId": 172211
+                  },
+                  "team2": {
+                    "teamId": 150,
+                    "teamName": "Kent",
+                    "teamSName": "KENT",
+                    "imageId": 172217
+                  },
+                  "venueInfo": {
+                    "id": 226,
+                    "ground": "County Ground",
+                    "city": "Derby",
+                    "timezone": "+01:00",
+                    "latitude": "52.927517",
+                    "longitude": "-1.461188"
+                  },
+                  "currBatTeamId": 144,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 300,
+                      "wickets": 10,
+                      "overs": 87.5
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 100,
+                      "wickets": 1,
+                      "overs": 27.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 219,
+                      "wickets": 10,
+                      "overs": 73.2
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 143229,
+                  "seriesId": 11416,
+                  "seriesName": "County Championship Division Two 2026",
+                  "matchDesc": "48th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps - Gloucestershire lead by 196 runs",
+                  "team1": {
+                    "teamId": 151,
+                    "teamName": "Gloucestershire",
+                    "teamSName": "GLOUCS",
+                    "imageId": 172218
+                  },
+                  "team2": {
+                    "teamId": 143,
+                    "teamName": "Lancashire",
+                    "teamSName": "LANCS",
+                    "imageId": 172210
+                  },
+                  "venueInfo": {
+                    "id": 65,
+                    "ground": "Emirates Old Trafford",
+                    "city": "Manchester",
+                    "timezone": "+01:00",
+                    "latitude": "53.463066",
+                    "longitude": "-2.291301"
+                  },
+                  "currBatTeamId": 151,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 212,
+                      "wickets": 10,
+                      "overs": 80.2
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 118,
+                      "wickets": 8,
+                      "overs": 41.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 134,
+                      "wickets": 10,
+                      "overs": 35.5
+                    }
+                  }
+                }
               }
             ]
           }
@@ -988,7 +988,7 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1789032089",
+  "responseLastUpdated": "1789032091",
   "contentFilters": [
     {
       "filterId": "liveStream",
