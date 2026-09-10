@@ -181,13 +181,6 @@
           }
         },
         {
-          "ad": {
-            "name": "native_matches",
-            "layout": "native_large",
-            "position": 3
-          }
-        },
-        {
           "seriesAdWrapper": {
             "seriesId": 13073,
             "seriesName": "Sher-E-Punjab T20 League, 2026",
@@ -320,116 +313,17 @@
           }
         },
         {
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 5
+          }
+        },
+        {
           "seriesAdWrapper": {
             "seriesId": 11408,
             "seriesName": "County Championship Division One 2026",
             "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 142618,
-                  "seriesId": 11408,
-                  "seriesName": "County Championship Division One 2026",
-                  "matchDesc": "59th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "Stumps",
-                  "status": "Day 2: Stumps",
-                  "team1": {
-                    "teamId": 41,
-                    "teamName": "Sussex",
-                    "teamSName": "SUS",
-                    "imageId": 172148
-                  },
-                  "team2": {
-                    "teamId": 148,
-                    "teamName": "Surrey",
-                    "teamSName": "SUR",
-                    "imageId": 172215
-                  },
-                  "venueInfo": {
-                    "id": 292,
-                    "ground": "County Ground",
-                    "city": "Hove",
-                    "timezone": "+01:00",
-                    "latitude": "50.830995",
-                    "longitude": "-0.163522"
-                  },
-                  "currBatTeamId": 41,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Stumps",
-                  "hideScoreStatus": "Day 2 : Stumps"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 393,
-                      "wickets": 10,
-                      "overs": 103.6
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 142594,
-                  "seriesId": 11408,
-                  "seriesName": "County Championship Division One 2026",
-                  "matchDesc": "56th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "Stumps",
-                  "status": "Day 2: Stumps - Hampshire trail by 110 runs",
-                  "team1": {
-                    "teamId": 139,
-                    "teamName": "Nottinghamshire",
-                    "teamSName": "NOTTS",
-                    "imageId": 172206
-                  },
-                  "team2": {
-                    "teamId": 153,
-                    "teamName": "Hampshire",
-                    "teamSName": "HAM",
-                    "imageId": 172220
-                  },
-                  "venueInfo": {
-                    "id": 18,
-                    "ground": "Trent Bridge",
-                    "city": "Nottingham",
-                    "timezone": "+01:00",
-                    "latitude": "52.936884",
-                    "longitude": "-1.132230"
-                  },
-                  "currBatTeamId": 153,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Stumps",
-                  "hideScoreStatus": "Day 2 : Stumps"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 377,
-                      "wickets": 10,
-                      "overs": 89.4
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 267,
-                      "wickets": 7,
-                      "overs": 99.6
-                    }
-                  }
-                }
-              },
               {
                 "matchInfo": {
                   "matchId": 142629,
@@ -549,6 +443,112 @@
                     }
                   }
                 }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 142618,
+                  "seriesId": 11408,
+                  "seriesName": "County Championship Division One 2026",
+                  "matchDesc": "59th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps",
+                  "team1": {
+                    "teamId": 41,
+                    "teamName": "Sussex",
+                    "teamSName": "SUS",
+                    "imageId": 172148
+                  },
+                  "team2": {
+                    "teamId": 148,
+                    "teamName": "Surrey",
+                    "teamSName": "SUR",
+                    "imageId": 172215
+                  },
+                  "venueInfo": {
+                    "id": 292,
+                    "ground": "County Ground",
+                    "city": "Hove",
+                    "timezone": "+01:00",
+                    "latitude": "50.830995",
+                    "longitude": "-0.163522"
+                  },
+                  "currBatTeamId": 41,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 393,
+                      "wickets": 10,
+                      "overs": 103.6
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 142594,
+                  "seriesId": 11408,
+                  "seriesName": "County Championship Division One 2026",
+                  "matchDesc": "56th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps - Hampshire trail by 110 runs",
+                  "team1": {
+                    "teamId": 139,
+                    "teamName": "Nottinghamshire",
+                    "teamSName": "NOTTS",
+                    "imageId": 172206
+                  },
+                  "team2": {
+                    "teamId": 153,
+                    "teamName": "Hampshire",
+                    "teamSName": "HAM",
+                    "imageId": 172220
+                  },
+                  "venueInfo": {
+                    "id": 18,
+                    "ground": "Trent Bridge",
+                    "city": "Nottingham",
+                    "timezone": "+01:00",
+                    "latitude": "52.936884",
+                    "longitude": "-1.132230"
+                  },
+                  "currBatTeamId": 153,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 377,
+                      "wickets": 10,
+                      "overs": 89.4
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 267,
+                      "wickets": 7,
+                      "overs": 99.6
+                    }
+                  }
+                }
               }
             ]
           }
@@ -558,55 +558,6 @@
             "seriesId": 12993,
             "seriesName": "ACC Men's Premier Cup, 2026",
             "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 170361,
-                  "seriesId": 12993,
-                  "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "1st Semi-Final",
-                  "matchFormat": "ODI",
-                  "startDate": "1789003800000",
-                  "endDate": "1789032600000",
-                  "state": "Innings Break",
-                  "status": "Innings Break",
-                  "team1": {
-                    "teamId": 72,
-                    "teamName": "Nepal",
-                    "teamSName": "NEP",
-                    "imageId": 776331
-                  },
-                  "team2": {
-                    "teamId": 304,
-                    "teamName": "Oman",
-                    "teamSName": "OMAN",
-                    "imageId": 776328
-                  },
-                  "venueInfo": {
-                    "id": 394,
-                    "ground": "Bayuemas Oval",
-                    "city": "Kuala Lumpur",
-                    "timezone": "+08:00",
-                    "latitude": "2.819586",
-                    "longitude": "101.5199"
-                  },
-                  "currBatTeamId": 72,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789344000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Ings Break",
-                  "hideScoreStatus": "Innings break"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 147,
-                      "wickets": 10,
-                      "overs": 45.4
-                    }
-                  }
-                }
-              },
               {
                 "matchInfo": {
                   "matchId": 170371,
@@ -663,6 +614,55 @@
                     }
                   }
                 }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170361,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "1st Semi-Final",
+                  "matchFormat": "ODI",
+                  "startDate": "1789003800000",
+                  "endDate": "1789032600000",
+                  "state": "Innings Break",
+                  "status": "Innings Break",
+                  "team1": {
+                    "teamId": 72,
+                    "teamName": "Nepal",
+                    "teamSName": "NEP",
+                    "imageId": 776331
+                  },
+                  "team2": {
+                    "teamId": 304,
+                    "teamName": "Oman",
+                    "teamSName": "OMAN",
+                    "imageId": 776328
+                  },
+                  "venueInfo": {
+                    "id": 394,
+                    "ground": "Bayuemas Oval",
+                    "city": "Kuala Lumpur",
+                    "timezone": "+08:00",
+                    "latitude": "2.819586",
+                    "longitude": "101.5199"
+                  },
+                  "currBatTeamId": 72,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Ings Break",
+                  "hideScoreStatus": "Innings break"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 147,
+                      "wickets": 10,
+                      "overs": 45.4
+                    }
+                  }
+                }
               }
             ]
           }
@@ -672,69 +672,6 @@
             "seriesId": 11416,
             "seriesName": "County Championship Division Two 2026",
             "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 143207,
-                  "seriesId": 11416,
-                  "seriesName": "County Championship Division Two 2026",
-                  "matchDesc": "46th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "Stumps",
-                  "status": "Day 2: Stumps - Worcestershire trail by 34 runs",
-                  "team1": {
-                    "teamId": 147,
-                    "teamName": "Worcestershire",
-                    "teamSName": "WORCS",
-                    "imageId": 172214
-                  },
-                  "team2": {
-                    "teamId": 142,
-                    "teamName": "Northamptonshire",
-                    "teamSName": "NHNTS",
-                    "imageId": 172209
-                  },
-                  "venueInfo": {
-                    "id": 225,
-                    "ground": "New Road",
-                    "city": "Worcester",
-                    "timezone": "+01:00",
-                    "latitude": "52.189294",
-                    "longitude": "-2.2268"
-                  },
-                  "currBatTeamId": 147,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Stumps",
-                  "hideScoreStatus": "Day 2 : Stumps"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 200,
-                      "wickets": 10,
-                      "overs": 67.1
-                    },
-                    "inngs2": {
-                      "inningsId": 3,
-                      "runs": 55,
-                      "wickets": 3,
-                      "overs": 21.3
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 289,
-                      "wickets": 10,
-                      "overs": 85.3
-                    }
-                  }
-                }
-              },
               {
                 "matchInfo": {
                   "matchId": 143218,
@@ -923,6 +860,69 @@
                     }
                   }
                 }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 143207,
+                  "seriesId": 11416,
+                  "seriesName": "County Championship Division Two 2026",
+                  "matchDesc": "46th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps - Worcestershire trail by 34 runs",
+                  "team1": {
+                    "teamId": 147,
+                    "teamName": "Worcestershire",
+                    "teamSName": "WORCS",
+                    "imageId": 172214
+                  },
+                  "team2": {
+                    "teamId": 142,
+                    "teamName": "Northamptonshire",
+                    "teamSName": "NHNTS",
+                    "imageId": 172209
+                  },
+                  "venueInfo": {
+                    "id": 225,
+                    "ground": "New Road",
+                    "city": "Worcester",
+                    "timezone": "+01:00",
+                    "latitude": "52.189294",
+                    "longitude": "-2.2268"
+                  },
+                  "currBatTeamId": 147,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 200,
+                      "wickets": 10,
+                      "overs": 67.1
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 55,
+                      "wickets": 3,
+                      "overs": 21.3
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 289,
+                      "wickets": 10,
+                      "overs": 85.3
+                    }
+                  }
+                }
               }
             ]
           }
@@ -988,7 +988,7 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1789032093",
+  "responseLastUpdated": "1789032097",
   "contentFilters": [
     {
       "filterId": "liveStream",
