@@ -842,14 +842,6 @@ Data
 💡 Decision Support
 ```
 
-## 👤 Author
-
-**Kartikey Singh**
-
-**Data Analyst | Power BI | Python | SQL | Excel**
-
-🔗 **LinkedIn:** [Kartikey Singh](https://www.linkedin.com/in/btwitskartiksinghdatanalyst/)
-
 ## ⭐ Project Highlights
 
 ```text
@@ -883,16 +875,27 @@ Data
 ```
 
 ---
+## 👤 Author
+
+**Kartikey Singh**
+
+**Data Analyst | Power BI | Python | SQL | Excel**
+
+🔗 LinkedIn: *[Kartikey_Singh](https://www.linkedin.com/in/btwitskartiksinghdatanalyst/)*
+
+GitHub: *[Kartikey_Singh](https://github.com/T3MP35TT)*
+
+Portfolio : *[Kartikey_Singh](https://sites.google.com/view/kartikeysingh09/home)*
+
+---
 
 ### 🔗 Explore the Project
 
 🌐 Live Dashboard: *[Cricbuzz-LiveStats-Cricket-Analytics-Dashboard](https://cricbuzz-livestats-cricket-analytics-dashboard-kartikey-singh.streamlit.app/)*
 
-LinkedIn: *[Kartikey_Singh](https://www.linkedin.com/in/btwitskartiksinghdatanalyst/)*
 
-GitHub: *[Kartikey_Singh](https://github.com/T3MP35TT)*
 
-Portfolio : *[Kartikey_Singh](https://sites.google.com/view/kartikeysingh09/home)*
+
 
 Complete WriteUp: *[Kartikey_Singh](https://medium.com/@kartikey.singh09/cricbuzz-livestats-building-an-end-to-end-cricket-analytics-product-with-python-sql-and-607b4594d6bc)*
 
