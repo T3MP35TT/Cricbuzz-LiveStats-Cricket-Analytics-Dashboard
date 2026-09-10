@@ -674,6 +674,69 @@
             "matches": [
               {
                 "matchInfo": {
+                  "matchId": 143218,
+                  "seriesId": 11416,
+                  "seriesName": "County Championship Division Two 2026",
+                  "matchDesc": "47th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps - Durham lead by 253 runs",
+                  "team1": {
+                    "teamId": 141,
+                    "teamName": "Durham",
+                    "teamSName": "DUR",
+                    "imageId": 172208
+                  },
+                  "team2": {
+                    "teamId": 74,
+                    "teamName": "Middlesex",
+                    "teamSName": "MDX",
+                    "imageId": 172170
+                  },
+                  "venueInfo": {
+                    "id": 60,
+                    "ground": "Riverside Ground",
+                    "city": "Chester-le-Street",
+                    "timezone": "+01:00",
+                    "latitude": "54.849531",
+                    "longitude": "-1.56103"
+                  },
+                  "currBatTeamId": 141,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 252,
+                      "wickets": 10,
+                      "overs": 73.4
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 204,
+                      "wickets": 2,
+                      "overs": 51.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 203,
+                      "wickets": 10,
+                      "overs": 55.6
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
                   "matchId": 143196,
                   "seriesId": 11416,
                   "seriesName": "County Championship Division Two 2026",
@@ -857,69 +920,6 @@
                       "runs": 289,
                       "wickets": 10,
                       "overs": 85.3
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 143218,
-                  "seriesId": 11416,
-                  "seriesName": "County Championship Division Two 2026",
-                  "matchDesc": "47th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "Stumps",
-                  "status": "Day 2: Stumps - Durham lead by 253 runs",
-                  "team1": {
-                    "teamId": 141,
-                    "teamName": "Durham",
-                    "teamSName": "DUR",
-                    "imageId": 172208
-                  },
-                  "team2": {
-                    "teamId": 74,
-                    "teamName": "Middlesex",
-                    "teamSName": "MDX",
-                    "imageId": 172170
-                  },
-                  "venueInfo": {
-                    "id": 60,
-                    "ground": "Riverside Ground",
-                    "city": "Chester-le-Street",
-                    "timezone": "+01:00",
-                    "latitude": "54.849531",
-                    "longitude": "-1.56103"
-                  },
-                  "currBatTeamId": 141,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Stumps",
-                  "hideScoreStatus": "Day 2 : Stumps"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 252,
-                      "wickets": 10,
-                      "overs": 73.4
-                    },
-                    "inngs2": {
-                      "inningsId": 3,
-                      "runs": 204,
-                      "wickets": 2,
-                      "overs": 51.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 203,
-                      "wickets": 10,
-                      "overs": 55.6
                     }
                   }
                 }
