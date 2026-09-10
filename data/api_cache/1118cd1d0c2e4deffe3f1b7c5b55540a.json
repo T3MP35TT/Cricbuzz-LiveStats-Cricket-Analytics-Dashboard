@@ -326,69 +326,6 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 142629,
-                  "seriesId": 11408,
-                  "seriesName": "County Championship Division One 2026",
-                  "matchDesc": "60th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "Stumps",
-                  "status": "Day 2: Stumps - Somerset lead by 372 runs",
-                  "team1": {
-                    "teamId": 119,
-                    "teamName": "Somerset",
-                    "teamSName": "SOM",
-                    "imageId": 172199
-                  },
-                  "team2": {
-                    "teamId": 145,
-                    "teamName": "Leicestershire",
-                    "teamSName": "LEIC",
-                    "imageId": 172212
-                  },
-                  "venueInfo": {
-                    "id": 222,
-                    "ground": "Grace Road",
-                    "city": "Leicester",
-                    "timezone": "+01:00",
-                    "latitude": "52.607861",
-                    "longitude": "-1.142709"
-                  },
-                  "currBatTeamId": 119,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Stumps",
-                  "hideScoreStatus": "Day 2 : Stumps"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 363,
-                      "wickets": 10,
-                      "overs": 75.4
-                    },
-                    "inngs2": {
-                      "inningsId": 3,
-                      "runs": 166,
-                      "wickets": 3,
-                      "overs": 45.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 157,
-                      "wickets": 10,
-                      "overs": 51.1
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 142605,
                   "seriesId": 11408,
                   "seriesName": "County Championship Division One 2026",
@@ -549,6 +486,69 @@
                     }
                   }
                 }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 142629,
+                  "seriesId": 11408,
+                  "seriesName": "County Championship Division One 2026",
+                  "matchDesc": "60th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps - Somerset lead by 372 runs",
+                  "team1": {
+                    "teamId": 119,
+                    "teamName": "Somerset",
+                    "teamSName": "SOM",
+                    "imageId": 172199
+                  },
+                  "team2": {
+                    "teamId": 145,
+                    "teamName": "Leicestershire",
+                    "teamSName": "LEIC",
+                    "imageId": 172212
+                  },
+                  "venueInfo": {
+                    "id": 222,
+                    "ground": "Grace Road",
+                    "city": "Leicester",
+                    "timezone": "+01:00",
+                    "latitude": "52.607861",
+                    "longitude": "-1.142709"
+                  },
+                  "currBatTeamId": 119,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 363,
+                      "wickets": 10,
+                      "overs": 75.4
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 166,
+                      "wickets": 3,
+                      "overs": 45.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 157,
+                      "wickets": 10,
+                      "overs": 51.1
+                    }
+                  }
+                }
               }
             ]
           }
@@ -558,6 +558,55 @@
             "seriesId": 12993,
             "seriesName": "ACC Men's Premier Cup, 2026",
             "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 170361,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "1st Semi-Final",
+                  "matchFormat": "ODI",
+                  "startDate": "1789003800000",
+                  "endDate": "1789032600000",
+                  "state": "Innings Break",
+                  "status": "Innings Break",
+                  "team1": {
+                    "teamId": 72,
+                    "teamName": "Nepal",
+                    "teamSName": "NEP",
+                    "imageId": 776331
+                  },
+                  "team2": {
+                    "teamId": 304,
+                    "teamName": "Oman",
+                    "teamSName": "OMAN",
+                    "imageId": 776328
+                  },
+                  "venueInfo": {
+                    "id": 394,
+                    "ground": "Bayuemas Oval",
+                    "city": "Kuala Lumpur",
+                    "timezone": "+08:00",
+                    "latitude": "2.819586",
+                    "longitude": "101.5199"
+                  },
+                  "currBatTeamId": 72,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Ings Break",
+                  "hideScoreStatus": "Innings break"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 147,
+                      "wickets": 10,
+                      "overs": 45.4
+                    }
+                  }
+                }
+              },
               {
                 "matchInfo": {
                   "matchId": 170371,
@@ -614,55 +663,6 @@
                     }
                   }
                 }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 170361,
-                  "seriesId": 12993,
-                  "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "1st Semi-Final",
-                  "matchFormat": "ODI",
-                  "startDate": "1789003800000",
-                  "endDate": "1789032600000",
-                  "state": "Innings Break",
-                  "status": "Innings Break",
-                  "team1": {
-                    "teamId": 72,
-                    "teamName": "Nepal",
-                    "teamSName": "NEP",
-                    "imageId": 776331
-                  },
-                  "team2": {
-                    "teamId": 304,
-                    "teamName": "Oman",
-                    "teamSName": "OMAN",
-                    "imageId": 776328
-                  },
-                  "venueInfo": {
-                    "id": 394,
-                    "ground": "Bayuemas Oval",
-                    "city": "Kuala Lumpur",
-                    "timezone": "+08:00",
-                    "latitude": "2.819586",
-                    "longitude": "101.5199"
-                  },
-                  "currBatTeamId": 72,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789344000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Ings Break",
-                  "hideScoreStatus": "Innings break"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 147,
-                      "wickets": 10,
-                      "overs": 45.4
-                    }
-                  }
-                }
               }
             ]
           }
@@ -672,69 +672,6 @@
             "seriesId": 11416,
             "seriesName": "County Championship Division Two 2026",
             "matches": [
-              {
-                "matchInfo": {
-                  "matchId": 143218,
-                  "seriesId": 11416,
-                  "seriesName": "County Championship Division Two 2026",
-                  "matchDesc": "47th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "Stumps",
-                  "status": "Day 2: Stumps - Durham lead by 253 runs",
-                  "team1": {
-                    "teamId": 141,
-                    "teamName": "Durham",
-                    "teamSName": "DUR",
-                    "imageId": 172208
-                  },
-                  "team2": {
-                    "teamId": 74,
-                    "teamName": "Middlesex",
-                    "teamSName": "MDX",
-                    "imageId": 172170
-                  },
-                  "venueInfo": {
-                    "id": 60,
-                    "ground": "Riverside Ground",
-                    "city": "Chester-le-Street",
-                    "timezone": "+01:00",
-                    "latitude": "54.849531",
-                    "longitude": "-1.56103"
-                  },
-                  "currBatTeamId": 141,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Stumps",
-                  "hideScoreStatus": "Day 2 : Stumps"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 252,
-                      "wickets": 10,
-                      "overs": 73.4
-                    },
-                    "inngs2": {
-                      "inningsId": 3,
-                      "runs": 204,
-                      "wickets": 2,
-                      "overs": 51.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 203,
-                      "wickets": 10,
-                      "overs": 55.6
-                    }
-                  }
-                }
-              },
               {
                 "matchInfo": {
                   "matchId": 143196,
@@ -923,6 +860,69 @@
                     }
                   }
                 }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 143218,
+                  "seriesId": 11416,
+                  "seriesName": "County Championship Division Two 2026",
+                  "matchDesc": "47th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps - Durham lead by 253 runs",
+                  "team1": {
+                    "teamId": 141,
+                    "teamName": "Durham",
+                    "teamSName": "DUR",
+                    "imageId": 172208
+                  },
+                  "team2": {
+                    "teamId": 74,
+                    "teamName": "Middlesex",
+                    "teamSName": "MDX",
+                    "imageId": 172170
+                  },
+                  "venueInfo": {
+                    "id": 60,
+                    "ground": "Riverside Ground",
+                    "city": "Chester-le-Street",
+                    "timezone": "+01:00",
+                    "latitude": "54.849531",
+                    "longitude": "-1.56103"
+                  },
+                  "currBatTeamId": 141,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 252,
+                      "wickets": 10,
+                      "overs": 73.4
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 204,
+                      "wickets": 2,
+                      "overs": 51.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 203,
+                      "wickets": 10,
+                      "overs": 55.6
+                    }
+                  }
+                }
               }
             ]
           }
@@ -988,7 +988,7 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1789032097",
+  "responseLastUpdated": "1789032098",
   "contentFilters": [
     {
       "filterId": "liveStream",
