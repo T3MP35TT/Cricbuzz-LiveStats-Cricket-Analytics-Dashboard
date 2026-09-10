@@ -4,8 +4,6 @@ Cricbuzz LiveStats is an end-to-end cricket analytics platform that combines **P
 
 🔗 **Live Streamlit Dashboard:** https://cricbuzz-livestats-cricket-analytics-dashboard-kartikey-singh.streamlit.app/
 
-🔗 **GitHub Repository:** https://github.com/T3MP35TT/Cricbuzz-LiveStats-Cricket-Analytics-Dashboard
-
 
 ![Cricbuzz LiveStats Dashboard](data/Images/Cricbuzz-LiveStats-Cricket-Analytics-Dashboard)
 
@@ -883,21 +881,13 @@ Data
 
 🔗 LinkedIn: *[Kartikey_Singh](https://www.linkedin.com/in/btwitskartiksinghdatanalyst/)*
 
-GitHub: *[Kartikey_Singh](https://github.com/T3MP35TT)*
+💻 GitHub: *[Kartikey_Singh](https://github.com/T3MP35TT)*
 
-Portfolio : *[Kartikey_Singh](https://sites.google.com/view/kartikeysingh09/home)*
-
----
-
-### 🔗 Explore the Project
+💼 Portfolio : *[Kartikey_Singh](https://sites.google.com/view/kartikeysingh09/home)*
 
 🌐 Live Dashboard: *[Cricbuzz-LiveStats-Cricket-Analytics-Dashboard](https://cricbuzz-livestats-cricket-analytics-dashboard-kartikey-singh.streamlit.app/)*
 
-
-
-
-
-Complete WriteUp: *[Kartikey_Singh](https://medium.com/@kartikey.singh09/cricbuzz-livestats-building-an-end-to-end-cricket-analytics-product-with-python-sql-and-607b4594d6bc)*
+📝 Complete WriteUp: *[Kartikey_Singh](https://medium.com/@kartikey.singh09/cricbuzz-livestats-building-an-end-to-end-cricket-analytics-product-with-python-sql-and-607b4594d6bc)*
 
 
 ⭐ If you find the project useful, consider giving the repository a star.
