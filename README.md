@@ -887,7 +887,7 @@ Data
 
 🌐 Live Dashboard: *[Cricbuzz-LiveStats-Cricket-Analytics-Dashboard](https://cricbuzz-livestats-cricket-analytics-dashboard-kartikey-singh.streamlit.app/)*
 
-📝 Complete WriteUp: *[Kartikey_Singh](https://medium.com/@kartikey.singh09/cricbuzz-livestats-building-an-end-to-end-cricket-analytics-product-with-python-sql-and-607b4594d6bc)*
+📝 Complete WriteUp: *[Cricbuzz-LiveStats-Cricket-Analytics-Article](https://medium.com/@kartikey.singh09/cricbuzz-livestats-building-an-end-to-end-cricket-analytics-product-with-python-sql-and-607b4594d6bc)*
 
 
 ⭐ If you find the project useful, consider giving the repository a star.
