@@ -5,31 +5,98 @@
       "seriesMatches": [
         {
           "seriesAdWrapper": {
+            "seriesId": 10565,
+            "seriesName": "Pakistan tour of England 2026",
+            "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 129596,
+                  "seriesId": 10565,
+                  "seriesName": "Pakistan tour of England 2026",
+                  "matchDesc": "3rd Test",
+                  "matchFormat": "TEST",
+                  "startDate": "1788948000000",
+                  "endDate": "1789318800000",
+                  "state": "Stumps",
+                  "status": "Day 1: Stumps - England lead by 23 runs",
+                  "team1": {
+                    "teamId": 3,
+                    "teamName": "Pakistan",
+                    "teamSName": "PAK",
+                    "imageId": 776308
+                  },
+                  "team2": {
+                    "teamId": 9,
+                    "teamName": "England",
+                    "teamSName": "ENG",
+                    "imageId": 776237
+                  },
+                  "venueInfo": {
+                    "id": 20,
+                    "ground": "Edgbaston",
+                    "city": "Birmingham",
+                    "timezone": "+01:00",
+                    "latitude": "52.455774",
+                    "longitude": "-1.902624"
+                  },
+                  "currBatTeamId": 9,
+                  "seriesStartDt": "1786579200000",
+                  "seriesEndDt": "1789430400000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Stumps",
+                  "livestreamEnabled": true,
+                  "hideScoreStatus": "Day 1 : Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 133,
+                      "wickets": 10,
+                      "overs": 33.5
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 156,
+                      "wickets": 4,
+                      "overs": 38.6
+                    }
+                  }
+                }
+              }
+            ],
+            "isLiveStreamEnabled": true
+          }
+        },
+        {
+          "seriesAdWrapper": {
             "seriesId": 13121,
             "seriesName": "Africa Continental Cup 2026",
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 171491,
+                  "matchId": 171517,
                   "seriesId": 13121,
                   "seriesName": "Africa Continental Cup 2026",
-                  "matchDesc": "1st Match",
+                  "matchDesc": "5th Match",
                   "matchFormat": "T20",
-                  "startDate": "1788852600000",
-                  "endDate": "1788865200000",
-                  "state": "Toss",
-                  "status": "Botswana opt to bowl",
+                  "startDate": "1789025400000",
+                  "endDate": "1789038000000",
+                  "state": "In Progress",
+                  "status": "Botswana opt to bat",
                   "team1": {
-                    "teamId": 569,
-                    "teamName": "Rwanda",
-                    "teamSName": "RWA",
-                    "imageId": 172621
-                  },
-                  "team2": {
                     "teamId": 529,
                     "teamName": "Botswana",
                     "teamSName": "BW",
                     "imageId": 776225
+                  },
+                  "team2": {
+                    "teamId": 44,
+                    "teamName": "Uganda",
+                    "teamSName": "UGA",
+                    "imageId": 776233
                   },
                   "venueInfo": {
                     "id": 1437955,
@@ -39,10 +106,22 @@
                     "latitude": "-2.0290307",
                     "longitude": "30.1034024"
                   },
+                  "currBatTeamId": 529,
                   "seriesStartDt": "1788825600000",
                   "seriesEndDt": "1789948800000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "Toss"
+                  "stateTitle": "In Progress",
+                  "hideScoreStatus": "Match in progress"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 67,
+                      "wickets": 3,
+                      "overs": 12.6
+                    }
+                  }
                 }
               }
             ]
@@ -55,20 +134,68 @@
       "seriesMatches": [
         {
           "seriesAdWrapper": {
+            "seriesId": 12870,
+            "seriesName": "European T20 Premier League 2026",
+            "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 169353,
+                  "seriesId": 12870,
+                  "seriesName": "European T20 Premier League 2026",
+                  "matchDesc": "19th Match",
+                  "matchFormat": "T20",
+                  "startDate": "1789032600000",
+                  "endDate": "1789045200000",
+                  "state": "Delay",
+                  "status": "Toss delayed due to rain",
+                  "team1": {
+                    "teamId": 573,
+                    "teamName": "Rotterdam Dockers",
+                    "teamSName": "RDD",
+                    "imageId": 1044574
+                  },
+                  "team2": {
+                    "teamId": 575,
+                    "teamName": "Glasgow Cosmic",
+                    "teamSName": "GGC",
+                    "imageId": 1044580
+                  },
+                  "venueInfo": {
+                    "id": 370,
+                    "ground": "The Village",
+                    "city": "Dublin",
+                    "timezone": "+01:00",
+                    "latitude": "53.32568",
+                    "longitude": "-6.261829"
+                  },
+                  "seriesStartDt": "1787702400000",
+                  "seriesEndDt": "1790035200000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Delay",
+                  "livestreamEnabled": true,
+                  "hideScoreStatus": "Match delayed"
+                }
+              }
+            ],
+            "isLiveStreamEnabled": true
+          }
+        },
+        {
+          "seriesAdWrapper": {
             "seriesId": 13073,
             "seriesName": "Sher-E-Punjab T20 League, 2026",
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 171190,
+                  "matchId": 171220,
                   "seriesId": 13073,
                   "seriesName": "Sher-E-Punjab T20 League, 2026",
-                  "matchDesc": "18th Match",
+                  "matchDesc": "22nd Match",
                   "matchFormat": "T20",
-                  "startDate": "1788852600000",
-                  "endDate": "1788865200000",
+                  "startDate": "1789025400000",
+                  "endDate": "1789038000000",
                   "state": "In Progress",
-                  "status": "Innings Break",
+                  "status": "Jalandhar Warriors opt to bowl",
                   "team1": {
                     "teamId": 3567,
                     "teamName": "Amritsar Soormas",
@@ -76,10 +203,10 @@
                     "imageId": 1064825
                   },
                   "team2": {
-                    "teamId": 3601,
-                    "teamName": "Mohali Kings",
-                    "teamSName": "MHK",
-                    "imageId": 1064857
+                    "teamId": 3581,
+                    "teamName": "Jalandhar Warriors",
+                    "teamSName": "JLW",
+                    "imageId": 1064853
                   },
                   "venueInfo": {
                     "id": 46,
@@ -93,15 +220,16 @@
                   "seriesStartDt": "1788048000000",
                   "seriesEndDt": "1789430400000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "In Progress"
+                  "stateTitle": "In Progress",
+                  "hideScoreStatus": "Match in progress"
                 },
                 "matchScore": {
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 279,
-                      "wickets": 7,
-                      "overs": 19.6
+                      "runs": 175,
+                      "wickets": 8,
+                      "overs": 19.3
                     }
                   }
                 }
@@ -128,8 +256,8 @@
                   "matchFormat": "TEST",
                   "startDate": "1788667200000",
                   "endDate": "1789038000000",
-                  "state": "In Progress",
-                  "status": "Day 3: 3rd Session - South Zone trail by 528 runs",
+                  "state": "Complete",
+                  "status": "Match drawn",
                   "team1": {
                     "teamId": 235,
                     "teamName": "East Zone",
@@ -150,11 +278,11 @@
                     "latitude": "13.06282",
                     "longitude": "80.279274"
                   },
-                  "currBatTeamId": 236,
                   "seriesStartDt": "1787443200000",
                   "seriesEndDt": "1789171200000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "In Progress"
+                  "stateTitle": "Complete",
+                  "hideScoreStatus": "Match complete"
                 },
                 "matchScore": {
                   "team1Score": {
@@ -163,19 +291,32 @@
                       "runs": 708,
                       "wickets": 10,
                       "overs": 162.6
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 388,
+                      "wickets": 7,
+                      "overs": 99.2
                     }
                   },
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 180,
-                      "wickets": 5,
-                      "overs": 57.6
+                      "runs": 336,
+                      "wickets": 10,
+                      "overs": 107.3
                     }
                   }
                 }
               }
             ]
+          }
+        },
+        {
+          "ad": {
+            "name": "native_matches",
+            "layout": "native_large",
+            "position": 5
           }
         },
         {
@@ -192,8 +333,8 @@
                   "matchFormat": "TEST",
                   "startDate": "1788859800000",
                   "endDate": "1789144200000",
-                  "state": "In Progress",
-                  "status": "Day 1: 1st Session",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps - Essex trail by 253 runs",
                   "team1": {
                     "teamId": 146,
                     "teamName": "Yorkshire",
@@ -214,139 +355,28 @@
                     "latitude": "53.817622",
                     "longitude": "-1.58211"
                   },
-                  "currBatTeamId": 146,
+                  "currBatTeamId": 152,
                   "seriesStartDt": "1775174400000",
                   "seriesEndDt": "1790640000000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "In Progress"
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
                 },
                 "matchScore": {
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 9,
-                      "overs": 1.6
+                      "runs": 390,
+                      "wickets": 10,
+                      "overs": 117.6
                     }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 142629,
-                  "seriesId": 11408,
-                  "seriesName": "County Championship Division One 2026",
-                  "matchDesc": "60th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "Delay",
-                  "status": "Day 1: Rain stops play",
-                  "team1": {
-                    "teamId": 145,
-                    "teamName": "Leicestershire",
-                    "teamSName": "LEIC",
-                    "imageId": 172212
                   },
-                  "team2": {
-                    "teamId": 119,
-                    "teamName": "Somerset",
-                    "teamSName": "SOM",
-                    "imageId": 172199
-                  },
-                  "venueInfo": {
-                    "id": 222,
-                    "ground": "Grace Road",
-                    "city": "Leicester",
-                    "timezone": "+01:00",
-                    "latitude": "52.607861",
-                    "longitude": "-1.142709"
-                  },
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Delay"
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 142616,
-                  "seriesId": 11408,
-                  "seriesName": "County Championship Division One 2026",
-                  "matchDesc": "58th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "Delay",
-                  "status": "Day 1: Toss delayed due to rain",
-                  "team1": {
-                    "teamId": 149,
-                    "teamName": "Glamorgan",
-                    "teamSName": "GLAM",
-                    "imageId": 172216
-                  },
-                  "team2": {
-                    "teamId": 140,
-                    "teamName": "Warwickshire",
-                    "teamSName": "WARKS",
-                    "imageId": 172207
-                  },
-                  "venueInfo": {
-                    "id": 62,
-                    "ground": "Sophia Gardens",
-                    "city": "Cardiff",
-                    "timezone": "+01:00",
-                    "latitude": "51.484257",
-                    "longitude": "-3.189187"
-                  },
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Delay"
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 142594,
-                  "seriesId": 11408,
-                  "seriesName": "County Championship Division One 2026",
-                  "matchDesc": "56th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "In Progress",
-                  "status": "Day 1: 1st Session",
-                  "team1": {
-                    "teamId": 139,
-                    "teamName": "Nottinghamshire",
-                    "teamSName": "NOTTS",
-                    "imageId": 172206
-                  },
-                  "team2": {
-                    "teamId": 153,
-                    "teamName": "Hampshire",
-                    "teamSName": "HAM",
-                    "imageId": 172220
-                  },
-                  "venueInfo": {
-                    "id": 18,
-                    "ground": "Trent Bridge",
-                    "city": "Nottingham",
-                    "timezone": "+01:00",
-                    "latitude": "52.936884",
-                    "longitude": "-1.132230"
-                  },
-                  "currBatTeamId": 139,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "In Progress"
-                },
-                "matchScore": {
-                  "team1Score": {
+                  "team2Score": {
                     "inngs1": {
-                      "inningsId": 1,
-                      "runs": 12,
-                      "overs": 1.6
+                      "inningsId": 2,
+                      "runs": 137,
+                      "wickets": 7,
+                      "overs": 53.6
                     }
                   }
                 }
@@ -360,8 +390,8 @@
                   "matchFormat": "TEST",
                   "startDate": "1788859800000",
                   "endDate": "1789144200000",
-                  "state": "Delay",
-                  "status": "Day 1: Toss delayed due to rain\n",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps",
                   "team1": {
                     "teamId": 41,
                     "teamName": "Sussex",
@@ -382,20 +412,145 @@
                     "latitude": "50.830995",
                     "longitude": "-0.163522"
                   },
+                  "currBatTeamId": 41,
                   "seriesStartDt": "1775174400000",
                   "seriesEndDt": "1790640000000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "Delay"
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 393,
+                      "wickets": 10,
+                      "overs": 103.6
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 142594,
+                  "seriesId": 11408,
+                  "seriesName": "County Championship Division One 2026",
+                  "matchDesc": "56th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps - Hampshire trail by 110 runs",
+                  "team1": {
+                    "teamId": 139,
+                    "teamName": "Nottinghamshire",
+                    "teamSName": "NOTTS",
+                    "imageId": 172206
+                  },
+                  "team2": {
+                    "teamId": 153,
+                    "teamName": "Hampshire",
+                    "teamSName": "HAM",
+                    "imageId": 172220
+                  },
+                  "venueInfo": {
+                    "id": 18,
+                    "ground": "Trent Bridge",
+                    "city": "Nottingham",
+                    "timezone": "+01:00",
+                    "latitude": "52.936884",
+                    "longitude": "-1.132230"
+                  },
+                  "currBatTeamId": 153,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 377,
+                      "wickets": 10,
+                      "overs": 89.4
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 267,
+                      "wickets": 7,
+                      "overs": 99.6
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 142629,
+                  "seriesId": 11408,
+                  "seriesName": "County Championship Division One 2026",
+                  "matchDesc": "60th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps - Somerset lead by 372 runs",
+                  "team1": {
+                    "teamId": 119,
+                    "teamName": "Somerset",
+                    "teamSName": "SOM",
+                    "imageId": 172199
+                  },
+                  "team2": {
+                    "teamId": 145,
+                    "teamName": "Leicestershire",
+                    "teamSName": "LEIC",
+                    "imageId": 172212
+                  },
+                  "venueInfo": {
+                    "id": 222,
+                    "ground": "Grace Road",
+                    "city": "Leicester",
+                    "timezone": "+01:00",
+                    "latitude": "52.607861",
+                    "longitude": "-1.142709"
+                  },
+                  "currBatTeamId": 119,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 363,
+                      "wickets": 10,
+                      "overs": 75.4
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 166,
+                      "wickets": 3,
+                      "overs": 45.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 157,
+                      "wickets": 10,
+                      "overs": 51.1
+                    }
+                  }
                 }
               }
             ]
-          }
-        },
-        {
-          "ad": {
-            "name": "native_matches",
-            "layout": "native_large",
-            "position": 4
           }
         },
         {
@@ -405,26 +560,75 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 170351,
+                  "matchId": 170361,
                   "seriesId": 12993,
                   "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "20th Match, Group B",
+                  "matchDesc": "1st Semi-Final",
                   "matchFormat": "ODI",
-                  "startDate": "1788831000000",
-                  "endDate": "1788859800000",
-                  "state": "Complete",
-                  "status": "United Arab Emirates won by 49 runs",
+                  "startDate": "1789003800000",
+                  "endDate": "1789032600000",
+                  "state": "Innings Break",
+                  "status": "Innings Break",
                   "team1": {
-                    "teamId": 7,
-                    "teamName": "United Arab Emirates",
-                    "teamSName": "UAE",
-                    "imageId": 776242
+                    "teamId": 72,
+                    "teamName": "Nepal",
+                    "teamSName": "NEP",
+                    "imageId": 776331
                   },
                   "team2": {
                     "teamId": 304,
                     "teamName": "Oman",
                     "teamSName": "OMAN",
                     "imageId": 776328
+                  },
+                  "venueInfo": {
+                    "id": 394,
+                    "ground": "Bayuemas Oval",
+                    "city": "Kuala Lumpur",
+                    "timezone": "+08:00",
+                    "latitude": "2.819586",
+                    "longitude": "101.5199"
+                  },
+                  "currBatTeamId": 72,
+                  "seriesStartDt": "1788048000000",
+                  "seriesEndDt": "1789344000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Ings Break",
+                  "hideScoreStatus": "Innings break"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 147,
+                      "wickets": 10,
+                      "overs": 45.4
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 170371,
+                  "seriesId": 12993,
+                  "seriesName": "ACC Men's Premier Cup, 2026",
+                  "matchDesc": "2nd Semi-Final",
+                  "matchFormat": "ODI",
+                  "startDate": "1789003800000",
+                  "endDate": "1789032600000",
+                  "state": "Complete",
+                  "status": "United Arab Emirates won by 7 wkts",
+                  "team1": {
+                    "teamId": 8,
+                    "teamName": "Hong Kong, China",
+                    "teamSName": "HKC",
+                    "imageId": 776271
+                  },
+                  "team2": {
+                    "teamId": 7,
+                    "teamName": "United Arab Emirates",
+                    "teamSName": "UAE",
+                    "imageId": 776242
                   },
                   "venueInfo": {
                     "id": 1853,
@@ -438,79 +642,24 @@
                   "seriesStartDt": "1788048000000",
                   "seriesEndDt": "1789344000000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
+                  "stateTitle": "Complete",
+                  "hideScoreStatus": "Match complete"
                 },
                 "matchScore": {
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 192,
+                      "runs": 70,
                       "wickets": 10,
-                      "overs": 48.1
+                      "overs": 30.1
                     }
                   },
                   "team2Score": {
                     "inngs1": {
                       "inningsId": 2,
-                      "runs": 143,
-                      "wickets": 10,
-                      "overs": 34.5
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
-                  "matchId": 170341,
-                  "seriesId": 12993,
-                  "seriesName": "ACC Men's Premier Cup, 2026",
-                  "matchDesc": "19th Match, Group A",
-                  "matchFormat": "ODI",
-                  "startDate": "1788831000000",
-                  "endDate": "1788859800000",
-                  "state": "Complete",
-                  "status": "Hong Kong, China won by 15 runs",
-                  "team1": {
-                    "teamId": 8,
-                    "teamName": "Hong Kong, China",
-                    "teamSName": "HKC",
-                    "imageId": 776271
-                  },
-                  "team2": {
-                    "teamId": 72,
-                    "teamName": "Nepal",
-                    "teamSName": "NEP",
-                    "imageId": 776331
-                  },
-                  "venueInfo": {
-                    "id": 394,
-                    "ground": "Bayuemas Oval",
-                    "city": "Kuala Lumpur",
-                    "timezone": "+08:00",
-                    "latitude": "2.819586",
-                    "longitude": "101.5199"
-                  },
-                  "currBatTeamId": 8,
-                  "seriesStartDt": "1788048000000",
-                  "seriesEndDt": "1789344000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "Complete"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 261,
-                      "wickets": 7,
-                      "overs": 49.6
-                    }
-                  },
-                  "team2Score": {
-                    "inngs1": {
-                      "inningsId": 2,
-                      "runs": 246,
-                      "wickets": 10,
-                      "overs": 49.1
+                      "runs": 71,
+                      "wickets": 3,
+                      "overs": 11.1
                     }
                   }
                 }
@@ -525,53 +674,6 @@
             "matches": [
               {
                 "matchInfo": {
-                  "matchId": 143218,
-                  "seriesId": 11416,
-                  "seriesName": "County Championship Division Two 2026",
-                  "matchDesc": "47th Match",
-                  "matchFormat": "TEST",
-                  "startDate": "1788859800000",
-                  "endDate": "1789144200000",
-                  "state": "In Progress",
-                  "status": "Day 1: 1st Session",
-                  "team1": {
-                    "teamId": 141,
-                    "teamName": "Durham",
-                    "teamSName": "DUR",
-                    "imageId": 172208
-                  },
-                  "team2": {
-                    "teamId": 74,
-                    "teamName": "Middlesex",
-                    "teamSName": "MDX",
-                    "imageId": 172170
-                  },
-                  "venueInfo": {
-                    "id": 60,
-                    "ground": "Riverside Ground",
-                    "city": "Chester-le-Street",
-                    "timezone": "+01:00",
-                    "latitude": "54.849531",
-                    "longitude": "-1.56103"
-                  },
-                  "currBatTeamId": 141,
-                  "seriesStartDt": "1775174400000",
-                  "seriesEndDt": "1790640000000",
-                  "isTimeAnnounced": true,
-                  "stateTitle": "In Progress"
-                },
-                "matchScore": {
-                  "team1Score": {
-                    "inngs1": {
-                      "inningsId": 1,
-                      "runs": 1,
-                      "overs": 1.6
-                    }
-                  }
-                }
-              },
-              {
-                "matchInfo": {
                   "matchId": 143196,
                   "seriesId": 11416,
                   "seriesName": "County Championship Division Two 2026",
@@ -579,8 +681,8 @@
                   "matchFormat": "TEST",
                   "startDate": "1788859800000",
                   "endDate": "1789144200000",
-                  "state": "In Progress",
-                  "status": "Day 1: 1st Session",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps - Derbyshire lead by 181 runs",
                   "team1": {
                     "teamId": 144,
                     "teamName": "Derbyshire",
@@ -605,15 +707,30 @@
                   "seriesStartDt": "1775174400000",
                   "seriesEndDt": "1790640000000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "In Progress"
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
                 },
                 "matchScore": {
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 4,
-                      "wickets": 2,
-                      "overs": 0.6
+                      "runs": 300,
+                      "wickets": 10,
+                      "overs": 87.5
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 100,
+                      "wickets": 1,
+                      "overs": 27.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 219,
+                      "wickets": 10,
+                      "overs": 73.2
                     }
                   }
                 }
@@ -627,8 +744,8 @@
                   "matchFormat": "TEST",
                   "startDate": "1788859800000",
                   "endDate": "1789144200000",
-                  "state": "In Progress",
-                  "status": "Day 1: 1st Session",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps - Gloucestershire lead by 196 runs",
                   "team1": {
                     "teamId": 151,
                     "teamName": "Gloucestershire",
@@ -653,15 +770,30 @@
                   "seriesStartDt": "1775174400000",
                   "seriesEndDt": "1790640000000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "In Progress"
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
                 },
                 "matchScore": {
                   "team1Score": {
                     "inngs1": {
                       "inningsId": 1,
-                      "runs": 4,
-                      "wickets": 1,
-                      "overs": 1.6
+                      "runs": 212,
+                      "wickets": 10,
+                      "overs": 80.2
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 118,
+                      "wickets": 8,
+                      "overs": 41.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 134,
+                      "wickets": 10,
+                      "overs": 35.5
                     }
                   }
                 }
@@ -675,8 +807,8 @@
                   "matchFormat": "TEST",
                   "startDate": "1788859800000",
                   "endDate": "1789144200000",
-                  "state": "Delay",
-                  "status": "Day 1: Toss delayed due to rain",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps - Worcestershire trail by 34 runs",
                   "team1": {
                     "teamId": 147,
                     "teamName": "Worcestershire",
@@ -697,10 +829,145 @@
                     "latitude": "52.189294",
                     "longitude": "-2.2268"
                   },
+                  "currBatTeamId": 147,
                   "seriesStartDt": "1775174400000",
                   "seriesEndDt": "1790640000000",
                   "isTimeAnnounced": true,
-                  "stateTitle": "Delay"
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 200,
+                      "wickets": 10,
+                      "overs": 67.1
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 55,
+                      "wickets": 3,
+                      "overs": 21.3
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 289,
+                      "wickets": 10,
+                      "overs": 85.3
+                    }
+                  }
+                }
+              },
+              {
+                "matchInfo": {
+                  "matchId": 143218,
+                  "seriesId": 11416,
+                  "seriesName": "County Championship Division Two 2026",
+                  "matchDesc": "47th Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1788859800000",
+                  "endDate": "1789144200000",
+                  "state": "Stumps",
+                  "status": "Day 2: Stumps - Durham lead by 253 runs",
+                  "team1": {
+                    "teamId": 141,
+                    "teamName": "Durham",
+                    "teamSName": "DUR",
+                    "imageId": 172208
+                  },
+                  "team2": {
+                    "teamId": 74,
+                    "teamName": "Middlesex",
+                    "teamSName": "MDX",
+                    "imageId": 172170
+                  },
+                  "venueInfo": {
+                    "id": 60,
+                    "ground": "Riverside Ground",
+                    "city": "Chester-le-Street",
+                    "timezone": "+01:00",
+                    "latitude": "54.849531",
+                    "longitude": "-1.56103"
+                  },
+                  "currBatTeamId": 141,
+                  "seriesStartDt": "1775174400000",
+                  "seriesEndDt": "1790640000000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Stumps",
+                  "hideScoreStatus": "Day 2 : Stumps"
+                },
+                "matchScore": {
+                  "team1Score": {
+                    "inngs1": {
+                      "inningsId": 1,
+                      "runs": 252,
+                      "wickets": 10,
+                      "overs": 73.4
+                    },
+                    "inngs2": {
+                      "inningsId": 3,
+                      "runs": 204,
+                      "wickets": 2,
+                      "overs": 51.6
+                    }
+                  },
+                  "team2Score": {
+                    "inngs1": {
+                      "inningsId": 2,
+                      "runs": 203,
+                      "wickets": 10,
+                      "overs": 55.6
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "seriesAdWrapper": {
+            "seriesId": 13150,
+            "seriesName": "CSA Three-Day Series Division Two 2026-27",
+            "matches": [
+              {
+                "matchInfo": {
+                  "matchId": 172030,
+                  "seriesId": 13150,
+                  "seriesName": "CSA Three-Day Series Division Two 2026-27",
+                  "matchDesc": "2nd Match",
+                  "matchFormat": "TEST",
+                  "startDate": "1789027200000",
+                  "endDate": "1789225200000",
+                  "state": "Toss",
+                  "status": "Border opt to bat",
+                  "team1": {
+                    "teamId": 1775,
+                    "teamName": "Border",
+                    "teamSName": "BOR",
+                    "imageId": 349602
+                  },
+                  "team2": {
+                    "teamId": 912,
+                    "teamName": "Limpopo",
+                    "teamSName": "LIMPO",
+                    "imageId": 248430
+                  },
+                  "venueInfo": {
+                    "id": 772,
+                    "ground": "Polokwane Cricket Club",
+                    "city": "Polokwane",
+                    "timezone": "+02:00",
+                    "latitude": "-23.912260",
+                    "longitude": "29.453550"
+                  },
+                  "seriesStartDt": "1788998400000",
+                  "seriesEndDt": "1807574400000",
+                  "isTimeAnnounced": true,
+                  "stateTitle": "Toss",
+                  "hideScoreStatus": "Toss in Progress"
                 }
               }
             ]
@@ -721,5 +988,11 @@
     "seoTitle": "Live Cricket Score - Scorecard and Match Results",
     "webURL": "www.cricbuzz.com/live-cricket-scores/"
   },
-  "responseLastUpdated": "1788860608"
+  "responseLastUpdated": "1789031961",
+  "contentFilters": [
+    {
+      "filterId": "liveStream",
+      "filterName": "Live Streaming"
+    }
+  ]
 }
