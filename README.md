@@ -7,7 +7,7 @@ Cricbuzz LiveStats is an end-to-end cricket analytics platform that combines **P
 🔗 **GitHub Repository:** https://github.com/T3MP35TT/Cricbuzz-LiveStats-Cricket-Analytics-Dashboard
 
 
-![Cricbuzz LiveStats Dashboard](./Snapshots/Cricbuzz%20LiveStats%20Dashboard%20Snapshot.png)
+![Cricbuzz LiveStats Dashboard](data/Images/Cricbuzz-LiveStats-Cricket-Analytics-Dashboard)
 
 
 ## 📌 Project Overview
