@@ -1,24 +1,24 @@
 {
   "rank": [
     {
-      "id": "4",
+      "id": "11",
       "rank": "1",
-      "name": "Australia",
-      "rating": "126",
-      "matches": "27",
-      "points": "3411",
-      "lastUpdatedOn": "2026-09-06",
-      "imageId": "776202"
+      "name": "South Africa",
+      "rating": "124",
+      "matches": "23",
+      "points": "2860",
+      "lastUpdatedOn": "2026-11-01",
+      "imageId": "776287"
     },
     {
-      "id": "11",
+      "id": "4",
       "rank": "2",
-      "name": "South Africa",
-      "rating": "119",
-      "matches": "19",
-      "points": "2256",
-      "lastUpdatedOn": "2026-09-06",
-      "imageId": "776287"
+      "name": "Australia",
+      "rating": "122",
+      "matches": "31",
+      "points": "3787",
+      "lastUpdatedOn": "2026-11-01",
+      "imageId": "776202"
     },
     {
       "id": "13",
@@ -27,7 +27,7 @@
       "rating": "106",
       "matches": "22",
       "points": "2336",
-      "lastUpdatedOn": "2026-09-06",
+      "lastUpdatedOn": "2026-11-01",
       "imageId": "776333"
     },
     {
@@ -37,27 +37,27 @@
       "rating": "105",
       "matches": "29",
       "points": "3042",
-      "lastUpdatedOn": "2026-09-06",
+      "lastUpdatedOn": "2026-11-01",
       "imageId": "776162"
     },
     {
       "id": "9",
       "rank": "5",
       "name": "England",
-      "rating": "99",
-      "matches": "32",
-      "points": "3158",
-      "lastUpdatedOn": "2026-09-06",
+      "rating": "102",
+      "matches": "36",
+      "points": "3658",
+      "lastUpdatedOn": "2026-11-01",
       "imageId": "776237"
     },
     {
       "id": "6",
       "rank": "6",
       "name": "Bangladesh",
-      "rating": "78",
-      "matches": "24",
-      "points": "1878",
-      "lastUpdatedOn": "2026-09-06",
+      "rating": "77",
+      "matches": "25",
+      "points": "1916",
+      "lastUpdatedOn": "2026-11-01",
       "imageId": "776210"
     },
     {
@@ -67,28 +67,28 @@
       "rating": "75",
       "matches": "19",
       "points": "1434",
-      "lastUpdatedOn": "2026-09-06",
+      "lastUpdatedOn": "2026-11-01",
       "imageId": "776254"
     },
     {
-      "id": "3",
-      "rank": "8",
-      "name": "Pakistan",
-      "rating": "75",
-      "matches": "19",
-      "points": "1427",
-      "lastUpdatedOn": "2026-09-06",
-      "imageId": "776308"
-    },
-    {
       "id": "10",
-      "rank": "9",
+      "rank": "8",
       "name": "West Indies",
       "rating": "74",
       "matches": "27",
       "points": "2008",
-      "lastUpdatedOn": "2026-09-06",
+      "lastUpdatedOn": "2026-11-01",
       "imageId": "776191"
+    },
+    {
+      "id": "3",
+      "rank": "9",
+      "name": "Pakistan",
+      "rating": "71",
+      "matches": "23",
+      "points": "1623",
+      "lastUpdatedOn": "2026-11-01",
+      "imageId": "776308"
     },
     {
       "id": "12",
@@ -97,13 +97,12 @@
       "rating": "17",
       "matches": "13",
       "points": "217",
-      "lastUpdatedOn": "2026-09-06",
+      "lastUpdatedOn": "2026-11-01",
       "imageId": "776198"
     }
   ],
   "appIndex": {
     "seoTitle": "ICC Cricket Rankings - Top 100 Batter | Cricbuzz.com",
     "webURL": "www.cricbuzz.com/cricket-stats/icc-rankings"
-  },
-  "_cache_saved_at": 1788710070.8500636
+  }
 }
